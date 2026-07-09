@@ -1,0 +1,17 @@
+name: pda312
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - notebook
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - openpyxl
+  - xlrd
+  - statsmodels
