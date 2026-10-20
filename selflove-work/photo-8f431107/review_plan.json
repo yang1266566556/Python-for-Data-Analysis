@@ -1,0 +1,974 @@
+[
+ {
+  "query_id": "sky-blue-01",
+  "role": "sky highlight / cloud white",
+  "anchor_hex": "#F5F8FD",
+  "anchor_lab": [
+   97.49,
+   -0.09,
+   -2.74
+  ],
+  "tone": "highlight",
+  "eligible_pool": 14,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "026-S21",
+    "scene": 26,
+    "hex": "#FDF6F3",
+    "delta_e_2000": 5.4213,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "390-S16",
+    "scene": 390,
+    "hex": "#E2EEE8",
+    "delta_e_2000": 7.9322,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "390-S17",
+    "scene": 390,
+    "hex": "#DEECE7",
+    "delta_e_2000": 8.2656,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "495-S32",
+    "scene": 495,
+    "hex": "#CFD6EC",
+    "delta_e_2000": 10.133,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "495-S31",
+    "scene": 495,
+    "hex": "#D4D9F6",
+    "delta_e_2000": 11.457,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "sky-blue-02",
+  "role": "sky mid blue",
+  "anchor_hex": "#83A9F0",
+  "anchor_lab": [
+   69.1,
+   5.57,
+   -39.55
+  ],
+  "tone": "light",
+  "eligible_pool": 76,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "399-S05",
+    "scene": 399,
+    "hex": "#5E97D6",
+    "delta_e_2000": 7.5579,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "398-S31",
+    "scene": 398,
+    "hex": "#9EC2E6",
+    "delta_e_2000": 7.779,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "495-S24",
+    "scene": 495,
+    "hex": "#A1ABE2",
+    "delta_e_2000": 7.9819,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "495-S28",
+    "scene": 495,
+    "hex": "#B6C1F8",
+    "delta_e_2000": 10.5078,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "209-S26",
+    "scene": 209,
+    "hex": "#A5B6C7",
+    "delta_e_2000": 11.4803,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "mountain-rock-01",
+  "role": "distant rock, cool midtone",
+  "anchor_hex": "#627FB9",
+  "anchor_lab": [
+   53.25,
+   5.59,
+   -33.73
+  ],
+  "tone": "midtone",
+  "eligible_pool": 256,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "399-S31",
+    "scene": 399,
+    "hex": "#4378B8",
+    "delta_e_2000": 5.7206,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "398-S29",
+    "scene": 398,
+    "hex": "#5E6CAE",
+    "delta_e_2000": 7.2084,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "064-S02",
+    "scene": 64,
+    "hex": "#747F98",
+    "delta_e_2000": 8.6361,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "079-S14",
+    "scene": 79,
+    "hex": "#55699F",
+    "delta_e_2000": 8.6379,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "388-S25",
+    "scene": 388,
+    "hex": "#456895",
+    "delta_e_2000": 10.1049,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "mountain-rock-03",
+  "role": "distant rock/haze, light",
+  "anchor_hex": "#BECCE6",
+  "anchor_lab": [
+   81.75,
+   0.56,
+   -14.44
+  ],
+  "tone": "highlight",
+  "eligible_pool": 61,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "079-S03",
+    "scene": 79,
+    "hex": "#D0D5DF",
+    "delta_e_2000": 6.5851,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "079-S06",
+    "scene": 79,
+    "hex": "#C1C7D0",
+    "delta_e_2000": 6.5896,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "079-S18",
+    "scene": 79,
+    "hex": "#CBCBD4",
+    "delta_e_2000": 7.5408,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "398-S01",
+    "scene": 398,
+    "hex": "#A5D1FA",
+    "delta_e_2000": 8.379,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "070-S13",
+    "scene": 70,
+    "hex": "#D3D1D6",
+    "delta_e_2000": 9.5577,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "forest-01",
+  "role": "foliage dark (no eligible match)",
+  "anchor_hex": "#485357",
+  "anchor_lab": [
+   34.5,
+   -3.36,
+   -3.8
+  ],
+  "tone": "shadow",
+  "eligible_pool": 0,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "066-S28",
+    "scene": 66,
+    "hex": "#495255",
+    "delta_e_2000": 0.9303,
+    "eligible": false
+   },
+   {
+    "rank": 2,
+    "swatch_id": "325-S24",
+    "scene": 325,
+    "hex": "#4A555B",
+    "delta_e_2000": 1.4079,
+    "eligible": false
+   },
+   {
+    "rank": 3,
+    "swatch_id": "074-S18",
+    "scene": 74,
+    "hex": "#475052",
+    "delta_e_2000": 1.56,
+    "eligible": false
+   },
+   {
+    "rank": 4,
+    "swatch_id": "353-S09",
+    "scene": 353,
+    "hex": "#4A5658",
+    "delta_e_2000": 1.7198,
+    "eligible": false
+   },
+   {
+    "rank": 5,
+    "swatch_id": "355-S04",
+    "scene": 355,
+    "hex": "#4B575D",
+    "delta_e_2000": 1.7499,
+    "eligible": false
+   }
+  ]
+ },
+ {
+  "query_id": "stone-wall-02",
+  "role": "stone masonry midtone",
+  "anchor_hex": "#767271",
+  "anchor_lab": [
+   48.36,
+   1.34,
+   1.1
+  ],
+  "tone": "midtone",
+  "eligible_pool": 278,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "208-S22",
+    "scene": 208,
+    "hex": "#7C716C",
+    "delta_e_2000": 3.691,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "089-S06",
+    "scene": 89,
+    "hex": "#7F7A75",
+    "delta_e_2000": 3.8737,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "207-S19",
+    "scene": 207,
+    "hex": "#6C6868",
+    "delta_e_2000": 3.9144,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "027-S02",
+    "scene": 27,
+    "hex": "#7C7172",
+    "delta_e_2000": 3.9353,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "200-S21",
+    "scene": 200,
+    "hex": "#6B696B",
+    "delta_e_2000": 4.0554,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "stone-wall-04",
+  "role": "stone masonry light",
+  "anchor_hex": "#C3C2BD",
+  "anchor_lab": [
+   78.38,
+   -0.56,
+   2.63
+  ],
+  "tone": "light",
+  "eligible_pool": 114,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "079-S28",
+    "scene": 79,
+    "hex": "#C6C5C3",
+    "delta_e_2000": 1.7782,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "074-S23",
+    "scene": 74,
+    "hex": "#B8BEBD",
+    "delta_e_2000": 3.8352,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "067-S29",
+    "scene": 67,
+    "hex": "#B7B2AA",
+    "delta_e_2000": 4.6393,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "089-S25",
+    "scene": 89,
+    "hex": "#CAC4C5",
+    "delta_e_2000": 4.797,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "068-S09",
+    "scene": 68,
+    "hex": "#B3B8AF",
+    "delta_e_2000": 4.9072,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "wood-plank-01",
+  "role": "wood plank light",
+  "anchor_hex": "#CEBBB7",
+  "anchor_lab": [
+   77.33,
+   6.05,
+   4.47
+  ],
+  "tone": "light",
+  "eligible_pool": 7,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "027-S01",
+    "scene": 27,
+    "hex": "#CCB2B1",
+    "delta_e_2000": 3.7445,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "027-S27",
+    "scene": 27,
+    "hex": "#BFA69F",
+    "delta_e_2000": 5.9349,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "027-S29",
+    "scene": 27,
+    "hex": "#E2BDA9",
+    "delta_e_2000": 7.8568,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "027-S28",
+    "scene": 27,
+    "hex": "#B4B0B9",
+    "delta_e_2000": 8.7884,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "025-S11",
+    "scene": 25,
+    "hex": "#B3A9B5",
+    "delta_e_2000": 9.3122,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "paving-03",
+  "role": "sunlit paving, warm light",
+  "anchor_hex": "#CEB6AC",
+  "anchor_lab": [
+   75.8,
+   6.95,
+   8.23
+  ],
+  "tone": "light",
+  "eligible_pool": 144,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "073-S30",
+    "scene": 73,
+    "hex": "#CCB5AD",
+    "delta_e_2000": 0.9473,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "068-S17",
+    "scene": 68,
+    "hex": "#D6BAAC",
+    "delta_e_2000": 2.2225,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "067-S16",
+    "scene": 67,
+    "hex": "#C6AEA0",
+    "delta_e_2000": 2.9461,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "067-S15",
+    "scene": 67,
+    "hex": "#CEBDB3",
+    "delta_e_2000": 3.213,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "067-S28",
+    "scene": 67,
+    "hex": "#D4B8A5",
+    "delta_e_2000": 3.8032,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "man-hair-01",
+  "role": "hair dark volume",
+  "anchor_hex": "#413A42",
+  "anchor_lab": [
+   25.39,
+   4.8,
+   -3.82
+  ],
+  "tone": "shadow",
+  "eligible_pool": 260,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "195-S14",
+    "scene": 195,
+    "hex": "#3E373E",
+    "delta_e_2000": 1.1285,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "305-S32",
+    "scene": 305,
+    "hex": "#473E47",
+    "delta_e_2000": 1.8601,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "195-S07",
+    "scene": 195,
+    "hex": "#443942",
+    "delta_e_2000": 2.0904,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "195-S28",
+    "scene": 195,
+    "hex": "#3C363B",
+    "delta_e_2000": 2.2984,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "195-S10",
+    "scene": 195,
+    "hex": "#3A3238",
+    "delta_e_2000": 2.8108,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "woman-hair-03",
+  "role": "hair sunlit light",
+  "anchor_hex": "#C9B9BA",
+  "anchor_lab": [
+   76.47,
+   5.84,
+   1.54
+  ],
+  "tone": "light",
+  "eligible_pool": 105,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "070-S02",
+    "scene": 70,
+    "hex": "#C6C1C6",
+    "delta_e_2000": 5.0264,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "067-S15",
+    "scene": 67,
+    "hex": "#CEBDB3",
+    "delta_e_2000": 5.5424,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "185-S13",
+    "scene": 185,
+    "hex": "#BFA6A9",
+    "delta_e_2000": 5.8782,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "066-S04",
+    "scene": 66,
+    "hex": "#B2AEAC",
+    "delta_e_2000": 6.9877,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "070-S14",
+    "scene": 70,
+    "hex": "#B0AEB4",
+    "delta_e_2000": 7.2202,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "man-skin-02",
+  "role": "skin midtone (male)",
+  "anchor_hex": "#A47973",
+  "anchor_lab": [
+   54.87,
+   15.91,
+   9.87
+  ],
+  "tone": "midtone",
+  "eligible_pool": 234,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "305-S28",
+    "scene": 305,
+    "hex": "#A27D79",
+    "delta_e_2000": 2.115,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "189-S29",
+    "scene": 189,
+    "hex": "#A8807B",
+    "delta_e_2000": 2.4574,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "310-S15",
+    "scene": 310,
+    "hex": "#B17A70",
+    "delta_e_2000": 3.6056,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "094-S02",
+    "scene": 94,
+    "hex": "#9D6F67",
+    "delta_e_2000": 3.73,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "304-S30",
+    "scene": 304,
+    "hex": "#9D6E67",
+    "delta_e_2000": 3.9789,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "woman-skin-01",
+  "role": "skin light (female)",
+  "anchor_hex": "#C7998C",
+  "anchor_lab": [
+   67.14,
+   15.32,
+   13.46
+  ],
+  "tone": "light",
+  "eligible_pool": 188,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "071-S28",
+    "scene": 71,
+    "hex": "#C2978A",
+    "delta_e_2000": 1.1661,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "305-S19",
+    "scene": 305,
+    "hex": "#CE988D",
+    "delta_e_2000": 2.3846,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "064-S18",
+    "scene": 64,
+    "hex": "#BE8C7A",
+    "delta_e_2000": 4.3448,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "304-S23",
+    "scene": 304,
+    "hex": "#C28A80",
+    "delta_e_2000": 4.8486,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "189-S20",
+    "scene": 189,
+    "hex": "#C6A69E",
+    "delta_e_2000": 5.1499,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "man-hand-01",
+  "role": "skin highlight (hand)",
+  "anchor_hex": "#DFBEB7",
+  "anchor_lab": [
+   79.58,
+   10.64,
+   7.89
+  ],
+  "tone": "light",
+  "eligible_pool": 111,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "071-S02",
+    "scene": 71,
+    "hex": "#DDBBAC",
+    "delta_e_2000": 3.6173,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "068-S17",
+    "scene": 68,
+    "hex": "#D6BAAC",
+    "delta_e_2000": 4.3762,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "027-S01",
+    "scene": 27,
+    "hex": "#CCB2B1",
+    "delta_e_2000": 4.6407,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "027-S29",
+    "scene": 27,
+    "hex": "#E2BDA9",
+    "delta_e_2000": 5.4221,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "627-S25",
+    "scene": 627,
+    "hex": "#D0BEBE",
+    "delta_e_2000": 5.5525,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "man-black-02",
+  "role": "deepest dark anchor (black knit)",
+  "anchor_hex": "#212332",
+  "anchor_lab": [
+   14.15,
+   3.42,
+   -10.13
+  ],
+  "tone": "deep-shadow",
+  "eligible_pool": 519,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "089-S31",
+    "scene": 89,
+    "hex": "#222432",
+    "delta_e_2000": 0.6353,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "323-S27",
+    "scene": 323,
+    "hex": "#1E1F31",
+    "delta_e_2000": 2.2128,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "505-S11",
+    "scene": 505,
+    "hex": "#242938",
+    "delta_e_2000": 2.4374,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "079-S20",
+    "scene": 79,
+    "hex": "#1F2533",
+    "delta_e_2000": 2.5221,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "323-S26",
+    "scene": 323,
+    "hex": "#222530",
+    "delta_e_2000": 2.6017,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "man-jacket-02",
+  "role": "steel-blue coated fabric",
+  "anchor_hex": "#8FA4C3",
+  "anchor_lab": [
+   66.77,
+   -0.27,
+   -18.31
+  ],
+  "tone": "light",
+  "eligible_pool": 236,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "627-S19",
+    "scene": 627,
+    "hex": "#8A9FBA",
+    "delta_e_2000": 2.1361,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "079-S32",
+    "scene": 79,
+    "hex": "#93A9C0",
+    "delta_e_2000": 3.4743,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "627-S05",
+    "scene": 627,
+    "hex": "#9EA9BD",
+    "delta_e_2000": 4.5695,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "135-S13",
+    "scene": 135,
+    "hex": "#A1ACC3",
+    "delta_e_2000": 4.6026,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "203-S15",
+    "scene": 203,
+    "hex": "#9AA4B7",
+    "delta_e_2000": 4.6506,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "woman-jacket-01",
+  "role": "lavender-blue fabric midtone",
+  "anchor_hex": "#616BA0",
+  "anchor_lab": [
+   46.44,
+   9.97,
+   -29.86
+  ],
+  "tone": "midtone",
+  "eligible_pool": 372,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "079-S14",
+    "scene": 79,
+    "hex": "#55699F",
+    "delta_e_2000": 3.0211,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "068-S04",
+    "scene": 68,
+    "hex": "#5C6583",
+    "delta_e_2000": 6.3687,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "025-S27",
+    "scene": 25,
+    "hex": "#4B6488",
+    "delta_e_2000": 6.8009,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "627-S12",
+    "scene": 627,
+    "hex": "#6D7998",
+    "delta_e_2000": 6.9142,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "306-S24",
+    "scene": 306,
+    "hex": "#636C86",
+    "delta_e_2000": 6.9164,
+    "eligible": true
+   }
+  ]
+ },
+ {
+  "query_id": "man-lens-01",
+  "role": "dark mirrored lens",
+  "anchor_hex": "#444349",
+  "anchor_lab": [
+   28.71,
+   1.79,
+   -3.47
+  ],
+  "tone": "shadow",
+  "eligible_pool": 564,
+  "candidates": [
+   {
+    "rank": 1,
+    "swatch_id": "192-S22",
+    "scene": 192,
+    "hex": "#464449",
+    "delta_e_2000": 0.8338,
+    "eligible": true
+   },
+   {
+    "rank": 2,
+    "swatch_id": "310-S26",
+    "scene": 310,
+    "hex": "#45434A",
+    "delta_e_2000": 0.8979,
+    "eligible": true
+   },
+   {
+    "rank": 3,
+    "swatch_id": "200-S02",
+    "scene": 200,
+    "hex": "#414248",
+    "delta_e_2000": 1.2871,
+    "eligible": true
+   },
+   {
+    "rank": 4,
+    "swatch_id": "309-S23",
+    "scene": 309,
+    "hex": "#46444C",
+    "delta_e_2000": 1.4335,
+    "eligible": true
+   },
+   {
+    "rank": 5,
+    "swatch_id": "093-S16",
+    "scene": 93,
+    "hex": "#46474E",
+    "delta_e_2000": 1.6952,
+    "eligible": true
+   }
+  ]
+ }
+]

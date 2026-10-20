@@ -1,0 +1,28 @@
+{
+  "code_version": "1.0",
+  "source_dir": "D:\\Python for Data Analysis\\notebooks\\imbalanced_classification\\runs\\20261020_221259_7f297c",
+  "data_split_sha256": "267db14403d8885a89d6396fa644614f8ec2a06e60a3c45ac35e508b6f6723d4",
+  "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:16:45) [MSC v.1942 64 bit (AMD64)]",
+  "sklearn": "1.9.0",
+  "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+  "created_at": "2026-10-20T22:24:36.591409+08:00",
+  "constant_class": 0,
+  "N": 1200,
+  "n_c": 379,
+  "accuracy": 0.31583333333333335,
+  "labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "zero_division": 0,
+  "formula_check": "passed",
+  "output_dir": "D:\\Python for Data Analysis\\notebooks\\imbalanced_classification\\q2_runs\\20261020_222308_143f6b"
+}

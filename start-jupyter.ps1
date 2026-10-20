@@ -6,4 +6,4 @@ if (-not (Test-Path $conda)) {
 }
 
 Set-Location "D:\Python for Data Analysis"
-& $conda run -n pda312 --no-capture-output jupyter notebook --notebook-dir "D:\Python for Data Analysis\notebooks"
+& $conda run -n pda312 --no-capture-output jupyter notebook --notebook-dir "D:\Python for Data Analysis\notebooks" --ServerApp.use_redirect_file=False

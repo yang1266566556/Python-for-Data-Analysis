@@ -1,0 +1,132 @@
+{
+  "schema_version": 2,
+  "kind": "pre-generation-targets",
+  "created_before_generation": true,
+  "source": {
+    "path": "C:\\Users\\yang\\.dsh\\attachments\\v1\\objects\\8f\\8f43110794d2d0433b462feaf41f24ab90108b7040d7f78e05869c93d910e48a",
+    "sha256": "8f43110794d2d0433b462feaf41f24ab90108b7040d7f78e05869c93d910e48a",
+    "dimensions": [1702, 1276],
+    "aspect_ratio": 1.3339
+  },
+  "catalog": {
+    "path": "C:\\Users\\yang\\.codex\\skills\\self-love\\data\\film-library.json",
+    "sha256": "c452d01567ac21075ca7806d13c303af930e58436045bf26ad06b4bbdf7a2b30",
+    "frames": 698,
+    "swatches": 22336,
+    "edition": "crop-only",
+    "full_frame_context_available": false
+  },
+  "acceptance_targets": {
+    "technical": {
+      "aspect_ratio_tolerance": 0.01,
+      "output_dimensions_expected": [1702, 1276],
+      "no_borders_or_ui": true
+    },
+    "content": {
+      "people": 2,
+      "identity_anchors": {
+        "left_male": ["短深棕发、被风吹起并带逆光发丝", "大镜面护目太阳镜", "浅钢蓝灰连帽外套（帽兜在头后）", "黑色拉链内搭 + 领口少量紫色内衬", "前伸比 V 的手"],
+        "right_female": ["棕色波浪及肩发", "椭圆深色半镜面太阳镜", "浅紫连帽外套 + 白色拉链带 + 驼色图案与 CAMEL 刺绣", "黑色针织圆领内搭", "胸前比 V 的手", "左耳青绿珠饰耳环"]
+      },
+      "must_not_change": ["人数与位置", "头向与可见表情", "手势与遮挡", "服装款式与配色关系", "背景结构位置：石墙/栈道/铺装/木棚栏杆/远山轮廓/云"],
+      "distant_people": "保留原有分布、疏密与体量，允许概括为低对比色团，不得清空"
+    },
+    "light": {
+      "primary_source": "high sun, front-upper-left",
+      "contact_shadows": "下巴与发下短接触影，方向随主光",
+      "ambient": "蓝色天光进入暗部，但保留最深稳定暗形",
+      "forbidden": ["凭空夜景", "雨天/湿地", "屏幕光", "新增灯具或装饰光球"]
+    },
+    "color": {
+      "lighting_condition": "neutral-day",
+      "mapping_status": "partial-pixel-reviewed",
+      "verified_anchors": [
+        {"role": "sky-highlight", "source_hex": "#F5F8FD", "source_L": 97.49, "target": "390-S16", "target_hex": "#E2EEE8", "target_L": 93.08, "delta_e_2000": 7.9322},
+        {"role": "sky-mid-hazy", "source_hex": "#83A9F0", "source_L": 69.10, "target": "203-S19", "target_hex": "#9EA8BB", "target_L": 68.65, "delta_e_2000": 12.4176, "caveat": "hazy sky only; keep the source's saturated blue hue"},
+        {"role": "stone-mid", "source_hex": "#767271", "source_L": 48.36, "target": "200-S21", "target_hex": "#6B696B", "target_L": 44.65, "delta_e_2000": 4.0554},
+        {"role": "stone-light", "source_hex": "#C3C2BD", "source_L": 78.38, "target": "079-S28", "target_hex": "#C6C5C3", "target_L": 79.55, "delta_e_2000": 1.7782},
+        {"role": "paving-warm-light", "source_hex": "#CEB6AC", "source_L": 75.80, "target": "073-S30", "target_hex": "#CCB5AD", "target_L": 75.39, "delta_e_2000": 0.9473},
+        {"role": "hair-dark", "source_hex": "#413A42", "source_L": 25.39, "target": "195-S14", "target_hex": "#3E373E", "target_L": 24.01, "delta_e_2000": 1.1285},
+        {"role": "skin-mid-male", "source_hex": "#A47973", "source_L": 54.87, "target": "305-S28", "target_hex": "#A27D79", "target_L": 55.82, "delta_e_2000": 2.1150},
+        {"role": "skin-light-female", "source_hex": "#C7998C", "source_L": 67.14, "target": "305-S19", "target_hex": "#CE988D", "target_L": 67.65, "delta_e_2000": 2.3846},
+        {"role": "skin-highlight-hand", "source_hex": "#DFBEB7", "source_L": 79.58, "target": "071-S02", "target_hex": "#DDBBAC", "target_L": 78.40, "delta_e_2000": 3.6173},
+        {"role": "deepest-dark", "source_hex": "#212332", "source_L": 14.15, "target": "089-S31", "target_hex": "#222432", "target_L": 14.58, "delta_e_2000": 0.6353, "caveat": "dark anchor confirmed; knit material not confirmed"},
+        {"role": "blue-violet-cloth", "source_hex": "#616BA0", "source_L": 46.44, "target": "079-S14", "target_hex": "#55699F", "target_L": 44.99, "delta_e_2000": 3.0211},
+        {"role": "dark-lens", "source_hex": "#444349", "source_L": 28.71, "target": "310-S26", "target_hex": "#45434A", "target_L": 28.83, "delta_e_2000": 0.8979}
+      ],
+      "unmatched_regions": [
+        "mountain rock (mid)", "mountain haze (light)", "conifer forest", "boardwalk planks",
+        "wooden hut and railing", "cumulus clouds", "snow streaks", "male steel-blue coated jacket",
+        "female sunlit hair highlight", "secondary anchors not pixel-reviewed"
+      ],
+      "unmatched_rule": "keep the photo's own hue and value relationships; translate drawing language only; do not substitute film blue panels, car paint, interior walls or roof tiles",
+      "strict_film_replacement_claim": false
+    },
+    "lightness": {
+      "source_whole_image_L_percentiles": {"P1": 2.501, "P5": 5.659, "P25": 21.778, "P50": 43.665, "P75": 58.325, "P95": 80.712, "P99": 94.887},
+      "expected_ordering": ["云与天空高光", "铺装与受光外套", "皮肤与手部受光", "木材与石面中间调", "针叶林与远山", "黑衣与发下最深"],
+      "must_not": ["整图统一压暗或提亮", "暗部无色阶层次", "失去最深暗锚点"]
+    },
+    "faces": {
+      "required": "cinematic animation head redesign, identity preserved, both persons different from each other",
+      "forbidden": ["photo face + texture overlay", "shared anime face template", "character swap (Miles / Peter)", "invented eyes behind opaque mirrors"]
+    },
+    "person_contour": {
+      "required": "visible line-width jumps and local line breaks on each main person at full-image scale; lit edges carried by colour planes; local two-colour misregistration as a separate layer",
+      "forbidden": ["uniform same-width outline", "full rainbow outline", "print texture used instead of form"]
+    },
+    "depth": {
+      "focus": "two faces and upper bodies",
+      "mid": "hands, jackets, stone wall, boardwalk keep structure",
+      "far": "rock walls, forest, hut, visitors merged into low-contrast shapes; window grids and small text may become unreadable",
+      "forbidden": ["uniform sharpness", "uniform blur", "cut-out halos", "sharp background texture stealing focus"]
+    },
+    "print_layers": {
+      "halftone_dots": "few readable large dots on existing colour planes (jacket light bands, stone wall, paving); never on faces",
+      "hatching": "mid-scale lines following form and shadow direction (jaw/nose side, cloth folds, stone shadow, tree shadow)",
+      "screen_mesh": "wide low-contrast fine mesh on larger secondary surfaces (sky, paving, walls, wood); distinguishable from compression noise at 100%",
+      "dual_registration": "local two-colour misregistration on each person's body/clothing (narrow) plus softer wider lower-contrast misregistration on background structure edges; stable core, aligned features",
+      "clean_areas": ["eyes and mirror highlights", "lips", "finger joints", "lit face planes"]
+    },
+    "materials": {
+      "skin": "matte planes, limited soft transitions, selective lines around forehead/brow/nose/mouth; clean highlights",
+      "hair": "grouped masses first, few directional light strands, no per-strand tracing",
+      "coated_nylon": "broad soft light bands plus visible seams; no plastic white blotches; folds keep thickness",
+      "black_knit": "large dark mass with narrow light edge at shoulder and neckline",
+      "mirror_lens": "reflection / transmission / surface highlight separated; keep the photo's reflection layout; no invented eyes",
+      "stone": "matte broad planes, joints separated from volume shadows, no mirror reflection",
+      "wood": "plank joints and grain direction, thickness readable, not flat orange-brown",
+      "conifer": "trunk and crown masses, few vertical bark lines near, merged low-detail dark masses far",
+      "sky_cloud": "broad colour fields with halftone transitions, soft cloud edges",
+      "snow": "soft thick edges on support surface, not white outline, not self-luminous"
+    },
+    "effects_permissions": {
+      "spider_sense": false,
+      "glitch": false,
+      "storyboard_panels": false,
+      "action_graphics": false,
+      "new_text": "exactly one confirmed inner caption, no other new text",
+      "inner_caption": {
+        "status": "confirmed-by-user",
+        "text_verbatim": "风把头发吹乱了，这张我舍不得删。",
+        "language": "zh-Hans",
+        "viewpoint": "right-hand woman, first person inner thought",
+        "form": "single wide yellow rectangular thought box, flat near-black thick border, fine red/dark halftone dots inside the yellow, no speech tail",
+        "typography": "black handwritten, slightly slanted, thick-thin strokes, single box",
+        "placement": "upper empty sky area, clear of eyes, faces, sunglasses, lips, hands, hairlines and the CAMEL embroidery",
+        "size": "box height about 8%-12% of image height, width by sentence length",
+        "verification": "character-by-character check after generation; any missing, wrong, garbled, squeezed or merged character fails and the no-text version must be delivered instead"
+      },
+      "existing_text": "keep the CAMEL embroidery position and shape; small text may be summarised as unreadable strokes"
+    }
+  },
+  "planned_attempts": [
+    {"number": 1, "kind": "initial", "tool": "Codex built-in image_gen (user side)", "status": "not-run-in-this-session"}
+  ],
+  "boundaries": [
+    "This file is a plan written before generation; it does not prove any generated image exists.",
+    "Colour mapping is partial: 12 verified anchors, 6+ unmatched roles; strict film replacement is not claimed.",
+    "Print layers, identity, geometry, light and material remain separate gates.",
+    "User aesthetic approval is separate from technical checks."
+  ]
+}

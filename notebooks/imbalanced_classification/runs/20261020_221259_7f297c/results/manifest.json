@@ -1,0 +1,69 @@
+{
+  "code_version": "1.1",
+  "configuration_status": "建议配置；学生采用与理解待确认",
+  "run_actor": "学生运行，待学生核验",
+  "created_at": "2026-10-20T22:13:02.782167+08:00",
+  "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:16:45) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+  "versions": {
+    "scikit-learn": "1.9.0",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "ipykernel": "7.2.0"
+  },
+  "make_classification": {
+    "n_samples": 4800,
+    "n_features": 24,
+    "n_informative": 14,
+    "n_redundant": 6,
+    "n_repeated": 0,
+    "n_classes": 10,
+    "n_clusters_per_class": 2,
+    "weights": [
+      0.32,
+      0.19,
+      0.13,
+      0.095,
+      0.075,
+      0.06,
+      0.045,
+      0.035,
+      0.03,
+      0.02
+    ],
+    "flip_y": 0.015,
+    "class_sep": 1.2,
+    "hypercube": true,
+    "shift": 0.0,
+    "scale": 1.0,
+    "shuffle": true,
+    "random_state": 1637
+  },
+  "test_size": 0.25,
+  "split_seed": 20261020,
+  "cv_seed": 20261021,
+  "model_seed": 20261022,
+  "cv_folds": 5,
+  "labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "zero_division": 0,
+  "future_metrics": [
+    "accuracy",
+    "macro_f1"
+  ],
+  "train_majority_class": 0,
+  "train_imbalance_ratio": 14.576923076923077,
+  "data_split_sha256": "267db14403d8885a89d6396fa644614f8ec2a06e60a3c45ac35e508b6f6723d4",
+  "cv_index_basis": "positions within X_train, not original X",
+  "output_dir": "D:\\Python for Data Analysis\\notebooks\\imbalanced_classification\\runs\\20261020_221259_7f297c"
+}

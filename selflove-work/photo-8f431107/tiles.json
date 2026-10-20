@@ -1,0 +1,3296 @@
+[
+ {
+  "query_id": "sky-blue-01",
+  "region": "sky-blue",
+  "material": "sky",
+  "anchor_hex": "#F5F8FD",
+  "anchor_lab": [
+   97.486274,
+   -0.093328,
+   -2.738225
+  ],
+  "anchor_tone": "highlight",
+  "anchor_share": 0.5,
+  "scene": 26,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "brick",
+   "glass",
+   "painted-metal",
+   "asphalt",
+   "sky"
+  ],
+  "scene_observation": "校区街面与立面大体块、窗组和车流分开。",
+  "swatch_id": "026-S21",
+  "candidate_hex": "#FDF6F3",
+  "candidate_lab": [
+   97.335351,
+   1.814764,
+   2.271829
+  ],
+  "delta_e_2000": 5.4213,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\026.webp",
+  "tile": [
+   0,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   704
+  ],
+  "source_crop_rect": [
+   1392,
+   72,
+   128,
+   128
+  ],
+  "label": "sky-blue-01 026-S21 dE=5.42 #F5F8FD->#FDF6F3"
+ },
+ {
+  "query_id": "sky-blue-02",
+  "region": "sky-blue",
+  "material": "sky",
+  "anchor_hex": "#83A9F0",
+  "anchor_lab": [
+   69.104787,
+   5.5735,
+   -39.54568
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 399,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "fabric",
+   "stone",
+   "glass",
+   "screen",
+   "sky"
+  ],
+  "scene_observation": "屋顶黑白衣料日光，黑布保暗形、白布保转折。",
+  "swatch_id": "399-S05",
+  "candidate_hex": "#5E97D6",
+  "candidate_lab": [
+   61.102778,
+   -0.380855,
+   -37.852582
+  ],
+  "delta_e_2000": 7.5579,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\399.webp",
+  "tile": [
+   0,
+   128,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   192
+  ],
+  "source_crop_rect": [
+   456,
+   100,
+   128,
+   128
+  ],
+  "label": "sky-blue-02 399-S05 dE=7.56 #83A9F0->#5E97D6"
+ },
+ {
+  "query_id": "sky-blue-03",
+  "region": "sky-blue",
+  "material": "sky",
+  "anchor_hex": "#C3D6F4",
+  "anchor_lab": [
+   85.111256,
+   -0.157122,
+   -16.80782
+  ],
+  "anchor_tone": "highlight",
+  "anchor_share": 0.25,
+  "scene": 495,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "brick",
+   "glass",
+   "asphalt",
+   "painted-metal",
+   "sky"
+  ],
+  "scene_observation": "灰昼警灯街景，不因有警灯就整体夜景化。",
+  "swatch_id": "495-S32",
+  "candidate_hex": "#CFD6EC",
+  "candidate_lab": [
+   85.712484,
+   1.906894,
+   -11.581357
+  ],
+  "delta_e_2000": 4.5687,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\495.webp",
+  "tile": [
+   384,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   960
+  ],
+  "source_crop_rect": [
+   2124,
+   676,
+   128,
+   128
+  ],
+  "label": "sky-blue-03 495-S32 dE=4.57 #C3D6F4->#CFD6EC"
+ },
+ {
+  "query_id": "cloud-01",
+  "region": "cloud",
+  "material": "sky",
+  "anchor_hex": "#76A1EF",
+  "anchor_lab": [
+   66.19063,
+   6.791548,
+   -43.612519
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.5,
+  "scene": 399,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "fabric",
+   "stone",
+   "glass",
+   "screen",
+   "sky"
+  ],
+  "scene_observation": "屋顶黑白衣料日光，黑布保暗形、白布保转折。",
+  "swatch_id": "399-S05",
+  "candidate_hex": "#5E97D6",
+  "candidate_lab": [
+   61.102778,
+   -0.380855,
+   -37.852582
+  ],
+  "delta_e_2000": 5.3747,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\399.webp",
+  "tile": [
+   0,
+   128,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   192
+  ],
+  "source_crop_rect": [
+   456,
+   100,
+   128,
+   128
+  ],
+  "label": "cloud-01 399-S05 dE=5.37 #76A1EF->#5E97D6"
+ },
+ {
+  "query_id": "cloud-02",
+  "region": "cloud",
+  "material": "sky",
+  "anchor_hex": "#9CB7EC",
+  "anchor_lab": [
+   74.182786,
+   3.216559,
+   -29.385331
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 398,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "glass",
+   "stone",
+   "metal",
+   "screen",
+   "sky"
+  ],
+  "scene_observation": "同机位日光城市，广告内容变化与材质换光分开。",
+  "swatch_id": "398-S31",
+  "candidate_hex": "#9EC2E6",
+  "candidate_lab": [
+   77.019194,
+   -3.687432,
+   -21.793063
+  ],
+  "delta_e_2000": 5.2223,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\398.webp",
+  "tile": [
+   256,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   960
+  ],
+  "source_crop_rect": [
+   1404,
+   508,
+   128,
+   128
+  ],
+  "label": "cloud-02 398-S31 dE=5.22 #9CB7EC->#9EC2E6"
+ },
+ {
+  "query_id": "cloud-03",
+  "region": "cloud",
+  "material": "sky",
+  "anchor_hex": "#BEC7E8",
+  "anchor_lab": [
+   80.526612,
+   3.65321,
+   -17.358988
+  ],
+  "anchor_tone": "highlight",
+  "anchor_share": 0.25,
+  "scene": 495,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "brick",
+   "glass",
+   "asphalt",
+   "painted-metal",
+   "sky"
+  ],
+  "scene_observation": "灰昼警灯街景，不因有警灯就整体夜景化。",
+  "swatch_id": "495-S01",
+  "candidate_hex": "#CCD1FB",
+  "candidate_lab": [
+   84.690502,
+   6.752154,
+   -21.082813
+  ],
+  "delta_e_2000": 3.9979,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\495.webp",
+  "tile": [
+   0,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   64
+  ],
+  "source_crop_rect": [
+   788,
+   124,
+   128,
+   128
+  ],
+  "label": "cloud-03 495-S01 dE=4.00 #BEC7E8->#CCD1FB"
+ },
+ {
+  "query_id": "mountain-rock-01",
+  "region": "mountain-rock",
+  "material": "stone",
+  "anchor_hex": "#627FB9",
+  "anchor_lab": [
+   53.251178,
+   5.589493,
+   -33.730156
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.5,
+  "scene": 399,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "fabric",
+   "stone",
+   "glass",
+   "screen",
+   "sky"
+  ],
+  "scene_observation": "屋顶黑白衣料日光，黑布保暗形、白布保转折。",
+  "swatch_id": "399-S31",
+  "candidate_hex": "#4378B8",
+  "candidate_lab": [
+   49.599146,
+   2.660738,
+   -39.000233
+  ],
+  "delta_e_2000": 5.7206,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\399.webp",
+  "tile": [
+   256,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   960
+  ],
+  "source_crop_rect": [
+   328,
+   148,
+   128,
+   128
+  ],
+  "label": "mountain-rock-01 399-S31 dE=5.72 #627FB9->#4378B8"
+ },
+ {
+  "query_id": "mountain-rock-02",
+  "region": "mountain-rock",
+  "material": "stone",
+  "anchor_hex": "#6F88C0",
+  "anchor_lab": [
+   56.87245,
+   5.702471,
+   -32.013979
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 64,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "064-S02",
+  "candidate_hex": "#747F98",
+  "candidate_lab": [
+   53.122162,
+   1.704912,
+   -14.762975
+  ],
+  "delta_e_2000": 8.6997,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\064.webp",
+  "tile": [
+   128,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   64
+  ],
+  "source_crop_rect": [
+   772,
+   140,
+   128,
+   128
+  ],
+  "label": "mountain-rock-02 064-S02 dE=8.70 #6F88C0->#747F98"
+ },
+ {
+  "query_id": "mountain-rock-03",
+  "region": "mountain-rock",
+  "material": "stone",
+  "anchor_hex": "#BECCE6",
+  "anchor_lab": [
+   81.753835,
+   0.559009,
+   -14.443573
+  ],
+  "anchor_tone": "highlight",
+  "anchor_share": 0.25,
+  "scene": 79,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "明亮走廊群像，主次依焦点而非只看远近。",
+  "swatch_id": "079-S03",
+  "candidate_hex": "#D0D5DF",
+  "candidate_lab": [
+   85.162248,
+   0.188421,
+   -5.501406
+  ],
+  "delta_e_2000": 6.5851,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\079.webp",
+  "tile": [
+   256,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   64
+  ],
+  "source_crop_rect": [
+   1200,
+   416,
+   128,
+   128
+  ],
+  "label": "mountain-rock-03 079-S03 dE=6.59 #BECCE6->#D0D5DF"
+ },
+ {
+  "query_id": "snow-streak-01",
+  "region": "snow-streak",
+  "material": "snow",
+  "anchor_hex": "#6680BB",
+  "anchor_lab": [
+   53.867142,
+   6.611178,
+   -33.894695
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.5,
+  "scene": 324,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "snow",
+   "asphalt",
+   "glass",
+   "painted-metal"
+  ],
+  "scene_observation": "停车场、白衣和积雪，白材质仍有不同亮度与纹理。",
+  "swatch_id": "324-S13",
+  "candidate_hex": "#7A7A9B",
+  "candidate_lab": [
+   52.311894,
+   7.34337,
+   -17.697208
+  ],
+  "delta_e_2000": 10.5572,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\324.webp",
+  "tile": [
+   0,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   448
+  ],
+  "source_crop_rect": [
+   2556,
+   492,
+   128,
+   128
+  ],
+  "label": "snow-streak-01 324-S13 dE=10.56 #6680BB->#7A7A9B"
+ },
+ {
+  "query_id": "snow-streak-02",
+  "region": "snow-streak",
+  "material": "snow",
+  "anchor_hex": "#6C86C1",
+  "anchor_lab": [
+   56.175011,
+   6.380979,
+   -33.683205
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 324,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "snow",
+   "asphalt",
+   "glass",
+   "painted-metal"
+  ],
+  "scene_observation": "停车场、白衣和积雪，白材质仍有不同亮度与纹理。",
+  "swatch_id": "324-S01",
+  "candidate_hex": "#8D8CAF",
+  "candidate_lab": [
+   59.446688,
+   7.879255,
+   -18.203117
+  ],
+  "delta_e_2000": 10.9145,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\324.webp",
+  "tile": [
+   0,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   64
+  ],
+  "source_crop_rect": [
+   168,
+   196,
+   128,
+   128
+  ],
+  "label": "snow-streak-02 324-S01 dE=10.91 #6C86C1->#8D8CAF"
+ },
+ {
+  "query_id": "snow-streak-03",
+  "region": "snow-streak",
+  "material": "snow",
+  "anchor_hex": "#86A0D1",
+  "anchor_lab": [
+   65.601922,
+   2.881385,
+   -27.917958
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 324,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "snow",
+   "asphalt",
+   "glass",
+   "painted-metal"
+  ],
+  "scene_observation": "停车场、白衣和积雪，白材质仍有不同亮度与纹理。",
+  "swatch_id": "324-S02",
+  "candidate_hex": "#9E9EC4",
+  "candidate_lab": [
+   66.295972,
+   8.001899,
+   -19.478164
+  ],
+  "delta_e_2000": 9.0294,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\324.webp",
+  "tile": [
+   128,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   64
+  ],
+  "source_crop_rect": [
+   1880,
+   524,
+   128,
+   128
+  ],
+  "label": "snow-streak-03 324-S02 dE=9.03 #86A0D1->#9E9EC4"
+ },
+ {
+  "query_id": "forest-01",
+  "region": "forest",
+  "material": "foliage",
+  "anchor_hex": "#485357",
+  "anchor_lab": [
+   34.502638,
+   -3.362062,
+   -3.799224
+  ],
+  "anchor_tone": "shadow",
+  "anchor_share": 0.5,
+  "scene": 66,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "066-S28",
+  "candidate_hex": "#495255",
+  "candidate_lab": [
+   34.204296,
+   -2.856578,
+   -2.968471
+  ],
+  "delta_e_2000": 0.9303,
+  "eligible": false,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\066.webp",
+  "tile": [
+   384,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   832
+  ],
+  "source_crop_rect": [
+   752,
+   260,
+   128,
+   128
+  ],
+  "label": "forest-01 066-S28 dE=0.93 #485357->#495255"
+ },
+ {
+  "query_id": "forest-02",
+  "region": "forest",
+  "material": "foliage",
+  "anchor_hex": "#4F658A",
+  "anchor_lab": [
+   42.466298,
+   2.01582,
+   -23.043896
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 100,
+  "scene_lighting": "warm-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "asphalt",
+   "glass",
+   "painted-metal"
+  ],
+  "scene_observation": "低机位跑动，地面前景与暖楼体的层次清楚。",
+  "swatch_id": "100-S02",
+  "candidate_hex": "#4D6388",
+  "candidate_lab": [
+   41.655055,
+   2.072639,
+   -23.104373
+  ],
+  "delta_e_2000": 0.7363,
+  "eligible": false,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\100.webp",
+  "tile": [
+   128,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   64
+  ],
+  "source_crop_rect": [
+   2104,
+   348,
+   128,
+   128
+  ],
+  "label": "forest-02 100-S02 dE=0.74 #4F658A->#4D6388"
+ },
+ {
+  "query_id": "forest-03",
+  "region": "forest",
+  "material": "foliage",
+  "anchor_hex": "#68798D",
+  "anchor_lab": [
+   50.145003,
+   -1.460051,
+   -12.925352
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 10,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "brick",
+   "stone"
+  ],
+  "scene_observation": "灰绿砖墙前人物，非本次已核实世界基准。",
+  "swatch_id": "010-S23",
+  "candidate_hex": "#69778A",
+  "candidate_lab": [
+   49.534127,
+   -0.71537,
+   -12.07183
+  ],
+  "delta_e_2000": 1.2274,
+  "eligible": false,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\010.webp",
+  "tile": [
+   256,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   704
+  ],
+  "source_crop_rect": [
+   432,
+   120,
+   128,
+   128
+  ],
+  "label": "forest-03 010-S23 dE=1.23 #68798D->#69778A"
+ },
+ {
+  "query_id": "stone-wall-01",
+  "region": "stone-wall",
+  "material": "stone",
+  "anchor_hex": "#434142",
+  "anchor_lab": [
+   27.756443,
+   1.064194,
+   -0.307841
+  ],
+  "anchor_tone": "shadow",
+  "anchor_share": 0.25,
+  "scene": 203,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "fabric",
+   "brick",
+   "glass",
+   "stone",
+   "metal",
+   "sky"
+  ],
+  "scene_observation": "灰日光楼群、屋顶与街谷；楼体受光面和远处空气层清楚。",
+  "swatch_id": "203-S05",
+  "candidate_hex": "#464446",
+  "candidate_lab": [
+   29.103955,
+   1.276202,
+   -0.906441
+  ],
+  "delta_e_2000": 1.2058,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\203.webp",
+  "tile": [
+   0,
+   128,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   192
+  ],
+  "source_crop_rect": [
+   480,
+   28,
+   128,
+   128
+  ],
+  "label": "stone-wall-01 203-S05 dE=1.21 #434142->#464446"
+ },
+ {
+  "query_id": "stone-wall-02",
+  "region": "stone-wall",
+  "material": "stone",
+  "anchor_hex": "#767271",
+  "anchor_lab": [
+   48.358841,
+   1.338557,
+   1.099159
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 208,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "fabric",
+   "brick",
+   "glass",
+   "stone",
+   "metal",
+   "sky"
+  ],
+  "scene_observation": "灰日光楼群、屋顶与街谷；楼体受光面和远处空气层清楚。",
+  "swatch_id": "208-S22",
+  "candidate_hex": "#7C716C",
+  "candidate_lab": [
+   48.483983,
+   3.342474,
+   4.32014
+  ],
+  "delta_e_2000": 3.691,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\208.webp",
+  "tile": [
+   128,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   704
+  ],
+  "source_crop_rect": [
+   2000,
+   552,
+   128,
+   128
+  ],
+  "label": "stone-wall-02 208-S22 dE=3.69 #767271->#7C716C"
+ },
+ {
+  "query_id": "stone-wall-03",
+  "region": "stone-wall",
+  "material": "stone",
+  "anchor_hex": "#9A9592",
+  "anchor_lab": [
+   62.0324,
+   1.26917,
+   2.231234
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 77,
+  "scene_lighting": "neutral-day",
+  "scene_type": "detail",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone"
+  ],
+  "scene_observation": "俯视地面与鞋、手，硬边日光块和细表面纹理分开。",
+  "swatch_id": "077-S24",
+  "candidate_hex": "#9A9594",
+  "candidate_lab": [
+   62.085998,
+   1.639014,
+   1.180338
+  ],
+  "delta_e_2000": 1.1507,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\077.webp",
+  "tile": [
+   384,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   704
+  ],
+  "source_crop_rect": [
+   1176,
+   584,
+   128,
+   128
+  ],
+  "label": "stone-wall-03 077-S24 dE=1.15 #9A9592->#9A9594"
+ },
+ {
+  "query_id": "stone-wall-04",
+  "region": "stone-wall",
+  "material": "stone",
+  "anchor_hex": "#C3C2BD",
+  "anchor_lab": [
+   78.379985,
+   -0.559328,
+   2.631973
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 79,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "明亮走廊群像，主次依焦点而非只看远近。",
+  "swatch_id": "079-S28",
+  "candidate_hex": "#C6C5C3",
+  "candidate_lab": [
+   79.544612,
+   -0.020341,
+   1.125998
+  ],
+  "delta_e_2000": 1.7782,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\079.webp",
+  "tile": [
+   384,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   832
+  ],
+  "source_crop_rect": [
+   1904,
+   500,
+   128,
+   128
+  ],
+  "label": "stone-wall-04 079-S28 dE=1.78 #C3C2BD->#C6C5C3"
+ },
+ {
+  "query_id": "wood-plank-01",
+  "region": "wood-plank",
+  "material": "wood",
+  "anchor_hex": "#CEBBB7",
+  "anchor_lab": [
+   77.330021,
+   6.051721,
+   4.466681
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.5,
+  "scene": 27,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "glass",
+   "stone",
+   "wood"
+  ],
+  "scene_observation": "校服群像与大堂结构，人物身份优先于背景微细节。",
+  "swatch_id": "027-S01",
+  "candidate_hex": "#CCB2B1",
+  "candidate_lab": [
+   74.732514,
+   9.16597,
+   3.955296
+  ],
+  "delta_e_2000": 3.7445,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\027.webp",
+  "tile": [
+   0,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   32
+  ],
+  "source_crop_rect": [
+   1456,
+   0,
+   128,
+   128
+  ],
+  "label": "wood-plank-01 027-S01 dE=3.74 #CEBBB7->#CCB2B1"
+ },
+ {
+  "query_id": "wood-plank-02",
+  "region": "wood-plank",
+  "material": "wood",
+  "anchor_hex": "#756B69",
+  "anchor_lab": [
+   46.065973,
+   3.533889,
+   2.535009
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 27,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "glass",
+   "stone",
+   "wood"
+  ],
+  "scene_observation": "校服群像与大堂结构，人物身份优先于背景微细节。",
+  "swatch_id": "027-S02",
+  "candidate_hex": "#7C7172",
+  "candidate_lab": [
+   48.648901,
+   4.45009,
+   0.996126
+  ],
+  "delta_e_2000": 3.1279,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\027.webp",
+  "tile": [
+   128,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   64
+  ],
+  "source_crop_rect": [
+   2392,
+   168,
+   128,
+   128
+  ],
+  "label": "wood-plank-02 027-S02 dE=3.13 #756B69->#7C7172"
+ },
+ {
+  "query_id": "wood-plank-03",
+  "region": "wood-plank",
+  "material": "wood",
+  "anchor_hex": "#BEACA8",
+  "anchor_lab": [
+   71.744705,
+   5.790756,
+   4.408368
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 27,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "glass",
+   "stone",
+   "wood"
+  ],
+  "scene_observation": "校服群像与大堂结构，人物身份优先于背景微细节。",
+  "swatch_id": "027-S27",
+  "candidate_hex": "#BFA69F",
+  "candidate_lab": [
+   70.072882,
+   7.949162,
+   6.978654
+  ],
+  "delta_e_2000": 3.0085,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\027.webp",
+  "tile": [
+   256,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   832
+  ],
+  "source_crop_rect": [
+   164,
+   352,
+   128,
+   128
+  ],
+  "label": "wood-plank-03 027-S27 dE=3.01 #BEACA8->#BFA69F"
+ },
+ {
+  "query_id": "wood-hut-01",
+  "region": "wood-hut",
+  "material": "wood",
+  "anchor_hex": "#563E3E",
+  "anchor_lab": [
+   28.829306,
+   10.502841,
+   4.121296
+  ],
+  "anchor_tone": "shadow",
+  "anchor_share": 0.5,
+  "scene": 25,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "glass",
+   "stone",
+   "wood"
+  ],
+  "scene_observation": "校服群像与大堂结构，人物身份优先于背景微细节。",
+  "swatch_id": "025-S26",
+  "candidate_hex": "#50373B",
+  "candidate_lab": [
+   26.021796,
+   11.842101,
+   1.965292
+  ],
+  "delta_e_2000": 2.9916,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\025.webp",
+  "tile": [
+   128,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   832
+  ],
+  "source_crop_rect": [
+   944,
+   244,
+   128,
+   128
+  ],
+  "label": "wood-hut-01 025-S26 dE=2.99 #563E3E->#50373B"
+ },
+ {
+  "query_id": "wood-hut-02",
+  "region": "wood-hut",
+  "material": "wood",
+  "anchor_hex": "#876B67",
+  "anchor_lab": [
+   47.811226,
+   10.467067,
+   6.47343
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 27,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "glass",
+   "stone",
+   "wood"
+  ],
+  "scene_observation": "校服群像与大堂结构，人物身份优先于背景微细节。",
+  "swatch_id": "027-S11",
+  "candidate_hex": "#76615D",
+  "candidate_lab": [
+   43.050715,
+   7.767136,
+   5.454586
+  ],
+  "delta_e_2000": 5.1827,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\027.webp",
+  "tile": [
+   256,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   320
+  ],
+  "source_crop_rect": [
+   1596,
+   912,
+   128,
+   128
+  ],
+  "label": "wood-hut-02 027-S11 dE=5.18 #876B67->#76615D"
+ },
+ {
+  "query_id": "wood-hut-03",
+  "region": "wood-hut",
+  "material": "wood",
+  "anchor_hex": "#B5A1A3",
+  "anchor_lab": [
+   67.990082,
+   7.64021,
+   1.634693
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 27,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "glass",
+   "stone",
+   "wood"
+  ],
+  "scene_observation": "校服群像与大堂结构，人物身份优先于背景微细节。",
+  "swatch_id": "027-S14",
+  "candidate_hex": "#B29A9E",
+  "candidate_lab": [
+   65.78416,
+   9.534489,
+   1.188397
+  ],
+  "delta_e_2000": 2.56,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\027.webp",
+  "tile": [
+   128,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   448
+  ],
+  "source_crop_rect": [
+   2572,
+   156,
+   128,
+   128
+  ],
+  "label": "wood-hut-03 027-S14 dE=2.56 #B5A1A3->#B29A9E"
+ },
+ {
+  "query_id": "paving-01",
+  "region": "paving",
+  "material": "stone",
+  "anchor_hex": "#DDC9C8",
+  "anchor_lab": [
+   82.548653,
+   6.814873,
+   3.03663
+  ],
+  "anchor_tone": "highlight",
+  "anchor_share": 0.5,
+  "scene": 25,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "glass",
+   "stone",
+   "wood"
+  ],
+  "scene_observation": "校服群像与大堂结构，人物身份优先于背景微细节。",
+  "swatch_id": "025-S09",
+  "candidate_hex": "#DDC7C2",
+  "candidate_lab": [
+   81.900776,
+   6.880333,
+   5.311865
+  ],
+  "delta_e_2000": 1.9537,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\025.webp",
+  "tile": [
+   0,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   320
+  ],
+  "source_crop_rect": [
+   736,
+   76,
+   128,
+   128
+  ],
+  "label": "paving-01 025-S09 dE=1.95 #DDC9C8->#DDC7C2"
+ },
+ {
+  "query_id": "paving-02",
+  "region": "paving",
+  "material": "stone",
+  "anchor_hex": "#99968F",
+  "anchor_lab": [
+   62.14154,
+   -0.208035,
+   4.075347
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 66,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "066-S05",
+  "candidate_hex": "#989694",
+  "candidate_lab": [
+   62.190894,
+   0.34671,
+   1.312715
+  ],
+  "delta_e_2000": 2.6044,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\066.webp",
+  "tile": [
+   0,
+   128,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   168
+  ],
+  "source_crop_rect": [
+   92,
+   0,
+   128,
+   128
+  ],
+  "label": "paving-02 066-S05 dE=2.60 #99968F->#989694"
+ },
+ {
+  "query_id": "paving-03",
+  "region": "paving",
+  "material": "stone",
+  "anchor_hex": "#CEB6AC",
+  "anchor_lab": [
+   75.79685,
+   6.946993,
+   8.229094
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 73,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "stone",
+   "paint",
+   "glass",
+   "painted-metal",
+   "plastic"
+  ],
+  "scene_observation": "大堂天窗投影和青绿墙面，结构柱与斜光区分层。",
+  "swatch_id": "073-S30",
+  "candidate_hex": "#CCB5AD",
+  "candidate_lab": [
+   75.391185,
+   6.902395,
+   7.084264
+  ],
+  "delta_e_2000": 0.9473,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\073.webp",
+  "tile": [
+   128,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   960
+  ],
+  "source_crop_rect": [
+   1752,
+   1024,
+   128,
+   128
+  ],
+  "label": "paving-03 073-S30 dE=0.95 #CEB6AC->#CCB5AD"
+ },
+ {
+  "query_id": "man-hair-01",
+  "region": "man-hair",
+  "material": "hair",
+  "anchor_hex": "#413A42",
+  "anchor_lab": [
+   25.39195,
+   4.799546,
+   -3.816664
+  ],
+  "anchor_tone": "shadow",
+  "anchor_share": 0.49994499,
+  "scene": 195,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "stone",
+   "glass"
+  ],
+  "scene_observation": "典礼人群、近景面部和石建筑，情绪不由配色强行改写。",
+  "swatch_id": "195-S14",
+  "candidate_hex": "#3E373E",
+  "candidate_lab": [
+   24.013461,
+   4.607091,
+   -3.227361
+  ],
+  "delta_e_2000": 1.1285,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\195.webp",
+  "tile": [
+   128,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   448
+  ],
+  "source_crop_rect": [
+   620,
+   68,
+   128,
+   128
+  ],
+  "label": "man-hair-01 195-S14 dE=1.13 #413A42->#3E373E"
+ },
+ {
+  "query_id": "man-hair-02",
+  "region": "man-hair",
+  "material": "hair",
+  "anchor_hex": "#B69E9A",
+  "anchor_lab": [
+   67.07613,
+   8.145975,
+   5.338772
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25008252,
+  "scene": 189,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "plastic",
+   "glass",
+   "paper"
+  ],
+  "scene_observation": "服装店日光与商品陈列，服装图案和皮肤分开。",
+  "swatch_id": "189-S20",
+  "candidate_hex": "#C6A69E",
+  "candidate_lab": [
+   70.697002,
+   10.428546,
+   8.510001
+  ],
+  "delta_e_2000": 4.0158,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\189.webp",
+  "tile": [
+   384,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   576
+  ],
+  "source_crop_rect": [
+   1240,
+   748,
+   128,
+   128
+  ],
+  "label": "man-hair-02 189-S20 dE=4.02 #B69E9A->#C6A69E"
+ },
+ {
+  "query_id": "man-hair-03",
+  "region": "man-hair",
+  "material": "hair",
+  "anchor_hex": "#706979",
+  "anchor_lab": [
+   45.535973,
+   6.06191,
+   -7.908426
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.24997249,
+  "scene": 503,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "brick",
+   "asphalt",
+   "metal"
+  ],
+  "scene_observation": "阴暗巷道与远端亮口，表情含义和身体关系不得改写。",
+  "swatch_id": "503-S10",
+  "candidate_hex": "#6B657A",
+  "candidate_lab": [
+   44.000022,
+   6.869248,
+   -10.860175
+  ],
+  "delta_e_2000": 2.5739,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\503.webp",
+  "tile": [
+   128,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   320
+  ],
+  "source_crop_rect": [
+   1856,
+   8,
+   128,
+   128
+  ],
+  "label": "man-hair-03 503-S10 dE=2.57 #706979->#6B657A"
+ },
+ {
+  "query_id": "man-skin-01",
+  "region": "man-skin",
+  "material": "skin",
+  "anchor_hex": "#8A5E5D",
+  "anchor_lab": [
+   44.518455,
+   17.843704,
+   7.850077
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.5,
+  "scene": 64,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "064-S22",
+  "candidate_hex": "#905D5C",
+  "candidate_lab": [
+   44.986292,
+   20.751156,
+   9.223362
+  ],
+  "delta_e_2000": 1.8641,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\064.webp",
+  "tile": [
+   128,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   704
+  ],
+  "source_crop_rect": [
+   1676,
+   640,
+   128,
+   128
+  ],
+  "label": "man-skin-01 064-S22 dE=1.86 #8A5E5D->#905D5C"
+ },
+ {
+  "query_id": "man-skin-02",
+  "region": "man-skin",
+  "material": "skin",
+  "anchor_hex": "#A47973",
+  "anchor_lab": [
+   54.872388,
+   15.906382,
+   9.868199
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 305,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "metal",
+   "glass",
+   "plastic",
+   "food"
+  ],
+  "scene_observation": "餐厅中性光、成人与少年五官差异、手部和食物各有体块。",
+  "swatch_id": "305-S28",
+  "candidate_hex": "#A27D79",
+  "candidate_lab": [
+   55.816689,
+   13.704678,
+   7.69994
+  ],
+  "delta_e_2000": 2.115,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\305.webp",
+  "tile": [
+   384,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   832
+  ],
+  "source_crop_rect": [
+   1156,
+   884,
+   128,
+   128
+  ],
+  "label": "man-skin-02 305-S28 dE=2.12 #A47973->#A27D79"
+ },
+ {
+  "query_id": "man-skin-03",
+  "region": "man-skin",
+  "material": "skin",
+  "anchor_hex": "#BB9089",
+  "anchor_lab": [
+   63.605761,
+   15.194976,
+   9.981079
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 195,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "stone",
+   "glass"
+  ],
+  "scene_observation": "典礼人群、近景面部和石建筑，情绪不由配色强行改写。",
+  "swatch_id": "195-S15",
+  "candidate_hex": "#BA8881",
+  "candidate_lab": [
+   61.337329,
+   18.13046,
+   11.291721
+  ],
+  "delta_e_2000": 2.7475,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\195.webp",
+  "tile": [
+   256,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   448
+  ],
+  "source_crop_rect": [
+   1384,
+   0,
+   128,
+   128
+  ],
+  "label": "man-skin-03 195-S15 dE=2.75 #BB9089->#BA8881"
+ },
+ {
+  "query_id": "man-lens-01",
+  "region": "man-lens",
+  "material": "glass",
+  "anchor_hex": "#444349",
+  "anchor_lab": [
+   28.705908,
+   1.785784,
+   -3.467185
+  ],
+  "anchor_tone": "shadow",
+  "anchor_share": 0.5,
+  "scene": 192,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "stone",
+   "glass"
+  ],
+  "scene_observation": "典礼人群、近景面部和石建筑，情绪不由配色强行改写。",
+  "swatch_id": "192-S22",
+  "candidate_hex": "#464449",
+  "candidate_lab": [
+   29.203037,
+   1.954041,
+   -2.708596
+  ],
+  "delta_e_2000": 0.8338,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\192.webp",
+  "tile": [
+   128,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   704
+  ],
+  "source_crop_rect": [
+   908,
+   48,
+   128,
+   128
+  ],
+  "label": "man-lens-01 192-S22 dE=0.83 #444349->#464449"
+ },
+ {
+  "query_id": "man-lens-02",
+  "region": "man-lens",
+  "material": "glass",
+  "anchor_hex": "#998F90",
+  "anchor_lab": [
+   60.276277,
+   3.886952,
+   0.802775
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.2501548,
+  "scene": 306,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "metal",
+   "glass",
+   "plastic",
+   "food"
+  ],
+  "scene_observation": "餐厅中性光、成人与少年五官差异、手部和食物各有体块。",
+  "swatch_id": "306-S30",
+  "candidate_hex": "#9D979D",
+  "candidate_lab": [
+   63.123879,
+   3.328248,
+   -2.359168
+  ],
+  "delta_e_2000": 3.8035,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\306.webp",
+  "tile": [
+   128,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   960
+  ],
+  "source_crop_rect": [
+   1352,
+   620,
+   128,
+   128
+  ],
+  "label": "man-lens-02 306-S30 dE=3.80 #998F90->#9D979D"
+ },
+ {
+  "query_id": "man-lens-03",
+  "region": "man-lens",
+  "material": "glass",
+  "anchor_hex": "#676161",
+  "anchor_lab": [
+   41.682965,
+   2.377641,
+   0.853097
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.2498452,
+  "scene": 60,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "brick",
+   "glass",
+   "asphalt",
+   "sky",
+   "painted-metal"
+  ],
+  "scene_observation": "日间校桥，中性立面与青天空，不能强制夜景化。",
+  "swatch_id": "060-S13",
+  "candidate_hex": "#666262",
+  "candidate_lab": [
+   41.910253,
+   1.576519,
+   0.564892
+  ],
+  "delta_e_2000": 1.1058,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\060.webp",
+  "tile": [
+   0,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   448
+  ],
+  "source_crop_rect": [
+   496,
+   772,
+   128,
+   128
+  ],
+  "label": "man-lens-03 060-S13 dE=1.11 #676161->#666262"
+ },
+ {
+  "query_id": "man-jacket-01",
+  "region": "man-jacket",
+  "material": "fabric",
+  "anchor_hex": "#C6CCDC",
+  "anchor_lab": [
+   82.032526,
+   1.049204,
+   -8.624024
+  ],
+  "anchor_tone": "highlight",
+  "anchor_share": 0.50012732,
+  "scene": 187,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "plastic",
+   "glass",
+   "paper"
+  ],
+  "scene_observation": "服装店日光与商品陈列，服装图案和皮肤分开。",
+  "swatch_id": "187-S08",
+  "candidate_hex": "#C5CCDA",
+  "candidate_lab": [
+   81.901949,
+   0.320523,
+   -7.752567
+  ],
+  "delta_e_2000": 1.1592,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\187.webp",
+  "tile": [
+   384,
+   128,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   192
+  ],
+  "source_crop_rect": [
+   2240,
+   140,
+   128,
+   128
+  ],
+  "label": "man-jacket-01 187-S08 dE=1.16 #C6CCDC->#C5CCDA"
+ },
+ {
+  "query_id": "man-jacket-02",
+  "region": "man-jacket",
+  "material": "fabric",
+  "anchor_hex": "#8FA4C3",
+  "anchor_lab": [
+   66.770963,
+   -0.273739,
+   -18.306951
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25006366,
+  "scene": 627,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "plastic",
+   "metal",
+   "paint"
+  ],
+  "scene_observation": "中性医疗室、白衣与床架，与事件彩光区分。",
+  "swatch_id": "627-S19",
+  "candidate_hex": "#8A9FBA",
+  "candidate_lab": [
+   64.758551,
+   -1.209386,
+   -16.368985
+  ],
+  "delta_e_2000": 2.1361,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\627.webp",
+  "tile": [
+   256,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   576
+  ],
+  "source_crop_rect": [
+   976,
+   36,
+   128,
+   128
+  ],
+  "label": "man-jacket-02 627-S19 dE=2.14 #8FA4C3->#8A9FBA"
+ },
+ {
+  "query_id": "man-jacket-03",
+  "region": "man-jacket",
+  "material": "fabric",
+  "anchor_hex": "#495259",
+  "anchor_lab": [
+   34.338878,
+   -1.875861,
+   -5.294668
+  ],
+  "anchor_tone": "shadow",
+  "anchor_share": 0.24980901,
+  "scene": 93,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "brick",
+   "glass"
+  ],
+  "scene_observation": "侧后近景人物、校舍与仰视窗洞，身份不换成角色。",
+  "swatch_id": "093-S31",
+  "candidate_hex": "#465058",
+  "candidate_lab": [
+   33.443528,
+   -1.996701,
+   -6.021486
+  ],
+  "delta_e_2000": 0.9333,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\093.webp",
+  "tile": [
+   256,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   960
+  ],
+  "source_crop_rect": [
+   308,
+   52,
+   128,
+   128
+  ],
+  "label": "man-jacket-03 093-S31 dE=0.93 #495259->#465058"
+ },
+ {
+  "query_id": "man-black-01",
+  "region": "man-black",
+  "material": "fabric",
+  "anchor_hex": "#1B1E2D",
+  "anchor_lab": [
+   11.627405,
+   3.182653,
+   -10.469044
+  ],
+  "anchor_tone": "deep-shadow",
+  "anchor_share": 0.49994353,
+  "scene": 505,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "brick",
+   "asphalt",
+   "metal"
+  ],
+  "scene_observation": "阴暗巷道与远端亮口，表情含义和身体关系不得改写。",
+  "swatch_id": "505-S31",
+  "candidate_hex": "#151A28",
+  "candidate_lab": [
+   9.41222,
+   2.227821,
+   -10.276103
+  ],
+  "delta_e_2000": 1.8683,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\505.webp",
+  "tile": [
+   256,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   960
+  ],
+  "source_crop_rect": [
+   1496,
+   764,
+   128,
+   128
+  ],
+  "label": "man-black-01 505-S31 dE=1.87 #1B1E2D->#151A28"
+ },
+ {
+  "query_id": "man-black-02",
+  "region": "man-black",
+  "material": "fabric",
+  "anchor_hex": "#212332",
+  "anchor_lab": [
+   14.148766,
+   3.416955,
+   -10.12809
+  ],
+  "anchor_tone": "deep-shadow",
+  "anchor_share": 0.25002823,
+  "scene": 89,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "灰墙走廊，顶灯节奏与人物位置保留。",
+  "swatch_id": "089-S31",
+  "candidate_hex": "#222432",
+  "candidate_lab": [
+   14.580069,
+   3.075743,
+   -9.455659
+  ],
+  "delta_e_2000": 0.6353,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\089.webp",
+  "tile": [
+   256,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   960
+  ],
+  "source_crop_rect": [
+   1552,
+   532,
+   128,
+   128
+  ],
+  "label": "man-black-02 089-S31 dE=0.64 #212332->#222432"
+ },
+ {
+  "query_id": "man-black-03",
+  "region": "man-black",
+  "material": "fabric",
+  "anchor_hex": "#302E46",
+  "anchor_lab": [
+   20.141738,
+   7.350725,
+   -14.643015
+  ],
+  "anchor_tone": "shadow",
+  "anchor_share": 0.25002823,
+  "scene": 65,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "065-S26",
+  "candidate_hex": "#332E45",
+  "candidate_lab": [
+   20.390617,
+   8.149882,
+   -13.552968
+  ],
+  "delta_e_2000": 1.3481,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\065.webp",
+  "tile": [
+   128,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   832
+  ],
+  "source_crop_rect": [
+   400,
+   876,
+   128,
+   128
+  ],
+  "label": "man-black-03 065-S26 dE=1.35 #302E46->#332E45"
+ },
+ {
+  "query_id": "man-hand-01",
+  "region": "man-hand",
+  "material": "skin",
+  "anchor_hex": "#DFBEB7",
+  "anchor_lab": [
+   79.577106,
+   10.641134,
+   7.89423
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.5,
+  "scene": 71,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "071-S02",
+  "candidate_hex": "#DDBBAC",
+  "candidate_lab": [
+   78.399432,
+   9.851137,
+   12.121456
+  ],
+  "delta_e_2000": 3.6173,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\071.webp",
+  "tile": [
+   128,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   64
+  ],
+  "source_crop_rect": [
+   2308,
+   308,
+   128,
+   128
+  ],
+  "label": "man-hand-01 071-S02 dE=3.62 #DFBEB7->#DDBBAC"
+ },
+ {
+  "query_id": "man-hand-02",
+  "region": "man-hand",
+  "material": "skin",
+  "anchor_hex": "#585254",
+  "anchor_lab": [
+   35.497399,
+   2.860904,
+   -0.286932
+  ],
+  "anchor_tone": "shadow",
+  "anchor_share": 0.25,
+  "scene": 322,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "snow",
+   "asphalt",
+   "glass",
+   "painted-metal"
+  ],
+  "scene_observation": "停车场、白衣和积雪，白材质仍有不同亮度与纹理。",
+  "swatch_id": "322-S09",
+  "candidate_hex": "#585253",
+  "candidate_lab": [
+   35.466855,
+   2.653726,
+   0.299164
+  ],
+  "delta_e_2000": 0.6024,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\322.webp",
+  "tile": [
+   0,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   320
+  ],
+  "source_crop_rect": [
+   2108,
+   516,
+   128,
+   128
+  ],
+  "label": "man-hand-02 322-S09 dE=0.60 #585254->#585253"
+ },
+ {
+  "query_id": "man-hand-03",
+  "region": "man-hand",
+  "material": "skin",
+  "anchor_hex": "#8A8184",
+  "anchor_lab": [
+   54.834591,
+   3.96271,
+   -0.397157
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 310,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "metal",
+   "glass",
+   "plastic",
+   "food"
+  ],
+  "scene_observation": "餐厅中性光、成人与少年五官差异、手部和食物各有体块。",
+  "swatch_id": "310-S24",
+  "candidate_hex": "#93878E",
+  "candidate_lab": [
+   57.544228,
+   5.808579,
+   -2.108469
+  ],
+  "delta_e_2000": 3.5449,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\310.webp",
+  "tile": [
+   384,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   440,
+   704
+  ],
+  "source_crop_rect": [
+   0,
+   692,
+   128,
+   128
+  ],
+  "label": "man-hand-03 310-S24 dE=3.54 #8A8184->#93878E"
+ },
+ {
+  "query_id": "woman-hair-01",
+  "region": "woman-hair",
+  "material": "hair",
+  "anchor_hex": "#565260",
+  "anchor_lab": [
+   35.708533,
+   4.72739,
+   -7.532852
+  ],
+  "anchor_tone": "shadow",
+  "anchor_share": 0.5,
+  "scene": 305,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "metal",
+   "glass",
+   "plastic",
+   "food"
+  ],
+  "scene_observation": "餐厅中性光、成人与少年五官差异、手部和食物各有体块。",
+  "swatch_id": "305-S22",
+  "candidate_hex": "#5A525F",
+  "candidate_lab": [
+   36.05064,
+   6.035082,
+   -6.352424
+  ],
+  "delta_e_2000": 1.9547,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\305.webp",
+  "tile": [
+   128,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   704
+  ],
+  "source_crop_rect": [
+   240,
+   1036,
+   128,
+   128
+  ],
+  "label": "woman-hair-01 305-S22 dE=1.95 #565260->#5A525F"
+ },
+ {
+  "query_id": "woman-hair-02",
+  "region": "woman-hair",
+  "material": "hair",
+  "anchor_hex": "#847E8C",
+  "anchor_lab": [
+   53.729423,
+   5.079349,
+   -6.739525
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 309,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "metal",
+   "glass",
+   "plastic",
+   "food"
+  ],
+  "scene_observation": "餐厅中性光、成人与少年五官差异、手部和食物各有体块。",
+  "swatch_id": "309-S17",
+  "candidate_hex": "#897D86",
+  "candidate_lab": [
+   53.714783,
+   6.278296,
+   -3.212127
+  ],
+  "delta_e_2000": 3.3225,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\309.webp",
+  "tile": [
+   0,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   576
+  ],
+  "source_crop_rect": [
+   172,
+   920,
+   128,
+   128
+  ],
+  "label": "woman-hair-02 309-S17 dE=3.32 #847E8C->#897D86"
+ },
+ {
+  "query_id": "woman-hair-03",
+  "region": "woman-hair",
+  "material": "hair",
+  "anchor_hex": "#C9B9BA",
+  "anchor_lab": [
+   76.473395,
+   5.836299,
+   1.544684
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 70,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "070-S02",
+  "candidate_hex": "#C6C1C6",
+  "candidate_lab": [
+   78.591607,
+   2.651215,
+   -1.883131
+  ],
+  "delta_e_2000": 5.0264,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\070.webp",
+  "tile": [
+   128,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   64
+  ],
+  "source_crop_rect": [
+   2136,
+   352,
+   128,
+   128
+  ],
+  "label": "woman-hair-03 070-S02 dE=5.03 #C9B9BA->#C6C1C6"
+ },
+ {
+  "query_id": "woman-skin-01",
+  "region": "woman-skin",
+  "material": "skin",
+  "anchor_hex": "#C7998C",
+  "anchor_lab": [
+   67.141778,
+   15.319241,
+   13.462735
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.5,
+  "scene": 71,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "071-S28",
+  "candidate_hex": "#C2978A",
+  "candidate_lab": [
+   66.089291,
+   14.193872,
+   13.028695
+  ],
+  "delta_e_2000": 1.1661,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\071.webp",
+  "tile": [
+   384,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   832
+  ],
+  "source_crop_rect": [
+   64,
+   868,
+   128,
+   128
+  ],
+  "label": "woman-skin-01 071-S28 dE=1.17 #C7998C->#C2978A"
+ },
+ {
+  "query_id": "woman-skin-02",
+  "region": "woman-skin",
+  "material": "skin",
+  "anchor_hex": "#776362",
+  "anchor_lab": [
+   43.840158,
+   7.839238,
+   3.565189
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25,
+  "scene": 27,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "glass",
+   "stone",
+   "wood"
+  ],
+  "scene_observation": "校服群像与大堂结构，人物身份优先于背景微细节。",
+  "swatch_id": "027-S11",
+  "candidate_hex": "#76615D",
+  "candidate_lab": [
+   43.050715,
+   7.767136,
+   5.454586
+  ],
+  "delta_e_2000": 1.7378,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\027.webp",
+  "tile": [
+   256,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   320
+  ],
+  "source_crop_rect": [
+   1596,
+   912,
+   128,
+   128
+  ],
+  "label": "woman-skin-02 027-S11 dE=1.74 #776362->#76615D"
+ },
+ {
+  "query_id": "woman-skin-03",
+  "region": "woman-skin",
+  "material": "skin",
+  "anchor_hex": "#B48A7E",
+  "anchor_lab": [
+   61.122721,
+   14.237222,
+   12.597488
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 68,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "068-S15",
+  "candidate_hex": "#B88574",
+  "candidate_lab": [
+   60.094419,
+   17.315953,
+   16.908743
+  ],
+  "delta_e_2000": 2.9712,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\068.webp",
+  "tile": [
+   256,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   448
+  ],
+  "source_crop_rect": [
+   1408,
+   588,
+   128,
+   128
+  ],
+  "label": "woman-skin-03 068-S15 dE=2.97 #B48A7E->#B88574"
+ },
+ {
+  "query_id": "woman-lens-01",
+  "region": "woman-lens",
+  "material": "glass",
+  "anchor_hex": "#998181",
+  "anchor_lab": [
+   56.146339,
+   9.167635,
+   3.419509
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.5,
+  "scene": 324,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "snow",
+   "asphalt",
+   "glass",
+   "painted-metal"
+  ],
+  "scene_observation": "停车场、白衣和积雪，白材质仍有不同亮度与纹理。",
+  "swatch_id": "324-S26",
+  "candidate_hex": "#977D7A",
+  "candidate_lab": [
+   54.712536,
+   9.507114,
+   5.390101
+  ],
+  "delta_e_2000": 2.0625,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\324.webp",
+  "tile": [
+   128,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   832
+  ],
+  "source_crop_rect": [
+   1396,
+   56,
+   128,
+   128
+  ],
+  "label": "woman-lens-01 324-S26 dE=2.06 #998181->#977D7A"
+ },
+ {
+  "query_id": "woman-lens-02",
+  "region": "woman-lens",
+  "material": "glass",
+  "anchor_hex": "#64646C",
+  "anchor_lab": [
+   42.621757,
+   1.717724,
+   -4.503243
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25010352,
+  "scene": 201,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "fabric",
+   "brick",
+   "glass",
+   "stone",
+   "metal",
+   "sky"
+  ],
+  "scene_observation": "灰日光楼群、屋顶与街谷；楼体受光面和远处空气层清楚。",
+  "swatch_id": "201-S17",
+  "candidate_hex": "#67666D",
+  "candidate_lab": [
+   43.493041,
+   1.868095,
+   -3.789018
+  ],
+  "delta_e_2000": 1.0507,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\201.webp",
+  "tile": [
+   0,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   576
+  ],
+  "source_crop_rect": [
+   1500,
+   240,
+   128,
+   128
+  ],
+  "label": "woman-lens-02 201-S17 dE=1.05 #64646C->#67666D"
+ },
+ {
+  "query_id": "woman-lens-03",
+  "region": "woman-lens",
+  "material": "glass",
+  "anchor_hex": "#35353F",
+  "anchor_lab": [
+   22.520767,
+   2.471466,
+   -6.225279
+  ],
+  "anchor_tone": "shadow",
+  "anchor_share": 0.24989648,
+  "scene": 192,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "stone",
+   "glass"
+  ],
+  "scene_observation": "典礼人群、近景面部和石建筑，情绪不由配色强行改写。",
+  "swatch_id": "192-S27",
+  "candidate_hex": "#35353E",
+  "candidate_lab": [
+   22.481859,
+   2.209497,
+   -5.607274
+  ],
+  "delta_e_2000": 0.5596,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\192.webp",
+  "tile": [
+   256,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   832
+  ],
+  "source_crop_rect": [
+   704,
+   380,
+   128,
+   128
+  ],
+  "label": "woman-lens-03 192-S27 dE=0.56 #35353F->#35353E"
+ },
+ {
+  "query_id": "woman-jacket-01",
+  "region": "woman-jacket",
+  "material": "fabric",
+  "anchor_hex": "#616BA0",
+  "anchor_lab": [
+   46.437436,
+   9.969826,
+   -29.859857
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.49992704,
+  "scene": 79,
+  "scene_lighting": "neutral-day",
+  "scene_type": "interior",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "明亮走廊群像，主次依焦点而非只看远近。",
+  "swatch_id": "079-S14",
+  "candidate_hex": "#55699F",
+  "candidate_lab": [
+   44.992926,
+   7.621279,
+   -31.587569
+  ],
+  "delta_e_2000": 3.0211,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\079.webp",
+  "tile": [
+   128,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   448
+  ],
+  "source_crop_rect": [
+   904,
+   856,
+   128,
+   128
+  ],
+  "label": "woman-jacket-01 079-S14 dE=3.02 #616BA0->#55699F"
+ },
+ {
+  "query_id": "woman-jacket-02",
+  "region": "woman-jacket",
+  "material": "fabric",
+  "anchor_hex": "#C1CCEC",
+  "anchor_lab": [
+   82.151474,
+   2.783698,
+   -17.026962
+  ],
+  "anchor_tone": "highlight",
+  "anchor_share": 0.25010944,
+  "scene": 503,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "brick",
+   "asphalt",
+   "metal"
+  ],
+  "scene_observation": "阴暗巷道与远端亮口，表情含义和身体关系不得改写。",
+  "swatch_id": "503-S25",
+  "candidate_hex": "#C7C7E9",
+  "candidate_lab": [
+   81.220856,
+   6.694337,
+   -16.778197
+  ],
+  "delta_e_2000": 4.5454,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\503.webp",
+  "tile": [
+   0,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   832
+  ],
+  "source_crop_rect": [
+   1524,
+   164,
+   128,
+   128
+  ],
+  "label": "woman-jacket-02 503-S25 dE=4.55 #C1CCEC->#C7C7E9"
+ },
+ {
+  "query_id": "woman-jacket-03",
+  "region": "woman-jacket",
+  "material": "fabric",
+  "anchor_hex": "#818CC2",
+  "anchor_lab": [
+   59.266911,
+   8.923224,
+   -29.333891
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.24996352,
+  "scene": 324,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "snow",
+   "asphalt",
+   "glass",
+   "painted-metal"
+  ],
+  "scene_observation": "停车场、白衣和积雪，白材质仍有不同亮度与纹理。",
+  "swatch_id": "324-S01",
+  "candidate_hex": "#8D8CAF",
+  "candidate_lab": [
+   59.446688,
+   7.879255,
+   -18.203117
+  ],
+  "delta_e_2000": 6.6601,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\324.webp",
+  "tile": [
+   0,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   64
+  ],
+  "source_crop_rect": [
+   168,
+   196,
+   128,
+   128
+  ],
+  "label": "woman-jacket-03 324-S01 dE=6.66 #818CC2->#8D8CAF"
+ },
+ {
+  "query_id": "woman-black-01",
+  "region": "woman-black",
+  "material": "fabric",
+  "anchor_hex": "#0C0F22",
+  "anchor_lab": [
+   4.835051,
+   4.191851,
+   -12.902785
+  ],
+  "anchor_tone": "deep-shadow",
+  "anchor_share": 0.5,
+  "scene": 193,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "stone",
+   "glass"
+  ],
+  "scene_observation": "典礼人群、近景面部和石建筑，情绪不由配色强行改写。",
+  "swatch_id": "193-S32",
+  "candidate_hex": "#101122",
+  "candidate_lab": [
+   5.659257,
+   4.394503,
+   -11.611472
+  ],
+  "delta_e_2000": 1.143,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\193.webp",
+  "tile": [
+   384,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   960
+  ],
+  "source_crop_rect": [
+   2124,
+   832,
+   128,
+   128
+  ],
+  "label": "woman-black-01 193-S32 dE=1.14 #0C0F22->#101122"
+ },
+ {
+  "query_id": "woman-black-02",
+  "region": "woman-black",
+  "material": "fabric",
+  "anchor_hex": "#795E55",
+  "anchor_lab": [
+   42.348781,
+   9.55216,
+   9.364907
+  ],
+  "anchor_tone": "midtone",
+  "anchor_share": 0.25004846,
+  "scene": 195,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "stone",
+   "glass"
+  ],
+  "scene_observation": "典礼人群、近景面部和石建筑，情绪不由配色强行改写。",
+  "swatch_id": "195-S17",
+  "candidate_hex": "#7C6054",
+  "candidate_lab": [
+   43.199383,
+   9.487235,
+   11.210659
+  ],
+  "delta_e_2000": 1.6146,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\195.webp",
+  "tile": [
+   0,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   576
+  ],
+  "source_crop_rect": [
+   1768,
+   912,
+   128,
+   128
+  ],
+  "label": "woman-black-02 195-S17 dE=1.61 #795E55->#7C6054"
+ },
+ {
+  "query_id": "woman-black-03",
+  "region": "woman-black",
+  "material": "fabric",
+  "anchor_hex": "#1B1A2C",
+  "anchor_lab": [
+   10.210697,
+   5.853495,
+   -11.93914
+  ],
+  "anchor_tone": "deep-shadow",
+  "anchor_share": 0.24995154,
+  "scene": 193,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "stone",
+   "glass"
+  ],
+  "scene_observation": "典礼人群、近景面部和石建筑，情绪不由配色强行改写。",
+  "swatch_id": "193-S09",
+  "candidate_hex": "#1A1A2B",
+  "candidate_lab": [
+   10.051898,
+   5.136857,
+   -11.458552
+  ],
+  "delta_e_2000": 0.7913,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\193.webp",
+  "tile": [
+   0,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   320
+  ],
+  "source_crop_rect": [
+   576,
+   376,
+   128,
+   128
+  ],
+  "label": "woman-black-03 193-S09 dE=0.79 #1B1A2C->#1A1A2B"
+ },
+ {
+  "query_id": "woman-hand-01",
+  "region": "woman-hand",
+  "material": "skin",
+  "anchor_hex": "#938CB5",
+  "anchor_lab": [
+   60.154434,
+   11.22973,
+   -20.491483
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.5,
+  "scene": 324,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "snow",
+   "asphalt",
+   "glass",
+   "painted-metal"
+  ],
+  "scene_observation": "停车场、白衣和积雪，白材质仍有不同亮度与纹理。",
+  "swatch_id": "324-S21",
+  "candidate_hex": "#9796BA",
+  "candidate_lab": [
+   63.290473,
+   7.97251,
+   -18.504394
+  ],
+  "delta_e_2000": 3.6727,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\324.webp",
+  "tile": [
+   0,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   704
+  ],
+  "source_crop_rect": [
+   2460,
+   896,
+   128,
+   128
+  ],
+  "label": "woman-hand-01 324-S21 dE=3.67 #938CB5->#9796BA"
+ },
+ {
+  "query_id": "woman-hand-02",
+  "region": "woman-hand",
+  "material": "skin",
+  "anchor_hex": "#CB9F9E",
+  "anchor_lab": [
+   69.443346,
+   16.136891,
+   6.77781
+  ],
+  "anchor_tone": "light",
+  "anchor_share": 0.25,
+  "scene": 305,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "metal",
+   "glass",
+   "plastic",
+   "food"
+  ],
+  "scene_observation": "餐厅中性光、成人与少年五官差异、手部和食物各有体块。",
+  "swatch_id": "305-S19",
+  "candidate_hex": "#CE988D",
+  "candidate_lab": [
+   67.653206,
+   18.716532,
+   13.733525
+  ],
+  "delta_e_2000": 4.8722,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\305.webp",
+  "tile": [
+   256,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   576
+  ],
+  "source_crop_rect": [
+   1136,
+   44,
+   128,
+   128
+  ],
+  "label": "woman-hand-02 305-S19 dE=4.87 #CB9F9E->#CE988D"
+ },
+ {
+  "query_id": "woman-hand-03",
+  "region": "woman-hand",
+  "material": "skin",
+  "anchor_hex": "#D4D4F8",
+  "anchor_lab": [
+   85.936712,
+   7.006228,
+   -17.560902
+  ],
+  "anchor_tone": "highlight",
+  "anchor_share": 0.25,
+  "scene": 324,
+  "scene_lighting": "neutral-day",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "snow",
+   "asphalt",
+   "glass",
+   "painted-metal"
+  ],
+  "scene_observation": "停车场、白衣和积雪，白材质仍有不同亮度与纹理。",
+  "swatch_id": "324-S19",
+  "candidate_hex": "#D8D4F6",
+  "candidate_lab": [
+   86.175729,
+   7.855125,
+   -16.109266
+  ],
+  "delta_e_2000": 1.6078,
+  "eligible": true,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\324.webp",
+  "tile": [
+   256,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   576
+  ],
+  "source_crop_rect": [
+   664,
+   456,
+   128,
+   128
+  ],
+  "label": "woman-hand-03 324-S19 dE=1.61 #D4D4F8->#D8D4F6"
+ }
+]

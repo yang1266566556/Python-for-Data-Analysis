@@ -1,0 +1,8 @@
+{
+  "source": "D:\\Python for Data Analysis\\notebooks\\imbalanced_classification\\runs\\20261020_221259_7f297c",
+  "kind": "基于第一题实际计数的理论计算；不是第二题学生运行记录",
+  "N": 1200,
+  "n_c": 379,
+  "constant_class": 0,
+  "accuracy": 0.31583333333333335
+}

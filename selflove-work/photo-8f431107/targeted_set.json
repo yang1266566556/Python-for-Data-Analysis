@@ -1,0 +1,1909 @@
+[
+ {
+  "query_id": "sky-blue-01",
+  "role": "targeted",
+  "rank": 1,
+  "material": "sky",
+  "anchor_hex": "#F5F8FD",
+  "anchor_lab": [
+   97.486274,
+   -0.093328,
+   -2.738225
+  ],
+  "anchor_tone": "highlight",
+  "scene": 26,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "brick",
+   "glass",
+   "painted-metal",
+   "asphalt",
+   "sky"
+  ],
+  "scene_observation": "校区街面与立面大体块、窗组和车流分开。",
+  "swatch_id": "026-S21",
+  "candidate_hex": "#FDF6F3",
+  "candidate_lab": [
+   97.335351,
+   1.814764,
+   2.271829
+  ],
+  "delta_e_2000": 5.4213,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1200
+  ],
+  "vertical_position": 0.113,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\026.webp",
+  "tile": [
+   0,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   704
+  ],
+  "label": "sky-blue-01 026-S21 dE=5.4 y=0.11 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-01",
+  "role": "targeted",
+  "rank": 2,
+  "material": "sky",
+  "anchor_hex": "#F5F8FD",
+  "anchor_lab": [
+   97.486274,
+   -0.093328,
+   -2.738225
+  ],
+  "anchor_tone": "highlight",
+  "scene": 390,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "glass",
+   "stone",
+   "metal",
+   "screen",
+   "sky"
+  ],
+  "scene_observation": "同机位日光城市，广告内容变化与材质换光分开。",
+  "swatch_id": "390-S16",
+  "candidate_hex": "#E2EEE8",
+  "candidate_lab": [
+   93.077226,
+   -5.062263,
+   1.528213
+  ],
+  "delta_e_2000": 7.9322,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1210
+  ],
+  "vertical_position": 0.036,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\390.webp",
+  "tile": [
+   384,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   428
+  ],
+  "label": "sky-blue-01 390-S16 dE=7.9 y=0.04 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-01",
+  "role": "targeted",
+  "rank": 3,
+  "material": "sky",
+  "anchor_hex": "#F5F8FD",
+  "anchor_lab": [
+   97.486274,
+   -0.093328,
+   -2.738225
+  ],
+  "anchor_tone": "highlight",
+  "scene": 390,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "glass",
+   "stone",
+   "metal",
+   "screen",
+   "sky"
+  ],
+  "scene_observation": "同机位日光城市，广告内容变化与材质换光分开。",
+  "swatch_id": "390-S17",
+  "candidate_hex": "#DEECE7",
+  "candidate_lab": [
+   92.260307,
+   -5.548914,
+   0.82415
+  ],
+  "delta_e_2000": 8.2656,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1210
+  ],
+  "vertical_position": 0.023,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\390.webp",
+  "tile": [
+   0,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   540
+  ],
+  "label": "sky-blue-01 390-S17 dE=8.3 y=0.02 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-01",
+  "role": "targeted",
+  "rank": 4,
+  "material": "sky",
+  "anchor_hex": "#F5F8FD",
+  "anchor_lab": [
+   97.486274,
+   -0.093328,
+   -2.738225
+  ],
+  "anchor_tone": "highlight",
+  "scene": 60,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "brick",
+   "glass",
+   "asphalt",
+   "sky",
+   "painted-metal"
+  ],
+  "scene_observation": "日间校桥，中性立面与青天空，不能强制夜景化。",
+  "swatch_id": "060-S02",
+  "candidate_hex": "#E1FFFA",
+  "candidate_lab": [
+   97.804215,
+   -10.59291,
+   -0.885377
+  ],
+  "delta_e_2000": 11.7782,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1206
+  ],
+  "vertical_position": 0.023,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\060.webp",
+  "tile": [
+   128,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   28
+  ],
+  "label": "sky-blue-01 060-S02 dE=11.8 y=0.02 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-01",
+  "role": "targeted",
+  "rank": 5,
+  "material": "sky",
+  "anchor_hex": "#F5F8FD",
+  "anchor_lab": [
+   97.486274,
+   -0.093328,
+   -2.738225
+  ],
+  "anchor_tone": "highlight",
+  "scene": 23,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "brick",
+   "glass",
+   "painted-metal",
+   "asphalt",
+   "sky"
+  ],
+  "scene_observation": "校区街面与立面大体块、窗组和车流分开。",
+  "swatch_id": "023-S03",
+  "candidate_hex": "#F8FEE9",
+  "candidate_lab": [
+   98.718971,
+   -5.575481,
+   9.362314
+  ],
+  "delta_e_2000": 12.1632,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1202
+  ],
+  "vertical_position": 0.106,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\023.webp",
+  "tile": [
+   256,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   64
+  ],
+  "label": "sky-blue-01 023-S03 dE=12.2 y=0.11 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-01",
+  "role": "targeted",
+  "rank": 6,
+  "material": "sky",
+  "anchor_hex": "#F5F8FD",
+  "anchor_lab": [
+   97.486274,
+   -0.093328,
+   -2.738225
+  ],
+  "anchor_tone": "highlight",
+  "scene": 26,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "brick",
+   "glass",
+   "painted-metal",
+   "asphalt",
+   "sky"
+  ],
+  "scene_observation": "校区街面与立面大体块、窗组和车流分开。",
+  "swatch_id": "026-S07",
+  "candidate_hex": "#F0D8BE",
+  "candidate_lab": [
+   87.657946,
+   4.268267,
+   15.854103
+  ],
+  "delta_e_2000": 16.0589,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1200
+  ],
+  "vertical_position": 0.05,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\026.webp",
+  "tile": [
+   256,
+   128,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   188
+  ],
+  "label": "sky-blue-01 026-S07 dE=16.1 y=0.05 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-02",
+  "role": "targeted",
+  "rank": 1,
+  "material": "sky",
+  "anchor_hex": "#83A9F0",
+  "anchor_lab": [
+   69.104787,
+   5.5735,
+   -39.54568
+  ],
+  "anchor_tone": "light",
+  "scene": 399,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "fabric",
+   "stone",
+   "glass",
+   "screen",
+   "sky"
+  ],
+  "scene_observation": "屋顶黑白衣料日光，黑布保暗形、白布保转折。",
+  "swatch_id": "399-S05",
+  "candidate_hex": "#5E97D6",
+  "candidate_lab": [
+   61.102778,
+   -0.380855,
+   -37.852582
+  ],
+  "delta_e_2000": 7.5579,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1204
+  ],
+  "vertical_position": 0.136,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\399.webp",
+  "tile": [
+   0,
+   128,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   192
+  ],
+  "label": "sky-blue-02 399-S05 dE=7.6 y=0.14 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-02",
+  "role": "targeted",
+  "rank": 2,
+  "material": "sky",
+  "anchor_hex": "#83A9F0",
+  "anchor_lab": [
+   69.104787,
+   5.5735,
+   -39.54568
+  ],
+  "anchor_tone": "light",
+  "scene": 203,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "fabric",
+   "brick",
+   "glass",
+   "stone",
+   "metal",
+   "sky"
+  ],
+  "scene_observation": "灰日光楼群、屋顶与街谷；楼体受光面和远处空气层清楚。",
+  "swatch_id": "203-S19",
+  "candidate_hex": "#9EA8BB",
+  "candidate_lab": [
+   68.650851,
+   0.438391,
+   -10.928494
+  ],
+  "delta_e_2000": 12.4176,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1204
+  ],
+  "vertical_position": 0.153,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\203.webp",
+  "tile": [
+   256,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   576
+  ],
+  "label": "sky-blue-02 203-S19 dE=12.4 y=0.15 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-02",
+  "role": "targeted",
+  "rank": 3,
+  "material": "sky",
+  "anchor_hex": "#83A9F0",
+  "anchor_lab": [
+   69.104787,
+   5.5735,
+   -39.54568
+  ],
+  "anchor_tone": "light",
+  "scene": 203,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "fabric",
+   "brick",
+   "glass",
+   "stone",
+   "metal",
+   "sky"
+  ],
+  "scene_observation": "灰日光楼群、屋顶与街谷；楼体受光面和远处空气层清楚。",
+  "swatch_id": "203-S15",
+  "candidate_hex": "#9AA4B7",
+  "candidate_lab": [
+   67.156203,
+   0.44956,
+   -10.97469
+  ],
+  "delta_e_2000": 12.4849,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1204
+  ],
+  "vertical_position": 0.123,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\203.webp",
+  "tile": [
+   256,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   448
+  ],
+  "label": "sky-blue-02 203-S15 dE=12.5 y=0.12 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-02",
+  "role": "targeted",
+  "rank": 4,
+  "material": "sky",
+  "anchor_hex": "#83A9F0",
+  "anchor_lab": [
+   69.104787,
+   5.5735,
+   -39.54568
+  ],
+  "anchor_tone": "light",
+  "scene": 203,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "fabric",
+   "brick",
+   "glass",
+   "stone",
+   "metal",
+   "sky"
+  ],
+  "scene_observation": "灰日光楼群、屋顶与街谷；楼体受光面和远处空气层清楚。",
+  "swatch_id": "203-S23",
+  "candidate_hex": "#A2ACBE",
+  "candidate_lab": [
+   70.108228,
+   0.21213,
+   -10.377822
+  ],
+  "delta_e_2000": 12.6313,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1204
+  ],
+  "vertical_position": 0.153,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\203.webp",
+  "tile": [
+   256,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   704
+  ],
+  "label": "sky-blue-02 203-S23 dE=12.6 y=0.15 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-02",
+  "role": "targeted",
+  "rank": 5,
+  "material": "sky",
+  "anchor_hex": "#83A9F0",
+  "anchor_lab": [
+   69.104787,
+   5.5735,
+   -39.54568
+  ],
+  "anchor_tone": "light",
+  "scene": 203,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "fabric",
+   "brick",
+   "glass",
+   "stone",
+   "metal",
+   "sky"
+  ],
+  "scene_observation": "灰日光楼群、屋顶与街谷；楼体受光面和远处空气层清楚。",
+  "swatch_id": "203-S13",
+  "candidate_hex": "#919CAF",
+  "candidate_lab": [
+   64.072695,
+   0.142897,
+   -11.189153
+  ],
+  "delta_e_2000": 12.6381,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1204
+  ],
+  "vertical_position": 0.05,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\203.webp",
+  "tile": [
+   0,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   444
+  ],
+  "label": "sky-blue-02 203-S13 dE=12.6 y=0.05 neutral-day"
+ },
+ {
+  "query_id": "sky-blue-02",
+  "role": "targeted",
+  "rank": 6,
+  "material": "sky",
+  "anchor_hex": "#83A9F0",
+  "anchor_lab": [
+   69.104787,
+   5.5735,
+   -39.54568
+  ],
+  "anchor_tone": "light",
+  "scene": 203,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "fabric",
+   "brick",
+   "glass",
+   "stone",
+   "metal",
+   "sky"
+  ],
+  "scene_observation": "灰日光楼群、屋顶与街谷；楼体受光面和远处空气层清楚。",
+  "swatch_id": "203-S11",
+  "candidate_hex": "#A7B2C3",
+  "candidate_lab": [
+   72.22561,
+   -0.34148,
+   -9.928798
+  ],
+  "delta_e_2000": 12.6945,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1204
+  ],
+  "vertical_position": 0.07,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\203.webp",
+  "tile": [
+   256,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   320
+  ],
+  "label": "sky-blue-02 203-S11 dE=12.7 y=0.07 neutral-day"
+ },
+ {
+  "query_id": "mountain-rock-01",
+  "role": "targeted",
+  "rank": 1,
+  "material": "stone",
+  "anchor_hex": "#627FB9",
+  "anchor_lab": [
+   53.251178,
+   5.589493,
+   -33.730156
+  ],
+  "anchor_tone": "midtone",
+  "scene": 399,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "fabric",
+   "stone",
+   "glass",
+   "screen",
+   "sky"
+  ],
+  "scene_observation": "屋顶黑白衣料日光，黑布保暗形、白布保转折。",
+  "swatch_id": "399-S31",
+  "candidate_hex": "#4378B8",
+  "candidate_lab": [
+   49.599146,
+   2.660738,
+   -39.000233
+  ],
+  "delta_e_2000": 5.7206,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1204
+  ],
+  "vertical_position": 0.176,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\399.webp",
+  "tile": [
+   256,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   960
+  ],
+  "label": "mountain-rock-01 399-S31 dE=5.7 y=0.18 neutral-day"
+ },
+ {
+  "query_id": "mountain-rock-01",
+  "role": "targeted",
+  "rank": 2,
+  "material": "stone",
+  "anchor_hex": "#627FB9",
+  "anchor_lab": [
+   53.251178,
+   5.589493,
+   -33.730156
+  ],
+  "anchor_tone": "midtone",
+  "scene": 64,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "064-S02",
+  "candidate_hex": "#747F98",
+  "candidate_lab": [
+   53.122162,
+   1.704912,
+   -14.762975
+  ],
+  "delta_e_2000": 8.6361,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1214
+  ],
+  "vertical_position": 0.168,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\064.webp",
+  "tile": [
+   128,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   64
+  ],
+  "label": "mountain-rock-01 064-S02 dE=8.6 y=0.17 neutral-day"
+ },
+ {
+  "query_id": "mountain-rock-01",
+  "role": "targeted",
+  "rank": 3,
+  "material": "stone",
+  "anchor_hex": "#627FB9",
+  "anchor_lab": [
+   53.251178,
+   5.589493,
+   -33.730156
+  ],
+  "anchor_tone": "midtone",
+  "scene": 70,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "070-S12",
+  "candidate_hex": "#7C8798",
+  "candidate_lab": [
+   55.966964,
+   -0.250546,
+   -10.415828
+  ],
+  "delta_e_2000": 10.9646,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1206
+  ],
+  "vertical_position": 0.139,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\070.webp",
+  "tile": [
+   384,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   320
+  ],
+  "label": "mountain-rock-01 070-S12 dE=11.0 y=0.14 neutral-day"
+ },
+ {
+  "query_id": "mountain-rock-01",
+  "role": "targeted",
+  "rank": 4,
+  "material": "stone",
+  "anchor_hex": "#627FB9",
+  "anchor_lab": [
+   53.251178,
+   5.589493,
+   -33.730156
+  ],
+  "anchor_tone": "midtone",
+  "scene": 203,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "fabric",
+   "brick",
+   "glass",
+   "stone",
+   "metal",
+   "sky"
+  ],
+  "scene_observation": "灰日光楼群、屋顶与街谷；楼体受光面和远处空气层清楚。",
+  "swatch_id": "203-S21",
+  "candidate_hex": "#7E8797",
+  "candidate_lab": [
+   56.085275,
+   0.197042,
+   -9.64653
+  ],
+  "delta_e_2000": 11.737,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1204
+  ],
+  "vertical_position": 0.223,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\203.webp",
+  "tile": [
+   0,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   704
+  ],
+  "label": "mountain-rock-01 203-S21 dE=11.7 y=0.22 neutral-day"
+ },
+ {
+  "query_id": "mountain-rock-01",
+  "role": "targeted",
+  "rank": 5,
+  "material": "stone",
+  "anchor_hex": "#627FB9",
+  "anchor_lab": [
+   53.251178,
+   5.589493,
+   -33.730156
+  ],
+  "anchor_tone": "midtone",
+  "scene": 69,
+  "scene_lighting": "neutral-day",
+  "scene_type": "detail",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone"
+  ],
+  "scene_observation": "俯视地面与鞋、手，硬边日光块和细表面纹理分开。",
+  "swatch_id": "069-S03",
+  "candidate_hex": "#728491",
+  "candidate_lab": [
+   54.157968,
+   -3.53138,
+   -9.152595
+  ],
+  "delta_e_2000": 11.7848,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1208
+  ],
+  "vertical_position": 0.053,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\069.webp",
+  "tile": [
+   256,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   64
+  ],
+  "label": "mountain-rock-01 069-S03 dE=11.8 y=0.05 neutral-day"
+ },
+ {
+  "query_id": "mountain-rock-01",
+  "role": "targeted",
+  "rank": 6,
+  "material": "stone",
+  "anchor_hex": "#627FB9",
+  "anchor_lab": [
+   53.251178,
+   5.589493,
+   -33.730156
+  ],
+  "anchor_tone": "midtone",
+  "scene": 70,
+  "scene_lighting": "neutral-day",
+  "scene_type": "portrait",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "stone",
+   "paint"
+  ],
+  "scene_observation": "天窗大堂人像，面部各有设计，背景留在次层。",
+  "swatch_id": "070-S09",
+  "candidate_hex": "#636E82",
+  "candidate_lab": [
+   46.198495,
+   0.591367,
+   -12.407713
+  ],
+  "delta_e_2000": 11.9247,
+  "eligible": true,
+  "rejected_for": [],
+  "frame_dimensions": [
+   2880,
+   1206
+  ],
+  "vertical_position": 0.126,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\070.webp",
+  "tile": [
+   0,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   320
+  ],
+  "label": "mountain-rock-01 070-S09 dE=11.9 y=0.13 neutral-day"
+ },
+ {
+  "query_id": "forest-01",
+  "role": "targeted",
+  "rank": 1,
+  "material": "foliage",
+  "anchor_hex": "#485357",
+  "anchor_lab": [
+   34.502638,
+   -3.362062,
+   -3.799224
+  ],
+  "anchor_tone": "shadow",
+  "scene": 407,
+  "scene_lighting": "warm-day",
+  "scene_type": "landscape",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "metal",
+   "stone",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "暖林逆光、玻璃护栏与少量眩光，光晕必须有源。",
+  "swatch_id": "407-S30",
+  "candidate_hex": "#474B4E",
+  "candidate_lab": [
+   31.62807,
+   -0.935605,
+   -2.341362
+  ],
+  "delta_e_2000": 4.0323,
+  "eligible": false,
+  "rejected_for": [
+   "illumination"
+  ],
+  "frame_dimensions": [
+   2880,
+   1206
+  ],
+  "vertical_position": 0.61,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\407.webp",
+  "tile": [
+   128,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   960
+  ],
+  "label": "forest-01 407-S30 dE=4.0 y=0.61 warm-day"
+ },
+ {
+  "query_id": "forest-01",
+  "role": "targeted",
+  "rank": 2,
+  "material": "foliage",
+  "anchor_hex": "#485357",
+  "anchor_lab": [
+   34.502638,
+   -3.362062,
+   -3.799224
+  ],
+  "anchor_tone": "shadow",
+  "scene": 410,
+  "scene_lighting": "warm-day",
+  "scene_type": "landscape",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "metal",
+   "stone",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "暖林逆光、玻璃护栏与少量眩光，光晕必须有源。",
+  "swatch_id": "410-S17",
+  "candidate_hex": "#464A4B",
+  "candidate_lab": [
+   31.131748,
+   -1.402751,
+   -1.159101
+  ],
+  "delta_e_2000": 4.2699,
+  "eligible": false,
+  "rejected_for": [
+   "illumination"
+  ],
+  "frame_dimensions": [
+   2880,
+   1202
+  ],
+  "vertical_position": 0.186,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\410.webp",
+  "tile": [
+   0,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   64,
+   576
+  ],
+  "label": "forest-01 410-S17 dE=4.3 y=0.19 warm-day"
+ },
+ {
+  "query_id": "forest-01",
+  "role": "targeted",
+  "rank": 3,
+  "material": "foliage",
+  "anchor_hex": "#485357",
+  "anchor_lab": [
+   34.502638,
+   -3.362062,
+   -3.799224
+  ],
+  "anchor_tone": "shadow",
+  "scene": 411,
+  "scene_lighting": "warm-day",
+  "scene_type": "landscape",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "metal",
+   "stone",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "暖林逆光、玻璃护栏与少量眩光，光晕必须有源。",
+  "swatch_id": "411-S14",
+  "candidate_hex": "#4A4F57",
+  "candidate_lab": [
+   33.426503,
+   -0.124272,
+   -5.378845
+  ],
+  "delta_e_2000": 4.5731,
+  "eligible": false,
+  "rejected_for": [
+   "illumination"
+  ],
+  "frame_dimensions": [
+   2880,
+   1202
+  ],
+  "vertical_position": 0.656,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\411.webp",
+  "tile": [
+   128,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   448
+  ],
+  "label": "forest-01 411-S14 dE=4.6 y=0.66 warm-day"
+ },
+ {
+  "query_id": "forest-01",
+  "role": "targeted",
+  "rank": 4,
+  "material": "foliage",
+  "anchor_hex": "#485357",
+  "anchor_lab": [
+   34.502638,
+   -3.362062,
+   -3.799224
+  ],
+  "anchor_tone": "shadow",
+  "scene": 374,
+  "scene_lighting": "warm-day",
+  "scene_type": "landscape",
+  "scene_materials": [
+   "glass",
+   "metal",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "悬挑楼体与暖林空气层，玻璃不能画成纸板。",
+  "swatch_id": "374-S08",
+  "candidate_hex": "#5B5C5D",
+  "candidate_lab": [
+   39.016826,
+   -0.183287,
+   -0.710051
+  ],
+  "delta_e_2000": 6.2135,
+  "eligible": false,
+  "rejected_for": [
+   "illumination"
+  ],
+  "frame_dimensions": [
+   2880,
+   1208
+  ],
+  "vertical_position": 0.351,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\374.webp",
+  "tile": [
+   384,
+   128,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   192
+  ],
+  "label": "forest-01 374-S08 dE=6.2 y=0.35 warm-day"
+ },
+ {
+  "query_id": "forest-01",
+  "role": "targeted",
+  "rank": 5,
+  "material": "foliage",
+  "anchor_hex": "#485357",
+  "anchor_lab": [
+   34.502638,
+   -3.362062,
+   -3.799224
+  ],
+  "anchor_tone": "shadow",
+  "scene": 410,
+  "scene_lighting": "warm-day",
+  "scene_type": "landscape",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "glass",
+   "metal",
+   "stone",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "暖林逆光、玻璃护栏与少量眩光，光晕必须有源。",
+  "swatch_id": "410-S08",
+  "candidate_hex": "#5A6362",
+  "candidate_lab": [
+   41.182772,
+   -3.687884,
+   -0.620189
+  ],
+  "delta_e_2000": 6.4077,
+  "eligible": false,
+  "rejected_for": [
+   "illumination",
+   "tone-role"
+  ],
+  "frame_dimensions": [
+   2880,
+   1202
+  ],
+  "vertical_position": 0.183,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\410.webp",
+  "tile": [
+   384,
+   128,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   192
+  ],
+  "label": "forest-01 410-S08 dE=6.4 y=0.18 warm-day"
+ },
+ {
+  "query_id": "forest-01",
+  "role": "targeted",
+  "rank": 6,
+  "material": "foliage",
+  "anchor_hex": "#485357",
+  "anchor_lab": [
+   34.502638,
+   -3.362062,
+   -3.799224
+  ],
+  "anchor_tone": "shadow",
+  "scene": 492,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "492-S03",
+  "candidate_hex": "#55555B",
+  "candidate_lab": [
+   36.335378,
+   1.318192,
+   -3.474049
+  ],
+  "delta_e_2000": 6.5682,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion"
+  ],
+  "frame_dimensions": [
+   2880,
+   1200
+  ],
+  "vertical_position": 0.097,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\492.webp",
+  "tile": [
+   256,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   64
+  ],
+  "label": "forest-01 492-S03 dE=6.6 y=0.10 neutral-day"
+ },
+ {
+  "query_id": "forest-02",
+  "role": "targeted",
+  "rank": 1,
+  "material": "foliage",
+  "anchor_hex": "#4F658A",
+  "anchor_lab": [
+   42.466298,
+   2.01582,
+   -23.043896
+  ],
+  "anchor_tone": "midtone",
+  "scene": 438,
+  "scene_lighting": "dusk",
+  "scene_type": "street",
+  "scene_materials": [
+   "skin",
+   "hair",
+   "fabric",
+   "wood",
+   "glass",
+   "metal",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "住宅蓝暮、暖门灯与近脸层次，远楼人群可低对比柔化。",
+  "swatch_id": "438-S30",
+  "candidate_hex": "#4F63A5",
+  "candidate_lab": [
+   43.213985,
+   11.779407,
+   -37.963048
+  ],
+  "delta_e_2000": 4.5898,
+  "eligible": false,
+  "rejected_for": [
+   "illumination"
+  ],
+  "frame_dimensions": [
+   2880,
+   1212
+  ],
+  "vertical_position": 0.551,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\438.webp",
+  "tile": [
+   128,
+   896,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   960
+  ],
+  "label": "forest-02 438-S30 dE=4.6 y=0.55 dusk"
+ },
+ {
+  "query_id": "forest-02",
+  "role": "targeted",
+  "rank": 2,
+  "material": "foliage",
+  "anchor_hex": "#4F658A",
+  "anchor_lab": [
+   42.466298,
+   2.01582,
+   -23.043896
+  ],
+  "anchor_tone": "midtone",
+  "scene": 312,
+  "scene_lighting": "warm-day",
+  "scene_type": "landscape",
+  "scene_materials": [
+   "snow",
+   "foliage",
+   "stone",
+   "fabric",
+   "metal",
+   "sky"
+  ],
+  "scene_observation": "暖树冠和冷雪阴影，树干与前景岩石保留厚度。",
+  "swatch_id": "312-S24",
+  "candidate_hex": "#555E7F",
+  "candidate_lab": [
+   40.358678,
+   4.934851,
+   -19.611143
+  ],
+  "delta_e_2000": 4.8436,
+  "eligible": false,
+  "rejected_for": [
+   "illumination"
+  ],
+  "frame_dimensions": [
+   2880,
+   1206
+  ],
+  "vertical_position": 0.633,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\312.webp",
+  "tile": [
+   384,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   704
+  ],
+  "label": "forest-02 312-S24 dE=4.8 y=0.63 warm-day"
+ },
+ {
+  "query_id": "forest-02",
+  "role": "targeted",
+  "rank": 3,
+  "material": "foliage",
+  "anchor_hex": "#4F658A",
+  "anchor_lab": [
+   42.466298,
+   2.01582,
+   -23.043896
+  ],
+  "anchor_tone": "midtone",
+  "scene": 497,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "497-S03",
+  "candidate_hex": "#606C85",
+  "candidate_lab": [
+   45.503639,
+   1.562325,
+   -15.275552
+  ],
+  "delta_e_2000": 5.1297,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion"
+  ],
+  "frame_dimensions": [
+   2880,
+   1210
+  ],
+  "vertical_position": 0.506,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\497.webp",
+  "tile": [
+   256,
+   0,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   64
+  ],
+  "label": "forest-02 497-S03 dE=5.1 y=0.51 neutral-day"
+ },
+ {
+  "query_id": "forest-02",
+  "role": "targeted",
+  "rank": 4,
+  "material": "foliage",
+  "anchor_hex": "#4F658A",
+  "anchor_lab": [
+   42.466298,
+   2.01582,
+   -23.043896
+  ],
+  "anchor_tone": "midtone",
+  "scene": 497,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "497-S24",
+  "candidate_hex": "#4B5971",
+  "candidate_lab": [
+   37.540035,
+   0.886501,
+   -15.422083
+  ],
+  "delta_e_2000": 5.8783,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion",
+   "tone-role"
+  ],
+  "frame_dimensions": [
+   2880,
+   1210
+  ],
+  "vertical_position": 0.463,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\497.webp",
+  "tile": [
+   384,
+   640,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   704
+  ],
+  "label": "forest-02 497-S24 dE=5.9 y=0.46 neutral-day"
+ },
+ {
+  "query_id": "forest-02",
+  "role": "targeted",
+  "rank": 5,
+  "material": "foliage",
+  "anchor_hex": "#4F658A",
+  "anchor_lab": [
+   42.466298,
+   2.01582,
+   -23.043896
+  ],
+  "anchor_tone": "midtone",
+  "scene": 497,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "497-S15",
+  "candidate_hex": "#5D687C",
+  "candidate_lab": [
+   43.774288,
+   0.635291,
+   -12.520158
+  ],
+  "delta_e_2000": 5.8859,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion"
+  ],
+  "frame_dimensions": [
+   2880,
+   1210
+  ],
+  "vertical_position": 0.483,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\497.webp",
+  "tile": [
+   256,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   448
+  ],
+  "label": "forest-02 497-S15 dE=5.9 y=0.48 neutral-day"
+ },
+ {
+  "query_id": "forest-02",
+  "role": "targeted",
+  "rank": 6,
+  "material": "foliage",
+  "anchor_hex": "#4F658A",
+  "anchor_lab": [
+   42.466298,
+   2.01582,
+   -23.043896
+  ],
+  "anchor_tone": "midtone",
+  "scene": 496,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "496-S18",
+  "candidate_hex": "#566B80",
+  "candidate_lab": [
+   44.307041,
+   -2.393161,
+   -14.165955
+  ],
+  "delta_e_2000": 6.0473,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion"
+  ],
+  "frame_dimensions": [
+   2880,
+   1202
+  ],
+  "vertical_position": 0.183,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\496.webp",
+  "tile": [
+   128,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   576
+  ],
+  "label": "forest-02 496-S18 dE=6.0 y=0.18 neutral-day"
+ },
+ {
+  "query_id": "forest-03",
+  "role": "targeted",
+  "rank": 1,
+  "material": "foliage",
+  "anchor_hex": "#68798D",
+  "anchor_lab": [
+   50.145003,
+   -1.460051,
+   -12.925352
+  ],
+  "anchor_tone": "midtone",
+  "scene": 496,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "496-S27",
+  "candidate_hex": "#6B7D95",
+  "candidate_lab": [
+   51.794503,
+   -0.790833,
+   -15.09003
+  ],
+  "delta_e_2000": 2.2395,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion"
+  ],
+  "frame_dimensions": [
+   2880,
+   1202
+  ],
+  "vertical_position": 0.226,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\496.webp",
+  "tile": [
+   256,
+   768,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   832
+  ],
+  "label": "forest-03 496-S27 dE=2.2 y=0.23 neutral-day"
+ },
+ {
+  "query_id": "forest-03",
+  "role": "targeted",
+  "rank": 2,
+  "material": "foliage",
+  "anchor_hex": "#68798D",
+  "anchor_lab": [
+   50.145003,
+   -1.460051,
+   -12.925352
+  ],
+  "anchor_tone": "midtone",
+  "scene": 496,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "496-S10",
+  "candidate_hex": "#63748D",
+  "candidate_lab": [
+   48.342938,
+   -0.134835,
+   -15.688457
+  ],
+  "delta_e_2000": 2.8724,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion"
+  ],
+  "frame_dimensions": [
+   2880,
+   1202
+  ],
+  "vertical_position": 0.29,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\496.webp",
+  "tile": [
+   128,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   320
+  ],
+  "label": "forest-03 496-S10 dE=2.9 y=0.29 neutral-day"
+ },
+ {
+  "query_id": "forest-03",
+  "role": "targeted",
+  "rank": 3,
+  "material": "foliage",
+  "anchor_hex": "#68798D",
+  "anchor_lab": [
+   50.145003,
+   -1.460051,
+   -12.925352
+  ],
+  "anchor_tone": "midtone",
+  "scene": 497,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "497-S10",
+  "candidate_hex": "#63748E",
+  "candidate_lab": [
+   48.380485,
+   0.129021,
+   -16.222103
+  ],
+  "delta_e_2000": 3.1755,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion"
+  ],
+  "frame_dimensions": [
+   2880,
+   1210
+  ],
+  "vertical_position": 0.162,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\497.webp",
+  "tile": [
+   128,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   320
+  ],
+  "label": "forest-03 497-S10 dE=3.2 y=0.16 neutral-day"
+ },
+ {
+  "query_id": "forest-03",
+  "role": "targeted",
+  "rank": 4,
+  "material": "foliage",
+  "anchor_hex": "#68798D",
+  "anchor_lab": [
+   50.145003,
+   -1.460051,
+   -12.925352
+  ],
+  "anchor_tone": "midtone",
+  "scene": 496,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "496-S15",
+  "candidate_hex": "#73829D",
+  "candidate_lab": [
+   54.073342,
+   0.884728,
+   -16.227336
+  ],
+  "delta_e_2000": 5.0897,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion"
+  ],
+  "frame_dimensions": [
+   2880,
+   1202
+  ],
+  "vertical_position": 0.28,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\496.webp",
+  "tile": [
+   256,
+   384,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   320,
+   448
+  ],
+  "label": "forest-03 496-S15 dE=5.1 y=0.28 neutral-day"
+ },
+ {
+  "query_id": "forest-03",
+  "role": "targeted",
+  "rank": 5,
+  "material": "foliage",
+  "anchor_hex": "#68798D",
+  "anchor_lab": [
+   50.145003,
+   -1.460051,
+   -12.925352
+  ],
+  "anchor_tone": "midtone",
+  "scene": 497,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "497-S12",
+  "candidate_hex": "#788197",
+  "candidate_lab": [
+   53.949938,
+   1.624508,
+   -12.901526
+  ],
+  "delta_e_2000": 5.4342,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion"
+  ],
+  "frame_dimensions": [
+   2880,
+   1210
+  ],
+  "vertical_position": 0.37,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\497.webp",
+  "tile": [
+   384,
+   256,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   448,
+   320
+  ],
+  "label": "forest-03 497-S12 dE=5.4 y=0.37 neutral-day"
+ },
+ {
+  "query_id": "forest-03",
+  "role": "targeted",
+  "rank": 6,
+  "material": "foliage",
+  "anchor_hex": "#68798D",
+  "anchor_lab": [
+   50.145003,
+   -1.460051,
+   -12.925352
+  ],
+  "anchor_tone": "midtone",
+  "scene": 496,
+  "scene_lighting": "neutral-day",
+  "scene_type": "city",
+  "scene_materials": [
+   "skin",
+   "fabric",
+   "stone",
+   "wood",
+   "foliage",
+   "sky"
+  ],
+  "scene_observation": "屋顶动作和现有玻璃碎片按原图事实，不新增破损。",
+  "swatch_id": "496-S18",
+  "candidate_hex": "#566B80",
+  "candidate_lab": [
+   44.307041,
+   -2.393161,
+   -14.165955
+  ],
+  "delta_e_2000": 5.8609,
+  "eligible": false,
+  "rejected_for": [
+   "gate:motion"
+  ],
+  "frame_dimensions": [
+   2880,
+   1202
+  ],
+  "vertical_position": 0.183,
+  "atlas": "C:\\Users\\yang\\.codex\\skills\\self-love\\assets\\palette-crops\\496.webp",
+  "tile": [
+   128,
+   512,
+   128,
+   128
+  ],
+  "sample_in_tile": [
+   192,
+   576
+  ],
+  "label": "forest-03 496-S18 dE=5.9 y=0.18 neutral-day"
+ }
+]
