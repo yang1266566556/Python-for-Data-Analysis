@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "train_predictions_checked": 25200,
+  "test_predictions_checked": 8400,
+  "reused_cv_rows_checked": 35,
+  "new_fit_diagnostics_checked": 7,
+  "screenshots_archived": 4,
+  "checks": [
+    "data and Q5 source hashes",
+    "original train/test ids and true labels",
+    "all 14 subset scores",
+    "CV selection and 5/5 fold winners",
+    "reused CV files and comparison merge",
+    "parameters and solver diagnostics",
+    "gamma=1 test predictions all class 0",
+    "recommended setting test predictions equal Q7 none"
+  ],
+  "limits": "No model refit. Selection-before-test supported by source code and saved timestamps, not an independent execution trace. Q5 CV previously independently verified. No training-curve timing conclusions.",
+  "figure_visual_qa": "q8_train_test.png and q8_validation.png inspected: titles, axes, legends, SD bars, evidence-limited region labels legible",
+  "artifacts": [
+    "figures/q8_train_test.png",
+    "figures/q8_train_test.pdf",
+    "figures/q8_validation.png",
+    "figures/q8_validation.pdf",
+    "../../问题8_分析与结论.md",
+    "../../问题8_完整结果表.md",
+    "../../问题9_过拟合与欠拟合分析.md"
+  ]
+}

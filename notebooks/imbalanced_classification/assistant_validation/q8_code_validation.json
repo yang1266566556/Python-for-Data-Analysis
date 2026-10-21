@@ -1,0 +1,12 @@
+{
+  "notebook": "08_gamma与拟合程度分析.ipynb",
+  "status": "static_and_readonly_preflight_passed",
+  "model_fit_executed": false,
+  "checks": [
+    "nbformat validation",
+    "all code cells compiled",
+    "environment and model API compatibility",
+    "Q5 gamma validation predictions and summary rechecked"
+  ],
+  "pending": "student executes seven full-training fits and supplies screenshots"
+}

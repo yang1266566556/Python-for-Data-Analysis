@@ -1,0 +1,50 @@
+{
+  "selected_gamma": 0.041666666666666664,
+  "candidate_index": 3,
+  "rule": "maximum validation macro-F1 mean; ties within 1e-12 choose smaller gamma",
+  "selected_before_q8_test_evaluation": true,
+  "selected_at": "2026-10-21T13:22:20.814329+08:00",
+  "q5_source": "D:\\Python for Data Analysis\\notebooks\\imbalanced_classification\\q5_runs\\20261021_124751_b53362",
+  "source_sha256": {
+    "q5_plan.json": "3d0f86646470db69e15a11614b0f0977be0a0fe682719adba4b8152fd37e60b9",
+    "q5_manifest.json": "cb33c2bbec728dd055257b12b2454d4f588fc0e501da52bf0ac20f554209beab",
+    "q5_summary.csv": "dc024ad02e67b99d6c5d99a1e7dc84c8b4bc990ecb50a9376883678004a5c1f7",
+    "q5_fold_scores.csv": "88b99192447b7115f95a1406f7189a291110018bf900dca4c3c7af099c5de603",
+    "q5_selections.json": "3f0bfc02d73600b2d66f9a3af818f649c402ccfd92dfde17b1c68cfd85fa6831"
+  },
+  "data_split_sha256": "267db14403d8885a89d6396fa644614f8ec2a06e60a3c45ac35e508b6f6723d4",
+  "gamma_candidates": [
+    0.001,
+    0.005,
+    0.01,
+    0.041666666666666664,
+    0.1,
+    0.5,
+    1.0
+  ],
+  "model_parameters": {
+    "C": 1.0,
+    "break_ties": false,
+    "cache_size": 200,
+    "class_weight": null,
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": "scale",
+    "kernel": "rbf",
+    "max_iter": -1,
+    "probability": "deprecated",
+    "random_state": 20261022,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": false
+  },
+  "fold_winner_indices": [
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "wins": 5
+}

@@ -1,0 +1,35 @@
+{
+  "code_version": "1.0",
+  "source_dir": "D:\\Python for Data Analysis\\notebooks\\imbalanced_classification\\runs\\20261020_221259_7f297c",
+  "data_split_sha256": "267db14403d8885a89d6396fa644614f8ec2a06e60a3c45ac35e508b6f6723d4",
+  "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:16:45) [MSC v.1942 64 bit (AMD64)]",
+  "sklearn": "1.9.0",
+  "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+  "model_seed": 20261022,
+  "models": [
+    "LogisticRegression",
+    "DecisionTree",
+    "KNN",
+    "SVC"
+  ],
+  "preprocessing": "none",
+  "labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "zero_division": 0,
+  "train_samples": 3600,
+  "test_samples": 1200,
+  "warning_count": 0,
+  "created_at": "2026-10-21T11:18:45.776576+08:00",
+  "confusion_matrix": "raw counts; rows=true labels, columns=predicted labels",
+  "output_dir": "D:\\Python for Data Analysis\\notebooks\\imbalanced_classification\\q3_runs\\20261021_111602_87b2fd"
+}

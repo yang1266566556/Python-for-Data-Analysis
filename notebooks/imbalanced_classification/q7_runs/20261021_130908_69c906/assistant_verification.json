@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "cv_predictions_checked": 7200,
+  "test_predictions_checked": 2400,
+  "fit_diagnostics_checked": 12,
+  "screenshots_archived": 6,
+  "checks": [
+    "data hash and original splits",
+    "Q4 parameters except class_weight",
+    "all CV/test scores",
+    "per-class and confusion counts",
+    "fold-specific weights",
+    "groups and deltas",
+    "warnings and solver status"
+  ],
+  "limits": "No model refit. Fit/preprocessing execution supported by supplied code and diagnostics. Missing screenshot of fit_and_predict helper; CV delta code line clipped at right."
+}

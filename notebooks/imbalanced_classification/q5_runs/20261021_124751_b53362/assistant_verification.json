@@ -1,0 +1,8 @@
+{
+  "verified_validation_predictions": 169200,
+  "fold_rows": 235,
+  "summary_rows": 47,
+  "selections": 8,
+  "warnings": 0,
+  "training_scores": "aggregated from recorded training scores; training predictions not saved; not independently recomputed"
+}

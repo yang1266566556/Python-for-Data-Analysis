@@ -1,0 +1,184 @@
+{
+  "scans": [
+    [
+      "lr_C",
+      "LogisticRegression",
+      "C",
+      [
+        0.001,
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ]
+    ],
+    [
+      "lr_l1_ratio",
+      "LogisticRegression",
+      "l1_ratio",
+      [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ]
+    ],
+    [
+      "tree_max_depth",
+      "DecisionTree",
+      "max_depth",
+      [
+        1,
+        2,
+        4,
+        6,
+        10,
+        16,
+        null
+      ]
+    ],
+    [
+      "tree_min_samples_leaf",
+      "DecisionTree",
+      "min_samples_leaf",
+      [
+        1,
+        2,
+        5,
+        10,
+        20,
+        50
+      ]
+    ],
+    [
+      "knn_n_neighbors",
+      "KNN",
+      "n_neighbors",
+      [
+        1,
+        3,
+        5,
+        9,
+        15,
+        31,
+        61
+      ]
+    ],
+    [
+      "knn_p",
+      "KNN",
+      "p",
+      [
+        1,
+        1.5,
+        2,
+        3
+      ]
+    ],
+    [
+      "svc_C",
+      "SVC",
+      "C",
+      [
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ]
+    ],
+    [
+      "svc_gamma",
+      "SVC",
+      "gamma",
+      [
+        0.001,
+        0.005,
+        0.01,
+        0.041666666666666664,
+        0.1,
+        0.5,
+        1.0
+      ]
+    ]
+  ],
+  "base_parameters": {
+    "LogisticRegression": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 2000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 20261022,
+      "solver": "saga",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "DecisionTree": {
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 20261022,
+      "splitter": "best"
+    },
+    "KNN": {
+      "algorithm": "auto",
+      "leaf_size": 30,
+      "metric": "minkowski",
+      "metric_params": null,
+      "n_jobs": null,
+      "n_neighbors": 5,
+      "p": 2,
+      "weights": "uniform"
+    },
+    "SVC": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "rbf",
+      "max_iter": -1,
+      "probability": "deprecated",
+      "random_state": 20261022,
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  "preprocessing": {
+    "LogisticRegression": "StandardScaler",
+    "DecisionTree": "none",
+    "KNN": "StandardScaler",
+    "SVC": "StandardScaler"
+  },
+  "selection_metric": "validation_macro_f1_mean",
+  "tie_atol": 1e-12,
+  "tie_rules": {
+    "C": "smaller",
+    "gamma": "smaller",
+    "max_depth": "shallower_None_last",
+    "min_samples_leaf": "larger",
+    "n_neighbors": "larger",
+    "l1_ratio": "larger",
+    "p": "priority_2_1_1.5_3"
+  }
+}
