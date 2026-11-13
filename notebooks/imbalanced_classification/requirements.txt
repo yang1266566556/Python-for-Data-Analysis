@@ -1,0 +1,12 @@
+# 原始Q1 manifest记录（2026-10-20），当前环境亦已只读核对。
+# Python 3.12.13；代码检查Python 3.12及下列三个数值计算库的记录版本。
+numpy==2.5.0
+pandas==3.0.3
+scikit-learn==1.9.0
+ipykernel==7.2.0
+
+# 以下为整理时（2026-11-13）从pda312实测的补充版本，非原始完整环境锁文件。
+scipy==1.18.0
+ipython==9.14.0
+threadpoolctl==3.5.0
+notebook==7.5.6

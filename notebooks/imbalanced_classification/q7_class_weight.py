@@ -32,17 +32,27 @@ from sklearn.svm import SVC
 from sklearn.exceptions import ConvergenceWarning
 from sklearn.metrics import accuracy_score, f1_score, precision_recall_fscore_support, confusion_matrix
 
-PROJECT_DIR = Path(r"D:\Python for Data Analysis\notebooks\imbalanced_classification")
-SOURCE_DIR = PROJECT_DIR / "runs/20261020_221259_7f297c"
-Q4_SOURCE = PROJECT_DIR / "q4_runs/20261021_122610_cb3b24"
-assert Path(sys.executable).resolve() == Path(r"D:\anaconda\envs\pda312\python.exe").resolve(), "请选择pda312内核"
+# 脚本入口使用自身路径定位，支持在任意工作目录执行。
+_location = Path(__file__).resolve().parent
+for _parent in (_location, *_location.parents):
+    _notebooks = _parent if _parent.name == "notebooks" else _parent / "notebooks"
+    if (_notebooks / "imbalanced_classification" / "common.py").is_file():
+        if str(_notebooks) not in sys.path:
+            sys.path.insert(0, str(_notebooks))
+        break
+else:
+    raise FileNotFoundError("未找到作业目录，请从仓库根目录或notebooks启动")
+from imbalanced_classification.common import (
+    PROJECT_DIR, check_environment, SOURCE_DIR, load_fixed_dataset, dataset_sha256, Q4_SOURCE
+)
+check_environment()
 source = json.loads((SOURCE_DIR / "results/manifest.json").read_text(encoding="utf-8"))
 assert sklearn.__version__ == source["versions"]["scikit-learn"], "请先核对sklearn版本"
-with np.load(SOURCE_DIR / "data/dataset_and_split.npz") as saved:
-    X, y = saved["X"], saved["y"]
-    train_idx, test_idx = saved["train_idx"], saved["test_idx"]
-    folds = [(saved[f"fold_{i}_fit"].copy(), saved[f"fold_{i}_validation"].copy()) for i in range(1, 6)]
-data_hash = hashlib.sha256(X.tobytes() + y.tobytes() + train_idx.tobytes() + test_idx.tobytes()).hexdigest()
+saved = load_fixed_dataset(SOURCE_DIR)
+X, y = saved["X"], saved["y"]
+train_idx, test_idx = saved["train_idx"], saved["test_idx"]
+folds = [(saved[f"fold_{i}_fit"].copy(), saved[f"fold_{i}_validation"].copy()) for i in range(1, 6)]
+data_hash = dataset_sha256(X, y, train_idx, test_idx)
 assert data_hash == source["data_split_sha256"]
 X_train, X_test, y_train, y_test = X[train_idx], X[test_idx], y[train_idx], y[test_idx]
 LABELS, MODEL_SEED = np.arange(10), source["model_seed"]

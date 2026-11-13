@@ -28,21 +28,30 @@ from sklearn.svm import SVC
 from sklearn.exceptions import ConvergenceWarning
 from sklearn.metrics import accuracy_score, f1_score
 
-PROJECT_DIR = Path(r'D:\Python for Data Analysis\notebooks\imbalanced_classification')
-SOURCE_DIR = PROJECT_DIR / 'runs/20261020_221259_7f297c'
-Q5_DIR = PROJECT_DIR / 'q5_runs/20261021_124751_b53362'
-assert Path(sys.executable).resolve() == Path(r'D:\anaconda\envs\pda312\python.exe').resolve(), '请选择pda312内核'
-def read_json(path):
-    return json.loads(path.read_text(encoding='utf-8'))
+# 脚本入口使用自身路径定位，支持在任意工作目录执行。
+_location = Path(__file__).resolve().parent
+for _parent in (_location, *_location.parents):
+    _notebooks = _parent if _parent.name == "notebooks" else _parent / "notebooks"
+    if (_notebooks / "imbalanced_classification" / "common.py").is_file():
+        if str(_notebooks) not in sys.path:
+            sys.path.insert(0, str(_notebooks))
+        break
+else:
+    raise FileNotFoundError("未找到作业目录，请从仓库根目录或notebooks启动")
+from imbalanced_classification.common import (
+    PROJECT_DIR, check_environment, SOURCE_DIR, load_fixed_dataset, dataset_sha256, Q5_SOURCE, read_json
+)
+Q5_DIR = Q5_SOURCE
+check_environment()
 source = read_json(SOURCE_DIR / 'results/manifest.json')
 q5_manifest = read_json(Q5_DIR / 'q5_manifest.json')
 q5_plan = read_json(Q5_DIR / 'q5_plan.json')
 assert sklearn.__version__ == q5_manifest['sklearn'] == source['versions']['scikit-learn']
-with np.load(SOURCE_DIR / 'data/dataset_and_split.npz') as data:
-    X, y = data['X'], data['y']
-    train_idx, test_idx = data['train_idx'], data['test_idx']
-    folds = [(data[f'fold_{i}_fit'].copy(), data[f'fold_{i}_validation'].copy()) for i in range(1,6)]
-data_hash = hashlib.sha256(X.tobytes()+y.tobytes()+train_idx.tobytes()+test_idx.tobytes()).hexdigest()
+data = load_fixed_dataset(SOURCE_DIR)
+X, y = data['X'], data['y']
+train_idx, test_idx = data['train_idx'], data['test_idx']
+folds = [(data[f'fold_{i}_fit'].copy(), data[f'fold_{i}_validation'].copy()) for i in range(1,6)]
+data_hash = dataset_sha256(X, y, train_idx, test_idx)
 assert data_hash == source['data_split_sha256'] == q5_manifest['data_split_sha256']
 assert q5_manifest['cv_seed'] == source['cv_seed'] and not q5_manifest['test_set_evaluated']
 X_train, y_train = X[train_idx], y[train_idx]

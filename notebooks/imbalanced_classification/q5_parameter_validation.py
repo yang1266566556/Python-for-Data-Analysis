@@ -54,17 +54,27 @@ from sklearn.svm import SVC
 from sklearn.exceptions import ConvergenceWarning
 from sklearn.metrics import accuracy_score, f1_score
 
-PROJECT_DIR = Path(r"D:\Python for Data Analysis\notebooks\imbalanced_classification")
-SOURCE_DIR = PROJECT_DIR / "runs/20261020_221259_7f297c"
-assert Path(sys.executable).resolve() == Path(r"D:\anaconda\envs\pda312\python.exe").resolve(), "请选择pda312内核"
+# 脚本入口使用自身路径定位，支持在任意工作目录执行。
+_location = Path(__file__).resolve().parent
+for _parent in (_location, *_location.parents):
+    _notebooks = _parent if _parent.name == "notebooks" else _parent / "notebooks"
+    if (_notebooks / "imbalanced_classification" / "common.py").is_file():
+        if str(_notebooks) not in sys.path:
+            sys.path.insert(0, str(_notebooks))
+        break
+else:
+    raise FileNotFoundError("未找到作业目录，请从仓库根目录或notebooks启动")
+from imbalanced_classification.common import (
+    PROJECT_DIR, check_environment, SOURCE_DIR, load_fixed_dataset, dataset_sha256
+)
+check_environment()
 source = json.loads((SOURCE_DIR / "results/manifest.json").read_text(encoding="utf-8"))
 assert sklearn.__version__ == source["versions"]["scikit-learn"], "sklearn版本与第一题不一致"
-with np.load(SOURCE_DIR / "data/dataset_and_split.npz") as saved:
-    data_hash = hashlib.sha256(saved["X"].tobytes() + saved["y"].tobytes()
-        + saved["train_idx"].tobytes() + saved["test_idx"].tobytes()).hexdigest()
-    train_sample_ids = saved["train_idx"].copy()
-    X_train, y_train = saved["X"][train_sample_ids], saved["y"][train_sample_ids]
-    folds = [(saved[f"fold_{i}_fit"].copy(), saved[f"fold_{i}_validation"].copy()) for i in range(1, 6)]
+saved = load_fixed_dataset(SOURCE_DIR)
+data_hash = dataset_sha256(saved["X"], saved["y"], saved["train_idx"], saved["test_idx"])
+train_sample_ids = saved["train_idx"].copy()
+X_train, y_train = saved["X"][train_sample_ids], saved["y"][train_sample_ids]
+folds = [(saved[f"fold_{i}_fit"].copy(), saved[f"fold_{i}_validation"].copy()) for i in range(1, 6)]
 assert data_hash == source["data_split_sha256"]
 LABELS, MODEL_SEED = np.arange(10), source["model_seed"]
 for fit_idx, val_idx in folds:

@@ -22,9 +22,20 @@ from IPython.display import display
 from sklearn.datasets import make_classification
 from sklearn.model_selection import train_test_split, StratifiedKFold
 
-PROJECT_DIR = Path(r"D:\Python for Data Analysis\notebooks\imbalanced_classification")
-EXPECTED_PYTHON = Path(r"D:\anaconda\envs\pda312\python.exe")
-assert Path(sys.executable).resolve() == EXPECTED_PYTHON.resolve(), "请切换到 pda312 内核"
+# 脚本入口使用自身路径定位，支持在任意工作目录执行。
+_location = Path(__file__).resolve().parent
+for _parent in (_location, *_location.parents):
+    _notebooks = _parent if _parent.name == "notebooks" else _parent / "notebooks"
+    if (_notebooks / "imbalanced_classification" / "common.py").is_file():
+        if str(_notebooks) not in sys.path:
+            sys.path.insert(0, str(_notebooks))
+        break
+else:
+    raise FileNotFoundError("未找到作业目录，请从仓库根目录或notebooks启动")
+from imbalanced_classification.common import (
+    PROJECT_DIR, check_environment, dataset_sha256
+)
+check_environment()
 OUTPUT_BASE = Path(os.environ.get("ML_Q1_OUTPUT", str(PROJECT_DIR / "runs")))
 RUN_DIR = OUTPUT_BASE / (datetime.now().strftime("%Y%m%d_%H%M%S") + "_" + uuid.uuid4().hex[:6])
 for folder in ("data", "results", "figures"):
@@ -135,7 +146,7 @@ features.insert(0, "sample_id", np.arange(len(y)))
 features["label"] = y
 features["split"] = np.where(np.isin(np.arange(len(y)), train_idx), "train", "test")
 features.to_csv(RUN_DIR / "data/dataset.csv", index=False, encoding="utf-8-sig")
-data_hash = hashlib.sha256(X.tobytes() + y.tobytes() + train_idx.tobytes() + test_idx.tobytes()).hexdigest()
+data_hash = dataset_sha256(X, y, train_idx, test_idx)
 manifest = dict(
     code_version="1.1", configuration_status="建议配置；学生采用与理解待确认",
     run_actor=os.environ.get("ML_Q1_ACTOR", "学生运行，待学生核验"),
