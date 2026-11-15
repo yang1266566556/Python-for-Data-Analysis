@@ -104,7 +104,7 @@ D:\anaconda\condabin\conda.bat run -n pda312 jupyter notebook --notebook-dir "D:
 ### 作业练习
 
 - `homework1.ipynb` ~ `homework8.ipynb` - 各单元作业
-- `2homework1.ipynb` - 额外作业
+- [第二次作业：铁路数据、降维与聚类](notebooks/hw02_README.md) - `hw02_01` 至 `hw02_08`，保留原序号对应关系
 
 ### 不平衡分类专题
 
