@@ -1,0 +1,150 @@
+{
+  "run_id": "user_pilot_20261105_220920_089173",
+  "auditor": "assistant",
+  "audited_at": "2026-11-05T22:43:03.297370+08:00",
+  "method": "offline independent CSV/raw/timestamp comparison; no re-collection",
+  "passed": true,
+  "check_count": 2793,
+  "failures": [],
+  "raw_files_verified": 11,
+  "train_records": 249,
+  "query_cases": [
+    {
+      "query_id": "P01",
+      "from_station": "北京南",
+      "to_station": "上海虹桥",
+      "status": "validated_records",
+      "raw_count": 53,
+      "valid_count": 53,
+      "returned_city_pairs": [
+        [
+          "北京",
+          "上海"
+        ]
+      ],
+      "cross_day_rows": 7,
+      "earlier_origin_rows": 0,
+      "related_station_rows": 14
+    },
+    {
+      "query_id": "P02",
+      "from_station": "上海虹桥",
+      "to_station": "北京南",
+      "status": "validated_records",
+      "raw_count": 54,
+      "valid_count": 54,
+      "returned_city_pairs": [
+        [
+          "上海",
+          "北京"
+        ]
+      ],
+      "cross_day_rows": 10,
+      "earlier_origin_rows": 0,
+      "related_station_rows": 16
+    },
+    {
+      "query_id": "P03",
+      "from_station": "广州南",
+      "to_station": "香港西九龙",
+      "status": "validated_records",
+      "raw_count": 63,
+      "valid_count": 63,
+      "returned_city_pairs": [
+        [
+          "广州",
+          "香港"
+        ]
+      ],
+      "cross_day_rows": 0,
+      "earlier_origin_rows": 1,
+      "related_station_rows": 25
+    },
+    {
+      "query_id": "P04",
+      "from_station": "香港西九龙",
+      "to_station": "广州南",
+      "status": "validated_records",
+      "raw_count": 61,
+      "valid_count": 61,
+      "returned_city_pairs": [
+        [
+          "香港",
+          "广州"
+        ]
+      ],
+      "cross_day_rows": 0,
+      "earlier_origin_rows": 0,
+      "related_station_rows": 24
+    },
+    {
+      "query_id": "P05",
+      "from_station": "北京西",
+      "to_station": "西宁",
+      "status": "validated_records",
+      "raw_count": 7,
+      "valid_count": 7,
+      "returned_city_pairs": [
+        [
+          "北京",
+          "西宁"
+        ]
+      ],
+      "cross_day_rows": 4,
+      "earlier_origin_rows": 0,
+      "related_station_rows": 2
+    },
+    {
+      "query_id": "P06",
+      "from_station": "西宁",
+      "to_station": "拉萨",
+      "status": "validated_records",
+      "raw_count": 6,
+      "valid_count": 6,
+      "returned_city_pairs": [
+        [
+          "西宁",
+          "拉萨"
+        ]
+      ],
+      "cross_day_rows": 6,
+      "earlier_origin_rows": 4,
+      "related_station_rows": 0
+    },
+    {
+      "query_id": "P07",
+      "from_station": "广州",
+      "to_station": "海口",
+      "status": "validated_records",
+      "raw_count": 5,
+      "valid_count": 5,
+      "returned_city_pairs": [
+        [
+          "广州",
+          "海口"
+        ]
+      ],
+      "cross_day_rows": 4,
+      "earlier_origin_rows": 4,
+      "related_station_rows": 5
+    },
+    {
+      "query_id": "P08",
+      "from_station": "广州南",
+      "to_station": "横琴",
+      "status": "no_direct_train_returned_not_unreachable",
+      "raw_count": 0,
+      "valid_count": 0,
+      "returned_city_pairs": [],
+      "cross_day_rows": 0,
+      "earlier_origin_rows": 0,
+      "related_station_rows": 0
+    }
+  ],
+  "related_station_rows": 86,
+  "earlier_origin_rows": 9,
+  "cross_day_rows": 31,
+  "notebook_executed_cells": 4,
+  "matrix_ready": false,
+  "limitation": "Internal consistency is verified, not full timetable coverage, optimal journeys, ticket availability, physical connectivity or actual punctuality."
+}

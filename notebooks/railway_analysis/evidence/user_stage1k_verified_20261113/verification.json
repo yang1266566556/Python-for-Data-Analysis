@@ -1,0 +1,25 @@
+{
+  "user_core_codes_received": [
+    "28 recovered",
+    "29 recovered"
+  ],
+  "source_job": "user_stage1k_recovered_20261113_171730_784804",
+  "matrix_job": "user_stage1k_matrix_20261113_171823_241363",
+  "verified_queries": 6,
+  "new_valid_records": 507,
+  "new_unavailable_timetable_rows": 1,
+  "new_unresolved_station_rows": 0,
+  "raw_and_csv_replay_passed": true,
+  "archived_and_current_code_hashes_verified": true,
+  "total_source_and_derived_rows": 27535,
+  "core32_complete": true,
+  "baseline_finite_directed_pairs": 992,
+  "full34_missing": 130,
+  "full34_algorithm_ready": false,
+  "symmetrization_verified": true,
+  "five_residual_route_time_conservation_passed": true,
+  "transfer90_finite_pairs": 991,
+  "assistant_new_network_requests": 0,
+  "docx_created": false,
+  "next_scope": "Macau access model and Taipei penalty sensitivity still pending; ordinary timetable unknowns not penalties"
+}

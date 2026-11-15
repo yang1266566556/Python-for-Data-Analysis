@@ -1,0 +1,57 @@
+[
+  {
+    "query_id": "M01",
+    "role": "special_region_access",
+    "primary_query_id": "",
+    "date": "2026-11-18",
+    "from_station": "珠海",
+    "to_station": "广州南",
+    "from_city": "珠海",
+    "to_city": "广州",
+    "purpose": "Rail access to separate Macao border node; no free city/station link"
+  },
+  {
+    "query_id": "M02",
+    "role": "special_region_access",
+    "primary_query_id": "",
+    "date": "2026-11-19",
+    "from_station": "广州南",
+    "to_station": "珠海",
+    "from_city": "广州",
+    "to_city": "珠海",
+    "purpose": "Rail access to separate Macao border node; no free city/station link"
+  },
+  {
+    "query_id": "M03",
+    "role": "special_region_access",
+    "primary_query_id": "",
+    "date": "2026-11-20",
+    "from_station": "广州南",
+    "to_station": "珠海",
+    "from_city": "广州",
+    "to_city": "珠海",
+    "purpose": "Rail access to separate Macao border node; no free city/station link"
+  },
+  {
+    "query_id": "M04",
+    "role": "special_region_access",
+    "primary_query_id": "",
+    "date": "2026-11-21",
+    "from_station": "广州南",
+    "to_station": "珠海",
+    "from_city": "广州",
+    "to_city": "珠海",
+    "purpose": "Rail access to separate Macao border node; no free city/station link"
+  },
+  {
+    "query_id": "M05",
+    "role": "special_region_access",
+    "primary_query_id": "",
+    "date": "2026-11-22",
+    "from_station": "广州南",
+    "to_station": "珠海",
+    "from_city": "广州",
+    "to_city": "珠海",
+    "purpose": "Rail access to separate Macao border node; no free city/station link"
+  }
+]

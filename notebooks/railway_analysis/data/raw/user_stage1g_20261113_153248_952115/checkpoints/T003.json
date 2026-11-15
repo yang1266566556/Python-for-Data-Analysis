@@ -1,0 +1,74 @@
+{
+  "query": {
+    "query_id": "T003",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-19",
+    "from_city": "武汉",
+    "to_city": "拉萨",
+    "from_station": "武昌",
+    "to_station": "拉萨",
+    "reason": "exact known arrival station to unresolved destination; arrival day or next day",
+    "affected_pairs": "海口→拉萨",
+    "from_code": "WCN",
+    "to_code": "LSO"
+  },
+  "source": {
+    "source_id": "T003",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-19",
+      "leftTicketDTO.from_station": "WCN",
+      "leftTicketDTO.to_station": "LSO",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-13T15:33:03.979547+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-19&leftTicketDTO.from_station=WCN&leftTicketDTO.to_station=LSO&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 07:33:07 GMT",
+    "raw_file": "data\\raw\\user_stage1g_20261113_153248_952115\\sessions\\20261113_153248_976613\\T003.bin",
+    "bytes": 387,
+    "sha256": "d87c9967ebffe76090eb43980ee4f51330c7ccf29eedd2fbedce0a97dbdd0e65"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-13T15:32:51.983738+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 07:32:55 GMT",
+    "raw_file": "data\\raw\\user_stage1g_20261113_153248_952115\\sessions\\20261113_153248_976613\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "records": [],
+  "issues": [
+    {
+      "query_id": "T003",
+      "raw_row_index": 0,
+      "severity": "missing_data",
+      "issue": "timetable_unavailable_adjustment",
+      "details": "{\"train_no\": \"650000Z26403\", \"train_code\": \"Z264\", \"query_date\": \"2026-11-19\", \"from_code\": \"WCN\", \"to_code\": \"LSO\", \"source_message\": \"列车运行图调整,暂停发售\", \"raw_departure\": \"24:00\", \"raw_arrival\": \"24:00\", \"raw_duration\": \"99:59\", \"sale_status\": \"IS_TIME_NOT_BUY\", \"raw_file\": \"data\\\\raw\\\\user_stage1g_20261113_153248_952115\\\\sessions\\\\20261113_153248_976613\\\\T003.bin\", \"raw_sha256\": \"d87c9967ebffe76090eb43980ee4f51330c7ccf29eedd2fbedce0a97dbdd0e65\"}"
+    }
+  ],
+  "quality": {
+    "status": "partial_timetable_unavailable",
+    "raw_count": 1,
+    "valid_count": 0,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 1
+  },
+  "parser_version": "stage1c-station-metadata-v2"
+}

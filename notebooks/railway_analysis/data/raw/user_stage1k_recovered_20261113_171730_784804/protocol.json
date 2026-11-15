@@ -1,0 +1,5 @@
+{
+  "base_job": "user_stage1j_restored_20261113_162646_869372",
+  "base_csv_sha256": "9e5fb8e7aa435fd600ff2b0845c3641186af6ff5738cd18a65859757d9c19482",
+  "snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00"
+}

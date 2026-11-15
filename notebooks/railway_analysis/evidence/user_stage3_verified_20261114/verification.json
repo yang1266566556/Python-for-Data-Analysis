@@ -1,0 +1,39 @@
+{
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage3_clustering_20261114_171710_794272",
+  "verified_runs": 198,
+  "representative_partitions": 102,
+  "label_hashes_passed": true,
+  "node_order_passed": true,
+  "quality_metrics_reproduced": true,
+  "PAM_swap_local_optima_verified": true,
+  "parameter_seed_stability_pairs": 176,
+  "representation_comparisons": 183,
+  "unavailable_silhouette_runs": 26,
+  "noise_excluded_from_scores": true,
+  "nonconverged_PAM_runs": 0,
+  "geographic_cluster_R_figures_complete": false,
+  "external_interpretation_complete": false,
+  "report_started": false,
+  "note": "No automatic winner. DBSCAN degenerate partitions retained; compare coverage and flags. ARI/NMI noise-as-label and common-assigned variants both reported.",
+  "checked_at": "2026-11-14T17:49:39.989870+08:00",
+  "screenshots": [
+    {
+      "file": "screenshot_1.png",
+      "sha256": "ff032d573f5c350c3f69cfdea61d6588a6909d6d5681bd538ef585042e646413"
+    },
+    {
+      "file": "screenshot_2.png",
+      "sha256": "164f435548d00bbe9df88d632d558fac190bac04ab7beee00e07e76d4e28b6d9"
+    },
+    {
+      "file": "screenshot_3.png",
+      "sha256": "04632c07f7cd57a6723362c14a6681aa63b2c34bba2cf055d572f3eea0b5506e"
+    },
+    {
+      "file": "screenshot_4.png",
+      "sha256": "90d93fcc43428fb447c369b7095907aa7a065c6713d0b0777c0c6269d2fa3921"
+    }
+  ],
+  "core2_verbose_screenshot_omission_requested_by_user": true,
+  "proof": "Actual core2 code screenshot, user core3 result screenshot and all198 saved labels/parameters/metrics; no synthetic console image generated."
+}

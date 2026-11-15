@@ -1,0 +1,5 @@
+﻿scenario,before_finite,after_finite,missing,newly_found,shorter
+draft83_60,986,986,6,0,0
+observed_group_30,987,987,5,0,0
+observed_group_60,987,987,5,0,0
+observed_group_90,985,985,7,0,0

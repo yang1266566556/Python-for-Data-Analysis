@@ -1,0 +1,10 @@
+{
+  "synthetic_route_logic_tests": 7,
+  "real_data_monotonicity_and_direct_edge_checks": 3639,
+  "txt_syntax_valid": true,
+  "source_train_records": 22137,
+  "assistant_offline_routing_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1d_routes_20261113_140022_897140",
+  "assistant_plot_preview_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\figures\\assistant_stage1d_quality_20261113_140721_606007",
+  "new_network_queries": 0,
+  "user_stage1d_execution": "pending"
+}

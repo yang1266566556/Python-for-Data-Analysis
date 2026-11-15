@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-11-14T14:52:28.599034+08:00",
+  "diagnostics": [
+    {
+      "run_id": "access_60_alpha_5_n34_MDS_seed42",
+      "coordinate_hash_matches": true,
+      "saved_stress": 0.03640945438289862,
+      "stress_against_D": 0.03640945438289862,
+      "stress_against_D_squared": 0.1642322401816607
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_tSNE_seed42",
+      "coordinate_hash_matches": true,
+      "saved_stress": 0.6486444627165914,
+      "stress_against_D": 0.5466100304536744,
+      "stress_against_D_squared": 0.6486444627165914
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_UMAP_seed42",
+      "coordinate_hash_matches": true,
+      "saved_stress": 0.9692236273941168,
+      "stress_against_D": 0.9317298480581455,
+      "stress_against_D_squared": 0.9692236273941168
+    },
+    {
+      "run_id": "access_60_n33_MDS_seed42",
+      "coordinate_hash_matches": true,
+      "saved_stress": 0.17918595150880393,
+      "stress_against_D": 0.17918595150880393,
+      "stress_against_D_squared": 0.5021708907184607
+    },
+    {
+      "run_id": "access_60_n33_tSNE_seed42",
+      "coordinate_hash_matches": true,
+      "saved_stress": 0.8059849004181617,
+      "stress_against_D": 0.547002942456236,
+      "stress_against_D_squared": 0.8059849004181617
+    },
+    {
+      "run_id": "access_60_n33_UMAP_seed42",
+      "coordinate_hash_matches": true,
+      "saved_stress": 0.8710638474030983,
+      "stress_against_D": 0.6699789528261113,
+      "stress_against_D_squared": 0.8710638474030983
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "user_screenshot_1.png",
+      "sha256": "ce380179da015372eabc727c9234723c2aa7ef66f0b0631785347e2fb09ca2c3"
+    },
+    {
+      "file": "user_screenshot_2.png",
+      "sha256": "3780d0bce767273cb62dd6b878869bafc5fab0ae142b586b073801854230641c"
+    },
+    {
+      "file": "user_screenshot_3.png",
+      "sha256": "5c8c88f7cb2360ac098ef221a6496011e9e15b2cfd685095d3e924220601bf3b"
+    },
+    {
+      "file": "user_screenshot_4.png",
+      "sha256": "1dc2574bf42a46b87496f025cc9958dd4b258ad3d10ac3b8cb8093f5dbce5ddf"
+    }
+  ],
+  "synthetic_tests_passed": 7,
+  "synthetic_TSNE_inplace_square_confirmed": true,
+  "fit_reference_isolated": true,
+  "user_corrected_scientific_runs_pending": true,
+  "old_run_excluded_from_report_and_plots": true,
+  "txt_file": "问题2_基线输入隔离修正版_只重跑核心2至3.txt",
+  "txt_cells_compile": 2
+}

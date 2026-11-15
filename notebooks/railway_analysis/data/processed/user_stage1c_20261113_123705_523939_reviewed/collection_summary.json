@@ -1,0 +1,25 @@
+{
+  "dataset_id": "railway_20261118_direct_screen_v1",
+  "query_date": "2026-11-18",
+  "job_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_stage1c_20261113_123705_523939_reviewed",
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1c_20261113_123705_523939_reviewed",
+  "actor": "user",
+  "total_planned_queries": 995,
+  "completed_queries": 195,
+  "remaining_queries": 800,
+  "train_records": 5295,
+  "unavailable_timetable_records": 15,
+  "outside_candidate_record_count": 724,
+  "query_status_counts": {
+    "validated_records": 168,
+    "partial_timetable_unavailable": 13,
+    "no_direct_train_returned_not_unreachable": 13,
+    "partial_station_metadata_unresolved": 1,
+    "not_collected": 800
+  },
+  "matrix_ready": false,
+  "blocking_error": null,
+  "scope": "direct-service screening only; intermediate paths and complete station coverage still to be audited",
+  "unresolved_station_record_count": 2,
+  "recovery_policy": "unverified station records excluded and retained for review"
+}

@@ -1,0 +1,65 @@
+{
+  "query": {
+    "query_id": "N26_N20",
+    "date": "2026-11-18",
+    "from_node": "N26",
+    "to_node": "N20",
+    "from_city": "拉萨",
+    "to_city": "南宁",
+    "from_station": "拉萨",
+    "to_station": "南宁东",
+    "role": "core_direct_screen",
+    "from_code": "LSO",
+    "to_code": "NFZ"
+  },
+  "source": {
+    "source_id": "N26_N20",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-18",
+      "leftTicketDTO.from_station": "LSO",
+      "leftTicketDTO.to_station": "NFZ",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-13T13:36:45.413851+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-18&leftTicketDTO.from_station=LSO&leftTicketDTO.to_station=NFZ&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 05:36:48 GMT",
+    "raw_file": "data\\raw\\user_stage1c_v2_20261113_132207_325427\\sessions\\20261113_133036_268805\\N26_N20.bin",
+    "bytes": 113,
+    "sha256": "706b2fe6f03311df72565cd68ff814ca75a0262e4a3bfadfe775e1a3341400eb"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-13T13:30:39.261525+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 05:30:42 GMT",
+    "raw_file": "data\\raw\\user_stage1c_v2_20261113_132207_325427\\sessions\\20261113_133036_268805\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "parser_version": "stage1c-station-metadata-v2",
+  "quality": {
+    "status": "no_direct_train_returned_not_unreachable",
+    "raw_count": 0,
+    "valid_count": 0,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 0
+  },
+  "records": [],
+  "issues": []
+}

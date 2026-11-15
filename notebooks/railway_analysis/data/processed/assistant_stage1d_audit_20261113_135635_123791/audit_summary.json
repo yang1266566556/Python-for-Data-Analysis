@@ -1,0 +1,28 @@
+{
+  "actor": "assistant",
+  "audited_at": "2026-11-13T13:56:35.122772+08:00",
+  "source_run": "user_stage1c_v2_20261113_132207_325427",
+  "query_date": "2026-11-18",
+  "planned_queries": 995,
+  "verified_queries": 995,
+  "train_records": 22137,
+  "unknown_timetable_rows": 88,
+  "unresolved_station_rows": 10,
+  "raw_and_dictionary_files_hash_verified": 998,
+  "original_station_candidates": 83,
+  "observed_core_stations": 136,
+  "observed_stations_outside_draft": 55,
+  "collection_span_hours": 40.30128236833333,
+  "source_access_start": "2026-11-11T21:28:41.429542+08:00",
+  "source_access_end": "2026-11-13T13:46:46.046068+08:00",
+  "query_status_counts": {
+    "validated_records": 793,
+    "partial_timetable_unavailable": 63,
+    "no_direct_train_returned_not_unreachable": 134,
+    "partial_station_metadata_unresolved": 5
+  },
+  "passed": true,
+  "matrix_ready": false,
+  "limit": "Internal consistency audit; not proof of whole-city station coverage, complete timetables, connectivity or shortest travel",
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1d_audit_20261113_135635_123791"
+}

@@ -1,0 +1,22 @@
+{
+  "actor": "user",
+  "requested_date": "2026-11-18",
+  "planned_services": 3,
+  "completed_services": 3,
+  "candidate_services": 3,
+  "error": null,
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stop_table_probe_20261113_160214_460368",
+  "raw_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_stop_table_probe_20261113_160214_460368",
+  "matrix_fill_permitted": false,
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "note": "This is an explicit-date official source probe, not validated replacement data or permission to infer date offsets."
+}

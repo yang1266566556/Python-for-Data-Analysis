@@ -1,0 +1,59 @@
+{
+  "record": {
+    "run_id": "rail__access_60_n33__DBSCAN_348674a56dfd",
+    "representation_id": "rail__access_60_n33",
+    "dataset_id": "access_60_n33",
+    "family": "rail_time",
+    "algorithm": "DBSCAN",
+    "node_count": 33,
+    "representative": false,
+    "tags": "DBSCAN_epsilon",
+    "k": "",
+    "seed": "",
+    "eps": 0.20651162790697675,
+    "min_samples": 4,
+    "seconds": 0.0008205000012821984,
+    "objective": null,
+    "accepted_swaps": null,
+    "converged": true,
+    "stop_reason": "density expansion completed",
+    "n_clusters": 1,
+    "n_noise": 20,
+    "assigned_count": 13,
+    "assigned_fraction": 0.3939393939393939,
+    "smallest_cluster": 13,
+    "largest_cluster": 13,
+    "silhouette_input": null,
+    "silhouette_original_rail": null,
+    "calinski_harabasz": null,
+    "davies_bouldin": null,
+    "silhouette_status": "fewer than two non-noise clusters",
+    "euclidean_indices_status": "not applicable to original dissimilarity matrix"
+  },
+  "parameters": {
+    "eps": 0.20651162790697675,
+    "min_samples": 4
+  },
+  "details": {
+    "core_sample_indices": [
+      0,
+      1,
+      2,
+      9,
+      10,
+      11,
+      14,
+      15,
+      16
+    ],
+    "converged": true,
+    "stop_reason": "density expansion completed",
+    "iteration_count": null,
+    "metric": "precomputed",
+    "min_samples_includes_self": true
+  },
+  "warnings": [],
+  "labels_sha256": "35ffead698ddf0e918386223a7ef9812bfedd15977aa481e0c3125fb341089aa",
+  "representation_matrix_sha256": "76014495ad731d0d520df971c47ad59a7b055126918d6b7d810b779a1894cf37",
+  "metric_notes": "Scores exclude noise and report coverage. Original-rail silhouette uses same retained nodes. CH/DB only saved Euclidean embedding features; never distance-matrix rows."
+}

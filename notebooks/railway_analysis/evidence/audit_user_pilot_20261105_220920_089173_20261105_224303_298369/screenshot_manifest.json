@@ -1,0 +1,23 @@
+[
+  {
+    "label": "core1",
+    "source": "C:\\Users\\yang\\AppData\\Local\\Temp\\codex-clipboard-342d60ef-5611-49dd-b3ab-06f8002b12ad.png",
+    "saved_path": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\evidence\\audit_user_pilot_20261105_220920_089173_20261105_224303_298369\\core1_user_screenshot.png",
+    "sha256": "8379a70829501d44ec64ee6399de93c531c35155220d97181ab4b88a9ef2d125",
+    "provenance": "user supplied screenshot; unmodified copy"
+  },
+  {
+    "label": "core2",
+    "source": "C:\\Users\\yang\\AppData\\Local\\Temp\\codex-clipboard-fb549efc-bc70-4768-a996-0d73e49e7991.png",
+    "saved_path": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\evidence\\audit_user_pilot_20261105_220920_089173_20261105_224303_298369\\core2_user_screenshot.png",
+    "sha256": "e70dfbdc29b66ba246b97213e0833369d8106418cac7dfcca815e74d1226c46e",
+    "provenance": "user supplied screenshot; unmodified copy"
+  },
+  {
+    "label": "core3",
+    "source": "C:\\Users\\yang\\AppData\\Local\\Temp\\codex-clipboard-7bd79a3f-de67-43d0-ba65-905c386f8fb6.png",
+    "saved_path": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\evidence\\audit_user_pilot_20261105_220920_089173_20261105_224303_298369\\core3_user_screenshot.png",
+    "sha256": "d0baa984abbded3e2f9995ac2dd6d91fdf3ee568d661e5568feeb31adccd3105",
+    "provenance": "user supplied screenshot; unmodified copy"
+  }
+]

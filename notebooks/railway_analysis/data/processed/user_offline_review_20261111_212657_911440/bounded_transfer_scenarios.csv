@@ -1,0 +1,4 @@
+﻿threshold_min,known_candidate_count,known_subset_min_min,named_missing_rows_cannot_improve,minimum_missing_lower_bound_min,first_train,second_train,from_station,wait_min,departure_at,arrival_at,scope,actual_transfer_verified
+30,102,1971,True,4572.0,D1081,Z165,清河,52,2026-11-10T06:45:00+08:00,2026-11-11T15:36:00+08:00,only saved first legs and two distinct train services via Xining; not all-network optimality,False
+60,99,2075,True,4572.0,D1081,Y839,清河,134,2026-11-10T06:45:00+08:00,2026-11-11T17:20:00+08:00,only saved first legs and two distinct train services via Xining; not all-network optimality,False
+90,98,2075,True,4572.0,D1081,Y839,清河,134,2026-11-10T06:45:00+08:00,2026-11-11T17:20:00+08:00,only saved first legs and two distinct train services via Xining; not all-network optimality,False

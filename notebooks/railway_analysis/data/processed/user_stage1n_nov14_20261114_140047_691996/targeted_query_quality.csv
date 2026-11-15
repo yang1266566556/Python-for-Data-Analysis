@@ -1,0 +1,3 @@
+﻿query_id,date,from_city,to_city,from_station,to_station,status,raw_count,valid_count,unavailable_count,unresolved_station_count
+F01,2026-11-20,北京,广州,北京西,广州南,validated_records,21,21,0,0
+F02,2026-11-20,郑州,广州,郑州,广州南,partial_timetable_unavailable,61,60,1,0

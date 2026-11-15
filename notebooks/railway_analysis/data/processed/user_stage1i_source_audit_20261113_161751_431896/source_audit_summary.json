@@ -1,0 +1,14 @@
+{
+  "actor": "user",
+  "h_raw_replay_passed": true,
+  "combined_records": 26964,
+  "stop_requests_verified": 3,
+  "returned_stop_rows": 40,
+  "historical_clock_witnesses": 12,
+  "all_historical_clocks_match": true,
+  "original34_missing": 161,
+  "direct_fill_permitted": false,
+  "full34_algorithm_ready": false,
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1i_source_audit_20261113_161751_431896",
+  "note": "Older origin dates provide clock corroboration only, not evidence for Nov18 day offsets. No matrix was modified."
+}

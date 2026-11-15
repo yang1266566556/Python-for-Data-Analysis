@@ -1,0 +1,211 @@
+{
+  "record": {
+    "run_id": "tSNE__access_60_n33_tSNE_8ae5b74783a1__HAC_average_d5f590df13d2",
+    "representation_id": "tSNE__access_60_n33_tSNE_8ae5b74783a1",
+    "dataset_id": "access_60_n33",
+    "family": "tSNE",
+    "algorithm": "HAC_average",
+    "node_count": 33,
+    "representative": true,
+    "tags": "representative",
+    "k": 4,
+    "seed": "",
+    "eps": "",
+    "min_samples": "",
+    "seconds": 0.0005625000012514647,
+    "objective": null,
+    "accepted_swaps": null,
+    "converged": true,
+    "stop_reason": "hierarchy constructed; cut at requested cluster count",
+    "n_clusters": 4,
+    "n_noise": 0,
+    "assigned_count": 33,
+    "assigned_fraction": 1.0,
+    "smallest_cluster": 5,
+    "largest_cluster": 12,
+    "silhouette_input": 0.4884473769368902,
+    "silhouette_original_rail": 0.2099107993770102,
+    "calinski_harabasz": 62.39662762302381,
+    "davies_bouldin": 0.599367336774546,
+    "silhouette_status": "computed on non-noise points only",
+    "euclidean_indices_status": "computed on saved Euclidean embedding, non-noise points only"
+  },
+  "parameters": {
+    "k": 4
+  },
+  "details": {
+    "children": [
+      [
+        21,
+        22
+      ],
+      [
+        18,
+        31
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        40
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        13,
+        39
+      ],
+      [
+        14,
+        36
+      ],
+      [
+        24,
+        43
+      ],
+      [
+        32,
+        34
+      ],
+      [
+        15,
+        42
+      ],
+      [
+        37,
+        38
+      ],
+      [
+        26,
+        29
+      ],
+      [
+        30,
+        35
+      ],
+      [
+        20,
+        47
+      ],
+      [
+        25,
+        51
+      ],
+      [
+        4,
+        50
+      ],
+      [
+        12,
+        49
+      ],
+      [
+        33,
+        46
+      ],
+      [
+        45,
+        48
+      ],
+      [
+        53,
+        54
+      ],
+      [
+        44,
+        52
+      ],
+      [
+        41,
+        57
+      ],
+      [
+        56,
+        59
+      ],
+      [
+        58,
+        60
+      ],
+      [
+        55,
+        61
+      ],
+      [
+        62,
+        63
+      ]
+    ],
+    "merge_distances": [
+      0.1120077781709373,
+      0.1133049637331691,
+      0.1136402368921417,
+      0.1189343910471396,
+      0.1218223404535442,
+      0.1239340210926989,
+      0.1240648278511015,
+      0.1284900445974077,
+      0.1345290682237052,
+      0.1348085488326705,
+      0.1370144962801852,
+      0.15025047520112028,
+      0.15528806724966404,
+      0.1618262955081271,
+      0.16413090937070712,
+      0.17465364156983382,
+      0.1770788229594521,
+      0.1860312292546493,
+      0.19679988508478646,
+      0.23213989717794684,
+      0.2439044929120849,
+      0.26021631503863374,
+      0.2743577535473604,
+      0.27514925438258797,
+      0.2763660093385411,
+      0.3552174374492818,
+      0.4076119592646824,
+      0.48533620219312557,
+      0.603165905766765,
+      0.7202539099617922,
+      0.8040055144204734,
+      1.303669623540166
+    ],
+    "linkage": "average",
+    "metric": "precomputed",
+    "converged": true,
+    "stop_reason": "hierarchy constructed; cut at requested cluster count",
+    "iteration_count": null
+  },
+  "warnings": [],
+  "labels_sha256": "37b3971e8febf9adf4781174b41d6947f9e6b86dec5692b39a57f6d196ad7245",
+  "representation_matrix_sha256": "f166df05a925923ad50415aa56528c2f20d49247a81c6c27d50c1783a48b8201",
+  "metric_notes": "Scores exclude noise and report coverage. Original-rail silhouette uses same retained nodes. CH/DB only saved Euclidean embedding features; never distance-matrix rows."
+}

@@ -1,0 +1,38 @@
+{
+  "migration_actor": "assistant",
+  "source_job": "user_stage1c_20261113_123705_523939_reviewed",
+  "prepared_at": "2026-11-13T13:22:08.145276+08:00",
+  "completed_source_checkpoints": 674,
+  "saved_quarantined_queries_replayed": 1,
+  "migrated_checkpoints": 675,
+  "source_records_retained": true,
+  "original_blocked_file_preserved": true,
+  "changed_quality_records": [
+    {
+      "query_id": "N22_N24",
+      "old_quality": {
+        "status": "partial_parse_needs_review",
+        "raw_count": 118,
+        "valid_count": 115,
+        "rejected_count": 3,
+        "duplicate_count": 0,
+        "unavailable_count": 0
+      },
+      "reviewed_quality": {
+        "status": "partial_station_metadata_unresolved",
+        "raw_count": 118,
+        "valid_count": 115,
+        "rejected_count": 0,
+        "duplicate_count": 0,
+        "unavailable_count": 0,
+        "unresolved_station_count": 3
+      },
+      "valid_records_unchanged": true,
+      "source_checkpoint": "data\\raw\\user_stage1c_20261113_123705_523939_reviewed\\sessions\\20261113_123849_114378\\N22_N24_quarantined.json"
+    }
+  ],
+  "parser_version": "stage1c-station-metadata-v2",
+  "new_network_queries": 0,
+  "original_started_at": "2026-11-11T21:28:30.987887+08:00",
+  "job_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_stage1c_v2_20261113_132207_325427"
+}

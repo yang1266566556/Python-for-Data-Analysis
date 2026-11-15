@@ -1,0 +1,13 @@
+{
+  "verified_at": "2026-11-05T23:14:54.255602+08:00",
+  "actor": "assistant",
+  "mode": "offline_verification_not_user_experiment",
+  "parent_records_reconstructed_and_compared": 249,
+  "notebook_valid": true,
+  "notebook_unexecuted": true,
+  "original_executed_notebook_unchanged": true,
+  "synthetic_logic_tests_passed": 8,
+  "synthetic_fixture_notice": "Only test_transfer_logic.py contains synthetic TEST_* rows; they are not saved as research data",
+  "real_G671_Z323_pair_rejected": true,
+  "new_network_queries_executed": 0
+}

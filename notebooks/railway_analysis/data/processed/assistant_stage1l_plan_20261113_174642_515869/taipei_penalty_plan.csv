@@ -1,0 +1,4 @@
+﻿alpha,reference_max_core32_min,penalty_min,affected_directed_cells,actual_travel_time,apply_only_to_structural_mask
+2,4555.0,9110.0,66,False,True
+5,4555.0,22775.0,66,False,True
+10,4555.0,45550.0,66,False,True

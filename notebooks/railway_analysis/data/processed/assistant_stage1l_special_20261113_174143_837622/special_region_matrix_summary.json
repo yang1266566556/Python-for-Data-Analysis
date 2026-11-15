@@ -1,0 +1,99 @@
+{
+  "actor": "assistant",
+  "input": {
+    "offline_precheck": "base_only_no_access_queries_executed",
+    "new_source_records": 0
+  },
+  "protocol": {
+    "core_job": "user_stage1k_matrix_20261113_171823_241363",
+    "core32_csv_sha256": "fccec4e1f30616c15cd84867fb1be3005ede4f294554747d56275c0c85738fc7",
+    "source_registry_sha256": "553ded2c1f765dfd60623bb5c033b3b609ea4f755e47ca962845c4f71372a194",
+    "query_count": 5,
+    "rail_transfer_min": 60,
+    "access_minutes_scenarios": [
+      30,
+      60,
+      90
+    ],
+    "access_minutes_are_assumptions": true,
+    "macao_representative": "澳门（关闸澳门侧）",
+    "mainland_access_station": "珠海",
+    "connection_mode": "rail_plus_walking_and_border_clearance",
+    "port_open_local": "06:00",
+    "port_close_next_day_local": "01:00",
+    "taipei_rule": "structural rail disconnection per assignment, supported by official planning sources; not query failure",
+    "penalty_factors": [
+      2,
+      5,
+      10
+    ],
+    "penalty_reference": "maximum finite directed core32 timetable-model time",
+    "snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00"
+  },
+  "source_conflicts": 0,
+  "coverage": [
+    {
+      "access_min": 30,
+      "finite_connected33_pairs": 1018,
+      "missing_connected33_pairs": 38,
+      "structural_taipei_cells": 66,
+      "connected33_complete": false,
+      "access_is_observed": false
+    },
+    {
+      "access_min": 60,
+      "finite_connected33_pairs": 1018,
+      "missing_connected33_pairs": 38,
+      "structural_taipei_cells": 66,
+      "connected33_complete": false,
+      "access_is_observed": false
+    },
+    {
+      "access_min": 90,
+      "finite_connected33_pairs": 1018,
+      "missing_connected33_pairs": 38,
+      "structural_taipei_cells": 66,
+      "connected33_complete": false,
+      "access_is_observed": false
+    }
+  ],
+  "baseline_access_minutes": 60,
+  "full34_algorithm_ready": false,
+  "penalty_factors": [
+    2,
+    5,
+    10
+  ],
+  "structural_taipei_cells": 66,
+  "ordinary_missing_never_penalized": true,
+  "access_time_is_assumed_not_measured": true,
+  "macau_gateway_is_not_macau_node": true,
+  "port_hours_checked": true,
+  "penalty_reference_max_core32_min": 4555.0,
+  "generated_full34_matrices": 0,
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "source_registry_sha256": "553ded2c1f765dfd60623bb5c033b3b609ea4f755e47ca962845c4f71372a194",
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1l_special_20261113_174143_837622",
+  "analysis_code_sha256": {
+    "stage1l_matrix.py": "1c5276b826936ae905fc5a8052bc49edf7a34155e4c611926bdde63bb258bbc5",
+    "stage1l_access.py": "128e6d77fd0360d9d0790fa8e5681d32e038fe3112fc24a907195b30327851f7",
+    "stage1d_routes.py": "dca29e5c746b71ceee053c04808801b62ca6e3e02cd6ae90da1fb0801f01361f"
+  },
+  "limitations": [
+    "Macao endpoint is Macau-side Border Gate, rail gateway is separate Zhuhai station; not whole-city door-to-door time",
+    "Access 30/60/90 minutes are sensitivity assumptions, not measured clearance times; full interval conservatively respects 06:00..01:00",
+    "Only Taipei structural mask receives finite algorithm penalties; all ordinary missing values remain missing",
+    "Scope minimum only in observed dated services, actual stations and window; no global optimum or ticket guarantee",
+    "Taipei disconnection follows assignment rule with current official planning corroboration; no invented railway timetable",
+    "No embedding/clustering or document generation was run; geographic coordinate provenance still pending"
+  ]
+}

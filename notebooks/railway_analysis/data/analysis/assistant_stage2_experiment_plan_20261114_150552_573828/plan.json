@@ -1,0 +1,1819 @@
+{
+  "protocol": {
+    "input_manifest_sha256": "c125fac7ed12353038c607f0697f60c4df75f3c6e1a0d20857f906059e924928",
+    "baseline_protocol_sha256": "e2b6ae93ad10683cc5ea5a5ffbdf150fd5af2e5cdf5522facde5842f0c1c783f",
+    "baseline_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_baseline_20261114_145338_648190",
+    "code_hashes": {
+      "stage2_experiments.py": "c34d7db1ce940387eb0ed820c156b9c59fe0b643866deba468153db1a0f10cbf",
+      "stage2_baseline.py": "bb5253f039183ae3e36a5157396acd1d4ee6c7d389da59372f2512f57996e2a8",
+      "stage2_inputs.py": "b83942df67565d17f736c693658468f680ddf754beeac3255e8aa4e2a06c314a"
+    },
+    "seeds": [
+      0,
+      42,
+      2026
+    ],
+    "fit_input_policy": "independent writable fit copy; read-only reference",
+    "common_scale_minutes": 537.5,
+    "quality_reference": "same frozen symmetric D for all methods; D/common_scale",
+    "comparison_policy": "OFAT with baseline held fixed; two selected TSNE/UMAP combinations; fixed representative three-seed groups; all 9 full34 + 3 no-Taipei33 scenarios"
+  },
+  "specs": [
+    {
+      "run_id": "access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "MDS_metric",
+        "MDS_n_init",
+        "representative_seeds",
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_MDS_09bf7004153d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": false,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "MDS_metric",
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_MDS_fd35c8a0c498",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 1,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "MDS_n_init"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_MDS_99a961db6edd",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 8,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "MDS_n_init"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_tSNE_8ae5b74783a1",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 5.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_perplexity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "representative_seeds",
+        "special_region_sensitivity",
+        "tSNE_iterations",
+        "tSNE_perplexity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_tSNE_2f18e135ce1e",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 20.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_perplexity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_tSNE_e8561958ca16",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 500,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_iterations"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_tSNE_d4f77ee1ce25",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 2000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_iterations"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_tSNE_b90cf28c5aa8",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 5.0,
+        "max_iter": 500,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_selected_combinations"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_tSNE_f9b0fd96a187",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 20.0,
+        "max_iter": 2000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_selected_combinations"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_UMAP_68db5e750e3b",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 5,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_neighbors"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_min_dist",
+        "UMAP_neighbors",
+        "representative_seeds",
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_UMAP_9a3b28fd0582",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 20,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_neighbors"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_UMAP_a4e39586d246",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.0,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_min_dist"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_UMAP_4601b2c8a328",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.5,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_min_dist"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_UMAP_ac4e387aab0b",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 5,
+        "min_dist": 0.0,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_selected_combinations"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_UMAP_d4bd445cacc0",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 20,
+        "min_dist": 0.5,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_selected_combinations"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_MDS_1c37e0fd6584",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "MDS",
+      "seed": 0,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 0,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_tSNE_479e8270a92d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 0,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 0,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 0,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 0,
+        "transform_seed": 0,
+        "n_jobs": 1
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_MDS_ae83e34f8638",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "MDS",
+      "seed": 0,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 0,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": false,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_MDS_0f38bd071946",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "MDS",
+      "seed": 2026,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 2026,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_tSNE_dabef103507c",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 2026,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 2026,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_UMAP_c24b37353fbb",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 2026,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 2026,
+        "transform_seed": 2026,
+        "n_jobs": 1
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_5_n34_MDS_b7863d9c94bc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "MDS",
+      "seed": 2026,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 2026,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": false,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "MDS_metric",
+        "MDS_n_init",
+        "representative_seeds",
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_MDS_09bf7004153d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": false,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "MDS_metric",
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_MDS_fd35c8a0c498",
+      "dataset_id": "access_60_n33",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 1,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "MDS_n_init"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_MDS_99a961db6edd",
+      "dataset_id": "access_60_n33",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 8,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "MDS_n_init"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_tSNE_8ae5b74783a1",
+      "dataset_id": "access_60_n33",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 5.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_perplexity"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "representative_seeds",
+        "special_region_sensitivity",
+        "tSNE_iterations",
+        "tSNE_perplexity"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_tSNE_2f18e135ce1e",
+      "dataset_id": "access_60_n33",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 20.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_perplexity"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_tSNE_e8561958ca16",
+      "dataset_id": "access_60_n33",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 500,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_iterations"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_tSNE_d4f77ee1ce25",
+      "dataset_id": "access_60_n33",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 2000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_iterations"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_tSNE_b90cf28c5aa8",
+      "dataset_id": "access_60_n33",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 5.0,
+        "max_iter": 500,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_selected_combinations"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_tSNE_f9b0fd96a187",
+      "dataset_id": "access_60_n33",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 20.0,
+        "max_iter": 2000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "tSNE_selected_combinations"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_UMAP_68db5e750e3b",
+      "dataset_id": "access_60_n33",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 5,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_neighbors"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_min_dist",
+        "UMAP_neighbors",
+        "representative_seeds",
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_UMAP_9a3b28fd0582",
+      "dataset_id": "access_60_n33",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 20,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_neighbors"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_UMAP_a4e39586d246",
+      "dataset_id": "access_60_n33",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.0,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_min_dist"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_UMAP_4601b2c8a328",
+      "dataset_id": "access_60_n33",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.5,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_min_dist"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_UMAP_ac4e387aab0b",
+      "dataset_id": "access_60_n33",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 5,
+        "min_dist": 0.0,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_selected_combinations"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_UMAP_d4bd445cacc0",
+      "dataset_id": "access_60_n33",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 20,
+        "min_dist": 0.5,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "UMAP_selected_combinations"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_MDS_1c37e0fd6584",
+      "dataset_id": "access_60_n33",
+      "algorithm": "MDS",
+      "seed": 0,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 0,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_tSNE_479e8270a92d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "tSNE",
+      "seed": 0,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 0,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_UMAP_bcd7ddbd4f4f",
+      "dataset_id": "access_60_n33",
+      "algorithm": "UMAP",
+      "seed": 0,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 0,
+        "transform_seed": 0,
+        "n_jobs": 1
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_MDS_ae83e34f8638",
+      "dataset_id": "access_60_n33",
+      "algorithm": "MDS",
+      "seed": 0,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 0,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": false,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_MDS_0f38bd071946",
+      "dataset_id": "access_60_n33",
+      "algorithm": "MDS",
+      "seed": 2026,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 2026,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_tSNE_dabef103507c",
+      "dataset_id": "access_60_n33",
+      "algorithm": "tSNE",
+      "seed": 2026,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 2026,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_UMAP_c24b37353fbb",
+      "dataset_id": "access_60_n33",
+      "algorithm": "UMAP",
+      "seed": 2026,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 2026,
+        "transform_seed": 2026,
+        "n_jobs": 1
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_60_n33_MDS_b7863d9c94bc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "MDS",
+      "seed": 2026,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 2026,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": false,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "representative_seeds"
+      ]
+    },
+    {
+      "run_id": "access_30_alpha_2_n34_MDS_b29431b34efc",
+      "dataset_id": "access_30_alpha_2_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_alpha_2_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_30_alpha_2_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_alpha_2_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_30_alpha_2_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_30_alpha_5_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_30_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_30_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_alpha_10_n34_MDS_b29431b34efc",
+      "dataset_id": "access_30_alpha_10_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_alpha_10_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_30_alpha_10_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_alpha_10_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_30_alpha_10_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_2_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_2_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_2_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_2_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_2_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_2_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_10_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_10_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_10_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_10_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_60_alpha_10_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_10_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_alpha_2_n34_MDS_b29431b34efc",
+      "dataset_id": "access_90_alpha_2_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_alpha_2_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_90_alpha_2_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_alpha_2_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_90_alpha_2_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_90_alpha_5_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_90_alpha_5_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_90_alpha_5_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_alpha_10_n34_MDS_b29431b34efc",
+      "dataset_id": "access_90_alpha_10_n34",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_alpha_10_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_90_alpha_10_n34",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_alpha_10_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_90_alpha_10_n34",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 34,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_n33_MDS_b29431b34efc",
+      "dataset_id": "access_30_n33",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_30_n33",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_30_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_30_n33",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_n33_MDS_b29431b34efc",
+      "dataset_id": "access_90_n33",
+      "algorithm": "MDS",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_init": 4,
+        "max_iter": 1000,
+        "eps": 1e-06,
+        "random_state": 42,
+        "n_jobs": 1,
+        "normalized_stress": true,
+        "metric_mds": true,
+        "metric": "precomputed",
+        "init": "random"
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_90_n33",
+      "algorithm": "tSNE",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "perplexity": 10.0,
+        "max_iter": 1000,
+        "init": "random",
+        "metric": "precomputed",
+        "random_state": 42,
+        "learning_rate": "auto",
+        "early_exaggeration": 12.0,
+        "method": "exact",
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    },
+    {
+      "run_id": "access_90_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_90_n33",
+      "algorithm": "UMAP",
+      "seed": 42,
+      "node_count": 33,
+      "parameters": {
+        "n_components": 2,
+        "n_neighbors": 10,
+        "min_dist": 0.1,
+        "n_epochs": 500,
+        "metric": "precomputed",
+        "init": "random",
+        "random_state": 42,
+        "transform_seed": 42,
+        "n_jobs": 1
+      },
+      "tags": [
+        "special_region_sensitivity"
+      ]
+    }
+  ]
+}

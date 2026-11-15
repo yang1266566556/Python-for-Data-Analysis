@@ -1,0 +1,93 @@
+{
+  "query": {
+    "query_id": "N07_N22",
+    "date": "2026-11-18",
+    "from_node": "N07",
+    "to_node": "N22",
+    "from_city": "长春",
+    "to_city": "重庆",
+    "from_station": "长春",
+    "to_station": "重庆北",
+    "role": "core_direct_screen",
+    "from_code": "CCT",
+    "to_code": "CUW"
+  },
+  "source": {
+    "source_id": "N07_N22",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-18",
+      "leftTicketDTO.from_station": "CCT",
+      "leftTicketDTO.to_station": "CUW",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-13T12:39:40.561046+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-18&leftTicketDTO.from_station=CCT&leftTicketDTO.to_station=CUW&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 04:39:44 GMT",
+    "raw_file": "data\\raw\\user_stage1c_20261113_123705_523939_reviewed\\sessions\\20261113_123849_114378\\N07_N22.bin",
+    "bytes": 896,
+    "sha256": "fdd64752157d7921de6974fd0ce11e18e3a0eab5d3ee03f79b008715d3ac2700"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-13T12:38:52.548831+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 04:38:56 GMT",
+    "raw_file": "data\\raw\\user_stage1c_20261113_123705_523939_reviewed\\sessions\\20261113_123849_114378\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "quality": {
+    "status": "validated_records",
+    "raw_count": 1,
+    "valid_count": 1,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 0
+  },
+  "records": [
+    {
+      "query_id": "N07_N22",
+      "query_date": "2026-11-18",
+      "train_no": "0h000K10620L",
+      "train_code": "K1062",
+      "origin_service_date": "2026-11-18",
+      "requested_from": "长春",
+      "requested_to": "重庆北",
+      "from_code": "CCT",
+      "to_code": "CUW",
+      "from_name": "长春",
+      "to_name": "重庆北",
+      "same_as_requested_stations": true,
+      "from_dictionary_city": "长春",
+      "to_dictionary_city": "重庆",
+      "departure_clock": "18:00",
+      "arrival_clock": "14:35",
+      "duration_text": "44:35",
+      "duration_min": 2675,
+      "departure_at": "2026-11-18T18:00:00+08:00",
+      "arrival_at": "2026-11-20T14:35:00+08:00",
+      "arrival_day_offset": 2,
+      "can_web_buy": "Y",
+      "raw_row_index": 0,
+      "raw_file": "data\\raw\\user_stage1c_20261113_123705_523939_reviewed\\sessions\\20261113_123849_114378\\N07_N22.bin",
+      "raw_sha256": "fdd64752157d7921de6974fd0ce11e18e3a0eab5d3ee03f79b008715d3ac2700",
+      "measurement_kind": "queried_train_schedule_not_measured_actual_travel"
+    }
+  ],
+  "issues": []
+}

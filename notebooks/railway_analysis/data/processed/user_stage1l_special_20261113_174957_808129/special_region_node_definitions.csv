@@ -1,0 +1,3 @@
+﻿node_id,representative_city,representative_point,mainland_rail_gateway,connection_mode,observed_total_access_time,treatment
+N33,澳门,澳门关闸澳门侧,珠海站,铁路+步行及通关,False,30/60/90分钟接驳假设；口岸开放06:00至次日01:00
+N34,台北,台北,无直通大陆铁路物理连接,结构不可达,False,原始Inf与66格掩码；算法副本P=alpha*Tmax，alpha=2/5/10

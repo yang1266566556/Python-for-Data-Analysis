@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-11-14T14:23:34.324958+08:00",
+  "txt": "D:\\yangz\\\u5927\u4e09\u4e0a\\\u673a\u5668\u5b66\u4e60\\\u7b2c\u4e8c\u6b21\u4f5c\u4e1a\\railway_analysis\\\u95ee\u98982_\u73af\u5883\u51c6\u5907\u4e0e\u4e09\u7b97\u6cd5\u57fa\u7ebf_\u6838\u5fc31\u81f33.txt",
+  "txt_sha256": "0c5d58e70418e718301faefb753c55bde601dca166bd6dd0acbdb2f53214894a",
+  "python_cells_compile": 4,
+  "helper_ast_passed": true,
+  "synthetic_contract_tests_passed": 5,
+  "umap_runtime_tested": false,
+  "user_scientific_baselines_executed": false,
+  "final_source_replay_passed": true,
+  "final_route_conservation_passed": 3168,
+  "r_visual_qa_passed": true,
+  "helpers": {
+    "stage2_environment.py": "2beec4477d953447b060afd8c3fc744990d7195c6516f1b47ac41da67f5efc5e",
+    "stage2_inputs.py": "b83942df67565d17f736c693658468f680ddf754beeac3255e8aa4e2a06c314a",
+    "stage2_baseline.py": "56dfb31b6a2e81d018f877daaa52fba17b3c358ff3520177e24c730f16ca7915"
+  }
+}

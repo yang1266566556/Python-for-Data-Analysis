@@ -1,0 +1,2 @@
+﻿scenario,from_node,from_city,to_node,to_city,time_min,running_min,wait_min,transfers,first_departure,final_arrival,status
+observed_group_60,N21,海口,N26,拉萨,4041,3880,161,1,2026-11-18T20:15:00+08:00,2026-11-21T15:36:00+08:00,minimum_in_observed_timetable_model

@@ -1,0 +1,16 @@
+{
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\assistant_stage3_cluster_plan_20261114_170749_294522",
+  "representations": 34,
+  "main_parameter_representations": 8,
+  "unique_cluster_runs": 198,
+  "algorithm_counts": {
+    "HAC_average": 50,
+    "PAM": 66,
+    "DBSCAN": 82
+  },
+  "representative_partitions": 102,
+  "data_only_preparation": true,
+  "course_clustering_executed": false,
+  "actor": "assistant",
+  "plan_sha256": "5dc75746c709d0caabc9997e34ed7eb82e93f2b30a42b773e1877562fbf94120"
+}

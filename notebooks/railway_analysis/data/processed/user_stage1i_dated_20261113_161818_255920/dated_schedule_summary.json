@@ -1,0 +1,23 @@
+{
+  "actor": "user",
+  "requested_services": 3,
+  "validated_services": 3,
+  "all_three_dated_tables_validated": true,
+  "matrix_fill_permitted": false,
+  "matrices_modified": false,
+  "ticket_availability_verified": false,
+  "error": null,
+  "raw_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_stage1i_dated_20261113_161818_255920",
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1i_dated_20261113_161818_255920",
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "note": "Only explicit source cumulative duration or source day label is accepted. No minimum clock rollover or copying older services. Review before matrix update."
+}

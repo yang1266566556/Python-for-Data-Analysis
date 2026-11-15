@@ -1,0 +1,19 @@
+{
+  "user_choice": "另存今日补充版本（推荐）",
+  "original_48hour_deadline_preserved": true,
+  "approved_supplement_date": "2026-11-14",
+  "approved_deadline_exclusive": "2026-11-15T00:00:00+08:00",
+  "queries": [
+    "2026-11-20 北京西→广州南",
+    "2026-11-20 郑州→广州南"
+  ],
+  "standalone_core34_imports_passed": true,
+  "standalone_core35_empty_status_passed": true,
+  "unit_checks_passed": 5,
+  "user_only_collection_guard_passed": true,
+  "new_txt_syntax_passed": true,
+  "assistant_new_network_requests": 0,
+  "new_branch_not_started_by_assistant": true,
+  "old_source_files_and_deadlines_unchanged": true,
+  "docx_created": false
+}

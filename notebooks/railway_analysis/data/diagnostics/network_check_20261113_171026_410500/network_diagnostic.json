@@ -1,0 +1,49 @@
+{
+  "actor": "user",
+  "started_at": "2026-11-13T17:10:26.413142+08:00",
+  "interpreter": "D:\\anaconda\\envs\\pda312\\python.exe",
+  "requests_version": "2.34.2",
+  "openssl_version": "OpenSSL 3.5.7 9 Jun 2026",
+  "effective_requests_proxy": {},
+  "os_proxy_configured_protocols": [],
+  "custom_ca_environment_present": {
+    "REQUESTS_CA_BUNDLE": false,
+    "CURL_CA_BUNDLE": false
+  },
+  "automatic_http_retry": false,
+  "train_query_requests": 0,
+  "research_data_modified": false,
+  "checks": [
+    {
+      "stage": "DNS",
+      "outcome": "ok",
+      "detail": "返回4个地址；类型['IPv4', 'IPv6']（未输出地址）",
+      "seconds": 0.06
+    },
+    {
+      "stage": "TCP:443",
+      "outcome": "ok",
+      "detail": "首个DNS地址连接成功；单地址结果不代表所有CDN节点",
+      "seconds": 0.02
+    },
+    {
+      "stage": "TLS",
+      "outcome": "ok",
+      "detail": "握手及系统默认CA证书验证通过；TLSv1.2",
+      "seconds": 1.44
+    },
+    {
+      "stage": "GET_kyfw",
+      "outcome": "http_response",
+      "detail": "HTTP 200；收到响应头；不跟随重定向、不访问列车接口",
+      "seconds": 1.89
+    },
+    {
+      "stage": "GET_www",
+      "outcome": "http_response",
+      "detail": "HTTP 302；收到响应头；不跟随重定向、不访问列车接口",
+      "seconds": 1.78
+    }
+  ],
+  "finished_at": "2026-11-13T17:10:31.603664+08:00"
+}

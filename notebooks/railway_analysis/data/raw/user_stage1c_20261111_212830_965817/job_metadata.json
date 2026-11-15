@@ -1,0 +1,20 @@
+{
+  "actor": "user",
+  "started_at": "2026-11-11T21:28:30.987887+08:00",
+  "code_hashes": {
+    "stage1c_collect.py": "d6c75aebceb2aab06ce871d0a5dcd4bead4f1fa7a0b8ef851faf91689edd3f52",
+    "stage1_collect.py": "863bc7570084920dbe36f483a48436a1d474bfc9bafcfffca3234228a2cf37fb",
+    "stage1b_transfer.py": "94e164f6d01f8e4a160da6ab9633c4254c2e95f19813936ef8fbbed9b38db0c7"
+  },
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "source_note": "website interface; no claim of open-data API permission or exhaustive city station results"
+}

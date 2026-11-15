@@ -1,0 +1,64 @@
+{
+  "query": {
+    "query_id": "N21_N15",
+    "date": "2026-11-18",
+    "from_node": "N21",
+    "to_node": "N15",
+    "from_city": "海口",
+    "to_city": "济南",
+    "from_station": "海口",
+    "to_station": "济南西",
+    "role": "core_direct_screen",
+    "from_code": "VUQ",
+    "to_code": "JGK"
+  },
+  "source": {
+    "source_id": "N21_N15",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-18",
+      "leftTicketDTO.from_station": "VUQ",
+      "leftTicketDTO.to_station": "JGK",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-13T13:00:58.806247+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-18&leftTicketDTO.from_station=VUQ&leftTicketDTO.to_station=JGK&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 05:01:02 GMT",
+    "raw_file": "data\\raw\\user_stage1c_20261113_123705_523939_reviewed\\sessions\\20261113_123849_114378\\N21_N15.bin",
+    "bytes": 113,
+    "sha256": "706b2fe6f03311df72565cd68ff814ca75a0262e4a3bfadfe775e1a3341400eb"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-13T12:38:52.548831+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 04:38:56 GMT",
+    "raw_file": "data\\raw\\user_stage1c_20261113_123705_523939_reviewed\\sessions\\20261113_123849_114378\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "quality": {
+    "status": "no_direct_train_returned_not_unreachable",
+    "raw_count": 0,
+    "valid_count": 0,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 0
+  },
+  "records": [],
+  "issues": []
+}

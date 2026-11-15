@@ -1,0 +1,5 @@
+﻿scenario,before_finite,after_finite,currently_missing,newly_found,shorter,unchanged,longer,lost,origins_without_known_first_departure
+draft83_60,933,959,33,26,36,897,0,0,拉萨
+observed_group_30,936,960,32,24,29,907,0,0,拉萨
+observed_group_60,934,960,32,26,36,898,0,0,拉萨
+observed_group_90,932,959,33,27,42,890,0,0,拉萨

@@ -1,0 +1,44 @@
+{
+  "latest_user_instruction": "这个应该都好了吧，在构建文件的时候补数据断网检查可以不用说明只用呈现最终数据就好",
+  "original_requirements": "evidence/user_request_original.txt",
+  "report_preference": "docs/report_scope_preference.md",
+  "user_role": "运行标明核心代码的Python TXT并回传真实结果截图",
+  "assistant_role": "核验来源与实际结果；按指定R skill绘图；全部材料确认后制作并排版DOCX",
+  "exclude_from_report": [
+    "逐轮补采经过",
+    "断网检查",
+    "网络诊断",
+    "报错及重试过程",
+    "辅助排障截图"
+  ],
+  "include_final": [
+    "最终采用数据和来源",
+    "节点/车站与时间口径",
+    "最终质量统计",
+    "必要核心代码及实际输出",
+    "正式图表和分析"
+  ],
+  "core32_60min_complete": true,
+  "core32_finite_pairs": 992,
+  "full34_algorithm_ready": true,
+  "outstanding": [
+    "问题2实际基线运行、参数和多种子稳定性",
+    "澳门接驳与台北惩罚对分析结果的敏感性比较",
+    "节点坐标及最终地理来源与对照",
+    "问题3聚类"
+  ],
+  "docx_gate": "用户明确确认全部材料已发送、数据与分析核验完成后再构建",
+  "docx_started": false,
+  "connected33_finite_directed_pairs": 1056,
+  "ready_full34_variants": 9,
+  "final_data_job": "user_stage1n_special_20261114_140146_715895",
+  "final_source_and_derived_rows": 28323,
+  "umap_user_install_authorized": true,
+  "assistant_installed_umap": false,
+  "assistant_ran_course_embeddings": false,
+  "problem2_next_txt": "问题2_基线输入隔离修正版_只重跑核心2至3.txt",
+  "umap_user_installed_version": "0.6.0",
+  "baseline_original_complete_but_input_isolation_invalid": true,
+  "baseline_corrected_user_runs_pending": true,
+  "baseline_invalidated_output": "data/analysis/user_stage2_baseline_20261114_144817_468695"
+}

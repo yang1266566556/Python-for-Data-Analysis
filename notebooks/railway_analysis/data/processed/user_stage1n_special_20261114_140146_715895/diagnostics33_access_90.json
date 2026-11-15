@@ -1,0 +1,16 @@
+{
+  "node_count": 33,
+  "finite": true,
+  "nonnegative": true,
+  "zero_diagonal": true,
+  "symmetric_after_mean": true,
+  "direction_difference_median_min": 12.0,
+  "direction_difference_max_min": 2457.0,
+  "direction_pairs_differing": 489,
+  "unordered_direction_pairs": 528,
+  "triangle_inequality_violations_ordered_triples": 5290,
+  "gram_negative_eigenvalues": 16,
+  "gram_min_eigenvalue": -7115540.226434739,
+  "gram_negative_tolerance": 0.14261921672643035,
+  "note": "Triangle and Gram tests are input diagnostics; no embedding or clustering was run. Symmetric averaging means average of observed directional costs."
+}

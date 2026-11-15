@@ -1,0 +1,22 @@
+{
+  "user_approved": true,
+  "package": "umap-learn",
+  "dependency_install_expected": true,
+  "command": [
+    "D:\\anaconda\\envs\\pda312\\python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--disable-pip-version-check",
+    "--constraint",
+    "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\environment\\user_umap_install_20261114_143117_069457\\existing_versions_constraints.txt",
+    "umap-learn"
+  ],
+  "pinned_existing_versions": {
+    "numpy": "2.5.0",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "pandas": "3.0.3",
+    "matplotlib": "3.11.0"
+  }
+}

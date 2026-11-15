@@ -1,0 +1,41 @@
+{
+  "metrics": {
+    "run_id": "access_60_alpha_5_n34_UMAP_seed42",
+    "dataset_id": "access_60_alpha_5_n34",
+    "algorithm": "UMAP",
+    "node_count": 34,
+    "seed": 42,
+    "seconds": 0.028720899999825633,
+    "native_loss": "",
+    "native_loss_definition": "not_exposed",
+    "native_n_iter_attribute": "",
+    "convergence_trace_available": false,
+    "external_scale_fitted_stress1": 0.926993095814947,
+    "distance_spearman": 0.5810885336572373,
+    "neighbor_overlap_k5": 0.7176470588235295,
+    "trustworthiness_k5": 0.8708144796380091,
+    "network_only_external_scale_fitted_stress1": 0.6311633481996244,
+    "network_only_distance_spearman": 0.6353048566593401,
+    "network_only_neighbor_overlap_k5": 0.7333333333333334,
+    "network_only_trustworthiness_k5": 0.8858181818181818
+  },
+  "parameters": {
+    "n_components": 2,
+    "n_neighbors": 10,
+    "min_dist": 0.1,
+    "n_epochs": 500,
+    "metric": "precomputed",
+    "init": "random",
+    "random_state": 42,
+    "transform_seed": 42,
+    "n_jobs": 1
+  },
+  "warnings": [
+    "compatibility_layout was not set, so UMAP is using the legacy (0.5.x) nearest-neighbor, initialization and layout pipeline. In a future release the default will change to compatibility_layout=False, which uses recursive initialization and the Adam optimizer and produces different embeddings. Set compatibility_layout=True to keep the current behavior and silence this warning, or compatibility_layout=False (or optimizer='adam') to adopt the new behavior now.",
+    "using precomputed metric; inverse_transform will be unavailable"
+  ],
+  "coordinates_sha256": "fc8e6b904d609cfd2f602df316a99d0016339cf534776ada8e6b9e19a9a4a072",
+  "fit_input_policy": "independent writable copy per estimator; metrics use immutable reference",
+  "reference_unmodified": true,
+  "note": "External stress fits one isotropic distance scale. Native losses are not comparable across algorithms. Stable node-order tie rule for neighbor overlap; Taipei equal-penalty ties limit interpretation. No convergence curve is fabricated."
+}

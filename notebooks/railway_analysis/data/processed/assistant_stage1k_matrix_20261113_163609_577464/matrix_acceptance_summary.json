@@ -1,0 +1,67 @@
+{
+  "actor": "assistant",
+  "input": {
+    "test_mode": "unchanged_real_J_baseline_no_six_query_results",
+    "all_six_requests_returned": false
+  },
+  "source_conflicts": 0,
+  "scenarios": [
+    {
+      "scenario": "draft83_60",
+      "before_finite": 986,
+      "after_finite": 986,
+      "missing": 6,
+      "newly_found": 0,
+      "shorter": 0
+    },
+    {
+      "scenario": "observed_group_30",
+      "before_finite": 987,
+      "after_finite": 987,
+      "missing": 5,
+      "newly_found": 0,
+      "shorter": 0
+    },
+    {
+      "scenario": "observed_group_60",
+      "before_finite": 987,
+      "after_finite": 987,
+      "missing": 5,
+      "newly_found": 0,
+      "shorter": 0
+    },
+    {
+      "scenario": "observed_group_90",
+      "before_finite": 985,
+      "after_finite": 985,
+      "missing": 7,
+      "newly_found": 0,
+      "shorter": 0
+    }
+  ],
+  "core32_complete": false,
+  "core32_algorithm_input_ready": false,
+  "full34_algorithm_ready": false,
+  "raw34_missing": 135,
+  "threshold_monotonicity_passed": true,
+  "penalties_applied": false,
+  "imputation_applied": false,
+  "new_network_requests_in_analysis": 0,
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "scripts_sha256": {
+    "stage1k_matrix.py": "d9d1daeb248fb8eb8e59730aaabf435938c4d06ce2b3035ffc3a61fd74cd34e6",
+    "stage1k_residual.py": "2010321c590c1e33a5a153880ed7a01ad2392dc045fca02fe73d7f98366c906d",
+    "stage1d_routes.py": "dca29e5c746b71ceee053c04808801b62ca6e3e02cd6ae90da1fb0801f01361f"
+  },
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1k_matrix_20261113_163609_577464",
+  "note": "A complete observed core32 matrix does not establish global timetable completeness or replace the full34 Macau/Taipei analysis. All missing and special-region states remain explicit."
+}

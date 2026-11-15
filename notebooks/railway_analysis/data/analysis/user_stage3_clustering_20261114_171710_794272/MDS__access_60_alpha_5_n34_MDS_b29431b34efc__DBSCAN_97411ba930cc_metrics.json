@@ -1,0 +1,59 @@
+{
+  "record": {
+    "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__DBSCAN_97411ba930cc",
+    "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+    "dataset_id": "access_60_alpha_5_n34",
+    "family": "MDS",
+    "algorithm": "DBSCAN",
+    "node_count": 34,
+    "representative": false,
+    "tags": "DBSCAN_epsilon",
+    "k": "",
+    "seed": "",
+    "eps": 0.25782809945490515,
+    "min_samples": 4,
+    "seconds": 0.0009417000001121778,
+    "objective": null,
+    "accepted_swaps": null,
+    "converged": true,
+    "stop_reason": "density expansion completed",
+    "n_clusters": 1,
+    "n_noise": 20,
+    "assigned_count": 14,
+    "assigned_fraction": 0.4117647058823529,
+    "smallest_cluster": 14,
+    "largest_cluster": 14,
+    "silhouette_input": null,
+    "silhouette_original_rail": null,
+    "calinski_harabasz": null,
+    "davies_bouldin": null,
+    "silhouette_status": "fewer than two non-noise clusters",
+    "euclidean_indices_status": "not computed: fewer than two non-noise clusters"
+  },
+  "parameters": {
+    "eps": 0.25782809945490515,
+    "min_samples": 4
+  },
+  "details": {
+    "core_sample_indices": [
+      0,
+      2,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      16
+    ],
+    "converged": true,
+    "stop_reason": "density expansion completed",
+    "iteration_count": null,
+    "metric": "precomputed",
+    "min_samples_includes_self": true
+  },
+  "warnings": [],
+  "labels_sha256": "121c44ab79d29528781e77a13266e1d446fcde50c9bfc07b36e5340599396844",
+  "representation_matrix_sha256": "ac388a075a578b8b4fc9fa256bb921fa7a871bb81179720c6ca2333e86784e98",
+  "metric_notes": "Scores exclude noise and report coverage. Original-rail silhouette uses same retained nodes. CH/DB only saved Euclidean embedding features; never distance-matrix rows."
+}

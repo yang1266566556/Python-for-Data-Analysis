@@ -1,0 +1,93 @@
+{
+  "query": {
+    "query_id": "N20_N06",
+    "date": "2026-11-18",
+    "from_node": "N20",
+    "to_node": "N06",
+    "from_city": "南宁",
+    "to_city": "沈阳",
+    "from_station": "南宁东",
+    "to_station": "沈阳北",
+    "role": "core_direct_screen",
+    "from_code": "NFZ",
+    "to_code": "SBT"
+  },
+  "source": {
+    "source_id": "N20_N06",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-18",
+      "leftTicketDTO.from_station": "NFZ",
+      "leftTicketDTO.to_station": "SBT",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-13T12:58:58.751719+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-18&leftTicketDTO.from_station=NFZ&leftTicketDTO.to_station=SBT&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 04:59:02 GMT",
+    "raw_file": "data\\raw\\user_stage1c_20261113_123705_523939_reviewed\\sessions\\20261113_123849_114378\\N20_N06.bin",
+    "bytes": 893,
+    "sha256": "6c4ddb2699a5541980e4bd5f578f27481322992751833271e7bfbca5f801ec74"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-13T12:38:52.548831+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 04:38:56 GMT",
+    "raw_file": "data\\raw\\user_stage1c_20261113_123705_523939_reviewed\\sessions\\20261113_123849_114378\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "quality": {
+    "status": "validated_records",
+    "raw_count": 1,
+    "valid_count": 1,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 0
+  },
+  "records": [
+    {
+      "query_id": "N20_N06",
+      "query_date": "2026-11-18",
+      "train_no": "710000Z39606",
+      "train_code": "Z396",
+      "origin_service_date": "2026-11-18",
+      "requested_from": "南宁东",
+      "requested_to": "沈阳北",
+      "from_code": "NNZ",
+      "to_code": "SBT",
+      "from_name": "南宁",
+      "to_name": "沈阳北",
+      "same_as_requested_stations": false,
+      "from_dictionary_city": "南宁",
+      "to_dictionary_city": "沈阳",
+      "departure_clock": "08:17",
+      "arrival_clock": "19:32",
+      "duration_text": "35:15",
+      "duration_min": 2115,
+      "departure_at": "2026-11-18T08:17:00+08:00",
+      "arrival_at": "2026-11-19T19:32:00+08:00",
+      "arrival_day_offset": 1,
+      "can_web_buy": "Y",
+      "raw_row_index": 0,
+      "raw_file": "data\\raw\\user_stage1c_20261113_123705_523939_reviewed\\sessions\\20261113_123849_114378\\N20_N06.bin",
+      "raw_sha256": "6c4ddb2699a5541980e4bd5f578f27481322992751833271e7bfbca5f801ec74",
+      "measurement_kind": "queried_train_schedule_not_measured_actual_travel"
+    }
+  ],
+  "issues": []
+}

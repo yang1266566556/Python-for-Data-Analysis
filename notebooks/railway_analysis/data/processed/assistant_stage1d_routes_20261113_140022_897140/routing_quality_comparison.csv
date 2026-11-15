@@ -1,0 +1,5 @@
+﻿scenario,station_policy,transfer_threshold_min,unique_service_edges,graph_vertices,finite_directed_city_pairs,missing_directed_city_pairs,pairs_using_transfer,seconds
+draft83_60,draft83,60,19624,78150,933,59,361,1.7870406000001822
+observed_group_30,observed_group,30,21777,85322,936,56,439,2.2815590999998676
+observed_group_60,observed_group,60,21777,85455,934,58,361,2.3770703000009235
+observed_group_90,observed_group,90,21777,85488,932,60,298,1.9428790000019944

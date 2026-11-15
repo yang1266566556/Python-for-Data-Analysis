@@ -11,6 +11,7 @@
 - **Pandas** - 数据处理与分析
 - **机器学习** - 线性回归、决策树、K近邻等算法
 - **不平衡分类** - 类别不平衡问题的处理方法
+- **铁路网络分析** - 日期约束行程、时间矩阵、降维与聚类
 - **数据可视化** - 使用 Matplotlib/Seaborn 进行图表绘制
 
 ## 项目结构
@@ -27,10 +28,18 @@
 │   ├── Unit2-pandas.ipynb
 │   ├── Unit3-*.ipynb
 │   ├── homework*.ipynb
+│   ├── hw02_*.ipynb          # 第二次作业：按原编号排列的8份Notebook
+│   ├── railway_analysis/    # 第二次作业的脚本、数据及固定实验结果
+│   │   ├── common.py
+│   │   ├── requirements.txt
+│   │   ├── scripts/
+│   │   ├── data/
+│   │   ├── evidence/
+│   │   └── README.md
 │   ├── MNIST.train.csv
 │   ├── MNIST.test.csv
 │   ├── imbalanced_classification/   # 不平衡分类专题
-│   │   ├── q1_export_recovery.py
+│   │   ├── q1_initialization.py
 │   │   ├── q2_constant_baseline.py
 │   │   ├── q3_default_classifiers.py
 │   │   ├── q4_standardization_timing.py
@@ -103,8 +112,12 @@ D:\anaconda\condabin\conda.bat run -n pda312 jupyter notebook --notebook-dir "D:
 
 ### 作业练习
 
-- `homework1.ipynb` ~ `homework8.ipynb` - 各单元作业
-- [第二次作业：铁路数据、降维与聚类](notebooks/hw02_README.md) - `hw02_01` 至 `hw02_08`，保留原序号对应关系
+| 作业 | Notebook入口 | 专题说明 |
+|---|---|---|
+| 第一次：有监督不平衡分类 | `homework1`、`2`、`3`、`4`、`5`、`7`、`8` | [不平衡分类作业](notebooks/imbalanced_classification/README.md) |
+| 第二次：铁路网络降维与聚类 | `hw02_01` 至 `hw02_08` | [铁路分析作业](notebooks/railway_analysis/README.md) |
+
+两组作业均采用“Notebook阅读入口＋专题目录”的组织方式；具体环境、固定数据批次及运行限制以各专题说明为准。
 
 ### 不平衡分类专题
 
@@ -115,6 +128,12 @@ D:\anaconda\condabin\conda.bat run -n pda312 jupyter notebook --notebook-dir "D:
 - 超参数调优
 - 类别权重调整
 - 学习曲线分析
+
+### 铁路网络分析专题
+
+第二次作业按数据采集与矩阵构建、降维与地理对齐、聚类与稳定性评价展开。`notebooks/railway_analysis/` 保存脚本、原始响应、处理矩阵及已有实验结果，Notebook通过公共模块定位项目，不依赖原机器的盘符。
+
+该作业使用Python 3.12，完整依赖见 [requirements.txt](notebooks/railway_analysis/requirements.txt)。根目录 `environment.yml` 是公共学习环境，不能替代各作业的专用依赖说明。原2026年11月采集窗口已结束；保留结果可直接阅读，运行实验会生成新批次，详见专题README。
 
 ## 依赖项
 

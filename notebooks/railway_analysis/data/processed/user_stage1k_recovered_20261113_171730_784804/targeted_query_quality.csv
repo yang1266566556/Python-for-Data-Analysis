@@ -1,0 +1,7 @@
+﻿query_id,date,from_city,to_city,from_station,to_station,status,raw_count,valid_count,unavailable_count,unresolved_station_count
+K01,2026-11-19,西宁,重庆,西宁,重庆北,partial_timetable_unavailable,3,2,1,0
+K02,2026-11-20,上海,杭州,上海,杭州东,validated_records,369,369,0,0
+K03,2026-11-20,武汉,南昌,武昌,南昌,validated_records,55,55,0,0
+K04,2026-11-20,北京,沈阳,北京西,沈阳北,validated_records,74,74,0,0
+K05,2026-11-20,长沙,海口,长沙,海口,validated_records,2,2,0,0
+K06,2026-11-21,广州,海口,广州白云,海口,validated_records,5,5,0,0

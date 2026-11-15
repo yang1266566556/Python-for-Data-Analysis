@@ -1,0 +1,39 @@
+{
+  "user_core_codes_received": [
+    30,
+    31,
+    32
+  ],
+  "access_source_job": "user_stage1l_access_20261113_174829_916787",
+  "access_queries": 5,
+  "new_valid_records": 707,
+  "unavailable_rows": 0,
+  "unresolved_station_rows": 0,
+  "raw_and_csv_replay_passed": true,
+  "combined_source_records": 28242,
+  "finite_connected33_pairs": 1053,
+  "total_connected33_pairs": 1056,
+  "macau_finite_directions": 61,
+  "macau_total_directions": 64,
+  "missing_directions": [
+    "海口→澳门",
+    "拉萨→澳门",
+    "乌鲁木齐→澳门"
+  ],
+  "taipei_structural_cells": 66,
+  "full34_algorithm_ready": false,
+  "penalties_not_generated_for_ordinary_missing": true,
+  "route_time_conservation_passed": true,
+  "next_shared_queries": [
+    "2026-11-20 北京西→广州南",
+    "2026-11-20 郑州→广州南"
+  ],
+  "existing_exact_query_checks": "none found",
+  "offline_checks_passed": 4,
+  "txt_syntax_passed": true,
+  "assistant_new_train_queries": 0,
+  "source_L_code_unchanged": true,
+  "new_matrix_algorithm": "same reviewed L algorithm, independent explicit input import and output version; no monkeypatch",
+  "preview_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1m_plan_20261113_175936_597006",
+  "docx_created": false
+}

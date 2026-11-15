@@ -1,0 +1,6 @@
+﻿scenario,from_node,from_city,to_node,to_city,time_min,running_min,wait_min,transfers,first_departure,final_arrival,status
+observed_group_60,N26,拉萨,N06,沈阳,3529,3004,525,1,2026-11-18T15:50:00+08:00,2026-11-21T02:39:00+08:00,minimum_in_observed_and_published_dated_timetable_model
+observed_group_60,N26,拉萨,N11,杭州,3126,2982,144,1,2026-11-18T11:50:00+08:00,2026-11-20T15:56:00+08:00,minimum_in_observed_and_published_dated_timetable_model
+observed_group_60,N26,拉萨,N14,南昌,2956,2845,111,1,2026-11-18T12:35:00+08:00,2026-11-20T13:51:00+08:00,minimum_in_observed_and_published_dated_timetable_model
+observed_group_60,N26,拉萨,N21,海口,4555,4234,321,2,2026-11-18T12:35:00+08:00,2026-11-21T16:30:00+08:00,minimum_in_observed_and_published_dated_timetable_model
+observed_group_60,N26,拉萨,N22,重庆,1941,1830,111,1,2026-11-18T11:50:00+08:00,2026-11-19T20:11:00+08:00,minimum_in_observed_and_published_dated_timetable_model

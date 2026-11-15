@@ -1,0 +1,29 @@
+{
+  "user_request": "不是还有补澳门和台北吗",
+  "next_txt": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\第一阶段L_澳门接入与台北惩罚_核心30至32.txt",
+  "scope": "Macao separate border node + Zhuhai rail gateway, explicit access assumptions; Taipei structural mask and three penalty factors",
+  "access_query_count": 5,
+  "access_minutes": [
+    30,
+    60,
+    90
+  ],
+  "access_is_observed": false,
+  "penalty_factors": [
+    2,
+    5,
+    10
+  ],
+  "taipei_mask_directed_cells": 66,
+  "offline_unit_checks_passed": 9,
+  "negative_integration_passed": true,
+  "positive_nine_matrix_fixture_passed": true,
+  "fixture_outputs": "temporary directory only; removed automatically; not study data",
+  "txt_syntax_passed": true,
+  "assistant_new_train_queries": 0,
+  "assistant_live_access_collection_not_run": true,
+  "source_notes": "official-source metadata saved; no claim of downloaded originals for web excerpts",
+  "report_excludes": "补采、断网检查、排障经过",
+  "full34_actual_completion_not_yet_claimed": true,
+  "docx_created": false
+}

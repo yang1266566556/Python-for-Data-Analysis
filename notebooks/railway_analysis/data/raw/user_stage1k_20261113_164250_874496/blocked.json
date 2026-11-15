@@ -1,0 +1,6 @@
+{
+  "query_id": "initialization",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='kyfw.12306.cn', port=443): Read timed out. (read timeout=10)",
+  "at": "2026-11-13T16:43:03.431594+08:00",
+  "automatic_retry": false
+}

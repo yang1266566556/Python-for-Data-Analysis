@@ -1,0 +1,17 @@
+{
+  "failed_job": "user_stage1k_20261113_164250_874496",
+  "initialization_timeout_verified": true,
+  "old_completed_train_queries": 0,
+  "failed_branch_unchanged": true,
+  "timeout_connect_seconds": 30,
+  "timeout_read_seconds": 45,
+  "automatic_retry": false,
+  "snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00",
+  "second_failed_job": "user_stage1k_manual_retry_20261113_170254_725547",
+  "second_completed_train_queries": 0,
+  "diagnostic_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\diagnostics\\network_check_20261113_171026_410500\\network_diagnostic.json",
+  "diagnostic_sha256": "59b4c48fa46e4248852c1bffb4ae07d652ac7cf44b279650ec6c53b4937b9000",
+  "diagnostic_finished_at": "2026-11-13T17:10:31.603664+08:00",
+  "official_page_http200": true,
+  "note": "Recent reachability evidence permits one new manual branch; future request success is not guaranteed."
+}

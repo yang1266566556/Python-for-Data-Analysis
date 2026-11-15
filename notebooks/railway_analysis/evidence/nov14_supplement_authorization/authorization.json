@@ -1,0 +1,24 @@
+{
+  "decision": "separate_nov14_supplement",
+  "user_reply": "另存今日补充版本（推荐）",
+  "original_snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00",
+  "supplement_start_inclusive": "2026-11-14T00:00:00+08:00",
+  "supplement_deadline_exclusive": "2026-11-15T00:00:00+08:00",
+  "first_departure_study_date": "2026-11-18",
+  "queries": [
+    [
+      "2026-11-20",
+      "北京西",
+      "广州南"
+    ],
+    [
+      "2026-11-20",
+      "郑州",
+      "广州南"
+    ]
+  ],
+  "original_data_and_deadline_unchanged": true,
+  "not_same_48hour_snapshot": true,
+  "report_policy": "最终采用数据版本和采集日期如实记录，不叙述补采及排障经过",
+  "assistant_may_collect": false
+}

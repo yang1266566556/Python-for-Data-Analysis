@@ -1,0 +1,13 @@
+﻿train_code,witness_origin_date,requested_origin_date,from_name,to_name,clocks_match,proves_nov18_day_offset,raw_file
+Z22,2026-11-16,2026-11-18,石家庄北,北京西,True,False,data\raw\user_stage1c_20261111_212830_965817\sessions\20261111_212831_022789\N03_N01.bin
+Z22,2026-11-16,2026-11-18,太原,北京西,True,False,data\raw\user_stage1c_20261111_212830_965817\sessions\20261111_212831_022789\N04_N01.bin
+Z22,2026-11-16,2026-11-18,太原,石家庄北,True,False,data\raw\user_stage1c_20261111_212830_965817\sessions\20261111_212831_022789\N04_N03.bin
+Z166,2026-11-16,2026-11-18,南京,上海,True,False,data\raw\user_stage1c_20261113_123705_523939_reviewed\sessions\20261113_123849_114378\N10_N09.bin
+Z166,2026-11-16,2026-11-18,郑州,上海,True,False,data\raw\user_stage1c_20261113_123705_523939_reviewed\sessions\20261113_123849_114378\N16_N09.bin
+Z166,2026-11-16,2026-11-18,郑州,南京,True,False,data\raw\user_stage1c_20261113_123705_523939_reviewed\sessions\20261113_123849_114378\N16_N10.bin
+Z266,2026-11-16,2026-11-18,郑州,武昌,True,False,data\raw\user_stage1c_20261113_123705_523939_reviewed\sessions\20261113_123849_114378\N16_N17.bin
+Z266,2026-11-16,2026-11-18,郑州,长沙,True,False,data\raw\user_stage1c_20261113_123705_523939_reviewed\sessions\20261113_123849_114378\N16_N18.bin
+Z266,2026-11-16,2026-11-18,郑州,广州白云,True,False,data\raw\user_stage1c_20261113_123705_523939_reviewed\sessions\20261113_123849_114378\N16_N19.bin
+Z266,2026-11-16,2026-11-18,武昌,长沙,True,False,data\raw\user_stage1c_20261113_123705_523939_reviewed\sessions\20261113_123849_114378\N17_N18.bin
+Z266,2026-11-16,2026-11-18,武昌,广州白云,True,False,data\raw\user_stage1c_20261113_123705_523939_reviewed\sessions\20261113_123849_114378\N17_N19.bin
+Z266,2026-11-16,2026-11-18,长沙,广州白云,True,False,data\raw\user_stage1c_20261113_123705_523939_reviewed\sessions\20261113_123849_114378\N18_N19.bin

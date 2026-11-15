@@ -1,0 +1,9 @@
+﻿role,status,count
+followup_date,no_direct_train_returned_not_unreachable,70
+followup_date,not_collected,119
+followup_date,partial_station_metadata_unresolved,1
+followup_date,partial_timetable_unavailable,24
+followup_date,validated_records,222
+refresh_primary_unknown,partial_station_metadata_unresolved,5
+refresh_primary_unknown,partial_timetable_unavailable,62
+refresh_primary_unknown,validated_records,1

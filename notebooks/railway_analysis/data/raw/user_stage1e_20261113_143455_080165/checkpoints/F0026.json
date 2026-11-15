@@ -1,0 +1,80 @@
+{
+  "query": {
+    "query_id": "F0026",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-19",
+    "from_city": "成都",
+    "to_city": "拉萨",
+    "from_station": "成都东",
+    "to_station": "拉萨",
+    "reason": "User-produced missing-OD plan; earliest later arrival date, not an exhaustive network survey",
+    "from_code": "ICW",
+    "to_code": "LSO"
+  },
+  "source": {
+    "source_id": "F0026",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-19",
+      "leftTicketDTO.from_station": "ICW",
+      "leftTicketDTO.to_station": "LSO",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-13T14:39:43.151378+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-19&leftTicketDTO.from_station=ICW&leftTicketDTO.to_station=LSO&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 06:39:46 GMT",
+    "raw_file": "data\\raw\\user_stage1e_20261113_143455_080165\\sessions\\20261113_143455_119671\\F0026.bin",
+    "bytes": 660,
+    "sha256": "4552ebb1c9363691320e8b75ff221602d8baac2ec01b154718b7454f03a4232a"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-13T14:34:58.118840+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 06:35:01 GMT",
+    "raw_file": "data\\raw\\user_stage1e_20261113_143455_080165\\sessions\\20261113_143455_119671\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "records": [],
+  "issues": [
+    {
+      "query_id": "F0026",
+      "raw_row_index": 0,
+      "severity": "missing_data",
+      "issue": "timetable_unavailable_adjustment",
+      "details": "{\"train_no\": \"760000Z32220\", \"train_code\": \"Z322\", \"query_date\": \"2026-11-19\", \"from_code\": \"CEE\", \"to_code\": \"LSO\", \"source_message\": \"列车运行图调整,暂停发售\", \"raw_departure\": \"24:00\", \"raw_arrival\": \"24:00\", \"raw_duration\": \"99:59\", \"sale_status\": \"IS_TIME_NOT_BUY\", \"raw_file\": \"data\\\\raw\\\\user_stage1e_20261113_143455_080165\\\\sessions\\\\20261113_143455_119671\\\\F0026.bin\", \"raw_sha256\": \"4552ebb1c9363691320e8b75ff221602d8baac2ec01b154718b7454f03a4232a\"}"
+    },
+    {
+      "query_id": "F0026",
+      "raw_row_index": 1,
+      "severity": "missing_data",
+      "issue": "timetable_unavailable_adjustment",
+      "details": "{\"train_no\": \"760000Z32220\", \"train_code\": \"Z322\", \"query_date\": \"2026-11-19\", \"from_code\": \"CMW\", \"to_code\": \"LSO\", \"source_message\": \"列车运行图调整,暂停发售\", \"raw_departure\": \"24:00\", \"raw_arrival\": \"24:00\", \"raw_duration\": \"99:59\", \"sale_status\": \"IS_TIME_NOT_BUY\", \"raw_file\": \"data\\\\raw\\\\user_stage1e_20261113_143455_080165\\\\sessions\\\\20261113_143455_119671\\\\F0026.bin\", \"raw_sha256\": \"4552ebb1c9363691320e8b75ff221602d8baac2ec01b154718b7454f03a4232a\"}"
+    }
+  ],
+  "quality": {
+    "status": "partial_timetable_unavailable",
+    "raw_count": 2,
+    "valid_count": 0,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 2
+  },
+  "parser_version": "stage1c-station-metadata-v2"
+}

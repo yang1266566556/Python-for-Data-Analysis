@@ -1,0 +1,63 @@
+{
+  "user_core_codes_received": [
+    23,
+    24
+  ],
+  "dated_source_run": "user_stage1i_dated_20261113_161818_255920",
+  "verified_services": 3,
+  "verified_stop_rows": 40,
+  "official_lhasa_xining_minutes": {
+    "Z22": 1283,
+    "Z166": 1277,
+    "Z266": 1296
+  },
+  "clock_cumulative_day_agreement": true,
+  "restored_schedule_segments": 64,
+  "underlying_services": 3,
+  "original_queried_records": 26964,
+  "combined_source_and_derived_records": 27028,
+  "source_conflicts": 0,
+  "offline_precheck_scenarios": [
+    {
+      "scenario": "draft83_60",
+      "before_finite": 960,
+      "after_finite": 986,
+      "missing": 6,
+      "newly_found": 26,
+      "shorter": 3
+    },
+    {
+      "scenario": "observed_group_30",
+      "before_finite": 961,
+      "after_finite": 987,
+      "missing": 5,
+      "newly_found": 26,
+      "shorter": 4
+    },
+    {
+      "scenario": "observed_group_60",
+      "before_finite": 961,
+      "after_finite": 987,
+      "missing": 5,
+      "newly_found": 26,
+      "shorter": 3
+    },
+    {
+      "scenario": "observed_group_90",
+      "before_finite": 960,
+      "after_finite": 985,
+      "missing": 7,
+      "newly_found": 25,
+      "shorter": 3
+    }
+  ],
+  "remaining_core_missing": 5,
+  "full34_missing": 135,
+  "core32_complete": false,
+  "full34_algorithm_ready": false,
+  "assistant_new_network_requests_this_turn": 0,
+  "offline_tests_passed": 7,
+  "next_txt_syntax_verified": true,
+  "core26_executed_against_assistant_precheck": true,
+  "docx_created": false
+}

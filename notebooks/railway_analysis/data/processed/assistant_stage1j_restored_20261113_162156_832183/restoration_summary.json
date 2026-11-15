@@ -1,0 +1,96 @@
+{
+  "actor": "assistant",
+  "original_source_records": 26964,
+  "restored_schedule_segments": 64,
+  "combined_source_records": 27028,
+  "source_conflicts": 0,
+  "dated_source_run": "user_stage1i_dated_20261113_161818_255920",
+  "input": {
+    "primary_records": 22137,
+    "old_records_replaced": 2226,
+    "refreshed_records": 2223,
+    "later_date_records": 4818,
+    "merged_records": 26952,
+    "completed_supplement_queries": 385,
+    "uncollected_supplement_queries": 119,
+    "train_csv_sha256": "ddcf593bc408150dc0494c3b3145aa8a1afafc26a3f562a0b28194a39c453fe1",
+    "supplement_csv_sha256": "6ca80e8a23e3cd97f335abb4c30ce99b7513ed6b72608b0165ae02d498147422",
+    "unknown_source_issues": 137,
+    "source_deadline": "2026-11-13T21:28:30.987887+08:00",
+    "target_queries_verified": 16,
+    "target_valid_records": 12,
+    "target_issue_count": 25,
+    "combined_source_records": 26964,
+    "source_conflicts": 0,
+    "target_csv_sha256": "0560facc3bd0cb32a64e213a8a4d3feea449c4eecc8a6d723364106907afda70"
+  },
+  "scenarios": [
+    {
+      "scenario": "draft83_60",
+      "before_finite": 960,
+      "after_finite": 986,
+      "missing": 6,
+      "newly_found": 26,
+      "shorter": 3
+    },
+    {
+      "scenario": "observed_group_30",
+      "before_finite": 961,
+      "after_finite": 987,
+      "missing": 5,
+      "newly_found": 26,
+      "shorter": 4
+    },
+    {
+      "scenario": "observed_group_60",
+      "before_finite": 961,
+      "after_finite": 987,
+      "missing": 5,
+      "newly_found": 26,
+      "shorter": 3
+    },
+    {
+      "scenario": "observed_group_90",
+      "before_finite": 960,
+      "after_finite": 985,
+      "missing": 7,
+      "newly_found": 25,
+      "shorter": 3
+    }
+  ],
+  "core32_complete": false,
+  "core32_algorithm_input_ready": false,
+  "full34_algorithm_ready": false,
+  "raw34_missing": 135,
+  "raw34_nodes": 34,
+  "lhasa_outbound_finite": 26,
+  "penalties_applied": false,
+  "statistical_imputation_applied": false,
+  "synthetic_service_dates_added": false,
+  "new_network_requests": 0,
+  "ticket_availability_verified": false,
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "scripts_sha256": {
+    "stage1j_restore.py": "dd7b477d9d2f2578adda2c1e8aca27be10f6c60ef35dac06a64cbc4e23ee3b36",
+    "stage1i_dated_schedule.py": "545cf5d255b073b9929cad34e843ea915d0f6b0ddce8155c57aaf94172d2f874",
+    "stage1d_routes.py": "dca29e5c746b71ceee053c04808801b62ca6e3e02cd6ae90da1fb0801f01361f"
+  },
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1j_restored_20261113_162156_832183",
+  "limitations": [
+    "Observed model minimum only; uncollected and unknown schedules can affect optima",
+    "Restored edges derive from published dated schedules, not ticket availability or guaranteed operation",
+    "No other origin date was synthesized; intermediate dates follow published arrival day and dwell",
+    "All actual stations retained; no cross-station free links",
+    "Macau access and Taiwan penalty branch still pending; 32 core nodes do not replace 34-node main scope",
+    "Same-station transfer threshold is an assumption; port access and terminal processing excluded"
+  ]
+}

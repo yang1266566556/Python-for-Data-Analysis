@@ -1,0 +1,102 @@
+[
+  {
+    "source_id": "query_page",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/init",
+    "params": null,
+    "accessed_at": "2026-11-13T16:02:14.463367+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/init",
+    "content_type": "text/html;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:02:19 GMT",
+    "raw_file": "data\\raw\\user_stop_table_probe_20261113_160214_460368\\query_page.bin",
+    "bytes": 102568,
+    "sha256": "5755a5d4b2abb590324698523eb182087a213cd98e98638e68e1ce2b4f5b36bb"
+  },
+  {
+    "source_id": "stop_table_frontend",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/merged/queryLeftTicket_end_js.js?scriptVersion=1.95059",
+    "params": null,
+    "accessed_at": "2026-11-13T16:02:17.464934+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/merged/queryLeftTicket_end_js.js?scriptVersion=1.95059",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:02:21 GMT",
+    "raw_file": "data\\raw\\user_stop_table_probe_20261113_160214_460368\\stop_table_frontend.bin",
+    "bytes": 281698,
+    "sha256": "3d0e247abad7661828e082f31191aa6c6526ae3a1050dc5dc96ea0923e6e9f47"
+  },
+  {
+    "source_id": "S1",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/czxx/queryByTrainNo",
+    "params": {
+      "train_no": "8800000Z220A",
+      "from_station_telecode": "LSO",
+      "to_station_telecode": "XNO",
+      "depart_date": "2026-11-18"
+    },
+    "accessed_at": "2026-11-13T16:02:20.467081+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=8800000Z220A&from_station_telecode=LSO&to_station_telecode=XNO&depart_date=2026-11-18",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:02:23 GMT",
+    "raw_file": "data\\raw\\user_stop_table_probe_20261113_160214_460368\\S1.bin",
+    "bytes": 2264,
+    "sha256": "39124fb093b7e417c78865578c3832b37cabcef889c07edf1e5942a45f3d4880"
+  },
+  {
+    "source_id": "S2",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/czxx/queryByTrainNo",
+    "params": {
+      "train_no": "880000Z1660D",
+      "from_station_telecode": "LSO",
+      "to_station_telecode": "XNO",
+      "depart_date": "2026-11-18"
+    },
+    "accessed_at": "2026-11-13T16:02:23.474631+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=880000Z1660D&from_station_telecode=LSO&to_station_telecode=XNO&depart_date=2026-11-18",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:02:26 GMT",
+    "raw_file": "data\\raw\\user_stop_table_probe_20261113_160214_460368\\S2.bin",
+    "bytes": 2793,
+    "sha256": "1616c57b75ddb98f598b9287dba0bcdbcb73ddb059b706fba14c57227e2da762"
+  },
+  {
+    "source_id": "S3",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/czxx/queryByTrainNo",
+    "params": {
+      "train_no": "880000Z2660P",
+      "from_station_telecode": "LSO",
+      "to_station_telecode": "XNO",
+      "depart_date": "2026-11-18"
+    },
+    "accessed_at": "2026-11-13T16:02:26.462624+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=880000Z2660P&from_station_telecode=LSO&to_station_telecode=XNO&depart_date=2026-11-18",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:02:29 GMT",
+    "raw_file": "data\\raw\\user_stop_table_probe_20261113_160214_460368\\S3.bin",
+    "bytes": 2991,
+    "sha256": "1b55d031e665d42b038afa8ae625ec6403d6d2cdeee9fc2841c653b4705416a8"
+  }
+]

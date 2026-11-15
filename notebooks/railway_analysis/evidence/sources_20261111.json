@@ -1,0 +1,20 @@
+[
+  {
+    "name": "中国铁路12306：车票预售期是如何规定的",
+    "url": "https://help.12306.cn/cms/answer/h5/001531826595438842083440b580b2e0",
+    "publication_date": null,
+    "access_date": "2026-11-11",
+    "method": "web search followed by opening official page",
+    "supported_claim": "通常15天预售期含当日，存在错时发售和临时调整",
+    "limit": "不能替代实际日期查询验证，不能推断所有车次都已放出完整时刻"
+  },
+  {
+    "name": "横琴粤澳深度合作区行政事务局：往返横琴、澳门新方式",
+    "url": "https://www.hengqin.gov.cn/macao_zh_hans/hzqgl/dtyw/dtxx/content/post_3760429.html",
+    "publication_date": "2025-01-22",
+    "access_date": "2026-11-11",
+    "method": "web search followed by opening official page",
+    "supported_claim": "国铁城轨横琴站与澳门轻轨横琴站不是同一站台；跨系统需要出站、步行和口岸通关",
+    "limit": "未提供每次行程的完整接驳时间，不能凭此生成实测分钟值"
+  }
+]

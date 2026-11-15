@@ -1,0 +1,10 @@
+﻿scenario,access_assumption_min,from_node,from_city,to_node,to_city,time_min,rail_running_min,rail_wait_min,access_min,port_closed_wait_min,rail_transfers,first_departure_at,final_arrival_at,status
+access_30_rail_transfer_60,30,N21,海口,N33,澳门,,,,30,,,,,ordinary_timetable_missing_not_unreachable
+access_30_rail_transfer_60,30,N26,拉萨,N33,澳门,,,,30,,,,,ordinary_timetable_missing_not_unreachable
+access_30_rail_transfer_60,30,N31,乌鲁木齐,N33,澳门,,,,30,,,,,ordinary_timetable_missing_not_unreachable
+access_60_rail_transfer_60,60,N21,海口,N33,澳门,,,,60,,,,,ordinary_timetable_missing_not_unreachable
+access_60_rail_transfer_60,60,N26,拉萨,N33,澳门,,,,60,,,,,ordinary_timetable_missing_not_unreachable
+access_60_rail_transfer_60,60,N31,乌鲁木齐,N33,澳门,,,,60,,,,,ordinary_timetable_missing_not_unreachable
+access_90_rail_transfer_60,90,N21,海口,N33,澳门,,,,90,,,,,ordinary_timetable_missing_not_unreachable
+access_90_rail_transfer_60,90,N26,拉萨,N33,澳门,,,,90,,,,,ordinary_timetable_missing_not_unreachable
+access_90_rail_transfer_60,90,N31,乌鲁木齐,N33,澳门,,,,90,,,,,ordinary_timetable_missing_not_unreachable

@@ -1,0 +1,71 @@
+{
+  "actor": "assistant",
+  "created_at": "2026-11-13T15:44:02.998319+08:00",
+  "primary_run": "user_stage1c_v2_20261113_132207_325427",
+  "targeted_run": "user_stage1g_20261113_153248_952115",
+  "input": {
+    "primary_records": 22137,
+    "old_records_replaced": 2226,
+    "refreshed_records": 2223,
+    "later_date_records": 4818,
+    "merged_records": 26952,
+    "completed_supplement_queries": 385,
+    "uncollected_supplement_queries": 119,
+    "train_csv_sha256": "ddcf593bc408150dc0494c3b3145aa8a1afafc26a3f562a0b28194a39c453fe1",
+    "supplement_csv_sha256": "6ca80e8a23e3cd97f335abb4c30ce99b7513ed6b72608b0165ae02d498147422",
+    "unknown_source_issues": 137,
+    "source_deadline": "2026-11-13T21:28:30.987887+08:00",
+    "target_queries_verified": 16,
+    "target_valid_records": 12,
+    "target_issue_count": 25,
+    "combined_source_records": 26964,
+    "source_conflicts": 0,
+    "target_csv_sha256": "0560facc3bd0cb32a64e213a8a4d3feea449c4eecc8a6d723364106907afda70"
+  },
+  "scenarios": [
+    {
+      "scenario": "draft83_60",
+      "finite_core_directed_pairs": 960,
+      "missing_core_directed_pairs": 32,
+      "unique_model_service_edges": 23960
+    },
+    {
+      "scenario": "observed_group_30",
+      "finite_core_directed_pairs": 961,
+      "missing_core_directed_pairs": 31,
+      "unique_model_service_edges": 26598
+    },
+    {
+      "scenario": "observed_group_60",
+      "finite_core_directed_pairs": 961,
+      "missing_core_directed_pairs": 31,
+      "unique_model_service_edges": 26598
+    },
+    {
+      "scenario": "observed_group_90",
+      "finite_core_directed_pairs": 960,
+      "missing_core_directed_pairs": 32,
+      "unique_model_service_edges": 26598
+    }
+  ],
+  "full_node_count": 34,
+  "raw34_missing_offdiagonal": 161,
+  "comparison_subset_node_count": 31,
+  "subset_matrix_input_checks_passed": true,
+  "full34_algorithm_ready": false,
+  "main34_scope_replaced": false,
+  "penalties_applied": false,
+  "imputation_applied": false,
+  "symmetrization": "(T_ij + T_ji)/2 only in explicitly named complete-data comparison matrix; directed source preserved",
+  "data_scope": "Known passenger timetable records including possible Yuehai train-ferry service; not a land-only rail graph or door-to-door time",
+  "constraints": [
+    "Initial departures Nov 18; final arrival before Nov 23 and total at most 96h",
+    "Same-station transfer thresholds are 30/60/90 min assumptions",
+    "Observed 12306 city grouping remains an exploratory station-scope definition",
+    "No imputation or unreachable penalty for Lhasa's missing initial timetables",
+    "Macau access and Taiwan connection provenance still require final review",
+    "Complete-data subset is a comparison branch, not the full34 main result",
+    "Unknown schedules and original pending119 may affect global completeness and optimum values"
+  ],
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1h_matrix_20261113_154348_904857"
+}

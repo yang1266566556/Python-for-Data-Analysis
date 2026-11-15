@@ -1,0 +1,4 @@
+﻿transfer_threshold_min,candidate_count,status,total_min,wait_min,first_train,second_train,from_station,departure_at,arrival_at,all_required_queries_validated,official_transfer_feasibility_verified
+30,102,incomplete_query_coverage_no_best_claim,,,,,,,,False,False
+60,99,incomplete_query_coverage_no_best_claim,,,,,,,,False,False
+90,98,incomplete_query_coverage_no_best_claim,,,,,,,,False,False

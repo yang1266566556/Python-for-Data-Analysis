@@ -1,0 +1,73 @@
+{
+  "query": {
+    "query_id": "R_N26_N22",
+    "role": "refresh_primary_unknown",
+    "primary_query_id": "N26_N22",
+    "date": "2026-11-18",
+    "from_city": "拉萨",
+    "to_city": "重庆",
+    "from_station": "拉萨",
+    "to_station": "重庆北",
+    "reason": "One source refresh for timetable/station metadata missing; no guarantee it has changed",
+    "from_code": "LSO",
+    "to_code": "CUW"
+  },
+  "source": {
+    "source_id": "R_N26_N22",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-18",
+      "leftTicketDTO.from_station": "LSO",
+      "leftTicketDTO.to_station": "CUW",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-13T14:35:34.125196+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-18&leftTicketDTO.from_station=LSO&leftTicketDTO.to_station=CUW&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 06:35:37 GMT",
+    "raw_file": "data\\raw\\user_stage1e_20261113_143455_080165\\sessions\\20261113_143455_119671\\R_N26_N22.bin",
+    "bytes": 390,
+    "sha256": "4ca981acd27c8df576b4ace6ba195aa7126cb5795d615ef8fd3eaf1899d521a5"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-13T14:34:58.118840+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 06:35:01 GMT",
+    "raw_file": "data\\raw\\user_stage1e_20261113_143455_080165\\sessions\\20261113_143455_119671\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "records": [],
+  "issues": [
+    {
+      "query_id": "R_N26_N22",
+      "raw_row_index": 0,
+      "severity": "missing_data",
+      "issue": "timetable_unavailable_adjustment",
+      "details": "{\"train_no\": \"880000Z22409\", \"train_code\": \"Z224\", \"query_date\": \"2026-11-18\", \"from_code\": \"LSO\", \"to_code\": \"CXW\", \"source_message\": \"列车运行图调整,暂停发售\", \"raw_departure\": \"24:00\", \"raw_arrival\": \"24:00\", \"raw_duration\": \"99:59\", \"sale_status\": \"IS_TIME_NOT_BUY\", \"raw_file\": \"data\\\\raw\\\\user_stage1e_20261113_143455_080165\\\\sessions\\\\20261113_143455_119671\\\\R_N26_N22.bin\", \"raw_sha256\": \"4ca981acd27c8df576b4ace6ba195aa7126cb5795d615ef8fd3eaf1899d521a5\"}"
+    }
+  ],
+  "quality": {
+    "status": "partial_timetable_unavailable",
+    "raw_count": 1,
+    "valid_count": 0,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 1
+  },
+  "parser_version": "stage1c-station-metadata-v2"
+}

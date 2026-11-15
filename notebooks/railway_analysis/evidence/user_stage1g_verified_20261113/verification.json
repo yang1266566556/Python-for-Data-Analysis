@@ -1,0 +1,25 @@
+{
+  "user_core_codes_received": [
+    17,
+    18,
+    19
+  ],
+  "targeted_queries": 16,
+  "valid_targeted_records": 12,
+  "target_unknown_timetable_rows": 24,
+  "raw_replay_passed": true,
+  "merged_source_records": 26964,
+  "source_identity_time_conflicts": 0,
+  "haikou_lhasa_model_minutes": 4041,
+  "haikou_lhasa_running_minutes": 3880,
+  "haikou_lhasa_wait_minutes": 161,
+  "observed_group_60_finite_pairs": 961,
+  "missing_core_departure_pairs": 31,
+  "full34_missing_cells": 161,
+  "comparison_subset_nodes": 31,
+  "full34_algorithm_ready": false,
+  "new_stop_table_queries_executed_by_assistant": 0,
+  "offline_tests_passed": 6,
+  "txt_syntax_valid": true,
+  "docx_created": false
+}

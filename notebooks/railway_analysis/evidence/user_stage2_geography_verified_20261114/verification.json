@@ -1,0 +1,30 @@
+{
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_geographic_analysis_20261114_165132_458783",
+  "verified_alignments": 12,
+  "verified_coordinate_rows": 404,
+  "hashes_passed": true,
+  "similarity_transforms_reproduced": true,
+  "geographic_metrics_reproduced": true,
+  "connected33_unique_pairs": 528,
+  "geographic_comparison_computed_and_verified": true,
+  "external_economic_explanation_complete": false,
+  "clustering_complete": false,
+  "screenshots": [
+    {
+      "file": "screenshot_1.png",
+      "sha256": "e7449b1fec98d873e3eacf8773be929a7fd06931503cbf6b66bb50d1ecc519b5"
+    },
+    {
+      "file": "screenshot_2.png",
+      "sha256": "a06f912c362372e3542b8c7ce7fc27c1d71acdb09e3bedc9ebb5e408914a0e3a"
+    },
+    {
+      "file": "screenshot_3.png",
+      "sha256": "2f375d2f5c96ff67a628b3b7a6c492a1af5328b1bae907bbd4c6d1bc7a83e50c"
+    },
+    {
+      "file": "screenshot_4.png",
+      "sha256": "b47eeaf77bd7fc54d2245d82e3a6dec8eaf4759e72b8a88dd117f410f199b453"
+    }
+  ]
+}

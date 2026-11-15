@@ -1,0 +1,37 @@
+{
+  "metrics": {
+    "run_id": "access_60_alpha_5_n34_tSNE_seed42",
+    "dataset_id": "access_60_alpha_5_n34",
+    "algorithm": "tSNE",
+    "node_count": 34,
+    "seed": 42,
+    "seconds": 0.20131079999919166,
+    "native_loss": 0.2609850845605811,
+    "native_loss_definition": "KL_divergence",
+    "native_n_iter_attribute": 999,
+    "convergence_trace_available": false,
+    "external_scale_fitted_stress1": 0.6486444627165914,
+    "distance_spearman": 0.7163786367923739,
+    "neighbor_overlap_k5": 0.6705882352941177,
+    "trustworthiness_k5": 0.8710407239819005,
+    "network_only_external_scale_fitted_stress1": 0.8387978575492512,
+    "network_only_distance_spearman": 0.6599630357214611,
+    "network_only_neighbor_overlap_k5": 0.6909090909090909,
+    "network_only_trustworthiness_k5": 0.8867878787878788
+  },
+  "parameters": {
+    "n_components": 2,
+    "perplexity": 10.0,
+    "max_iter": 1000,
+    "init": "random",
+    "metric": "precomputed",
+    "random_state": 42,
+    "learning_rate": "auto",
+    "early_exaggeration": 12.0,
+    "method": "exact",
+    "n_jobs": 1
+  },
+  "warnings": [],
+  "coordinates_sha256": "d57a020dbf2fff2cae233ce5201c8ee4a2760eded3aab07e54164a7616c92d34",
+  "note": "External stress fits one isotropic distance scale. Native losses are not comparable across algorithms. Stable node-order tie rule for neighbor overlap; Taipei equal-penalty ties limit interpretation. No convergence curve is fabricated."
+}

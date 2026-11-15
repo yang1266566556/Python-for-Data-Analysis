@@ -1,0 +1,65 @@
+{
+  "query": {
+    "query_id": "F0048",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-19",
+    "from_city": "香港",
+    "to_city": "拉萨",
+    "from_station": "香港西九龙",
+    "to_station": "拉萨",
+    "reason": "User-produced missing-OD plan; earliest later arrival date, not an exhaustive network survey",
+    "from_code": "XJA",
+    "to_code": "LSO"
+  },
+  "source": {
+    "source_id": "F0048",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-19",
+      "leftTicketDTO.from_station": "XJA",
+      "leftTicketDTO.to_station": "LSO",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-13T14:40:49.175868+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-19&leftTicketDTO.from_station=XJA&leftTicketDTO.to_station=LSO&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 06:40:52 GMT",
+    "raw_file": "data\\raw\\user_stage1e_20261113_143455_080165\\sessions\\20261113_143455_119671\\F0048.bin",
+    "bytes": 113,
+    "sha256": "706b2fe6f03311df72565cd68ff814ca75a0262e4a3bfadfe775e1a3341400eb"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-13T14:34:58.118840+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 06:35:01 GMT",
+    "raw_file": "data\\raw\\user_stage1e_20261113_143455_080165\\sessions\\20261113_143455_119671\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "records": [],
+  "issues": [],
+  "quality": {
+    "status": "no_direct_train_returned_not_unreachable",
+    "raw_count": 0,
+    "valid_count": 0,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 0
+  },
+  "parser_version": "stage1c-station-metadata-v2"
+}

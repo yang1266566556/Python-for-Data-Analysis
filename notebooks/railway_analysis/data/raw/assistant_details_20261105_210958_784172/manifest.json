@@ -1,0 +1,50 @@
+[
+  {
+    "source_id": "query_end_js",
+    "url": "https://kyfw.12306.cn/otn/resources/merged/queryLeftTicket_end_js.js?scriptVersion=1.95055",
+    "params": null,
+    "actor": "assistant",
+    "accessed_at": "2026-11-05T21:09:58.784172+08:00",
+    "publication_date": null,
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/merged/queryLeftTicket_end_js.js?scriptVersion=1.95055",
+    "raw_path": "data\\raw\\assistant_details_20261105_210958_784172\\query_end_js.bin",
+    "bytes": 279254,
+    "sha256": "eafbfcb66fa75541b7bc85d0af20b224b403bdea6c2c35d3b6cbffba7cdd3052",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Thu, 05 Nov 2026 13:09:59 GMT",
+    "status": "http_response_saved"
+  },
+  {
+    "source_id": "hk_departure",
+    "url": "https://www.highspeed.mtr.com.hk/tc/guide/process-departure.html",
+    "params": null,
+    "actor": "assistant",
+    "accessed_at": "2026-11-05T21:09:59.593061+08:00",
+    "publication_date": null,
+    "http_status": 200,
+    "final_url": "https://www.highspeed.mtr.com.hk/tc/guide/process-departure.html",
+    "raw_path": "data\\raw\\assistant_details_20261105_210958_784172\\hk_departure.bin",
+    "bytes": 56335,
+    "sha256": "5faa3a01c0ae72343b7b808accdcbe6621fedcecde623896d0cf2fabe584cc65",
+    "content_type": "text/html",
+    "server_date": "Thu, 05 Nov 2026 13:09:59 GMT",
+    "status": "http_response_saved"
+  },
+  {
+    "source_id": "transfer_query_page",
+    "url": "https://kyfw.12306.cn/otn/lcQuery/init",
+    "params": null,
+    "actor": "assistant",
+    "accessed_at": "2026-11-05T21:10:03.103649+08:00",
+    "publication_date": null,
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/login.html",
+    "raw_path": "data\\raw\\assistant_details_20261105_210958_784172\\transfer_query_page.bin",
+    "bytes": 24978,
+    "sha256": "1da37c1a71019c0928a0b1404805b1ded2ab47c629de6b2569237deb421b6093",
+    "content_type": "text/html;charset=UTF-8",
+    "server_date": "Thu, 05 Nov 2026 13:10:02 GMT",
+    "status": "http_response_saved"
+  }
+]

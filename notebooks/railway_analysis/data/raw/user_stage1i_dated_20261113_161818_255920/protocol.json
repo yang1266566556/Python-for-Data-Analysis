@@ -1,0 +1,39 @@
+{
+  "plans": [
+    {
+      "probe_id": "S1",
+      "train_code": "Z22",
+      "train_no": "8800000Z220A",
+      "requested_date": "2026-11-18",
+      "origin_date": "20261118",
+      "from_code": "LSO",
+      "to_code": "XNO",
+      "primary_source_file": "data\\raw\\user_stage1c_v2_20261113_132207_325427\\sessions\\20261113_133036_268805\\N26_N29.bin"
+    },
+    {
+      "probe_id": "S2",
+      "train_code": "Z166",
+      "train_no": "880000Z1660D",
+      "requested_date": "2026-11-18",
+      "origin_date": "20261118",
+      "from_code": "LSO",
+      "to_code": "XNO",
+      "primary_source_file": "data\\raw\\user_stage1c_v2_20261113_132207_325427\\sessions\\20261113_133036_268805\\N26_N29.bin"
+    },
+    {
+      "probe_id": "S3",
+      "train_code": "Z266",
+      "train_no": "880000Z2660P",
+      "requested_date": "2026-11-18",
+      "origin_date": "20261118",
+      "from_code": "LSO",
+      "to_code": "XNO",
+      "primary_source_file": "data\\raw\\user_stage1c_v2_20261113_132207_325427\\sessions\\20261113_133036_268805\\N26_N29.bin"
+    }
+  ],
+  "previous_stop_job": "user_stop_table_probe_20261113_160214_460368",
+  "deadline": "2026-11-13T21:28:30.987887+08:00",
+  "actor": "user",
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1i_dated_20261113_161818_255920",
+  "matrix_fill_permitted": false
+}

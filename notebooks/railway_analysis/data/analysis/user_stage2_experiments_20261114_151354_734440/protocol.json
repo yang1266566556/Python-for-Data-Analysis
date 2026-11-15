@@ -1,0 +1,18 @@
+{
+  "plan_sha256": "4be4e37dd6b9b0c44107e74554f18e96977b019821459434ee1fda9afbc3d446",
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "0.6.0"
+  },
+  "code_hashes": {
+    "stage2_experiments.py": "c34d7db1ce940387eb0ed820c156b9c59fe0b643866deba468153db1a0f10cbf",
+    "stage2_baseline.py": "bb5253f039183ae3e36a5157396acd1d4ee6c7d389da59372f2512f57996e2a8",
+    "stage2_inputs.py": "b83942df67565d17f736c693658468f680ddf754beeac3255e8aa4e2a06c314a"
+  }
+}

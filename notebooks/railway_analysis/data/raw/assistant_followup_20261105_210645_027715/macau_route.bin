@@ -1,0 +1,5267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>輕軌線路</title>
+<link rel="stylesheet" type="text/css" href="/theme/standard.css"></link>
+<link rel="stylesheet" type="text/css" href="/system/css/mlm.css"></link>
+<link rel="stylesheet" type="text/css" href="/system/css/swiper.min.css"></link>
+<link rel="stylesheet" type="text/css" href="/system/css/preview.css"></link>
+<link rel="stylesheet" type="text/css" href="/system/css/viewer.css"></link>
+<link rel="stylesheet" type="text/css" href="/system/css/baguetteBox.css"></link>
+<style type="text/css">
+.breadcrumb_div {
+    margin: 70px auto 20px;
+}
+body {
+font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif;
+}
+.total-html span {
+	display: flex;
+	color: #ffffff;
+	align-items: center;
+}
+span#HengqinNumber::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100px;
+	margin-right: 62px;
+	margin-left: 10px;
+	border-left: 4px solid #bd273a;
+}
+#HengqinName::before {
+	content: "";
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background-color: #bd273a;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+.total-box {
+	width: 100%;
+	background-color: #ecf9ff;
+	margin: 20px 0px;
+	padding: 20px;
+	border-radius: 2px;
+}
+.total {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+span#stageNumber,span#totalNumber, span#HengqinNumber {
+	font-size: 16px;
+	color: #039BDA;
+}
+.total-html {
+	display: flex;
+	flex-direction: column;
+	margin-left: 15%;
+}
+#stageName::before {
+	content: "";
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background-color: #8a66c3;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+#walkName::before {
+	padding-right: 5px;
+	background-size: contain;
+	content: "";
+	display: block;
+	height: 100px;
+	margin-left: 10px;
+	border-left: 4px dashed #333333;
+	margin-right: 56px;
+}
+#walkName {
+	position: relative;
+	color: #039BDA;
+	font-size: 16px;
+}
+#walkName img {
+	position: absolute;
+	width: 60px;
+	left: -60px;
+}
+span#totalNumber {
+	font-size: 16px;
+	color: #039BDA;
+}
+span#stageNumber::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100px;
+	margin-right: 62px;
+	margin-left: 10px;
+	border-left: 4px solid #8a66c3;
+}
+span#totalNumber::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100px;
+	margin-right: 62px;
+	margin-left: 10px;
+	border-left: 4px solid #93d50a;
+}
+span#formName::before,span#toName::before {
+	content: "";
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background-color: #93d50a;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+.select-box {
+	position: relative;
+	display: flex;
+	gap: 5px;
+}
+.remaker_text {
+	display: flex;
+	align-items: center;
+	color: rgb(243, 68, 69);
+}
+.remaker_ul li {
+	margin: 10px 0px;
+}
+.remaker_ul {
+	color: rgb(243, 68, 69);
+	text-align: left;
+	margin: 10px 0px 16px 20px;
+	list-style: decimal;
+}
+.remaker_text::before {
+	dispaly: block;
+	content: " ";
+	width: 25px;
+	height: 25px;
+	padding-right: 5px;
+	background: url('/images/beizhu.png') no-repeat;
+	background-size: contain;
+}
+.search_waysDiv {
+	width: 80%;
+	text-align: center;
+	padding-left: 18%;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+.ways_flexDiv {
+	padding-right: 30px;
+}
+.ways_searchBtn {
+	text-align: center;
+	background-color: #FFA90B;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	align-items: center;
+	cursor: pointer;
+	justify-content: center;
+}
+.search_waysDiv>div {
+	display: inline-table;
+	vertical-align: bottom;
+	width: 35%;
+}
+@media (max-width:768px) {
+.results_flex {
+	margin: 15px !important;
+	justify-content: flex-start !important;
+}
+}
+.result_tableApp {
+	width: 100%;
+	text-align: center;
+	color: #333333;
+	font-size: 16px;
+	display: none;
+	border-collapse: collapse;
+}
+.result_tableApp tr td {
+	padding: 10px 0px;
+}
+.result_tableApp tr:nth-child(odd) {
+	background: #ECF9FF;
+}
+.result_tableApp tr:nth-child(even) {
+	background: #FFFFFF;
+}
+.result_tableApp {
+	width: 100%;
+	text-align: center;
+	color: #333333;
+	font-size: 16px;
+	border-collapse: collapse;
+}
+.total span {
+	color: #333333;
+}
+.sameNumber {
+	color: #FFA90B !important;
+}
+.site_num span {
+	color: #FFA90B;
+}
+@media (max-width:768px) {
+.result_table {
+	display: none !important;
+}
+.result_tableApp {
+	display: block !important;
+}
+}
+@media (max-width:500px) {
+.form,.to {
+	padding: 7px 10px 7px 40px !important;
+}
+.startEnd_Div {
+	width: 30%;
+}
+.ways_flexDiv>div {
+	display: table-cell;
+	text-align: left;
+}
+.search_waysDiv {
+	margin: 0px 20px 20px 20px;
+	display: block !important;
+}
+.ways_flexDiv ,.ways_searchBtn {
+	width: 100% !important;
+	margin-top: 20px;
+	padding-right: 0px !important;
+}
+}
+@media (max-width:1024px) {
+.way_search {
+	padding-top: 15px;
+	display: flex;
+	align-items: flex-start;
+}
+.search_waysDiv {
+	width: 100% !important;
+	padding-left: 0px !important;
+}
+.waytitle_div {
+	display: none;
+}
+.waystitle_app {
+	display: block !important;
+	text-align: center;
+	background: linear-gradient(46deg, rgb(1, 144, 211) 0%, rgb(3, 155, 218) 100%);
+	padding: 20px;
+	font-size: 24px;
+	color: #ffffff;
+}
+.waystitle_app span {
+	display: inline-block;
+	line-height: 20px;
+	padding: 0px 10px;
+	border-left: 5px solid #73D41B;
+}
+}
+.waystitle_app {
+	display: none;
+}
+.waytitle_div {
+	background: url('/images/shape_ways.png') no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 5;
+	width: 200px;
+	height: 200px;
+}
+.img_flex img {
+	padding: 5px;
+}
+.img_flex {
+	display: flex;
+	color: #ffffff;
+	align-items: center;
+}
+.result_table thead>tr>th {
+	background-color: #ECF9FF;
+	padding: 15px;
+	font-weight: normal;
+}
+.result_table tbody>tr>td {
+	background-color: #FFFFFF;
+	padding: 15px;
+}
+.result_table {
+	text-align: center;
+	color: #333333;
+	font-size: 16px;
+	position: relative;
+	border-collapse: collapse;
+}
+.results_flex {
+	display: flex;
+	font-size: 20px;
+	margin-left: 150px;
+	justify-content: center;
+}
+.results_div>div {
+	padding: 15px 0px;
+}
+.result {
+	display: none;
+	position: absolute;
+	width: 100%;
+	z-index: 4;
+	background: rgba(4,44,62,0.8);
+	color: #ffffff;
+}
+.span_point {
+	border-radius: 50%;
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	z-index: 5;
+	top: 23px;
+	left: 18px;
+}
+select::-ms-expand {
+	display: none;
+}
+.form,.to,.form-line, .to-line {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: 0;
+	color: #666666;
+	width: 100%;
+	height: 2.4rem;
+	background: url('/images/Unfold.png') #fff 95% 50% no-repeat;
+	background-size: 12px;
+}
+.form,.to {
+	padding: 7px 10px 7px 10px;
+}
+.form-line, .to-line {
+	padding: 7px 10px 7px 40px;
+}
+.formSelected {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	min-height: 50px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 0;
+	background-color: #ffffff;
+	position: relative;
+}
+.formSelected {
+	padding: 0px 15px;
+}
+.startEnd_Div {
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.startEnd_Div img {
+	padding-right: 5px;
+	vertical-align: bottom;
+}
+.ways_flexDiv select {
+	text-overflow: ellipsis;
+	width: 100%;
+	min-height: 50px;
+	font-size: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 0;
+	position: relative;
+	font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana sans-serif;
+}
+.way_search {
+	height: 100%;
+	padding: 13px 0px;
+	background-color: #EBF4FF;
+}
+.ways_title {
+	position: absolute;
+	left: 15%;
+	padding: 0px 10px;
+	top: 30%;
+	color: #ffffff;
+	border-left: 5px solid #73D41B;
+	line-height: 28px;
+	font-size: 26px;
+}
+
+
+.nav-item_bottom {
+	display: inline-table;
+}
+@media (max-width:768px) {
+#sitemap,.footer_line {
+	display: none !important;
+}
+}
+.footer_line {
+	background-color: #FED73C;
+	height: 5px;
+}
+.copyright {
+	background: linear-gradient(360deg,rgba(0,141,208,1) 0%,rgba(3,155,218,1) 100%);
+	color: #FFFFFF;
+	padding: 20px 10px;
+}
+.footer_link {
+	align-items: center;
+	display: flex;
+	padding-bottom: 10px;
+	justify-content: center;
+}
+.footer_link div {
+	padding: 0px 10px;
+}
+.footer_link_border {
+	border-right: 1px solid #ffffff;
+	line-height: 14px;
+	/*border-left: 1px solid #ffffff;
+	*/;
+}
+.nav_bottom {
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	padding: 30px 15px;
+	justify-content: space-around;
+}
+.nav-item_bottom ul li a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+	padding-left: 15px;
+}
+.nav-item_bottom ul {
+	padding: 0;
+	margin: 0;
+}
+.nav_bottom_link a {
+	color: #039BDA;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+.nav_bottom_link,.nav-item_bottom ul li {
+	padding-bottom: 10px;
+}
+.nav-item_bottom ul li {
+	list-style: none;
+	position: relative;
+}
+.nav-item_bottom ul li:before {
+	content: "\2022";
+	color: #73D41B;
+	position: absolute;
+}
+.footer_div {
+	background-color: #F4F9FF;
+}
+.footer_link a {
+	text-decoration: none;
+	color: #fff;
+}
+.second_a:before {
+	content: "\2022";
+	color: #73D41B;
+	padding-right: 8px;
+}
+.third_a {
+	padding-left: 16px;
+}
+#sitemap {
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	padding: 30px 15px;
+	justify-content: space-around;
+}
+#sitemap a {
+	break-inside: avoid;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.first_a {
+	color: #039BDA;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+.second_a,.third_a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+}
+
+#marqueeBox {
+	display: flex;
+	align-items: center;
+	height: 55px;
+}
+.blackBox {
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 999;
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+}
+.alert_box>div {
+	display: flex;
+	align-items: flex-start;
+	font-size: 20px;
+	padding: 10px 0px;
+	color: #FFFFFF;
+}
+.alert_box a {
+	text-decoration: none;
+	color: #A7E6FF;
+}
+.alert_box {
+	padding: 30px;
+}
+.alert_box img {
+	width: 30px;
+	padding-right: 5px;
+}
+.alert_windows {
+	position: fixed;
+	display: none;
+	z-index: 1000;
+	max-width: 320px;
+	width: 100%;
+	background-color: #C7182E;
+	max-height: 400px;
+	overflow: scroll;
+}
+.close_span {
+	float: right;
+	cursor: pointer;
+	padding: 10px;
+}
+.str_wrap,.str_active {
+	background-color: #C7182E !important;
+}
+.warning_div li {
+	height: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	font-size: 26px;
+	margin: 0px 30px;
+}
+.warning_div ul {
+	list-style: none;
+	padding: 0;
+	height: 100%;
+	margin: 0px;
+	text-align: center;
+	display: flex;
+}
+.warning_div {
+	background-color: #C7182E;
+	overflow: hidden;
+	display: none;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+}
+.warning_text img {
+	padding-right: 10px;
+	max-width: 30px !important;
+	vertical-align: text-top;
+}
+.warning_text {
+	color: #ffffff;
+	font-size: 26px;
+	text-decoration: none;
+}
+.warning_text a {
+	color: #A7E6FF;
+	font-size: 26px;
+	text-decoration: none;
+}
+
+.navPage_a:last-child {
+	color: #039BDA !important;
+}
+.breadcrumb_div {
+	max-width: 1200px;
+	margin: 20px auto;
+}
+.breadcrumb {
+	/*display: flex;
+	*/ flex-wrap: wrap;
+	align-items: center;
+}
+.navPage_a {
+	display: inline-table;
+	vertical-align: middle;
+	line-height: 20px;
+	padding: 5px 0px;
+}
+@media (max-width:1024px) {
+.breadcrumb_div {
+	padding: 0 10px;
+}
+}
+
+.ad_swiper {
+	background-color: #FFF8F5;
+	display: none;
+}
+.touch {
+	touch-action: none;
+}
+@media (max-width:500px) {
+.swiperPicture .swiper-button-next,.swiperPicture .swiper-button-prev {
+	display: inline-table !important;
+}
+#swiper_num img {
+	//min-width: 350px !important;
+}
+}
+.swiperPicture .swiper-button-next,.swiperPicture .swiper-button-prev {
+	width: 30px;
+	height: 30px;
+	position: static;
+	display: none;
+	background-size: 30px 30px;
+	outline: none;
+	margin: 0px 10px;
+}
+.swiperPicture {
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1200px;
+	padding: 30px 0px;
+	display: flex;
+	margin: 0 auto;
+}
+#swiper2 {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+}
+.swiperPicture .swiper-wrapper {
+	align-items: center;
+}
+#swiper2 .swiper-slide {
+	width: 100%;
+	max-height: 120px;
+	text-align: center;
+	font-size: 18px;
+	transition: opacity .3s ease 0s;
+	-webkit-transition: opacity .3s ease 0s;
+	//pointer-events: none;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+}
+
+.appclick_active a {
+	color: #039BDA !important;
+}
+.appclick_img {
+	padding: 5px 22px;
+}
+.app_hasChild_a {
+	width: 100%;
+	display: block;
+}
+.app_hasChild {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 0px !important;
+}
+.app_hasChild11:after {
+	background: url('/images/Unfold.png') no-repeat;
+	right: 20px;
+	content: "";
+	position: absolute;
+	height: 6px;
+	top: calc(50% - 3px);
+	width: 12px;
+	transition: all 0.3s ease-out;
+}
+.app_nav-third-li {
+	padding-left: 35px !important;
+}
+.app_thirdChild_ul {
+	list-style: none;
+	background-color: #FFFFFF;
+	display: none;
+	padding: 0;
+}
+.nav-third-li a:hover {
+	color: #FFA90B !important;
+}
+.nav-third-li a {
+	padding-left: 30px !important;
+}
+.thirdChild_ul {
+	display: none;
+}
+.hasChild_a {
+	position: relative;
+}
+.hasChild_a:after {
+	background: url('/images/Unfold.png') no-repeat;
+	right: 0;
+	content: "";
+	position: absolute;
+	height: 6px;
+	top: calc(50% - 3px);
+	width: 12px;
+}
+.thirdChild_ul li a:before {
+	left: 15px !important;
+}
+.thirdChild_ul {
+	padding: 0;
+	margin: 0;
+}
+.nav-third-li {
+	list-style: none;
+	padding-top: 15px;
+	margin-bottom: 0px !important;
+	position: relative;
+	width: 100%;
+}
+.header_setting > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+.change_size>div,.header_search>div,.M_header_search>div,.app_lan_font>div {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+.menu_div {
+	height: 40px;
+	margin: 0px auto;
+	max-width: 1200px;
+	clear: both;
+}
+.lan_list {
+	padding: 0px 5px;
+	display: table;
+}
+.lan_list a {
+	color: #333333;
+	text-decoration: none;
+	padding: 0px 5px;
+	display: inline-block;
+}
+.click_img {
+	padding: 15px 20px;
+}
+.ptClass .nav-item {
+	padding: 0px 10px !important;
+}
+.ptClass .nav-item span,.ptClass .menu_a,.appmenu_a,.ptClass .nav_link a,.ptClass .nav_more,.ptClass .third_nav a,.ptClass .secondMenu li a,.ptClass .app_secondMenu {
+	font-size: 11px;
+}
+.ptClass .nav-item .menu_a:after {
+	right: -10px !important;
+}
+#navLi6 .secondMenu {
+	right: 0;
+	left: auto;
+}
+.nav-item:last-child a:after {
+	display: none;
+}
+.more_btn {
+	display: none;
+}
+.app_secondMenu li:before {
+	content: "\2022";
+	color: #68CE1A;
+	padding-right: 10px;
+}
+.app_secondMenu li {
+	display: flex;
+	padding: 5px 20px;
+}
+.header_search input, .M_header_search input {
+	font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif;
+}
+@media (max-width:1024px) {
+.nav-third-li {
+	padding-left: 20px;
+}
+.menu_div {
+	height: auto !important;
+}
+.lan_list {
+	padding: 5px 20px 10px !important;
+	display: flex;
+	justify-content: space-around;
+}
+.menu_a,.appmenu_a {
+	padding: 15px 20px !important;
+	line-height: initial !important;
+}
+.selectBox:after,.selectBox:before {
+	display: none !important;
+}
+.selectBox li {
+	padding: 10px 0px !important;
+	background-color: #E8F3FF !important;
+}
+.selectBox {
+	box-shadow: none !important;
+	position: static !important;
+	padding: 10px 0px !important;
+	text-align: left !important;
+	background-color: #E8F3FF !important;
+	margin: 0px !important;
+}
+.change_app,.change_size,.change_view {
+	padding: 0px !important;
+	font-size: 16px !important;
+}
+.change_lan {
+	padding: 5px 20px 10px !important;
+	font-size: 16px !important;
+}
+.header_search,.M_header_search {
+	margin: 10px !important;
+	background-color: #F9F9F9 !important;
+}
+.header_search input,.M_header_search input {
+	width: 90% !important;
+	padding: 8px !important;
+	background-color: #F9F9F9 !important;
+}
+.search_btn {
+	padding: 10px !important;
+}
+}
+@media (min-width:1025px) {
+.app_header {
+	display: none !important;
+}
+}
+.app_lan_font {
+	justify-content: space-between;
+	padding: 5px 20px 10px;
+}
+.menu_icon {
+	display: none;
+	padding: 10px;
+}
+.change_icon,.appchange_icon {
+	transition: all 0.3s ease-out;
+	transform: rotate(180deg);
+}
+.appclick_flex {
+	background-color: #039BDA;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.app_header {
+	width: 250px;
+	position: absolute;
+	right: 0;
+	z-index: 99;
+	display: none;
+	background-color: #E8F3FF;
+}
+ul.app_secondMenu a {
+	color: #333333;
+	text-decoration: none;
+}
+.app_nav-item {
+	background-color: #039BDA;
+	border-bottom: 1px solid #F9F9F9;
+}
+.app_secondMenu {
+	display: none;
+	list-style: none;
+	color: #333333;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	width: 100%;
+	background-color: #EBF4FF;
+}
+@media (max-width:1024px) {
+.logo {
+	float: none !important;
+	position: static !important;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+.menu_icon {
+	display: block !important;
+}
+.header_setting ,.nav_div {
+	display: none !important;
+}
+}
+.add_padding {
+	padding-bottom: 10px;
+}
+.third_nav div {
+	padding-top: 10px;
+}
+.third_nav {
+	display: none;
+	margin: 0;
+	list-style: none;
+	padding: 0px 15px 10px 0px;
+	background-color: #EBF4FF;
+}
+.third_nav a {
+	color: #333333;
+	font-size: 16px;
+	padding-left: 15px;
+	text-decoration: none;
+	position: relative;
+}
+.third_nav div a:before {
+	content: "\2022";
+	color: #73D41B;
+	position: absolute;
+	left: 0px;
+}
+.nav_more {
+	width: 100%;
+	z-index: 5;
+	right: 0px;
+	background-color: #039BDA;
+	text-align: right;
+	min-width: 150px;
+	padding: 15px 0px 0px;
+	margin: 0;
+	border-top: 5px solid #FFA90B;
+	font-size: 16px;
+	top: 40px;
+	position: absolute;
+}
+.second_nav {
+	padding-bottom: 10px;
+}
+.nav_link {
+	width: 100%;
+}
+.nav_link a {
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-right: 15px;
+	display: block;
+	text-decoration: none;
+}
+@media (max-width:1145px) {
+.header_setting {
+	/*padding: 0px 0px 20px !important;
+	*/;
+}
+.logo {
+	padding: 5px !important;
+}
+}
+.secondMenu li a:hover,.third_nav>div>a:hover,app_secondMenu li a:hover {
+	color: #039BDA;
+}
+#navLi0 {
+	border-radius: 30px 0px 0px;
+}
+.nav-item:hover .secondMenu li a:before {
+	content: "\2022";
+	color: #73D41B;
+	left: 0;
+	position: absolute;
+}
+.secondMenu li {
+	position: relative;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.secondMenu li a {
+	color: #333333;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	padding-left: 15px;
+}
+.secondMenu {
+	display: none;
+	list-style: none;
+	color: #333333;
+	min-width: 180px;
+	padding: 15px 15px 0px 15px;
+	margin: 0;
+	left: 0;
+	border-top: 5px solid #FFA90B;
+	font-size: 16px;
+	width: 100%;
+	top: 40px;
+	position: absolute;
+	z-index: 5;
+	background-color: #EBF4FF;
+}
+.nav-item .menu_a:after {
+	border-right: 1px solid #ffffff;
+	content: "";
+	display: block;
+	height: 16px;
+	top: calc(50% - 8px);
+	position: absolute;
+	width: 100%;
+	right: -10px;
+	bottom: 0px;
+}
+.nav-item:hover .menu_a:before,.active .menu_a:before {
+	background-color: #68CE1A;
+	content: "";
+	display: block;
+	height: 5px;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+}
+.nav-item span {
+	width: 100%;
+	position: relative;
+}
+.nav_div .nav-item:first-child a {
+	z-index: 5;
+	padding-left: 0px;
+}
+.nav_div .nav-item:first-child:after {
+	background-image: url('/images/car.png');
+	content: "";
+	display: block;
+	height: 40px;
+	position: absolute;
+	left: -60px;
+	width: 107px;
+	top: 0;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: 107px 40px;
+}
+input:-internal-autofill-selected {
+	background-color: #EBEBEB !important;
+}
+.selectBox a {
+	color: #333333;
+	text-decoration: none;
+}
+.selectBox:before {
+	content: "";
+	display: block;
+	border-width: 6px;
+	position: absolute;
+	left: calc(50% - 3px);
+	top: -12px;
+	border-style: solid dashed dashed;
+	border-color: #BFBFBF transparent transparent;
+	font-size: 0;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+.selectBox:after {
+	content: "";
+	display: block;
+	border-width: 6px;
+	position: absolute;
+	left: calc(50% - 3px);
+	top: -11px;
+	border-style: solid dashed dashed;
+	border-color: #ffffff transparent transparent;
+	font-size: 0;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+.cut,.add {
+	cursor: pointer;
+	width: 16px;
+	text-align: center;
+}
+.selected,.select-item:hover {
+	color: #29AADF;
+}
+.lan_Selected {
+	color: #039BDA !important;
+	cursor: pointer;
+}
+.select-icon {
+	padding-left: 5px;
+}
+.select_btn {
+	display: flex;
+	align-items: center;
+	min-width: 90px;
+	justify-content: space-between;
+}
+.change_lan {
+	position: relative;
+}
+.selectBox {
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.5);
+	cursor: pointer;
+	display: none;
+	list-style: none;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+	z-index: 10;
+	background-color: #ffffff;
+	margin: 15px 0px;
+	border-radius: 3px;
+}
+.selectBox li {
+	padding: 10px;
+}
+.search_btn {
+	background-color: #FFA90B;
+	display: block;
+	padding: 4px 10px;
+}
+.header_search,.M_header_search {
+	background-color: #EBEBEB;
+	align-items: center;
+	margin: 5px 0px;
+	justify-content: space-between;
+}
+.header_search input,.M_header_search input {
+	padding: 4px 10px;
+	background-color: #EBEBEB;
+	outline: none;
+	border: 0;
+	width: 80px;
+	font-size: 12px;
+}
+.change_lan select {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	color: rgb(0, 144, 212);
+}
+.change_lan select option {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	color: rgb(0, 144, 212);
+}
+.change_size_text {
+	color: #039BDA;
+	padding: 0px 5px;
+}
+.change_app,.change_size,.change_lan,.change_view {
+	padding: 0px 10px;
+	font-size: 12px;
+}
+.change_size {
+	border-left: 1px solid #D8D8D8;
+	line-height: 16px;
+	align-items: center;
+}
+.change_app,.change_view {
+	color: #333333;
+	border-right: 1px solid #D8D8D8;
+	line-height: 16px;
+}
+.changeSize {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	float: left;
+	padding: 5px 0px;
+	position: absolute;
+	z-index: 99;
+}
+.header_setting {
+	padding: 5px 0px;
+	align-items: center;
+	line-height: 12px;
+	font-size: 12px;
+	float: right;
+}
+.nav_div {
+	float: right;
+	display: inline-table;
+	display: flex;
+	/*justify-content: flex-end;
+	*/ height: 40px;
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.nav-item {
+	background-color: #039BDA;
+	padding: 0px 10px;
+	position: relative;
+	/*display: table-cell;
+	*/ vertical-align: middle;
+}
+.menu_a,.appmenu_a {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 16px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.nav_div1::after {
+	content: '';
+	position: absolute;
+	width: 50%;
+	right: -50%;
+	height: 100%;
+	background-color: #039BDA;
+}
+.nav-item:last-child {
+	border: 0px;
+}
+.nav-item:last-child span:before {
+	height: 0;
+}
+
+@media(max-width:500px) {
+.notice_date span {
+	width: 100%;
+}
+}
+.notice_date {
+	font-weight: 600;
+	display: flex;
+	flex-wrap: wrap;
+}
+.noticeBtn_show,.detail_banner {
+	display: none;
+}
+#swiperNotice .swiper-button-next {
+	background-image: url('/images/right_2.png');
+	background-size: 100%;
+	width: 30px;
+	height: 30px;
+	top: auto;
+	bottom: 25px;
+	right: 30px;
+	outline: none;
+}
+#swiperNotice .swiper-button-prev {
+	background-image: url('/images/left_2.png');
+	background-size: 100%;
+	width: 30px;
+	height: 30px;
+	top: auto;
+	bottom: 25px;
+	left: auto;
+	right: 70px;
+	outline: none;
+}
+.notice_icon2 {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+.notice_icon2 img {
+	max-height: 40px;
+}
+.notice_icon2 span {
+	padding: 5px;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+.swiper-slideDiv img {
+	width: 100%;
+}
+#swiper1 {
+	max-width: 1200px;
+}
+#swiperNotice,#swiperBanner {
+	max-width: 1200px;
+	display: none;
+	background-color: #D8305D;
+}
+.notice_content {
+	border-radius: 10px;
+	margin: 0px 10px 10px;
+	padding: 15px;
+	background-color: #FFFFFF;
+	height: 100%;
+}
+
+.breadcrumb_div {
+    margin: 70px auto 20px;
+}
+body {
+font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif;
+}
+.routeline_div, .eastline_div{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.eastline_div>div{
+   width: 50%
+}
+
+.routeline_div>div:first-child {
+	width: 25%
+}
+.routeline_div>div:last-child {
+	width: 73%
+}
+@media (max-width:500px){
+
+.routeline_div>div, .eastline_div>div {
+	width: 100% !important;
+}
+}
+.text_minTitle {
+	color: #039BDA;
+	font-size: 24px;
+	padding-left: 5px;
+	border-left: 5px solid #68CE1A;
+	line-height: 30px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+#routr-item-first:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 8px solid #fff;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+	position: absolute;
+	top: calc(50% - 2px);
+	right: 20px;
+}
+#routr-item-first {
+	position: relative;
+}
+.routr_mobile-active,.routr_mobile {
+	display: none;
+}
+.routr_mobile-body {
+	display: none;
+	border-radius: 10px;
+	display: none;
+	max-width: 320px;
+	margin: 0px auto;
+	padding: 10px;
+	background: #F2F2F2;
+}
+.routr_mobile-item,#routr-item-first {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin: 10px auto 10px;
+	padding: 10px;
+	border-radius: 40px;
+	max-width: 300px;
+}
+#arrow {
+	width: 0;
+	height: 0;
+	border-bottom: 28px solid #15BDDA;
+	border-left: 22px solid transparent;
+	border-right: 22px solid transparent;
+	position: absolute;
+	bottom: -30px;
+}
+#arrow:after {
+	content: " ";
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid #fff;
+	border-left: 24px solid transparent;
+	border-right: 24px solid transparent;
+	position: absolute;
+	bottom: -28px;
+	left: -24px;
+}
+.route-item span {
+	font-size: 16px;
+}
+.route {
+	max-width: 1200px;
+	margin: 20px auto 50px;
+	display: flex;
+	align-items: center;
+	background: #F2F2F2;
+	padding: 8px;
+	border-radius: 40px;
+	gap: 10px;
+	justify-content: space-between;
+	position: relative;
+}
+.route-item-body {
+	display: none;
+}
+.route-active {
+	display: block !important;
+}
+.route-item {
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 40px;
+	width: 25%;
+	text-align: center;
+	filter: opacity(0.6);
+	cursor: pointer;
+	color: #fff;
+	font-weight: 600;
+}
+.route-tag-active.route-item, .route-item:hover {
+	filter: none;
+}
+.taipa_line.route-item, .taipa_line-mobile {
+	background-color: #A3D228;
+}
+.shipaiwan_line.route-item, .shipaiwan_line-mobile {
+	background-color: #15BDDA;
+}
+.LRTeastline.route-item , .LRTeastline-mobile {
+	background-color: #BB64C7;
+}
+.Hengqinline.route-item , .Hengqinline-mobile {
+	background-color: #F49646;
+}
+.route-tag-active.taipa_line~ .arrow {
+	border-bottom-color: #A3D228!important;
+	left: calc(25% / 2 - 20px);
+}
+.route-tag-active.shipaiwan_line ~ .arrow {
+	border-bottom-color: #15BDDA !important;
+	left: calc(75% / 2 - 20px);
+}
+.route-tag-active.Hengqinline~ .arrow {
+	border-bottom-color: #F49646 !important;
+	left: calc(125% / 2 - 20px);
+}
+.route-tag-active.LRTeastline~ .arrow {
+	border-bottom-color: #BB64C7 !important;
+	left: calc(175% / 2 - 20px);
+}
+@media(max-width:500px) {
+.routr_mobile {
+	display: block;
+}
+.route {
+	display: none;
+}
+}
+
+.video_box {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+#video_box,#youtube_box {
+	width: 100%;
+	min-height: 315px;
+	height: 100%;
+}
+@media(max-width:500px) {
+#video_box,#youtube_box {
+	min-height: auto !important;
+}
+}
+
+.guide-item img {
+	width: 80px;
+}
+#guide-box {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin-bottom: 10px;
+}
+.guide-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.guide-title {
+	background-color: #b2d3f2;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+.remark_title {
+	font-weight: bold;
+}
+.remark_box {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #ebf5ff;
+	border: 6px solid #b2d3f2;
+	padding: 10px;
+}
+#content2 {
+	position: relative;
+}
+.wing_title1 {
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: rgb(255 242 204);
+	border: 1px solid #ed7d31;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+.wing-img {
+	width: 60px;
+	position: absolute;
+	top: -10px;
+	left: -3px;
+}
+.wing-header {
+	padding: 10px;
+	text-align: center;
+}
+.wing-body {
+	background-color: #fff2cc;
+	padding: 10px;
+	border-radius: 0px 0px 14px 14px;
+}
+.wing_text1 {
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #f6b599;
+	border: 1px solid #ed7d31;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+.wing_text2 {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ffc000;
+	background-color: #ffd890;
+	border-radius: 6px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+.tab-flex {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 5px;
+}
+.tab-flex>span:first-child {
+	font-weight: bold;
+	white-space: break-spaces;
+}
+#content1 >div>span {
+	border-radius: 20px 0px;
+	color: #fff;
+	padding: 2px 10px;
+	position: absolute;
+	top: -12px;
+	left: 0px;
+}
+#content1 >div {
+	background-color: #a1dce0;
+	border-radius: 14px;
+	padding: 16px 10px;
+	position: relative;
+	font-size: 14px;
+	margin-top: 30px;
+}
+div#tab1 {
+	border-radius: 20px 20px 0px 0px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	border-width: 1px 1px 0px;
+	position: relative;
+	top: 1px;
+}
+div#tab2 {
+	border-radius: 20px 20px 0px 0px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	border-width: 1px 1px 0px;
+	position: relative;
+	top: 1px;
+}
+#content1,#tab1 {
+	background-color: #ebf5ff;
+	border: 1px solid #d2e2e7;
+}
+#content2, #tab2 {
+	background-color: #b2d3f2;
+	border: 1px solid #d2e2e7;
+}
+.tabs {
+	display: flex;
+}
+.tab {
+	width: 50%;
+	padding: 10px;
+}
+.tab-content {
+	padding: 10px;
+	display: none;
+	color: #333;
+	min-height: 400px;
+}
+.tab-content.card-active {
+	display: block;
+}
+.close-btn:before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 36px;
+	height: 6px;
+	margin-left: -18px;
+	margin-top: -3px;
+	transform: rotateZ(-45deg);
+	background-color: #fff;
+}
+.close-btn:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 36px;
+	height: 6px;
+	margin-left: -18px;
+	margin-top: -3px;
+	transform: rotateZ(45deg);
+	background-color: #fff;
+}
+.overlay_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	text-align: center;
+	align-items: center;
+}
+.overlay img {
+	max-width: 90%;
+	max-height: 90%;
+}
+.close-btn {
+	position: absolute;
+	top: 20px;
+	right: 3%;
+	z-index: 10;
+	height: 48px;
+	width: 48px;
+	background: red;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.stationItem {
+	position: absolute;
+	left: 100%;
+	top: 0px;
+	width: max-content;
+	z-index: 10;
+}
+.TimeTable img {
+	width: 100%;
+}
+.TimeTable {
+	width: 100%;
+	margin: 20px 0px;
+}
+.routeMenu_box {
+}
+.routeMenu4 {
+	display: inline-block;
+	margin: 20px 0px;
+	min-height: 200px;
+}
+.routeItem4 {
+	position: relative;
+}
+.active {
+	color: #68ce1a !important;
+}
+.active.stationName::before {
+	border: 3px solid #68ce1a !important;
+}
+.stationName:hover {
+	color: #68ce1a;
+}
+.stationName:hover::before {
+	border: 3px solid #68ce1a;
+}
+.stationName {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 4px 30px;
+	color: #039BDA;
+}
+.stationName span {
+	flex: 1;
+}
+.stationItem ul {
+	list-style: none;
+	padding: 10px 0px;
+	margin: 0;
+}
+.stationItem {
+	background-color: #EBF4FF;
+	max-width: 170px;
+	display: none;
+}
+.stationName::before {
+	content: "";
+	width: 11px;
+	height: 11px;
+	border: 3px solid #2f3089;
+	border-radius: 50%;
+	margin-right: 10px;
+	min-width: 11px;
+}
+.routeName::before {
+	content: "▼";
+	transform: rotate(0deg);
+	transition: .2s all ease;
+	color: #68CE1A;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 6px;
+}
+.opened .routeName::before {
+	transform: rotate(-90deg);
+}
+a.routeName {
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #039BDA;
+	color: #fff;
+	display: block;
+	padding: 10px;
+}
+@media(max-width:500px) {
+.stationItem {
+	max-width: 200px;
+}
+}
+
+.remaker_icon {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 20px;
+}
+.remaker_icon img {
+	width: 25px;
+	height: 25px;
+	padding-right: 5px;
+}
+.remaker_icon span {
+	font-size: 18px;
+	color: #F34445;
+}
+#point1 {
+	top: 11.8%;
+	left: 14.6%;
+}
+#point2 {
+	top: 33%;
+	left: 18.5%;
+}
+#point3 {
+	top: 38.8%;
+	left: 26.8%;
+}
+#point4 {
+	top: 44.5%;
+	left: 34%;
+}
+#point5 {
+	top: 51.7%;
+	left: 34%;
+}
+#point6 {
+	top: 59%;
+	left: 34%;
+}
+#point7 {
+	top: 67.3%;
+	left: 41%;
+}
+#point8 {
+	top: 75%;
+	left: 25.4%;
+}
+#point9 {
+	top: 67.3%;
+	left: 47%;
+}
+#point10 {
+	top: 83.5%;
+	left: 42.5%;
+}
+#point11 {
+	top: 59%;
+	left: 54%;
+}
+#point12 {
+	top: 51.8%;
+	left: 54%;
+}
+#point13 {
+	top: 44.5%;
+	left: 54%;
+}
+#point14 {
+	top: 37%;
+	left: 60%;
+}
+#point15 {
+	top: 31%;
+	left: 60%;
+}
+.map_bottomText {
+	font-size: 20px;
+	/*background-image: url(/images/tiaowen.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 16px;
+	background-size: 100% 100%;
+	padding: 8px;
+	*/ display: inline-block;
+	margin: 20px 0px;
+}
+.map_bottomText div {
+	padding: 5px 10px;
+	background: rgba(236,249,255,1);
+}
+.text_content {
+	text-align: justify;
+}
+@media (max-width:1024px) {
+.station_list ul {
+}
+}
+@media (max-width:768px) {
+.station_list ul {
+}
+}
+.station_list ul:before {
+	content: "";
+	display: block;
+	border-width: 20px;
+	position: absolute;
+	left: calc(50% - 20px);
+	top: -40px;
+	border-style: solid dashed dashed;
+	border-color: #00364F transparent transparent;
+	font-size: 0;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+.station_list {
+	width: 180px;
+	display: none;
+	position: absolute;
+	z-index: 10;
+}
+#startPoint,#endPoint {
+	display: none;
+	position: absolute;
+}
+.station_list ul {
+	background-color: #00364F;
+	padding: 10px 10px 0px;
+	border-radius: 12px;
+	position: relative;
+	list-style: none;
+}
+.station_list ul li {
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	border-bottom: 1px solid #274A5B;
+	padding: 10px 0px;
+	font-size: 18px;
+}
+.map > div {
+	padding-bottom: 2.5rem;
+}
+.map .station .area span {
+	z-index: 1;
+}
+.map .station span {
+	background-color: #ffffff;
+	opacity: 0;
+	position: absolute;
+	display: block;
+	text-indent: -999px;
+	padding-bottom: 2.5%;
+	width: 2.5%;
+	height: 0;
+	cursor: pointer;
+}
+.map {
+	position: relative;
+}
+.map .station .area span:nth-child(1) {
+	padding-bottom: 4%;
+	width: 10%;
+}
+.map .station .area span:nth-child(2) {
+	padding-bottom: 4.5%;
+	width: 10.4%;
+}
+.map .station .area span:nth-child(3) {
+	padding-bottom: 10.5%;
+	width: 5%;
+}
+.map .station .area span:nth-child(4) {
+	padding-bottom: 4.5%;
+	width: 11%;
+}
+.map .station .area span:nth-child(5) {
+	padding-bottom: 4.2%;
+	width: 10.2%;
+}
+.map .station .area span:nth-child(6) {
+	padding-bottom: 4%;
+	width: 12%;
+}
+.map .station .area span:nth-child(7) {
+	padding-bottom: 10%;
+	width: 3.5%;
+}
+.map .station .area span:nth-child(8) {
+	padding-bottom: 8%;
+	width: 6%;
+}
+.map .station .area span:nth-child(9) {
+	padding-bottom: 10%;
+	width: 7%;
+}
+.map .station .area span:nth-child(10) {
+	padding-bottom: 8%;
+	width: 7.5%;
+}
+.map .station .area span:nth-child(11) {
+	padding-bottom: 4%;
+	width: 17.5%;
+}
+.map .station .area span:nth-child(12) {
+	width: 12.8%;
+	padding-bottom: 4%;
+}
+.map .station .area span:nth-child(13) {
+	padding-bottom: 3.8%;
+	width: 11%;
+}
+.map .station .area span:nth-child(14) {
+	padding-bottom: 3.8%;
+	width: 11.5%;
+}
+.map .station .area span:nth-child(15) {
+	padding-bottom: 4%;
+	width: 18.5%;
+}
+
+.flex-around {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+.img_bgmask .view_img_wrap {
+	width: auto;
+}
+.baguetteBox {
+	line-height: 32px;
+	text-align: justify;
+}
+.baguetteBox img {
+	padding: 0px 10px;
+	max-width: 350px !important;
+	text-align: center;
+}
+@media(max-width:500px) {
+.view_img_wrap {
+	top: 20% !important;
+}
+}
+
+.comments_box table tr td {
+	padding: 3px 2px;
+}
+.comments_links {
+	padding: 10px 0px !important;
+	list-style: none;
+}
+.comments_links li a {
+	color: rgb(112,48,160);
+}
+.eastline_img img {
+	width: 100% !important;
+	height: 100% !important;
+	margin-bottom: 20px;
+}
+.eastline_img {
+	padding: 10px 20px;
+}
+.eastline_title {
+	background-color: rgb(112,48,160);
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 20px 0px;
+}
+.eastline_body {
+	color: rgb(112,48,160);
+	padding: 10px 20px 10px 40px;
+}
+.eastline_body h2,.eastline_body h4 {
+	margin: 0;
+	padding: 10px 0px 0px;
+	color: #FFFFFF;
+}
+.eastline_body p,.comments_box p {
+	margin: 0;
+	line-height: 26px;
+	padding-bottom: 20px;
+}
+.eastline_body ul {
+	margin: 0;
+	padding: 10px 20px;
+	line-height: 26px;
+}
+.comments_box {
+	background-color: rgb(122,140,154);
+	color: #FFFFFF;
+	padding: 0px 20px 10px 40px;
+}
+.comments_box h2,.comments_box h4 {
+	margin: 0;
+	padding: 20px 0px 20px;
+	color: rgb(112,48,160);
+}
+
+</style>
+<script type="text/javascript" src="/theme/standard.js"></script>
+<script type="text/javascript" src="/system/js/jquery.js"></script>
+<script type="text/javascript" src="/system/js/swiper.min.js"></script>
+<script type="text/javascript" src="/system/js/preview1.js"></script>
+<script type="text/javascript" src="/system/js/viewer.min.js"></script>
+<script type="text/javascript" src="/system/js/baguetteBox.js"></script>
+<script type="text/javascript">
+var oMeta = document.createElement('meta');
+oMeta.charset = 'utf-8';
+oMeta.name = "viewport";
+oMeta.content = 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no';
+document.getElementsByTagName('head')[0].appendChild(oMeta);
+
+var numMeta = document.createElement('meta');
+numMeta.name = "format-detection";
+numMeta.content = 'telephone=no';
+document.getElementsByTagName('head')[0].appendChild(numMeta);
+
+
+
+
+
+
+//刷新變大字體
+function changeFontAgain(el) {
+	if (sessionStorage.temp_size == 2) {
+		temp_size = 2;
+		changeFont(el, 2);
+
+	} else if (sessionStorage.temp_size == 4) {
+		temp_size = 4;
+		changeFont(el, 4);
+
+	}
+}
+
+
+function getUrlParam(name) {
+	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+	var r = window.location.search.substr(1).match(reg);
+	if (r != null) return unescape(r[2]);
+	return null;
+}
+
+
+
+
+
+</script>
+</head>
+<body style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0">
+<div class="cms-layout" style=""><div class="cms-layout-row" style=""><div key="r0c0" class="cms-layout-column" style=""><div section-id="2370" class="cms-section" style="padding: 0px; z-index:100;position:fixed; width: 100%;"><div style="margin: 0 auto; padding: 0;"><div class="blackBox"></div>
+<div class="warning_div ">
+<div id="marqueeBox" style="max-width:1200px; margin:0 auto;">
+</div>
+</div>
+<div class="alert_windows">
+     <span class="close_span"><img src="/images/guanbi.png"></span>
+    <div class="alert_box"></div>
+</div>
+
+<script>
+var articles_arr = [];
+var detailStr = "[詳情]";
+    var alias = "route";
+$(function(){
+
+fillMarqueeData (articles_arr);
+});
+
+function fillMarqueeData(data) {
+    var html = '';
+    var apphtml = '';
+    var flag = false;
+    html += "<marquee scrollamount='5'  onmouseover='this.stop()' onmouseout='this.start()'><ul>";
+    for(var i=0; i< data.length; i++) {
+    if (data[i].isScroll && data[i].title !== "") {
+        flag = true;
+        html += "<li class='warning_text'><img src='/images/warning.png'>";
+        apphtml += "<div><img src='/images/warning.png'><span>" +  data[i].title;
+        html +=  "<span>" +  data[i].title + "</span>";
+         if (data[i].hasDetail) {
+              html += "<a href='"+ data[i].link +"'>" + detailStr  +"</a>";
+             apphtml += "<a href='"+ data[i].link +"'>" + detailStr  +"</a>";
+         }
+     }
+     html += "</li>";
+     apphtml += "</span></div>";
+    }
+    html += "</ul>";
+    html += "</marquee>";
+    if(flag) {
+      $('.alert_box').append(apphtml);
+       $('#marqueeBox').append(html);
+         AppAlert(this.alias);
+       $('.warning_div ').show();
+       $('.paddingtop_div').css('padding-top', '60px');
+    } else {
+       $('.warning_div ').hide();
+       $('.paddingtop_div').css('padding-top', '0px');
+    }
+   }
+
+function showAlert() {
+        var winWid = $(window).width()/2 - $('.alert_windows').width()/2;
+	var winHig = $(window).height()/2 - $('.alert_windows').height()/2;
+	 $(".alert_windows").css({"left":winWid,"top":-winHig*2});
+	$(".alert_windows").show();
+        $(".alert_windows").animate({"left":winWid,"top":winHig},1000);
+
+}
+
+
+$(".warning_div ").click(function(){
+       var app = navigator.userAgent;
+	var isAndroid = app.indexOf('Android') > -1 || app.indexOf('Adr') > -1;
+	var isiOS = !!app.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+	if (isiOS || isAndroid) {
+             showAlert();
+            $('.blackBox').show();  
+           }
+       
+});
+$(".alert_windows span").click(function(){
+	$(this).parent().fadeOut(500);
+        $('.blackBox').hide();
+}); 
+
+$(window).resize(function () {
+	$('.alert_windows').fadeOut(500);
+        $('.blackBox').hide();
+});
+$(document).click(function(){
+	$('.alert_windows').fadeOut(500);
+        $('.blackBox').hide();
+});
+$(".alert_box,.warning_div ").click(function(event){
+	event.stopPropagation();
+});
+
+function AppAlert(url) {
+	var app = navigator.userAgent;
+	var isAndroid = app.indexOf('Android') > -1 || app.indexOf('Adr') > -1;
+	var isiOS = !!app.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+     if(url == "index"){
+	if (isiOS || isAndroid) {
+             showAlert();
+            $('.blackBox').show();  
+           }
+     }
+}
+
+
+</script></div></div><div section-id="5920" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><script>
+	//頁面訪問cms統計
+$(function() {
+      //判斷是否為發佈後鏈接
+       var publish_cms = false;
+                  //發佈後鏈接統計
+           publish_cms = true; 
+	var language = 'zh_TW';
+	var langStr = {
+			zh_TW : '繁',
+			zh_CN: '简',
+			pt: 'PT',
+			en: 'EN'
+		}
+        var langTitle = encodeURIComponent(' - ' + langStr[language]);
+	var title = document.title && document.title !== 'null' ? encodeURIComponent(document.title) : encodeURIComponent(window.location.href);//獲取頁面title
+	var alias = "mlm";//獲取網站別名
+	var serviceContextUrl = "/cms"; //獲取服務器url
+        //如果publish_cms為true執行訪問統計
+	if (publish_cms) {
+		var url1 = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +   '&duration=hour' + '&category=訪問瀏覽次數' + langTitle;
+		var url2 = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +'（用戶數）' +   '&duration=day' + '&category=用戶數（1天）' + langTitle;
+		//var url3 = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" +langTitle +title+ '&category='+ langStr[language];
+		$.ajax({
+			global: false,
+			type: "get",
+			url: url1,
+			success: function(data) {
+				//console.log(data);
+				
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		 });
+		$.ajax({
+			global: false,
+			type: "get",
+			url: url2,
+			success: function(data) {
+				//console.log(data);
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+		//$.ajax({
+		//	global: false,
+		//	type: "get",
+		//	url: url3,
+		//	success: function(data) {
+		//		//console.log(data);
+		//	},
+		//	error: function(jqXHR, exception) {
+		//		console.log("失敗,服務器錯誤");
+		//	},
+		//});
+		$('a').each(function(){
+			if ($(this).attr('type') === 'download') {
+				var downloadLink = encodeURIComponent($(this).attr('href') );
+				var newLink =  serviceContextUrl +"/servlet/api/statistics/counter/redirect/"+ alias +"?url=" + downloadLink +'&category=檔案下載';
+				$(this).attr('href', newLink);
+			}
+		})
+	}
+});
+</script></div></div><div section-id="2352" class="cms-section paddingtop_div" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><script type="text/javascript">var temp_size = 0;
+//統計檔案下載
+function dowload(resource) {
+	var site_url = window.location.href.toLowerCase();
+	var title = encodeURIComponent(document.title);
+	var alias = "mlm";
+	var serviceContextUrl = "/cms"; //獲取服務器url
+	var visitsNum = 0;
+	if (site_url.indexOf("/cms/") == -1) {
+		var url = serviceContextUrl + "/servlet/api/statistics/counter/redirect/" + alias + "?url=" + resource;
+		$.ajax({
+			global: false,
+			type: "get",
+			url: url,
+			success: function(data) {
+				console.log(data, visitsNum);
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+	}
+
+}
+//變大字體
+function changeFont(el, num) {
+	var children = el.children();
+	for (var i = children.length - 1; i >= 0; i--) {
+		changeFont($(children[i]), num);
+	}
+	if (typeof(el.css("font-size")) != "undefined") {
+		var fontSize = el.css("font-size").replace(/[a-zA-Z]/g, "");
+		fontSize = parseInt(fontSize);
+		el.css({
+			"font-size": (fontSize + num) + "px"
+		});
+	}
+
+}
+$(function() {
+	$(".add").on('click',
+	function() {
+		var size = temp_size;
+		switch (temp_size) {
+		case 0:
+			size = 2;
+			temp_size = 2;
+			break;
+		case 2:
+			size = 2;
+			temp_size = 4;
+			break
+		case 4:
+			return;
+		}
+		changeFont($(".cms-layout"), size);
+		sessionStorage.temp_size = temp_size;
+
+	});
+
+	$(".cut").on('click',
+	function() {
+		var size = temp_size;
+		switch (temp_size) {
+		case 2:
+			size = -2;
+			temp_size = 0;
+			break
+		case 4:
+			size = -2;
+			temp_size = 2;
+			break
+		case 0:
+			return;
+		}
+		changeFont($(".cms-layout"), size);
+		sessionStorage.temp_size = temp_size;
+
+	});
+	if (sessionStorage.temp_size == 2) {
+		temp_size = 2;
+		changeFont($(".cms-layout"), 2);
+	} else if (sessionStorage.temp_size == 4) {
+		temp_size = 4;
+		changeFont($(".cms-layout"), 4);
+	}
+});</script>
+<div class="black"></div>
+<div style="border-bottom:5px solid #FFA90B;">
+<!--<div class="warning_div">
+<div class="warning_img"><img style=" max-width:30px;" src="/images/warning.png" alt=""></div>
+<div class="warning_text">特區政府呼籲：必須堅持，記得洗手，戴好口罩，避免聚集，保持距離，健康聲明，減少出境。</div>
+</div>-->
+
+<div>
+ <div style="max-width:1200px; margin:0 auto;">
+  <div class="logo">
+       <a style="display: block;" href="/tc/index.html">
+               <img style="max-height: 65px;"  src="/images/Logo.png" alt=""></a>
+   <div class="menu_icon"><img  src="/images/menu_icon.png" alt=""></div>
+</div>
+    <div class="header_setting ">
+        <div class="change_app"  style="display:none"><img style="height: 16px;"  src="/images/app_version.png" alt=""></div>
+<div class="lan_list ">
+                    <a class="lan_tw" href="/tc/route.html">繁</a>
+                      <a  class="lan_cn " href="/sc/route.html">简</a>
+                    <a class="lan_pt" href="/pt/route.html">PT</a>
+                    <a class="lan_en" href="/en/route.html">EN</a>
+</div>
+         <div class="change_lan" style="display:none;">
+            <div class="select_btn">
+                <span class="lan_Selected"></span>
+                <span class="select-icon"><img  src="/images/Unfold.png" alt=""></span>
+            </div>
+            <ul class="selectBox">
+                    <a class="lan_tw" href="/tc/route.html"><li class="select-item">繁體中文</li></a>
+                      <a  class="lan_cn " href="/sc/route.html"><li class="select-item">简体中文</li></a>
+                    <a class="lan_pt" href="/pt/route.html"><li class="select-item">Português</li></a>
+                    <a class="lan_en" href="/en/route.html"><li class="select-item">English</li></a>
+         </div> 
+         <div class="change_size">
+            <div class="cut">-</div>
+	     <div class="change_size_text ">A</div>
+	     <div class="add">+</div>
+         </div>
+               <div class="header_search">
+                   <div><input type="text" id="search-input" name="search-input" onkeypress="return search(event)"  
+                  placeholder="搜尋"></div>
+                <div>
+                <a id="search_btn"  class="search_btn"  onclick="searchClick();">
+                <img style="max-width: 18px;" src="/images/search.png" alt=""></a> 
+                </div>
+            </div>
+
+
+    </div>
+ </div>
+<div class="menu_div ">
+<div class="nav_div">
+                        <div class="nav-item" id="navLi0">
+                            <a class="menu_a" href="/tc/index.html"  data-size="0" rel="noopener noreferrer"
+                                target="_self"><span>首頁</span></a>
+                        </div>
+                        <div class="nav-item" id="navLi1">
+                            <a class="menu_a" href="/tc/route.html"  data-size="4" rel="noopener noreferrer"
+                                target="_self"><span>乘客資訊</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/route.html">輕軌線路</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/notice_operatingarea.html">搭乘須知</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/general_ticket.html">車票及車費</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/info_lost_property.html">失物認領</a>
+</li>
+                                    </ul>
+                        </div>
+                        <div class="nav-item" id="navLi2">
+                            <a class="menu_a" href="/tc/news_list.html"  data-size="3" rel="noopener noreferrer"
+                                target="_self"><span>最新動態</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/news_list.html">新聞消息</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/statistics.html">統計資料</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/themetrains.html">主題列車介紹</a>
+</li>
+                                    </ul>
+                        </div>
+                        <div class="nav-item" id="navLi3">
+                            <a class="menu_a" href="/tc/character.html"  data-size="4" rel="noopener noreferrer"
+                                target="_self"><span>輕軌概況</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/character.html">輕軌特性</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/ocean_cruiser.html">列車介紹</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/questions.html">輕軌系統小知識</a>
+</li>
+                                    </ul>
+                        </div>
+                        <div class="nav-item" id="navLi4">
+                            <a class="menu_a" href="/tc/Parking.html"  data-size="3" rel="noopener noreferrer"
+                                target="_self"><span>停車場管理</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/JCPTI_Park.html">氹仔柯維納馬路停車場</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/BPTIparking_HP.html">媽閣交通樞紐重型客車停車場</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/BPTIparking_LVM.html">媽閣交通樞紐停車場（輕型汽車及電單車）</a>
+</li>
+                                    </ul>
+                        </div>
+                        <div class="nav-item" id="navLi5">
+                            <a class="menu_a" href="/tc/intro.html"  data-size="5" rel="noopener noreferrer"
+                                target="_self"><span>關於我們</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/intro.html">公司簡介</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/organization.html">組織架構</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/annual_report.html">公司年報</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/tender.html">採購項目</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/quality.html">質量認證</a>
+</li>
+                                    </ul>
+                        </div>
+                        <div class="nav-item" id="navLi6">
+                            <a class="menu_a" href="/tc/career.html"  data-size="0" rel="noopener noreferrer"
+                                target="_self"><span>人才招聘</span></a>
+                        </div>
+                        <div class="nav-item" id="navLi7">
+                            <a class="menu_a" href="/tc/contact_info.html"  data-size="3" rel="noopener noreferrer"
+                                target="_self"><span>聯絡我們</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/contact_info.html">聯絡我們</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/lost_property.html">失物認領</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/comments.html">意見反映</a>
+</li>
+                                    </ul>
+                        </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="app_header">
+<!---搜索-->
+               <div class="M_header_search">
+                   <div><input type="text" id="M_search-input" name="search-input" onkeypress="return M_search(event)"
+                  placeholder="搜尋"></div>
+                <div>
+                <a id="M_search_btn"  class="search_btn"   onclick="M_searchClick();">
+                <img style="max-width: 18px;" src="/images/search.png" alt=""></a> 
+                </div>
+            </div>
+<!---setting-->
+   <div class="app_lan_font">
+         <div class="change_size" style="border: 0;">
+             <div class="cut">-</div>
+	     <div class="change_size_text ">A</div>
+	     <div class="add">+</div>
+         </div>
+         <div class="change_view" style="border: 0;"><img style="height: 30px;"  src="/images/pc_version.png" alt=""></div></div>
+<div class="lan_list">
+                    <a class="lan_tw" href="/tc/route.html">繁</a>
+                      <a  class="lan_cn " href="/sc/route.html">简</a>
+                    <a class="lan_pt" href="/pt/route.html">PT</a>
+                    <a class="lan_en" href="/en/route.html">EN</a>
+</div>
+
+         <div class="change_lan" style="display:none;">
+            <div class="select_btn">
+                <span class="lan_Selected "></span>
+                <span class="select-icon"><img  src="/images/Unfold.png" alt=""></span>
+            </div>
+            <ul class="selectBox">
+                    <a class="lan_tw" href="/tc/route.html"><li class="select-item">繁體中文</li></a>
+                      <a  class="lan_cn " href="/sc/route.html"><li class="select-item">简体中文</li></a>
+                    <a class="lan_pt" href="/pt/route.html"><li class="select-item">Português</li></a>
+                    <a class="lan_en" href="/en/route.html"><li class="select-item">English</li></a>
+         </div> 
+
+    <div class="app_nav">
+                        <div class="app_nav-item" id="navApp0">
+                        
+             <div class="appclick_flex">
+<a class="appmenu_a"  target="_self"  rel="noopener noreferrer" href="/tc/index.html">首頁</a>                              
+
+</div>    
+                        </div>
+                        <div class="app_nav-item" id="navApp1">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/route.html">乘客資訊</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/route.html">輕軌線路</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/route.html">輕軌線路</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/notice_operatingarea.html">搭乘須知</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/notice_operatingarea.html">搭乘須知</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/general_ticket.html">車票及車費</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/general_ticket.html">車票及車費</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/info_lost_property.html">失物認領</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/info_lost_property.html">失物認領</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+                        <div class="app_nav-item" id="navApp2">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/news_list.html">最新動態</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/news_list.html">新聞消息</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/news_list.html">新聞消息</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/statistics.html">統計資料</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/statistics.html">統計資料</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/themetrains.html">主題列車介紹</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/themetrains.html">主題列車介紹</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+                        <div class="app_nav-item" id="navApp3">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/character.html">輕軌概況</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/character.html">輕軌特性</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/character.html">輕軌特性</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/ocean_cruiser.html">列車介紹</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/ocean_cruiser.html">列車介紹</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/questions.html">輕軌系統小知識</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/questions.html">輕軌系統小知識</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+                        <div class="app_nav-item" id="navApp4">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/Parking.html">停車場管理</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/JCPTI_Park.html">氹仔柯維納馬路停車場</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/JCPTI_Park.html">氹仔柯維納馬路停車場</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/BPTIparking_HP.html">媽閣交通樞紐重型客車停車場</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/BPTIparking_HP.html">媽閣交通樞紐重型客車停車場</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/BPTIparking_LVM.html">媽閣交通樞紐停車場（輕型汽車及電單車）</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/BPTIparking_LVM.html">媽閣交通樞紐停車場（輕型汽車及電單車）</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+                        <div class="app_nav-item" id="navApp5">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/intro.html">關於我們</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/intro.html">公司簡介</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/intro.html">公司簡介</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/organization.html">組織架構</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/organization.html">組織架構</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/annual_report.html">公司年報</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/annual_report.html">公司年報</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/tender.html">採購項目</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/tender.html">採購項目</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/quality.html">質量認證</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/quality.html">質量認證</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+                        <div class="app_nav-item" id="navApp6">
+                        
+             <div class="appclick_flex">
+<a class="appmenu_a"  target="_self"  rel="noopener noreferrer" href="/tc/career.html">人才招聘</a>                              
+
+</div>    
+                        </div>
+                        <div class="app_nav-item" id="navApp7">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/contact_info.html">聯絡我們</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/contact_info.html">聯絡我們</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/contact_info.html">聯絡我們</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/lost_property.html">失物認領</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/lost_property.html">失物認領</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/comments.html">意見反映</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/comments.html">意見反映</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+   </div>
+</div>
+
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177227536-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177227536-1');
+</script>
+<script>
+$(function(){
+if($("#cmsMenubarPanel").length> 0) {
+$("meta[name='viewport']").attr('content',"width=1350px user-scalable=no,target-densitydpi=device-dpi");
+}
+var version = sessionStorage.getItem("pc");
+var site_url = window.location.href.toLowerCase();
+if (version || version == 'true') {
+$('.change_app').show();
+ $('.menu_div').css("width","1200px");
+$("meta[name='viewport']").attr('content',"width=1200px user-scalable=no,target-densitydpi=device-dpi");
+}
+var Mozilla = navigator.userAgent;
+var isWin = Mozilla.indexOf('Windows') > -1 || Mozilla.indexOf('Win') > -1;
+
+$(".menu_icon").click(function() {
+     $(".app_header").toggle();
+});
+$(document).click(function(){
+	$(".app_header").hide();
+});
+$(".menu_icon,.app_header").click(function(event){
+	event.stopPropagation();
+});
+if (isWin){
+	if (site_url.indexOf("/pt/") > -1 || site_url.indexOf("locale=pt") > -1 || site_url.indexOf("/en/") > -1 || site_url.indexOf("locale=en") > -1) {
+
+            $('.nav_div').addClass('ptClass');
+           $('.secondMenu').css("min-width","200px"); 
+          $('.nav_more').css("min-width","200px");
+    $('.nav-item span').css("font-size","11px");   
+	   $('.menu_a').css("font-size","11px");   
+            $('.nav_link a').css("font-size","11px");  
+              $('.nav_more').css("font-size","11px"); 
+               $('.third_nav a').css("font-size","11px"); 
+             $('.secondMenu li a').css("font-size","11px");  
+$('.nav-item_bottom ul li a').css("font-size","16px");
+ $('.nav_bottom_link a').css("font-size","18px"); 
+         changeFontAgain($('.nav_div'));
+          
+	} else {
+ $('.secondMenu').css("min-width","180px"); 
+          $('.nav_more').css("min-width","150px");
+          $('.nav_div').removeClass('ptClass');
+         $('.nav-item span').css("font-size","16px");   
+	   $('.menu_a').css("font-size","16px");   
+            $('.nav_link a').css("font-size","16px");  
+              $('.nav_more').css("font-size","16px"); 
+               $('.third_nav a').css("font-size","16px"); 
+             $('.secondMenu li a').css("font-size","16px");  
+$('.nav-item_bottom ul li a').css("font-size","18px");
+$('.nav_bottom_link a').css("font-size","20px"); 
+          changeFontAgain($('.nav_div'));
+	}
+}
+ checkApp(site_url);
+});
+
+$('.hasChild').hover(function(){ 
+        $(this).children(".thirdChild_ul").show();
+},function(){
+$(this).children(".thirdChild_ul ").hide();
+    });
+
+
+$('.more_btn').hover(function(){ 
+        $(this).children(".nav_more").stop(true,true).slideDown();
+},function(){
+$(this).children(".nav_more").hide();
+    });
+$('.second_nav').hover(function(){
+          if($(this).children().hasClass('third_nav')) {
+              $(this).children(".nav_link").addClass('add_padding');
+          }
+        $(this).children(".third_nav").stop(true,true).slideDown();
+},function(){
+       $(this).children(".nav_link").removeClass('add_padding');
+        $(this).children(".third_nav").slideUp("slow");
+    });
+
+$('.nav-item').hover(function(){ 
+        $(this).children(".secondMenu").show();
+},function(){
+      $(this).children(".secondMenu").hide();
+ });
+
+
+
+
+$(".appclick_img").click(function(){
+    if($(this).parent().hasClass("appclick_active")){
+        $(this).removeClass('appchange_icon');
+        $(this).parent().removeClass('appclick_active');
+        $(this).parent().next(".app_thirdChild_ul").slideUp();
+   } else { 
+        $(this).addClass('appchange_icon'); 
+        $(this).parent().addClass('appclick_active');
+        $(this).parent().next(".app_thirdChild_ul").slideDown();
+  }
+});
+
+$(".click_img").click(function(){
+	if($(this).parent().parent().hasClass("click_active")){
+		$(this).removeClass('change_icon');
+                 $(this).parent().parent().removeClass('click_active');
+		$(this).parent().parent().children(".app_secondMenu").slideUp();
+	}
+	else {
+  $(".click_img").each(function(){
+           $(this).parent().parent().children(".app_secondMenu").slideUp();
+           $(this).parent().parent().removeClass('click_active');  
+   });
+                $(this).parent().parent().addClass('click_active');
+		$(this).addClass('change_icon ');
+		$(this).parent().parent().children(".app_secondMenu").slideDown();
+		}
+	});
+
+
+
+
+    var myurl = 'zh_TW';
+    if (myurl == 'pt') {
+   $(".lan_pt").addClass("selected");
+    $(".lan_list  .lan_pt").addClass("lan_Selected ");
+    //$('.lan_Selected ').text('Português');
+    } else if (myurl == 'en') {
+    $(".lan_list  .lan_en ").addClass("lan_Selected ");
+    $(".lan_en .select-item").addClass("selected");
+    //$('.lan_Selected').text('English');
+    } else if (myurl == 'zh_TW') {
+    $(".lan_list  .lan_tw ").addClass("lan_Selected ");
+    $(".lan_tw .select-item").addClass("selected");
+    //$('.lan_Selected').text('繁體中文');
+    } else if (myurl == 'zh_CN') {
+    $(".lan_list  .lan_cn ").addClass("lan_Selected ");
+    $(".lan_cn .select-item").addClass("selected");
+    //$('.lan_Selected').text('简体中文');
+    }
+
+            $('.select_btn').click(function(){
+                $('.selectBox').toggle();
+            });
+            $('.select-item').click(function(){
+                $('.lan_Selected').text($(this).text());
+                $('.selectBox').toggle();
+            });
+            $(".select_btn").click(function(){
+                return false;
+            });
+            $(document).click(function(){
+                $('.selectBox').hide();
+            });
+$(".header_search a").click(function(){
+		var key = $.trim($(".header_search input").val());
+		if (key != "") {
+			var url = "/tc/search.html ";
+			sessionStorage.setItem("searchKey", "q=content:*"+ key + "*"); 
+                sessionStorage.setItem("keyword", key); 
+			url =url;
+			window.location.href = url;
+		}
+	});
+$(".M_header_search a").click(function(){
+		var key = $.trim($(".M_header_search input").val());
+		if (key != "") {
+			var url = "/tc/search.html ";
+			sessionStorage.setItem("searchKey", "q=content:*"+ key + "*"); 
+                sessionStorage.setItem("keyword", key); 
+			url =url;
+			window.location.href = url;
+		}
+	});
+    function search(event) {
+		//console.log("search");
+		if (window.event) {
+			if(event.keyCode==13) {
+				document.getElementById("search_btn").click();
+				return false;
+			} else {
+				return true;
+			}
+		} else if (event.which) {
+			if(event.which==13) {
+				document.getElementById("search_btn").click();
+				return false;
+			} else {
+				return true;
+			}
+		}
+		
+	}
+    function M_search(event) {
+		if (window.event) {
+			if(event.keyCode==13) {
+				document.getElementById("M_search_btn").click();
+				return false;
+			} else {
+				return true;
+			}
+		} else if (event.which) {
+			if(event.which==13) {
+				document.getElementById("M_search_btn").click();
+				return false;
+			} else {
+				return true;
+			}
+		}
+		
+	}
+	function searchClick() {
+		var key = $.trim($("#search-input").val());
+		if (key != "") {
+			var url = "/tc/search.html ";
+			sessionStorage.setItem("searchKey", "q=content:*"+ key + "*"); 
+                sessionStorage.setItem("keyword", key); 
+			url =url;
+			window.location.href = url;
+		} else {
+			alert('請輸入關鍵字');
+		}
+	}
+         function M_searchClick() {
+		var key = $.trim($("#M_search-input").val());
+		if (key != "") {
+			var url = "/tc/search.html ";
+			sessionStorage.setItem("searchKey", "q=content:*"+ key + "*"); 
+                sessionStorage.setItem("keyword", key); 
+			url =url;
+			window.location.href = url;
+		} else {
+			alert('請輸入關鍵字');
+		}
+	}
+
+if( $(".lan_tw ").attr("href") == "#" ){
+$(".lan_tw ").attr("href","javascript:alert('本頁面沒有中文內容。')");
+}
+if( $(".lan_cn ").attr("href") == "#" ){
+$(".lan_cn ").attr("href","javascript:alert('本頁面沒有中文內容。')");
+}
+if( $(".lan_pt ").attr("href") == "#" ){
+$(".lan_pt ").attr("href","javascript:alert('Esta página no disponível em Português.')");
+}
+if( $(".lan_en ").attr("href") == "#" ){
+$(".lan_en ").attr("href","javascript:alert('This page is not available in English.')");
+}
+
+
+function checkApp(lan) {
+	var app = navigator.userAgent;
+	var isAndroid = app.indexOf('Android') > -1 || app.indexOf('Adr') > -1;
+	var isiOS = !!app.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+	if ($('.menu_div').width() <= '500' && isiOS || isAndroid) {
+                    $('.warningapp_div').show();
+             if (lan.indexOf("/pt/") > -1 || lan.indexOf("locale=pt") > -1) {
+		changeFont($(".bodyNav_BG "), -12);
+               changeFont($(".ticket_type_body"), -6);
+               changeFont($(".free_title"), -14);
+               $(".ticket_type a").css('line-height','18px');
+              } else  if (lan.indexOf("/en/") > -1 || lan.indexOf("locale=en") > -1) {
+                    changeFont($(".bodyNav_BG "), -12);
+              } else {
+                    changeFont($(".bodyNav_BG "), -8);
+               }
+	} else {
+
+           }
+}
+$('.change_view').click(function(){
+ window.location.reload();
+sessionStorage.setItem("pc",true);
+$('.change_app').show();
+ $('.menu_div').css("width","1200px"); 
+$("meta[name='viewport']").attr('content',"width=1200px user-scalable=no,target-densitydpi=device-dpi");
+     });
+
+$('.change_app').click(function(){
+ window.location.reload();
+sessionStorage.removeItem('pc');
+ $('.menu_div').css("width",""); 
+$('.change_app').hide();
+$("meta[name='viewport']").attr('content',"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no");
+     });
+
+</script></div></div><div section-id="2364" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div>
+	<div class="swiper-container" id="swiperNotice">
+		<div class="notice_icon2">
+			<img src="/images/notice_icon2.png"/><span>重要告示</span>
+		</div>
+		<div class="swiper-wrapper swiperNotice">
+			
+		</div>
+		<div class="swiper-button-prev noticeBtn_show"></div>
+		<div class="swiper-button-next noticeBtn_show"></div>
+	</div>
+	<div class="swiper-container" id="swiperBanner">
+		<div class="swiper-wrapper swiperBanner">
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="https://www.mlm.com.mo/download/recruitment/C044-MLM-2026-X_new.pdf" target="_blank">
+								<img src="/images/Banner/banner_oldPT_CHI_PT.jpeg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="#" target="_blank">
+								<img src="/images/Banner/webbanner_mpay_chi.jpg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="https://www.mlm.com.mo/tc/themetrains.html" target="_blank">
+								<img src="/images/theme_train/themetrainbanner.jpg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="https://youtu.be/vOhWoL9eJws" target="_blank">
+								<img src="/images/Advertisement/makmak_banner_TC.png"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="/pdf/trainad.pdf" target="_blank">
+								<img src="/images/Advertisement/trainadbanner_202607.jpg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="/tc/paintContest.html" target="_blank">
+								<img src="/images/paintContest/Color_2026_banner_CN.png"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="https://youtu.be/SmJqqx6AfCI" target="_blank">
+								<img src="/images/Banner/web_banner_35_2026.jpg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="/tc/Carriagedesign.html" target="_blank">
+								<img src="/images/Carriagedesign/web_banner_0921.jpg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="#" target="_blank">
+								<img src="/images/banner-2.png"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="#" target="_blank">
+								<img src="/images/banner-1.png"/></a>
+						</div>
+					</div>
+		</div>
+	</div>
+</div>
+
+<div class="detail_banner" style="margin:0 auto;max-width:1200px">
+	<img style="width:100%;" src="/images/banner-2.png" alt=""></div>
+
+	<script>
+		var alias = "";
+  alias = "route";
+$(function(){
+  displayNotice(function(data){
+    //獲取告示數據
+    bulidHTML(data);
+    if ($('.swiperNotice').children('div').length > 0) {
+      $('.detail_banner').empty();
+      $('#swiperBanner').empty();
+      $('#swiperNotice').show();
+      var  play = $('.swiperNotice').children('div').length > 1 ? true : false;
+      var swiperNotice = new Swiper('#swiperNotice', {
+          autoHeight: true,
+          observer:true,
+          observeParents:true,
+          autoplay: {
+                  disableOnInteraction: false,
+                  delay: 10000,
+          },
+          loop: true, 
+          effect : 'fade',
+          fadeEffect: {
+          crossFade: true
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            hideOnClick: play
+          }
+          });
+          swiperNotice.allowTouchMove= play;
+          if (play) {
+            $('.noticeBtn_show').show();
+          } else {
+              $('.notice_date').removeClass('notice_width');
+              swiperNotice.autoplay.stop();
+          }
+      } else if ($('.swiperNotice').children('div').length == 0 && alias == 'index'){
+      //用戶環境alias為index
+          $('.detail_banner').empty();
+          $('#swiperNotice').empty();
+          $('#swiperBanner').show();
+          var swiperBanner = new Swiper('#swiperBanner', {
+              autoplay: {
+                  disableOnInteraction: false,
+                  delay: 5000,
+              },
+              loop: true
+          }); 
+      } else {
+            $('#swiperNotice').empty();
+            $('#swiperBanner').empty();
+            $('.detail_banner').show();
+      }
+  });
+});
+
+function num(s) {
+	return s < 10 ? '0' + s: s;
+}
+function FormatDate (strTime) {
+  //strTime = strTime.substring(0, 25).replace(',', '');
+  var pubDate = new Date(strTime);
+  if(strTime.indexOf("CST")) {
+  pubDate.setHours(pubDate.getHours()-14);
+  }
+  return pubDate;
+}
+
+function displayNotice(callback) {
+	$.ajax({
+    url: "/rss/tc/notice.rss",
+		type: 'GET',
+		dataType: 'xml',
+		timeout: 20000,
+    async: false,
+		cache: false,
+    global: false,
+		success: function(res) {
+      var data = $(res).find("channel");
+      callback(data);
+		},
+		error: function(err) {
+      // callback(null);
+		}
+	})
+}
+
+
+function bulidHTML(data) {
+      var html = "";
+      if (!data) return
+      $(data).find("item").each(function() {
+        var show = $(this).find("show").text();
+        var repalceBody = "";
+				if (window.navigator && window.navigator.msSaveOrOpenBlob) {
+					replaceBody = $(this).context.lastChild.textContent;
+				} else {
+					replaceBody = $(this).context.lastChild.innerHTML.replace("<![CDATA[", "").replace("]]>", "");
+				}
+        if (show === "true" && $(this).context.lastChild.textContent) {
+          var time = $(this).find("pubDate").text();
+          time = time.replace(/ GMT.+$/, '');
+          time = FormatDate(time);
+				  var date = new Date(time);
+				  dateStr = num(date.getDate()) + '/' + num((date.getMonth() + 1)) + '/' + num(date.getFullYear()) + ' ' + num(date.getHours())+ ':' + num(date.getMinutes());
+          html += "<div class='swiper-slide'>";
+          html += "<div class='swiper-slideDiv'>";
+          html += "<div class='notice_content'>";
+          html += "<div>" + replaceBody + "</div><br />";
+          html += "<div class='notice_date'><span>發佈日期：</span><span>" + dateStr + "</span></div>";
+          html += "</div></div></div>";
+        }
+      })
+      $(".swiperNotice").append(html);
+}
+
+
+	</script></div></div><div section-id="2321" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div style="margin: 0 auto;max-width: 1200px;    position: relative;">
+	<div class="waystitle_app "><span>路線查詢</span></div>
+	<div class="way_search" style="position: relative;">
+	
+	<div class="waytitle_div">
+	<div class="ways_title ">路線查詢</div>
+	</div>
+	
+	<div class="search_waysDiv">
+			<div class="ways_flexDiv ">
+					<div class="startEnd_Div"><img src="/images/start.png" alt="">起點</div>
+					<div class="select-box ">
+							<span style="background-color: #FFA90B" class="span_point"></span>
+							<select class="form-line">
+									<option value="1">氹仔線</option>
+									<option value="2">石排灣線</option>
+									<option value="3">橫琴線</option>
+							</select>
+							<select class="form"></select>
+					</div>
+			</div>
+			<div class="ways_flexDiv" >
+			<div class="startEnd_Div"><img  src="/images/end.png" alt="">終點</div>
+			<div class="select-box">
+							<span style="background-color: #039BDA" class="span_point"></span>
+							<select class="to-line">
+									<option value="1">氹仔線</option>
+									<option value="2">石排灣線</option>
+									<option value="3">橫琴線</option>
+							</select>
+							<select class="to"></select> 
+			</div>
+			</div>
+			<div onclick="openBox()" class="ways_searchBtn" id="open" style="width: 10%">搜索</div>
+	</div>
+	</div>
+	<div class="result" >
+	<div id="colse"  style="float: right;padding: 15px;"><img src="/images/colse.png" alt=""></div>
+			<div class="results_flex">
+	<div class="results_div">
+			<div class="total">
+					<img  src="/images/shijian.png" alt="">預計乘車時間：<span class="sameNumber"></span>
+						<div class="total-box">
+							<div class="total-html">
+							</div>
+					 </div>
+			 </div>
+			 <div class="site_num img_flex"><img  src="/images/zhanshu.png" alt="">站數：<span></span></div>
+			 <div><div class="img_flex" style="padding-bottom: 15px;"><img  src="/images/chefei.png" alt="">車費資訊</div>
+			<table class="result_table">
+					<thead>
+							<tr>
+									<th>票種</th>
+									<th>一般單程票</th>
+									<th>優惠單程票</th>
+									<th>一般電子預付卡</th>
+									<th>學生電子預付卡</th>
+									<th>長者、殘疾人士電子卡</th>
+							</tr>
+					</thead>
+					<tbody>
+							<tr>
+									<td>澳門元</td>
+									<td class="adult"><span></span></td>
+									<td class="other"><span></span></td>
+									<td class="card_adult"><span></span></td>
+									<td class="card_student"><span></span></td>
+									<td>免費</td>
+							</tr>
+											<tr>
+									<td colspan="6">
+																			<div class="remaker_text">備註</div>
+																	<ul class="remaker_ul">
+																							<li>每個涉及媽閣站往來海洋站或橫琴站往來蓮花站的跨海段，於計算車站數目時增加一個車站；</li>
+																							<li>以石排灣站或協和醫院站作為旅程起點或終點時，協和醫院站均視作一站計算。除此之外，協和醫院站不作站點計算。</li>
+																	</ul>
+															</td>
+							</tr>
+					</tbody>
+			</table>
+	</div>
+	
+	
+	<div>
+			<table  class="result_tableApp">
+					<tr>
+							<td style="width:50%">票種</td>
+							<td style="width:50%">澳門元</td>
+					</tr>
+					<tr>
+							<td>一般單程票</td>
+							<td class="adult"><span></span></td>
+					</tr>
+					<tr>
+							<td>優惠單程票</td>
+							<td class="other"><span></span></td>
+					</tr>
+					<tr>
+							<td>一般電子預付卡</td>
+							<td class="card_adult"><span></span></td>
+					</tr>
+					<tr>
+							<td>學生電子預付卡</td>
+							<td class="card_student"><span></span></td>
+					</tr>
+					<tr>
+							<td>長者、殘疾人士電子卡</td>
+							<td>免費</td>
+					</tr>
+									<tr>
+							<td colspan="2" style="padding: 10px;">
+																	<div class="remaker_text">備註</div>
+																 <ul class="remaker_ul">
+																					<li>每個涉及媽閣站往來海洋站或橫琴站往來蓮花站的跨海段，於計算車站數目時增加一個車站；</li>
+																					<li>以石排灣站或協和醫院站作為旅程起點或終點時，協和醫院站均視作一站計算。除此之外，協和醫院站不作站點計算。</li>
+																</ul>
+													</td>
+					</tr>
+			</table>
+	</div>
+	
+						
+					 <div>
+	<a class="img_flex" href="/tc/notice_ticketing.html">
+	<img  src="/images/link_feiji.png" alt="">澳門輕軌車票發出條款</a></div>
+					 <div ><a class="img_flex" href="/tc/notice_LRTticket.html"><img  src="/images/link_feiji.png" alt="">澳門輕軌車票須知</a></div>
+			</div>
+			 </div></div>
+	</div>
+	
+	<script>
+			var taipa_line = [
+					{ text: "媽閣站", value: "1" },
+					{ text: "海洋站", value: "2" },
+					{ text: "馬會站", value: "3" },
+					{ text: "運動場站", value: "4" },
+					{ text: "排角站", value: "5" },
+					{ text: "路氹西站", value: "6" },
+					{
+							text: "蓮花站（轉乘橫琴線）",
+							value: "7.1",
+					},
+					{
+							text: "協和醫院站（轉乘石排灣線）",
+							value: "8.1",
+					},
+					{
+							text: "東亞運站",
+							value: "9",
+					},
+					{ text: "路氹東站", value: "10" },
+					{ text: "科大站", value: "11" },
+					{ text: "機場站", value: "12" },
+					{
+							text: "氹仔碼頭站",
+							value: "13",
+					},
+			];
+			var Hengqin_line = [
+					{ text: "蓮花站(轉乘氹仔線)", value: "7.1" },
+					{ text: "橫琴站", value: "7.2" },
+			];
+		 var spv_line = [
+					{ text: "協和醫院站(轉乘氹仔線)", value: "8.1" },
+					{ text: "石排灣站", value: "8.2" },
+			];
+			var r = {
+					priceData: {
+							adult: [6, 8, 10, 12],
+							other: [3, 4, 5, 6],
+							card_adult: [3, 4, 5, 6],
+							card_student: [1.5, 2, 2.5, 3],
+							card_studentPt: ["1,5", "2", "2,5", "3"],
+					},
+			};
+			var form = "";
+			var to = "";
+			var formLine = "";
+			var to = "";
+			var toLine = "";
+			var formAndline = sessionStorage.getItem("form");
+			var toAndline = sessionStorage.getItem("to");
+			sessionStorage.removeItem("form");
+			sessionStorage.removeItem("to");
+			$(".result").hide();
+	
+			$(function () {
+					if (formAndline !== null) {
+							formLine = formAndline.split('-')[0];
+							form = formAndline.split('-')[1];
+							toLine = toAndline.split('-')[0];
+							to = toAndline.split('-')[1];
+							
+							setTimeout(function () {
+									selectPointshow2(form, "#startPoint");
+									selectPointshow2(to, "#endPoint");
+							}, 2000);
+							populateOptions(taipa_line, "form");
+							populateOptions(taipa_line, "to");
+							if (toLine === '2') {
+									populateOptions(spv_line, "to");
+							} 
+							if (formLine === '2') {
+									populateOptions(spv_line, "form");
+							}
+							if (toLine === '3') {
+									populateOptions(Hengqin_line, "to");
+							} 
+							if (formLine === '3') {
+									populateOptions(Hengqin_line, "form");
+							}
+							$(".form").val(form);
+							$(".to").val(to);
+							$(".form-line").val(formLine);
+							$(".to-line").val(toLine);
+							searchWays();
+					} else {
+							populateOptions(taipa_line, "form");
+							populateOptions(taipa_line, "to");
+					}
+			});
+			function populateOptions(array, name) {
+					$("." + name).empty()
+					// 遍歷數組，動態生成選項
+					$.each(array, function (index, item) {
+							$("." + name).append(
+									'<option value="' + item.value + '">' + item.text + "</option>"
+							);
+					});
+			}
+	
+			$(".form-line").on("change", function () {
+					var value = $(this).val(); // 獲取選中的值
+					// 清空第二個選擇框的選項
+					$(".form").val("");
+					$(".form").html("");
+					// 根據選擇的值更新第二個選擇框
+					if (value === "1") {
+							populateOptions(taipa_line, "form");
+					} else if (value === "2") {
+							populateOptions(spv_line, "form");
+					} else if (value === "3") {
+							populateOptions(Hengqin_line, "form");
+					}
+			});
+			$(".to-line").on("change", function () {
+					var value = $(this).val(); // 獲取選中的值
+					// 清空第二個選擇框的選項
+					$(".to").val("");
+					$(".to").html("");
+					// 根據選擇的值更新第二個選擇框
+					if (value === "1") {
+							populateOptions(taipa_line, "to");
+					} else if (value === "2") {
+							populateOptions(spv_line, "to");
+					} else if (value === "3") {
+							populateOptions(Hengqin_line, "to");
+					}
+			});
+	
+			function openBox() {
+					formLine = $(".form-line option:selected").val();
+					form = $(".form option:selected").val();
+					toLine = $(".to-line option:selected").val();
+					to = $(".to option:selected").val();
+	
+					selectPointshow2(form, "#startPoint");
+					selectPointshow2(to, "#endPoint");
+					searchWays();
+					
+			}
+	
+			$("#colse").click(function () {
+					$(".result").hide();
+			});
+			function selectPointshow2(obj, str) {
+					$(".selectPoint").each(function () {
+							if (obj == $(this).data("index")) {
+									var _this = $(".point span").eq($(this).index());
+									var spanHtml = _this[0].offsetHeight;
+									$(str).css(
+											"top",
+											_this.offset().top + spanHtml / 2 - $(str).height()
+									);
+									$(str).css(
+											"left",
+											_this.offset().left + spanHtml / 2 - $(str).width() / 2
+									);
+									$(str).show();
+							}
+					});
+			}
+			function selectPointshow(obj, str) {
+					$(".selectPoint").each(function () {
+							if (obj == $(this).data("index")) {
+									$(str).css("top", $(this).offset().top - $(str).width() / 2);
+									$(str).css("left", $(this).offset().left);
+									$(str).show();
+							}
+					});
+			}
+	
+			$(".form").change(function () {
+					form = $(".form option:selected").val();
+					selectPointshow2(form, "#startPoint");
+			});
+			$(".to").change(function () {
+					to = $(".to option:selected").val();
+					selectPointshow2(to, "#endPoint");
+			});
+
+			function showTotal(data) {
+					var minText = '乘車約 '
+					var min = ' 分鐘';
+					var hospitalUnion = '協和醫院站'
+               var lotus = '蓮花站'
+					var spv = '石排灣站'
+					var taipa_line_stage = ' (氹仔線月台)'
+               var Hengqin_line_stage = ' (橫琴線月台)'
+					var spv_line_stage = '(石排灣線月台)'
+					var walkText = '步行約150米'
+               var walkText2 =  '步行約250米'
+					var hospitalUnionText = '協和醫院站出入口'
+               var lotusText = '蓮花站出入口'
+					
+					$('.total-html').empty()
+					$('.sameNumber').hide();
+					$('.total-box').hide();
+					const fromStation = Number(form);
+					const toStation = Number(to);
+					let formName = $(".form option:selected").text();
+					let toName = $(".to option:selected").text();
+					var walkingImg = "/images/walking-outline.png";
+					var html = "";
+					if (fromStation === 8.1) formName = hospitalUnion;
+					if (toStation === 8.1) toName = hospitalUnion;
+                    if (fromStation === 7.1) formName = lotus;
+					if (toStation === 7.1) toName = lotus;
+
+                    let stationType = getStationType(fromStation, formLine, toStation, toLine);
+                    if (stationType === 'A') {
+                        // 站點相同
+                        $(".sameNumber").text("~0 分鐘");
+                        $(".sameNumber").show();
+                        return
+                    } else if (stationType === 'B') {
+                        // 相同路線
+                        var idName = formLine === '1' ? 'formName' : formLine === '2' ? 'stageName' : 'HengqinName';
+                        var totalNumber = formLine === '1' ? 'totalNumber' : formLine === '2' ? 'stageNumber' : 'HengqinNumber';
+												if (formLine === '1' && fromStation === 8.1) {
+													html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+													html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+													html += '<span id="formName">'+ formName  +'<br/>'+ taipa_line_stage +'</span>';
+												} else {
+													html += '<span id="'+ idName +'">'+ formName +'</span>';
+												}
+
+												html += '<span id="'+ totalNumber +'">'+ minText + data.totalTime + min +'</span>';
+												
+												if (toLine === '1' && toStation === 8.1) {
+													html += '<span id="'+ idName +'">'+ toName +'<br/>'+ taipa_line_stage +'</span>'
+													html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+													html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+												} else {
+													html += '<span id="'+ idName +'">'+ toName +'</span>'
+												}
+
+                    } else if (stationType === 'C') {
+                        // 兩個站點是中轉站（7.1 或 8.1）
+                        if (formLine === "1" && fromStation === 7.1) {
+                            html += '<span id="formName">'+ formName +'</span>';
+                            html += '<span id="totalNumber">'+ minText + data.totalTime + min +'</span>';
+                            html += '<span id="toName">'+ toName +'<br/>'+ taipa_line_stage +'</span>';
+                            html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                            html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+                        } else if (formLine === "1" && fromStation === 8.1) {
+														 html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+                            html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                            html += '<span id="formName">'+ hospitalUnion +'<br/>'+ taipa_line_stage +'</span>';
+                            html += '<span id="totalNumber">'+ minText + data.totalTime + min +'</span>';
+                            html += '<span id="toName">'+ toName +'<br/>'+ taipa_line_stage +'</span>';
+                            // html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                            // html += '<span id="HengqinName">'+ lotus +'</span>';
+                        } else if (formLine === "3" && fromStation === 7.1) {
+														html += '<span id="HengqinName">'+ lotusText +'</span>';
+                            html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+                            html += '<span id="formName">'+ lotus +'<br/>'+ taipa_line_stage +'</span>';
+                            html += '<span id="totalNumber">'+ minText + data.totalTime + min +'</span>';
+                            html += '<span id="toName">'+ toName +'<br/>'+ taipa_line_stage +'</span>';
+                            if (toLine === '2' || toLine === '1') {
+                                html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                                html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+                            }
+                        } else if (formLine === "2" && fromStation === 8.1) {
+                            html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+                            html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                            html += '<span id="formName">'+ hospitalUnion +'<br/>'+ taipa_line_stage +'</span>';
+                            html += '<span id="totalNumber">'+ minText + data.totalTime + min +'</span>';
+                            html += '<span id="toName">'+ toName +'<br/>'+ taipa_line_stage +'</span>';
+                            if (toLine === '3') {
+															html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+															html += '<span id="HengqinName">'+ lotusText +'</span>';
+                            }
+                        }
+
+                    } else if (stationType === 'D') {
+                        //不同路線
+												if((fromStation === 8.1 && toStation === 8.2) || (toStation === 8.1 && fromStation === 8.2)) {
+													// 相同路線
+													html += '<span id="stageName">'+ formName +'</span>';
+													html += '<span id="stageNumber">'+ minText + data.totalTime + min +'</span>';
+													html += '<span id="stageName">'+ toName +'</span>'
+												} else if ((formLine === "1" && toLine === "2") || (formLine === "2" && toLine === "1")) {
+														if (toStation === 8.2) {
+                                // 氹仔線 - 石排灣
+																if (fromStation === 8.1) {
+																	html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+																	html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+																} else  {
+																	html += '<span id="formName">'+ formName +'</span>';
+																	html += '<span id="totalNumber">'+ minText + (data.totalTime - 2) + min +'</span>';
+																	html += '<span id="toName">'+ hospitalUnion +'<br/>'+ taipa_line_stage +'</span>';
+																	html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+																}
+															
+															html += '<span id="stageName">'+ hospitalUnion +'<br/>'+ spv_line_stage +'</span>';
+															html += '<span id="stageNumber">'+ minText + 2 + min +'</span>';
+															html += '<span id="stageName">'+ toName +'</span>';
+                            } else if (fromStation === 8.1) {
+                                // 協和醫院 - 氹仔線
+                                html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+                                html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                                html += '<span id="formName">'+ formName  +'<br/>'+ taipa_line_stage +'</span>';
+                                html += '<span id="totalNumber">'+ minText + data.totalTime + min +'</span>';
+                                html += '<span id="toName">'+ toName +'</span>';
+                                
+                            } else if (fromStation === 8.2) {
+                                // 石排灣 - 氹仔線
+                                html += '<span id="stageName">'+ formName +'</span>'
+																html += '<span id="stageNumber">'+ minText + '2' + min +'</span>';
+																html += '<span id="stageName">'+ hospitalUnion +'<br/>'+ spv_line_stage +'</span>';
+																html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                                if (toStation !== 8.1) {
+																	html += '<span id="toName">'+ hospitalUnion +'<br/>'+ taipa_line_stage +'</span>';
+                                  html += '<span id="totalNumber">'+ minText + (data.totalTime - 2) + min +'</span>';
+                                  html += '<span id="toName">'+ toName +'</span>';
+                                } else {
+																	html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+																}
+                            } else if (toStation === 8.1) {
+                                // 氹仔線 - 協和醫院
+                                html += '<span id="formName">'+ formName +'</span>';
+                                html += '<span id="totalNumber">'+ minText + data.totalTime + min +'</span>';
+                                html += '<span id="toName">'+ toName +'<br/>'+ taipa_line_stage +'</span>';
+                                html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                                html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+                                
+                            }
+                        
+                        } else if ((formLine === "1" && toLine === "3") || (formLine === "3" && toLine === "1")) {
+                            if (toStation === 7.2) {
+                                // 氹仔線 - 橫琴
+																if (fromStation === 8.1) {
+																	html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+																	html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+																}
+                                if (fromStation !== 7.1) {
+                                    html += '<span id="formName">'+ formName +'</span>';
+                                    html += '<span id="totalNumber">'+ minText + (data.totalTime - 2) + min +'</span>';
+																		html += '<span id="toName">'+ lotus +'<br/>'+ taipa_line_stage +'</span>';
+																		html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+                                } else {
+																	html += '<span id="formName">'+ lotusText +'</span>';
+																	html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+																}
+																html += '<span id="HengqinName">'+ lotus +'<br/>'+ Hengqin_line_stage +'</span>';
+																html += '<span id="HengqinNumber">'+ minText + 2 + min +'</span>';
+																html += '<span id="HengqinName">'+ toName +'</span>';
+                            } else if (fromStation === 7.1) {
+                                // 蓮花 - 氹仔線
+                                html += '<span id="HengqinName">'+ lotusText +'</span>';
+                                html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+                                html += '<span id="formName">'+ lotus +'<br/>'+ taipa_line_stage +'</span>';
+                                html += '<span id="totalNumber">'+ minText + data.totalTime + min +'</span>';
+                                html += '<span id="toName">'+ toName +'</span>';
+                                
+                            } else if (fromStation === 7.2) {
+                                // 橫琴 - 氹仔線
+                                html += '<span id="HengqinName">'+ formName +'</span>'
+																html += '<span id="HengqinNumber">'+ minText + 2 + min +'</span>';
+																html += '<span id="HengqinName">'+ lotus +'<br/>'+ Hengqin_line_stage +'</span>';
+																
+                                if (toStation !== 7.1) {
+																	html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+																	html += '<span id="formName">'+ lotus +'<br/>'+ taipa_line_stage +'</span>';
+                                    html += '<span id="totalNumber">'+ minText + (data.totalTime - 2) + min +'</span>';
+								    								html += '<span id="toName">'+ toName +'</span>';
+                                } else {
+																	html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+																	html += '<span id="toName">'+ lotusText +'</span>';
+																}
+																if (toStation === 8.1) {
+																	html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                                	html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+																}
+								
+                            } else if (toStation === 7.1) {
+                                // 氹仔線 - 蓮花
+                                html += '<span id="formName">'+ formName +'</span>';
+                                html += '<span id="totalNumber">'+ minText + data.totalTime + min +'</span>';
+                                html += '<span id="toName">'+ toName +'<br/>'+ taipa_line_stage +'</span>';
+                                html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+                                html += '<span id="HengqinName">'+ lotusText +'</span>';
+                                
+                            } 
+                        
+                        } else if (formLine === "2" && toLine === "3") {
+                            if (fromStation === 8.2) {
+                                // 石排灣<>蓮花
+                                html += '<span id="stageName">'+ formName +'</span>'
+                                html += '<span id="stageNumber">'+ minText + 2 + min +'</span>';
+                                html += '<span id="stageName">'+ hospitalUnion +'<br/>'+ spv_line_stage +'</span>';
+                                html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                                html += '<span id="formName">'+ hospitalUnion +'<br/>'+ taipa_line_stage +'</span>';
+                                html += '<span id="totalNumber">'+ minText + 2 + min +'</span>';
+                                
+                                if (toStation === 7.2) {
+                                    // 石排灣<>橫琴站
+																		html += '<span id="toName">'+ lotus +'<br/>'+ taipa_line_stage +'</span>';
+																		html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+																		html += '<span id="HengqinName">'+ lotus +'<br/>'+ Hengqin_line_stage +'</span>';
+                                    html += '<span id="HengqinNumber">'+ minText + 2 + min +'</span>';
+                                    html += '<span id="HengqinName">'+ toName +'</span>'
+                                } else {
+																	html += '<span id="toName">'+ lotus +'<br/>'+ taipa_line_stage +'</span>';
+																	html += '<span  id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+																	html += '<span id="HengqinName">'+ lotusText +'</span>';
+																}
+                            }  else if (fromStation === 8.1) {
+                                // 協和醫院站<>蓮花站
+																html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+																html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                                html += '<span id="formName">'+ hospitalUnion +'</span>';
+                                html += '<span id="totalNumber">'+ minText + 2 + min +'</span>';
+                                html += '<span id="toName">'+ lotus +'<br/>'+ taipa_line_stage +'</span>';
+                                                    
+                                if (toStation === 7.1) {
+                                    // html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                                    // html += '<span id="toName">'+ lotusText +'</span>';
+                                }
+                                if (toStation === 7.2) {
+                                    html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+                                    html += '<span id="HengqinName">'+ lotus +'<br/>'+ Hengqin_line_stage +'</span>';
+                                    html += '<span id="HengqinNumber">'+ minText + 2 + min +'</span>';
+                                    html += '<span id="HengqinName">'+ toName +'</span>'
+                                }
+                            }
+                        } else if (formLine === "3" && toLine === "2") {
+                            if (fromStation === 7.2) {
+                                // 橫琴站<>協和站
+                                html += '<span id="HengqinName">'+ formName +'</span>'
+                                html += '<span id="HengqinNumber">'+ minText + 2 + min +'</span>';
+                                html += '<span id="HengqinName">'+ lotus +'<br/>'+ Hengqin_line_stage +'</span>';
+                                html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+                                html += '<span id="formName">'+ lotus +'<br/>'+ taipa_line_stage +'</span>';
+                                html += '<span id="totalNumber">'+ minText + 2 + min +'</span>';
+                                html += '<span id="toName">'+ hospitalUnion +'<br/>'+ taipa_line_stage +'</span>';
+                                html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+																
+																if (toStation === 8.2) {
+                                    // 橫琴站<>石排灣站
+																		html += '<span id="stageName">'+ hospitalUnion +'<br/>'+ spv_line_stage +'</span>';
+                                    html += '<span id="stageNumber">'+ minText + 2 + min +'</span>';
+                                    html += '<span id="stageName">'+ toName +'</span>';
+                                } else {
+																	html += '<span id="stageName">'+ hospitalUnionText +'</span>';
+																}
+                                
+                            }  else if (fromStation === 7.1) {
+                                // 蓮花站<>協和醫院站
+                                html += '<span id="HengqinName">'+ lotusText +'</span>';
+                                html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText2 +'</span>';
+                                html += '<span id="formName">'+ lotus +'<br/>'+ taipa_line_stage +'</span>';
+                                html += '<span id="totalNumber">'+ minText + 2 + min +'</span>';
+                                if (toStation === 8.1) {
+                                    html += '<span id="toName">'+ hospitalUnion +'</span>';
+                                }
+                                if (toStation === 8.2) {
+                                    // 蓮花站<>石排灣站
+                                    html += '<span id="toName">'+ hospitalUnion +'<br/>'+ taipa_line_stage +'</span>';
+                                    html += '<span id="walkName"><img src="'+ walkingImg +'"/>'+ walkText +'</span>';
+                                    html += '<span id="stageName">'+ hospitalUnion +'<br/>'+ spv_line_stage +'</span>';
+                                    html += '<span id="stageNumber">'+ minText + 2 + min +'</span>';
+                                    html += '<span id="stageName">'+ toName +'</span>';
+                                }
+                            }
+                        }
+                    }
+					
+					$('.total-html').append(html);
+					$('.total-box').show();
+			}
+	
+			function searchWays() {
+					//氹仔線站數
+					var myurl = "zh_TW";
+					$(".start span").text($(".form option:selected").text());
+					$(".end span").text($(".to option:selected").text());
+					var i = 0;
+
+					let data = { totalStations: 0, totalTime: 0 };
+					const fromStation = Number(form);
+					const toStation = Number(to);
+
+					if (formLine === '1' && toLine === '1') {
+							// 只有氹仔線
+							data = calculateMainRoute(fromStation, toStation);
+					} else if (formLine === '2' && toLine === '2') {
+							// 起點或終點是協和醫院和石排灣的特殊情況
+							data = { totalStations: 1, totalTime: 2 };
+					} else if (formLine === '3' && toLine === '3') {
+							// 起點或終點是蓮花和橫琴站的特殊情況
+							data = { totalStations: 2, totalTime: 2 };
+					} else if ((formLine === '2' && toLine === '3') || (formLine === '3' && toLine === '2')) {
+                  //跨路線
+                  var stations = calculateStationsBetween(fromStation, toStation) + (fromStation === 7.2 || toStation === 7.2 ? 1 : 0)
+                  data.totalStations = stations;
+				 data.totalTime = stations * 2;
+
+               } else if (formLine === '3' || toLine === '3' || formLine === '2' || toLine === '2') {
+							// 起點或終點是協和醫院或石排灣
+							const adjustedFrom = fromStation === 8.2 ? 8.1 : fromStation === 7.2 ? 7.1 : fromStation;
+							const adjustedTo = toStation === 8.2 ? 8.1 : toStation === 7.2 ? 7.1 : toStation;
+							
+							data = calculateMainRoute(adjustedFrom, adjustedTo);
+
+							if (fromStation === 8.2 || toStation === 8.2) {
+									// 加上石排灣的站數和時間
+									data.totalStations += 1;
+									data.totalTime += 2;
+							}
+                            if (fromStation === 7.2 || toStation === 7.2) {
+									// 加上橫琴站的站數和時間
+									data.totalStations += 2;
+									data.totalTime += 2;
+							}
+					}
+                    if(fromStation === toStation) {
+						data = { totalStations: 0, totalTime: 0 }
+					}
+					showTotal(data)
+					if (data.totalStations <= 3) {
+							i = 0;
+					} else if (data.totalStations >= 4 && data.totalStations <= 6) {
+							i = 1;
+					} else if (data.totalStations >= 7 && data.totalStations <= 9) {
+							i = 2;
+					} else {
+							i = 3;
+					}
+					$(".site_num span").text(
+							data.totalStations + "個"
+					);
+					$(".adult span").text(r.priceData.adult[i]);
+					$(".other span").text(r.priceData.other[i]);
+					$(".card_adult span").text(r.priceData.card_adult[i]);
+					$(".card_student span").text(
+							myurl == "pt"
+									? r.priceData.card_studentPt[i]
+									: r.priceData.card_student[i]
+					);
+					//$('.sameNumber').text('~' + data.totalTime+ " 分鐘");
+					// $("#totalNumber span").text('~' + data.totalTime)
+					$(".result").show();
+			}
+	
+	function calculateMainRoute(startStation, endStation) {
+			const route = [1, 2, 3, 4, 5, 6, 7.1, 8.1, 9, 10, 11, 12, 13];
+			const startIndex = route.indexOf(startStation);
+			const endIndex = route.indexOf(endStation);
+			
+			// 如果起点或终点不在路线上，返回错误信息
+			if (startIndex === -1 || endIndex === -1) {
+					return { totalStations: 0, totalTime: 0 };
+			}
+
+			let stationCount = 0;
+			let travelTime = 0;
+
+			// 确保从较小索引到较大索引
+			const [fromIndex, toIndex] = startIndex < endIndex ? [startIndex, endIndex] : [endIndex, startIndex];
+
+			for (let i = fromIndex; i < toIndex; i++) {
+					const currentStation = route[i];
+					const nextStation = route[i + 1];
+
+					// 规则1：1 到 2 之间算 2 个站，行驶时间 5 分钟
+					if (currentStation === 1 && nextStation === 2) {
+							stationCount += 2; // 计算 2 个站
+							travelTime += 5; // 计算 5 分钟
+					} else {
+							stationCount += 1; // 其余站与站之间只算 1 个站
+							travelTime += 2; // 其余站之间的行驶时间为 2 分钟
+					}
+			}
+
+			// 规则2：若路径包含 8.1 但不以 8.1 为起点，且继续往后行驶，站数减 1
+			if (route.slice(fromIndex, toIndex + 1).includes(8.1) && startStation !== 8.1 && endStation !== 8.1) {
+					stationCount -= 1; // 站数减 1
+			}
+
+         // 规则2：若路径包含 8.1 但不以 8.1 为起点，且继续往后行驶，站数减 1
+			// if (route.slice(fromIndex, toIndex + 1).includes(7.1) && startStation !== 7.1 && endStation !== 7.1) {
+			// 		stationCount -= 1; // 站数减 1
+			// }
+
+			return { totalStations: stationCount, totalTime: travelTime };
+	}
+
+
+
+   function calculateStationsBetween(start, end) {
+      // 定义路线
+      var routes = [
+         ["7.1", "8.1"], // 主线
+         ["7.1", "7.2"], // 7.1 的子线
+         ["8.1", "8.2"]  // 8.1 的子线
+      ];
+
+      // 构建一个图结构
+      var graph = {};
+      for (var i = 0; i < routes.length; i++) {
+         for (var j = 0; j < routes[i].length - 1; j++) {
+            var a = routes[i][j];
+            var b = routes[i][j + 1];
+            if (!graph[a]) graph[a] = [];
+            if (!graph[b]) graph[b] = [];
+            graph[a].push(b);
+            graph[b].push(a);
+         }
+      }
+
+      // 使用广度优先搜索 (BFS) 查找最短路径
+      var queue = [[String(start), 0]];
+      var visited = {};
+
+      while (queue.length > 0) {
+         var current = queue.shift();
+         var station = current[0];
+         var count = current[1];
+
+         // 如果找到目标站点
+         if (station === String(end)) {
+            return count;
+         }
+
+         visited[station] = true;
+
+         // 遍历当前站点的所有相邻站点
+         var neighbors = graph[station];
+         for (var k = 0; k < neighbors.length; k++) {
+            var neighbor = neighbors[k];
+            if (!visited[neighbor]) {
+            queue.push([neighbor, count + 1]);
+            }
+         }
+      }
+
+      // 如果未找到路径，返回 -1
+      return -1;
+   }
+
+   function getStationType(stationA, routeA, stationB, routeB) {
+        // 如果站点名称相同（忽略路线编号）
+        if (stationA === stationB) {
+            return "A";
+        }
+
+        // 如果在同一条路线
+        if (routeA === routeB) {
+            return "B";
+        }
+
+        // 如果两个站点是中转站（7.1 或 8.1）
+        const isTransfer =
+            [7.1, 8.1].includes(stationA) && [7.1, 8.1].includes(stationB);
+        if (isTransfer) {
+            return "C";
+        }
+
+        // 如果无任何直接关联
+        return "D";
+    }
+
+</script></div></div><div section-id="2322" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div class="breadcrumb_div" >
+<div class="breadcrumb">
+		<a class="navPage_a" style="color:#333333;text-decoration: none;" href="/tc/index.html">澳門輕軌</a>
+					<span class="navPage_a" style="margin:0px 10px">
+                                        <img src="/images/breadcrumb-icon.png" alt="">
+                                       </span>
+
+<a class="navPage_a" style="color:#333333;text-decoration: none;" href="/tc/passenger_Info.html">乘客資訊</a>
+					<span class="navPage_a" style="margin:0px 10px">
+                                        <img src="/images/breadcrumb-icon.png" alt="">
+                                       </span>
+
+<a class="navPage_a" style="color:#333333;text-decoration: none;" href="/tc/route.html">輕軌線路</a>
+
+             </div>
+    </div>
+
+<script>
+$(function() {
+$(".nav-item").each(function() {
+       //var urlName = $('.breadcrumb a').eq(1).attr("href");
+       //var alias = 'passenger_Info';
+	//if ($(this).children('a').attr("href").indexOf('passenger_Info') > -1) {
+         if ($(this).children('a').text() == $('.breadcrumb a').eq(1).text()) {
+           $(this).addClass("active");
+       }
+});
+  if ($('.breadcrumb a').eq(1).attr("href")  && $('.breadcrumb a').eq(1).attr("href").indexOf('notice_detail') > -1) {
+       $('title').text('重要告示');  
+      $('.breadcrumb a').eq(1).text('重要告示');
+    }
+});
+</script></div></div></div></div><div class="cms-layout-row" style="min-height:600px;"><div key="r1c0" body="true" class="cms-layout-column bodyDetail_BG" style=""><div class="cms-layout appContainer" style="max-width:1200px;margin:0 auto;min-height:200px;padding: 0px 10px 50px 10px;"><div class="cms-layout-row" style=""><div key="r0c0" class="cms-layout-column" style="">&nbsp;</div></div><div class="cms-layout-row routeline_div" style=""><div key="r1c0" class="cms-layout-column" style=""><div section-id="24491" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div cms-search="true">
+<div class="tabs-container">
+    <div class="tabs">
+        <div class="tab card-active" id="tab1" data-target="#content1">服務時間</div>
+        <div class="tab" id="tab2"  data-target="#content2">列車出發時刻表</div>
+    </div>
+    <div class="tab-contents">
+        <div id="content1" class="tab-content card-active">
+            <div>
+                <span style="background-color: #93d50a;">氹仔線</span>
+                <div>
+                    <div class="tab-flex">
+                        <span>星期一至四：</span>
+                        <span>06:30 - 23:15</span>
+                    </div>
+                    <div class="tab-flex">
+                        <span>星期五/六/日及公眾假期：</span>
+                        <span>06:30 - 23:59</span>
+                    </div>
+                    <div class="tab-flex">
+                        <span>班次安排：</span>
+                        <span>約5 - 10.5分鐘一班</span>
+                    </div>
+                    <div class="tab-flex">
+                        <span>行車時間：</span>
+                        <span>全程約28分鐘</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span style="background-color: #8a66c3;">石排灣線</span>
+                <div>
+                    <div class="tab-flex">
+                        <span>星期一至四：</span>
+                        <span>06:30 - 23:15</span>
+                    </div>
+                    <div class="tab-flex">
+                        <span>星期五/六/日及公眾假期：</span>
+                        <span>06:30 - 23:59</span>
+                    </div>
+                    <div class="tab-flex">
+                        <span>班次安排：</span>
+                        <span>約6分鐘一班</span>
+                    </div>
+                    <div class="tab-flex">
+                        <span>行車時間：</span>
+                        <span>全程約2分鐘</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span style="background-color: #bd273a;">橫琴線</span>
+                <div>
+                    <div class="tab-flex">
+                        <span>星期一至四：</span>
+                        <span>06:30 - 23:15</span>
+                    </div>
+                    <div class="tab-flex">
+                        <span>星期五/六/日及公眾假期：</span>
+                        <span>06:30 - 23:59</span>
+                    </div>
+                    <div class="tab-flex">
+                        <span>班次安排：</span>
+                        <span>約6分鐘一班</span>
+                    </div>
+                    <div class="tab-flex">
+                        <span>行車時間：</span>
+                        <span>全程約2分鐘</span>
+                    </div>
+                </div>
+            </div>
+            <div id="wing-box" style="background-color: #ffd966;padding: 0px;">
+                <img class="wing-img" src="/images/wing_icon.png" alt="">
+                <div class="wing-header">關於颱風期間的服務安排</div>
+                <div class="wing-body">
+                    <div class="wing_title1">當未有發出8號風球時，輕軌全線維持正常運作</div>
+                    <a class="wing_text1" rel="noopener noreferrer" href="https://www.mlm.com.mo/pdf/Tender_Notices/typhoon_1.pdf"
+                                target="_blank">當懸掛8號或更高風球</a>
+                    <a class="wing_text2" rel="noopener noreferrer" href="https://www.mlm.com.mo/pdf/Tender_Notices/typhoon_2_.pdf" target="_blank">當除下8號至3號或更低風球</a>
+                </div>
+            </div>
+            <div id="guide-box" style="background-color: transparent;padding: 0;">
+
+                <a rel="noopener noreferrer"
+                href="https://www.mlm.com.mo/pdf/leaflet/2025_leaflet/2025_leaflet_11/TravelGuide__CHI_202511.pdf"
+                target="_blank"
+                class="guide-item">
+                    <span class="guide-title">乘車指南</span>
+                    <img src="/images/guide1.jpg" alt="">
+                </a>
+
+                <a rel="noopener noreferrer"
+                href="https://www.mlm.com.mo/pdf/leaflet/2025_leaflet/2025_leaflet_11/Ticketing_Guide_CHI_2025_11.pdf"
+                target="_blank"
+                class="guide-item">
+                    <span class="guide-title">票務指南</span>
+                    <img src="/images/guide2.jpg" alt="">
+                </a>
+            </div>
+          </div>
+        <div id="content2" cms-search="true" class="tab-content">
+            <div class="routeMenu4">
+                        <div class="routeItem4" data-target="#submenu0">
+                            <a class="routeName" rel="noopener noreferrer" href="javascript:void(0)"
+                                target="_self">氹仔線</a>
+                                <div class="stationItem" id="submenu0">
+                                    <ul>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_BAR_2026_09_V2.jpg" data-title="媽閣站" data-src="/images/stations/TimeTable/2026_09/TT_BAR_2026_09_V2.jpg"><span>媽閣站</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_OCE_2026_09_V2.jpg" data-title="海洋站" data-src="/images/stations/TimeTable/2026_09/TT_OCE_2026_09_V2.jpg"><span>海洋站</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_JOC_2026_09_V2.jpg" data-title="馬會站" data-src="/images/stations/TimeTable/2026_09/TT_JOC_2026_09_V2.jpg"><span>馬會站</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_STA_2026_09_V2.jpg" data-title="運動場站" data-src="/images/stations/TimeTable/2026_09/TT_STA_2026_09_V2.jpg"><span>運動場站</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_PAK_2026_09_V2.jpg" data-title="排角站" data-src="/images/stations/TimeTable/2026_09/TT_PAK_2026_09_V2.jpg"><span>排角站</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_COW_2026_09_V2.jpg" data-title="路氹西站" data-src="/images/stations/TimeTable/2026_09/TT_COW_2026_09_V2.jpg"><span>路氹西站</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_LOT_2026_09_V2.jpg" data-title="蓮花站（轉乘橫琴線）" data-src="/images/stations/TimeTable/2026_09/TT_LOT_2026_09_V2.jpg"><span>蓮花站（轉乘橫琴線）</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_HU_2026_09_V2.jpg" data-title="協和醫院站 (轉乘石排灣線)" data-src="/images/stations/TimeTable/2026_09/TT_HU_2026_09_V2.jpg"><span>協和醫院站 (轉乘石排灣線)</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_EAG_2026_09_V2.jpg" data-title="東亞運站" data-src="/images/stations/TimeTable/2026_09/TT_EAG_2026_09_V2.jpg"><span>東亞運站</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_COE_2026_09_V2.jpg" data-title="路氹東站" data-src="/images/stations/TimeTable/2026_09/TT_COE_2026_09_V2.jpg"><span>路氹東站</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_MUST_2026_09_V2.jpg" data-title="科大站" data-src="/images/stations/TimeTable/2026_09/TT_MUST_2026_09_V2.jpg"><span>科大站</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_AIR_2026_09_V2.jpg" data-title="機場站" data-src="/images/stations/TimeTable/2026_09/TT_AIR_2026_09_V2.jpg"><span>機場站</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_TFT_2026_09_V2.jpg" data-title="氹仔碼頭站" data-src="/images/stations/TimeTable/2026_09/TT_TFT_2026_09_V2.jpg"><span>氹仔碼頭站</span></a>
+                                                </li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <div class="routeItem4" data-target="#submenu1">
+                            <a class="routeName" rel="noopener noreferrer" href="javascript:void(0)"
+                                target="_self">石排灣線</a>
+                                <div class="stationItem" id="submenu1">
+                                    <ul>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_SPV_HU_2026_09.jpg" data-title="協和醫院站(轉乘氹仔線)" data-src="/images/stations/TimeTable/2026_09/TT_SPV_HU_2026_09.jpg"><span>協和醫院站(轉乘氹仔線)</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_SPV_2026_09.jpg" data-title="石排灣站" data-src="/images/stations/TimeTable/2026_09/TT_SPV_2026_09.jpg"><span>石排灣站</span></a>
+                                                </li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <div class="routeItem4" data-target="#submenu2">
+                            <a class="routeName" rel="noopener noreferrer" href="javascript:void(0)"
+                                target="_self">橫琴線</a>
+                                <div class="stationItem" id="submenu2">
+                                    <ul>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_HQL_LOT_2026_09.jpg" data-title="蓮花站(轉乘氹仔線)" data-src="/images/stations/TimeTable/2026_09/TT_HQL_LOT_2026_09.jpg"><span>蓮花站(轉乘氹仔線)</span></a>
+                                                </li>
+                                                <li><a class="stationName stationbtn" rel="noopener noreferrer"
+                                                        href="javascript:void(0)"  data-image="/images/stations/TimeTable/2026_09/TT_HQL_HQ_2026_09.jpg" data-title="橫琴站" data-src="/images/stations/TimeTable/2026_09/TT_HQL_HQ_2026_09.jpg"><span>橫琴站</span></a>
+                                                </li>
+                                    </ul>
+                                </div>
+                        </div>
+            </div>
+            <div class="remark_box">
+                   <div class="remark_title">備註：</div>
+                   <div class="remark_text">石排灣線之列車出發時刻表更新於2026年9月；橫琴線之列車出發時刻表更新於2026年9月；氹仔線之列車出發時刻表更新於2026年9月。</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="overlay" id="overlay">
+      <div class="overlay_box">
+      <div class="close-btn" id="close-btn" class="close_bgmask"></div>
+            <img id="overlay-image" src="" />
+      </div>
+    </div>
+
+<script>
+$(document).ready(function () {
+        $('.tab').on('click', function () {
+          $('.tab').removeClass('card-active')
+          // 隱藏所有的 tab-content
+          $('.tab-content').removeClass('card-active')
+
+          $(this).addClass('card-active')
+          $($(this).data('target')).addClass('card-active')
+        })
+      })
+
+$(function() {
+
+$('.stationItem').on('click', '.stationName', function(e) {
+        e.preventDefault();
+        const src = $(this).data('src');
+        clickStation2($(this).data('title'))
+        const img = document.createElement('img');
+        img.src = src;
+        img.style.display = 'none';
+        document.body.appendChild(img);
+
+        const viewer = new Viewer(img, {
+          inline: false,    // 以 modal 弹窗形式显示
+          navbar: false,    // 隐藏下方缩略图条
+          toolbar: false, // 只保留缩放相关按钮
+          title: false,     // 不显示标题
+          tooltip: false,   // 不显示工具提示
+          movable: true,    // 允许拖拽
+          zoomable: true,   // 允许缩放（滚轮/双击/捏合）
+          hidden: function() {
+            viewer.destroy();
+            document.body.removeChild(img);
+          }
+        });
+        viewer.show();
+      });
+
+
+	$(".routeItem4").click(function() {
+                var target = $(this).data('target');
+                var isOpend = $(this).hasClass('opened');
+
+                if(isOpend) {
+                    $(target).hide();
+                    $('.routeItem4').removeClass('opened');
+                    $('.routeMenu4').height(0);
+                    return
+                }
+                $('.stationItem').not($(target)).hide();
+                $(target).show();
+                $('.routeItem4').removeClass('opened');
+                $(this).addClass('opened');
+            
+                var submenuHeight = $(target).outerHeight()
+                $('.routeMenu4').height(submenuHeight)
+
+	});
+        $(".routeItem4").click(function(event){
+	      event.stopPropagation();
+        });
+    //    $('.stationbtn').click(function () {
+    //       $('#overlay-image').attr('src', '');
+    //       clickStation2($(this).data('title'))
+    //       var imageUrl = $(this).data('image')
+    //        if (!imageUrl) return;
+    //       $('#overlay-image').attr('src', imageUrl)
+    //       $('#overlay').fadeIn();
+    //     })
+
+    //     $('.close-btn').click(function () {
+    //      $('#overlay').fadeOut()
+    //     })
+
+    //     $('#overlay').click(function (e) {
+    //       if (e.target.id === 'overlay') {
+    //         $('#overlay').fadeOut()
+    //       }
+    //     })
+})
+
+function clickStation2(name) {
+        var alias = "mlm";//獲取網站別名
+	var serviceContextUrl = "/cms"; //獲取服務器url
+        var language = 'zh_TW';
+        var langTitle = ' - ' + langStr[language];
+        var title =" - " + name + ' - ' + langStr[language];
+        var url = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +   '&duration=hour' + '&category=訪問瀏覽次數' + langTitle;
+       var url2 = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +'（）' +   '&duration=day' + '&category=（1天）' + langTitle;
+        $.ajax({
+			global: false,
+			type: "get",
+			url: url,
+			success: function(data) {
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+         $.ajax({
+			global: false,
+			type: "get",
+			url: url2,
+			success: function(data) {
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+
+}
+
+function scrollToTable() {
+  var  e = document.getElementById('TimeTable');
+  var top = e.offsetTop;
+  window.scrollTo({
+    top: top,
+    behavior: 'smooth'
+  });
+}
+</script></div></div></div><div key="r1c1" class="cms-layout-column" style=""><div section-id="24489" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div>
+<div class="remaker_icon "><img alt="" src="/images/beizhu.png"  /><span>點擊站點以查詢更多資訊</span></div>
+<br/>
+
+<div class="map">
+             <img style=" width:100%;" src="/images/stations/2024_map/ROUTE-2024-11_CN.png" alt="">
+
+
+<div class="station" style="padding: 0;">
+	<div class="area">
+           <span class="selectPoint" style="top: 10.5%;left: 11%;" data-index="1" data-dest="800">媽閣站</span>
+	   <span class="selectPoint" style="top: 32%;left: 14.4%;" data-index="2" data-dest="800">海洋站</span>
+	   <span class="selectPoint" style="top: 33.8%;left: 25.5%;" data-index="3" data-dest="560">馬會站</span>
+	   <span class="selectPoint" style="top: 43%;left: 30.7%;" data-index="4" data-dest="520">運動場站</span>
+	   <span class="selectPoint" style="top: 50.9%;left: 30%;" data-index="5" data-dest="523">排角站</span>
+	   <span class="selectPoint" style="top: 58%;left: 30.4%;" data-index="6" data-dest="550">路氹西站</span>
+	   <span class="selectPoint" style="top: 64%;left: 40.5%;" data-index="7.1" data-dest="505">蓮花口岸站</span>
+           <span class="selectPoint" style="top: 72.5%;left: 21.8%;" data-index="7.2" data-dest="505">橫琴站</span>
+           <span class="selectPoint" style="top: 64%;left: 45.2%;" data-index="8.1" data-dest="640">協和醫院站</span>
+           <span class="selectPoint" style="top: 80%;left: 37.4%;" data-index="8.2" data-dest="640">石排灣站</span>
+	   <span class="selectPoint" style="top: 58%;left: 49.8%;" data-index="9" data-dest="547">東亞運站</span>
+	   <span class="selectPoint" style="top: 51%;left: 49.8%;" data-index="10" data-dest="548">路氹東站</span>
+	   <span class="selectPoint" style="top: 43.8%;left: 49.8%;" data-index="11" data-dest="538">科大站</span>
+	   <span class="selectPoint" style="top: 36.5%;left: 56%;" data-index="12" data-dest="236">機場站</span>
+	   <span class="selectPoint" style="top: 29.5%;left: 56%;" data-index="13" data-dest="491">氹仔碼頭</span>
+          
+	</div>
+	<div class="point">
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/lphpolkr.html" id="point1" data-index="1" data-dest="626" data-station="barra">媽閣站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxj8xr.html" id="point2" data-index="2" data-dest="221" data-station="ocean">海洋站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxjnvb.html" id="point3" data-index="3" data-dest="560" data-station="jockey">馬會站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxlbxk.html" id="point4" data-index="4" data-dest="520" data-station="stadium">運動場站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxlnc3.html" id="point5" data-index="5" data-dest="523" data-station="paikok">排角站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxn6qs.html" id="point6" data-index="6" data-dest="612" data-station="cotaiwest">路氹西站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/m3mcu8fu.html" id="point7" data-index="7.1" data-dest="578" data-station="lotus">蓮花站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxnr4t.html" id="point8" data-index="7.2" data-dest="578" data-station="Hengqin">橫琴站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/m2naox9f.html" id="point9" data-index="8.1" data-dest="640" data-station="UnionHospital">協和醫院站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/m03bueit.html" id="point10" data-index="8.2" data-dest="243" data-station="SeacPaiVan">石排灣站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxo4hs.html" id="point11" data-index="9" data-dest="549" data-station="eastasia">東亞運站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxof24.html" id="point12" data-index="10" data-dest="548" data-station="cotaieast">路氹東站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxottu.html" id="point13" data-index="11" data-dest="538" data-station="must">科大站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxp3a2.html" id="point14" data-index="12" data-dest="236" data-station="airport">機場站</span >
+
+      <span class="selectPoint"  data-href="/tc/station_locationDetail/article/kblxpddy.html" id="point15" data-index="13" data-dest="491" data-station="taipaferry">氹仔碼頭站</span >
+	</div>
+	   
+</div>
+
+</div>
+
+<div style="display:none;">
+<div class="text_minTitle">列車服務資訊</div>
+
+<div class="map_bottomText">
+<div style="border-radius: 10px;">
+<div >服務時間：每天06:30 – 23:15</div>
+<div >班次安排：10-15分鐘一班</div>
+<div >行車時間：全程約22分鐘</div></div></div>
+<div class="remaker_icon "><img alt="" src="/images/beizhu.png"  /> <span>備註：鑑於新型冠狀病毒的最新情況，澳門輕軌氹仔線將因應客流量進一步縮減服務班次，直至另行通知。由2020年2月10日起（包括周末及公眾假期），列車班次為每10至15分鐘一班。</span></div>
+
+</div>
+<div class="station_list">
+<ul>
+    <li class="setStart">設為起點</li>
+    <li class="setEnd">設為終點</li>
+    <li  class="href">車站位置</li>
+    <li  class="hrefTime">列車出發時刻表</li>
+    <!--<li class="dest">周邊交通</li>-->
+    <li class="station_facilities">車站設施</li>
+    <!--<li>更多資訊</li>-->
+</ul>
+</div>
+
+<div id="startPoint">
+<img style="    max-height: 50px;" src="/images/startPoint.png" alt="">
+
+</div>
+<div id="endPoint">
+<img style="max-height: 50px;" src="/images/endPoint_tw.png" alt="">
+
+</div>
+</div>
+<script>
+
+var X = '';
+var Y = '';
+var Top = '';
+var Left = '';
+var point_width = "";
+var val = '';
+var dest = '';var marginLeft;var spanHtml;
+var href = "";
+var dsetName = "";
+var langStr = {
+	zh_TW: '繁',
+	zh_CN: '简',
+	pt: 'PT',
+	en: 'EN'
+}
+
+$(document).click(function(){
+	$(".station_list").hide();
+});
+	$('.area span').on('click', function(event) {
+         event.stopPropagation();
+         var index = $(this).data('index');
+
+		$('.station_list').show();
+		var _this = $('.point span').eq($(this).index());
+                val = _this.data('index');
+                dest = _this.data('dest');
+                dsetName = _this.text();
+                href = _this.data('href');
+                
+                 //$('.dest').show()
+                 //if(val === 7.2) {
+                 //      $('.dest').hide()
+                  //}
+
+		var point_width = _this.width();
+		Top = _this.offset().top;
+		Left = _this.offset().left;
+		var topNum = _this.width();
+		var leftNum = ($('.station_list').width() / 2) - (_this.width() / 2);
+		X = _this.offset().top + topNum + 11;
+		Y = _this.offset().left - leftNum;
+		$('.station_list').css("display", "block");
+		$('.station_list').show();
+
+		
+		$('.station_list').css("top", X);
+		$('.station_list').css("left", Y);
+		spanHtml = _this[0].offsetHeight;
+	});
+     $('.setStart').on('click',function(){
+         marginLeft = $(".appContainer").css("margin-left").replace("px","");
+         $('.station_list').hide();
+         $('#startPoint').css("top", Top + spanHtml/2 - $('#startPoint').height() );
+	      $('#startPoint').css("left", Left +  spanHtml/2 - ($('#startPoint').width()/2) );
+         $('#startPoint').show();
+         if(val === 8.2) {
+            populateOptions(spv_line, "form");
+            $(".form-line").val('2');
+         } else if (val === 7.2) {
+            populateOptions(Hengqin_line, "form");
+            $(".form-line").val('3');
+         } else {
+            populateOptions(taipa_line, "form");
+            $(".form-line").val('1');
+         }
+         $(".form").val(val);
+         if($('#endPoint').css('display') == 'block') {
+          openBox();
+         }
+      });
+     $('.setEnd').on('click',function(){
+           $('.station_list').hide();
+           $('#endPoint').css("top", Top + spanHtml/2 - $('#startPoint').height());
+	         $('#endPoint').css("left", Left +  spanHtml/2 - ($('#startPoint').width()/2));
+           $('#endPoint').show();
+            //$('.dest').show()
+         //if(val === 7.2) {
+           // $('.dest').hide()
+         //}
+           if(val === 8.2) {
+               populateOptions(spv_line, "to");
+               $(".to-line").val('2');
+            } else if (val === 7.2) {
+               populateOptions(Hengqin_line, "to");
+               $(".to-line").val('3');
+            } else {
+               populateOptions(taipa_line, "to");
+               $(".to-line").val('1');
+            }
+           $(".to").val(val);
+           if($('#startPoint').css('display') == 'block') {
+            openBox();
+           }
+       });
+     //$('.dest').on('click',function(){
+      //var lang = "zh_TW";
+      // var _lang = '';
+      // if (lang == 'pt') {
+     //      _lang = 'p';
+     //  } else if ( lang == 'en' ) {
+     //     _lang = 'e';
+     //  } else {
+     //     _lang = 'c';
+      // }
+      //點擊周邊
+     // clickDest();
+       //var url = "https://www.dsat.gov.mo/bres/EBIP_REVAMP/index.html?lang=";
+      // var openPage = window.open( url +_lang + "&dest=" + dest+"&type=s","_blank");
+      // openPage.opener = null;
+	//$('.station_list').hide();
+      // });
+     //車站位置
+     $('.href').on('click',function(){
+        var openHref = window.open(href);
+        openHref .opener = null;
+	$('.station_list').hide();
+       });
+    //列車出發時刻表
+    $('.hrefTime').on('click',function(){
+        clickTrainTime();
+        var openHref = window.open(href+'#trainTime');
+        openHref .opener = null;
+	$('.station_list').hide();
+       });
+
+    $('.station_facilities').on('click',function(){
+        if(val === 8.1 || val === 8.2) {
+           window.location.href='/tc/station_factilities_union.html'
+         } else {
+           window.location.href='/tc/station_factilities.html'
+         }
+       });
+$(window).resize(function () {
+	var X = '';
+	var Y = '';
+	$('.station_list').hide();
+         $('#startPoint').hide();
+         $('#endPoint').hide();
+		});
+$(".point span,.station_list").click(function(){
+	return false;
+});
+
+
+
+
+function clickDest() {
+        var alias = "mlm";//獲取網站別名
+	var serviceContextUrl = "/cms"; //獲取服務器url
+        var language = 'zh_TW';
+        var langTitle = ' - ' + langStr[language];
+        var title ="周邊交通 - " +dsetName+ ' - ' + langStr[language];
+        var url = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +   '&duration=hour' + '&category=訪問瀏覽次數' + langTitle;
+       var url2 = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +'（用戶數）' +   '&duration=day' + '&category=用戶數（1天）' + langTitle;
+        $.ajax({
+			global: false,
+			type: "get",
+			url: url,
+			success: function(data) {
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+         $.ajax({
+			global: false,
+			type: "get",
+			url: url2,
+			success: function(data) {
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+
+}
+
+function clickTrainTime() {
+        var alias = "mlm";//獲取網站別名
+	var serviceContextUrl = "/cms"; //獲取服務器url
+        var language = 'zh_TW';
+        var langTitle = ' - ' + langStr[language];
+        var title ="列車出發時刻表 - " +dsetName+ ' - ' + langStr[language];
+        var url = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +   '&duration=hour' + '&category=訪問瀏覽次數' + langTitle;
+       var url2 = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +'（用戶數）' +   '&duration=day' + '&category=用戶數（1天）' + langTitle;
+        $.ajax({
+			global: false,
+			type: "get",
+			url: url,
+			success: function(data) {
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+         $.ajax({
+			global: false,
+			type: "get",
+			url: url2,
+			success: function(data) {
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+
+}
+
+</script></div></div></div></div><div class="cms-layout-row" style=""><div key="r2c0" class="cms-layout-column" style=""><div section-id="7209" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div class="text_minTitle ">路線概況</div>
+<div class="route">
+				<div class="route-item taipa_line" data-tag="taipa_line" >氹仔線</div>
+
+				<div class="route-item shipaiwan_line" data-tag="shipaiwan_line" >石排灣線</div>
+
+				<div class="route-item Hengqinline" data-tag="Hengqinline" >橫琴線</div>
+
+				<div class="route-item LRTeastline" data-tag="LRTeastline" >東線<span>(建設中)</span></div>
+
+<div class="arrow" id="arrow"></div>
+</div>
+
+<div class="routr_mobile">
+<div id="routr-item-first">
+</div>
+<div class="routr_mobile-body">
+				<div class="routr_mobile-item taipa_line-mobile" data-tag="taipa_line" >氹仔線</div>
+
+				<div class="routr_mobile-item shipaiwan_line-mobile" data-tag="shipaiwan_line" >石排灣線</div>
+
+				<div class="routr_mobile-item Hengqinline-mobile" data-tag="Hengqinline" >橫琴線</div>
+
+				<div class="routr_mobile-item LRTeastline-mobile" data-tag="LRTeastline" >東線<span>(建設中)</span></div>
+
+</div>
+</div>
+
+
+<script>
+var linesData = {
+    taipa_line: "氹仔線",
+    shipaiwan_line: "石排灣線",
+    Hengqinline: "橫琴線",
+    LRTeastline: "東線"
+};
+var langStr = {
+			zh_TW: '繁',
+			zh_CN: '简',
+			pt: 'PT',
+			en: 'EN'
+		}
+
+function clickTag(tag) {
+        var alias = "mlm";//獲取網站別名
+	var serviceContextUrl = "/cms"; //獲取服務器url
+        var language = 'zh_TW';
+	
+        var langTitle = encodeURIComponent(' - ' + langStr[language]);
+        var newStr = (language === 'pt' || language === 'en') ? ' -New' : '-New';
+        var title = linesData[tag]+newStr;
+        var url = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +   '&duration=hour' + '&category=訪問瀏覽次數' + langTitle;
+       var url2 = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +'（用戶數）' +   '&duration=day' + '&category=用戶數（1天）' + langTitle;
+        $.ajax({
+			global: false,
+			type: "get",
+			url: url,
+			success: function(data) {
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+         $.ajax({
+			global: false,
+			type: "get",
+			url: url2,
+			success: function(data) {
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+}
+
+function setOldTag() {
+if (location.href.indexOf('#') !== -1) {
+var tag= location.href.split('#')[1];
+showLine(tag);
+var className = '.'+tag;
+$(className).addClass('route-tag-active').siblings().removeClass('route-tag-active');
+        routeLink(tag);
+		$('.route-item-body').each(function(){
+			if ($(this).hasClass(tag)) {
+				$(this).addClass('route-active')
+			} else {
+				$(this).removeClass('route-active')
+			}
+		})
+
+      //手机
+      var name = $('.route-item'+className).text();
+
+      //點擊tag觸發統計
+       clickTag(tag);
+
+      $('#routr-item-first').text(name);
+      $('#routr-item-first').attr('class', tag + '-mobile');
+      $('.routr_mobile-item').each(function(){
+             var tagMobile = $(this).data("tag");
+             if (tag   !== tagMobile) {
+                   $(this).removeClass('routr_mobile-active');
+             } else {
+                   $(this).addClass('routr_mobile-active');
+             }
+	})
+} else {
+     clickTag('taipa_line');
+}
+}
+
+function showLine(tag) {
+    if(tag === 'taipa_line') {
+            $('.routeMenu_box').show();
+        } else {
+            $('.routeMenu_box').hide();
+       }
+ 
+}
+
+$(function(){
+      setOldTag();
+     //默認樣式
+     $('.taipa_line').addClass('route-tag-active');
+    //web端切換tab
+    $('.route-item').click(function(){
+     
+	$(this).addClass('route-tag-active').siblings().removeClass('route-tag-active');
+        var tag  = $(this).data("tag");
+        showLine(tag);
+         //點擊tag觸發統計
+         clickTag(tag);
+
+        routeLink(tag);
+		$('.route-item-body').each(function(){
+			if ($(this).hasClass(tag)) {
+				$(this).addClass('route-active')
+			} else {
+				$(this).removeClass('route-active')
+			}
+		})
+
+      //手机
+      var name = $(this).text();
+      $('#routr-item-first').text(name);
+      $('#routr-item-first').attr('class', tag + '-mobile');
+      $('.routr_mobile-item').each(function(){
+             var tagMobile = $(this).data("tag");
+             if (tag   !== tagMobile) {
+                   $(this).removeClass('routr_mobile-active');
+             } else {
+                   $(this).addClass('routr_mobile-active');
+             }
+            
+	})
+            
+    }) 
+
+$('.routr_mobile-item').each(function(i){
+      if (i === 0 && location.href.indexOf('#') === -1){
+          var name = $(this).text();
+          var tag  = $(this).data("tag");
+          $('#routr-item-first').text(name);
+          $('#routr-item-first').attr('class', tag + '-mobile');
+          $(this).addClass('routr_mobile-active');
+        }
+})
+
+ //手機端端切換tab
+$('.routr_mobile-item').click(function(){
+      var name = $(this).text();
+      var tag  = $(this).data("tag");
+      showLine(tag);
+       //點擊tag觸發統計
+         clickTag(tag);
+
+      routeLink(tag);
+      $('#routr-item-first').text(name);
+
+      $('#routr-item-first').attr('class', tag + '-mobile');
+      $('.routr_mobile-body').slideToggle();
+      $(this).addClass('routr_mobile-active').siblings().removeClass('routr_mobile-active');
+
+
+      $('.route-item-body').each(function(){
+	if ($(this).hasClass(tag)) {
+		$(this).addClass('route-active')
+	} else {
+		$(this).removeClass('route-active')
+	}
+})
+
+
+
+       //web
+      $('.route-item').each(function(){
+             var tagWeb = $(this).data("tag");
+             if (tag   !== tagWeb) {
+                   $(this).removeClass('route-tag-active');
+             } else {
+                   $(this).addClass('route-tag-active');
+             }
+            
+	})
+     
+})
+
+
+$('#routr-item-first').click(function() {
+       $(this).next('div').slideToggle();
+})
+
+})
+
+function routeLink(tag) {
+      $('.lan_list a').each(function(){
+             var link =  $(this).attr("href");
+             if(link.indexOf('#') !== -1) {
+                   var newLink = link.split('#')[0];
+                   $(this).attr("href", newLink +'#'+tag); 
+             } else {
+                $(this).attr("href", link+'#'+tag); 
+             }
+	})
+           
+   
+}
+
+        
+</script></div></div><div section-id="5108" class="cms-section route-item-body Hengqinline" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div  cms-search="true">
+
+ <div class="acticle-div">
+<div class="text_Title">橫琴線</div>
+    <div style=" padding-top: 5px;"><img src="/images/title-icon.png" alt=""></div>
+</div>
+<div class="baguetteBox" id="station_Img">橫琴線於2024年12月2日投入服務，設有橫琴線蓮花站及橫琴站，為一條輕軌延伸橫琴的跨界線路，主體建築由高架橋、河底隧道及兩個車站組成，長約2.2公里，當中隧道段約900米。走線以高架方式始於澳門蓮花大橋旁的橫琴線蓮花站，並可與氹仔線蓮花站換乘；接續沿蓮花大橋逐步下降，以河底隧道方式穿過十字門水道進入珠海橫琴，於橫琴口岸澳門口岸區前設地底車站橫琴站。<br />
+ </div>
+<div style="clear:both"></div>
+</div>
+
+
+<script>
+window.onload=function (){
+$(".baguetteBox img").each(function(){
+     var srcurl = $(this).attr('src');
+     $(this).attr('id','img_id');
+     $(this).wrapAll("<a class='baguette_img' href='" + srcurl + "'></a>"); 
+});
+baguetteBox.run('.baguetteBox');
+}
+</script></div></div><div section-id="24494" class="cms-section route-item-body shipaiwan_line" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div  cms-search="true">
+
+ <div class="acticle-div">
+<div class="text_Title">石排灣線</div>
+    <div style=" padding-top: 5px;"><img src="/images/title-icon.png" alt=""></div>
+</div>
+<div class="baguetteBox" id="station_Img"><div class="text_content">石排灣線為澳門輕軌首條轉乘路線，於2024年11月1日開通，途經路氹連貫公路、石排灣圓形地及石排灣馬路，全長1.6公里，設有“石排灣”以及“協和醫院”兩個車站，輕軌服務拓展至石排灣社區。乘客可透過協和醫院站於氹仔線和石排灣線之間轉乘，便利巿民往來石排灣至氹仔各區和媽閣一帶。<br />
+ </div></div>
+<div style="clear:both"></div>
+</div>
+
+
+<script>
+window.onload=function (){
+$(".baguetteBox img").each(function(){
+     var srcurl = $(this).attr('src');
+     $(this).attr('id','img_id');
+     $(this).wrapAll("<a class='baguette_img' href='" + srcurl + "'></a>"); 
+});
+baguetteBox.run('.baguetteBox');
+}
+</script></div></div><div section-id="24493" class="cms-section route-item-body taipa_line route-active" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div  cms-search="true">
+
+ <div class="acticle-div">
+<div class="text_Title">氹仔線</div>
+    <div style=" padding-top: 5px;"><img src="/images/title-icon.png" alt=""></div>
+</div>
+<div class="baguetteBox" id="station_Img">氹仔線於2019年正式開通，設有11個車站，覆蓋氹仔市中心的主要住宅區、舊城區及旅遊區，含蓋路氹區的海、陸、空三個重要口岸。2023年，氹仔線經過西灣大橋下層通道延伸至澳門半島媽閣站，增至12個車站，隨著2024年石排灣線開通，氹仔線再增加一個轉乘站（協和醫院站），全長12.5公里。</div>
+<div style="clear:both"></div>
+</div>
+
+
+<script>
+window.onload=function (){
+$(".baguetteBox img").each(function(){
+     var srcurl = $(this).attr('src');
+     $(this).attr('id','img_id');
+     $(this).wrapAll("<a class='baguette_img' href='" + srcurl + "'></a>"); 
+});
+baguetteBox.run('.baguetteBox');
+}
+</script></div></div></div></div><div class="cms-layout-row eastline_div" style=""><div key="r3c0" class="cms-layout-column" style=""><div section-id="5608" class="cms-section route-item-body LRTeastline" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div  cms-search="true">
+
+ <div class="acticle-div">
+<div class="text_Title">東線</div>
+    <div style=" padding-top: 5px;"><img src="/images/title-icon.png" alt=""></div>
+</div>
+<div class="baguetteBox" id="station_Img"><div class="text_content">澳門特區政府為配合城市發展與促進社區融合，豐富和加強澳門現有公共運輸網絡，擬興建由澳門半島連接到氹仔的輕軌東線網絡。<br />
+ <br />
+輕軌東線初擬全長約7.7公里，現階段共設有6個車站，東線北起關閘附近地區，沿馬場北大馬路及友誼橋大馬路對開海岸至新城A區，再沿A區中央綠廊向南延伸並過海連接新城E區。而新城E區的車站將會連接現時輕軌氹仔線的氹仔碼頭站。<br />
+<br />
+<span style="text-align: justify;">有關輕軌東線的建設情況，請瀏覽以下相關連結：</span><br style="text-align: justify;" />
+<span style="text-align: justify; font-size: 8px;">●</span><span style="text-align: justify;">  </span><a href="http://www.dsop.gov.mo/construction/2/267/" style="text-align: justify;" target="_blank">輕軌東線北段</a><br style="text-align: justify;" />
+<span style="text-align: justify; font-size: 8px;">●</span><span style="text-align: justify;">  </span><a href="http://www.dsop.gov.mo/construction/2/265/" style="text-align: justify;" target="_blank">輕軌東線南段</a><br />
+ </div></div>
+<div style="clear:both"></div>
+</div>
+
+
+<script>
+window.onload=function (){
+$(".baguetteBox img").each(function(){
+     var srcurl = $(this).attr('src');
+     $(this).attr('id','img_id');
+     $(this).wrapAll("<a class='baguette_img' href='" + srcurl + "'></a>"); 
+});
+baguetteBox.run('.baguetteBox');
+}
+</script></div></div></div><div key="r3c1" class="cms-layout-column" style=""><div section-id="5610" class="cms-section route-item-body LRTeastline" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;">                  <div class="video_box">
+                       <iframe  id="youtube_box" src="" frameborder="0" allow="autoplay; fullscreen"></iframe>
+                         <div style="padding: 5px;">東線展示影片（2022）</div>
+                   </div>
+
+<script>
+                         var youtubeLink = "https://www.youtube.com/embed?listType=playlist&list=PLA5FMlqd-v-0v60sOr1RGiSILNIg0sU0e&index=1&rel=0";
+                         if (location.href.indexOf('EL')!==-1) {
+                            youtubeLink = youtubeLink + '&autoplay=1';
+                         }
+                        $("#youtube_box").attr("src", youtubeLink);
+</script></div></div><div section-id="5609" class="cms-section route-item-body LRTeastline" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div  cms-search="true">
+    <div><div class="eastline_img "><img alt="" src="/images/Development/EastLine_n.png" style="width: 350px; height: 557px; float: right;" /><br />
+<br />
+ </div></div>
+</div>
+
+<script>
+document.body.addEventListener("copy", function(e){
+ e.preventDefault();
+ e.stopPropagation();
+});
+document.body.addEventListener("cut", function(e){
+ e.preventDefault();
+ e.stopPropagation();
+});
+
+</script></div></div></div></div></div></div></div><div class="cms-layout-row" style=""><div key="r2c0" class="cms-layout-column" style=""><div section-id="2363" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div class="ad_swiper" >
+
+<div class="swiperPicture swiper-no-swiping" cms-search="true">
+<div class="swiper-button-prev swiperBtn_show"><img style="  width: 30px;
+    height: 30px;" src="/images/left.png"></div>
+  <div class="swiper-container" id="swiper2">
+<div class="swiper-wrapper">
+    </div>
+  </div>
+<div class="swiper-button-next swiperBtn_show"><img style="  width: 30px;
+    height: 30px;" src="/images/right.png"></div></div>
+</div>
+</div>
+<script>
+if ($('.swiper-wrapper #swiper_num').length > 0) {
+var canMove = false;
+var swiping = true;
+var autoplay = false;
+var showNum = $('.swiper-wrapper #swiper_num').length > 4 ? 4 : $('.swiper-wrapper #swiper_num').length;
+var hideBtn = true;
+var pc = sessionStorage.getItem("pc");
+if ($('.menu_div').width() > 500 && $('.swiper-wrapper #swiper_num').length < 5) {
+    showNum = $('.swiper-wrapper #swiper_num').length;
+     autoplay = false;
+     hideBtn = true;
+} else if ($('.menu_div').width() > 500 && $('.swiper-wrapper #swiper_num').length > 4){
+    showNum = 4;
+    autoplay = true;
+    hideBtn = false;
+    $('.swiperBtn_show').show();
+} else if ($('.menu_div').width() < 500 && pc !== "true") {
+    showNum = 1
+    autoplay = true;
+    hideBtn = false;
+    canMove = true;
+   swiping = false;
+    $('.swiperBtn_show').show();
+} 
+}
+$(function(){
+if ($('.swiper-wrapper #swiper_num').length > 0) {
+  $('.ad_swiper').show();
+}
+var swiper2 = new Swiper('#swiper2', {
+       paginationClickable :true,
+       noSwiping : swiping,
+       autoplay: autoplay,
+      slidesPerView: showNum,
+      loop : true,
+      spaceBetween: 10,
+      navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+      hideOnClick: hideBtn
+    },
+     breakpoints: {
+        500: {  //当屏幕宽度小于等于500
+          slidesPerView: 1,
+          spaceBetween: 20
+        }
+     }
+    });
+  swiper2.allowTouchMove= canMove;
+})
+  </script></div></div><div section-id="4490" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div class="footer_line" style="margin-bottom:5px;"></div>
+<div class="footer_line"></div>
+<div class="footer_div"  cms-search="true">
+<div id="sitemap"></div>
+<div class="copyright">
+        <div class="footer_link">          
+           <div class="footer_link_border "><a href="/tc/terms.html">使用條款</a></div>
+           <div><a href="/tc/privacy.html">私隱聲明</a></div>
+        </div>
+        <div style="text-align: center;">©<span id="footer-year"></span>澳門輕軌股份有限公司</div>
+</div>
+</div>
+
+<script>
+	$(function(){
+        $('#footer-year').text(new Date().getFullYear()+' ');
+        var html = "<div>";
+		var obj = $('.nav-item:gt(0)').find('a');
+		var a = obj.length > 25 ? 6 : 5;
+		var b = 5;
+                 var num = 1;   
+                 var add = 0;
+		for (var i = 0; i < obj.length; i++) {
+			var kkk = obj[i];
+                        var e = i;
+                        if (obj[i].classList.contains('menu_a') && num == a) {
+                             add++
+                        }
+                        //if (obj[i].classList.contains('menu_a') && ( num + parseInt(kkk.dataset.size)) < a) {
+                             //add++
+                            //  num = 1;                      
+                            //   html += "</div><div>";
+                       // }
+                        if(i != 0 && (i+add)%a == 0) {
+                               num = 1;                      
+                               html += "</div><div>";
+                        }
+			if (obj[i].classList.contains('menu_a')) {
+                                num++;
+				html += "<a data-size='" + kkk.dataset.size + "' class='first_a' href='" + kkk.href + "'>" + kkk.text +  "</a>";
+			} else if (obj[i].classList.contains('hasThird')) {
+                                num++;
+                                html += "<a data-size='" + kkk.dataset.size + "'  class='third_a ' href='" + kkk.href + "'>" + kkk.text +  "</a>";
+                        } else {
+                                num++;
+				html+= "<a data-size='" + kkk.dataset.size + "'  class='second_a' href='" + kkk.href + "'>" + kkk.text +  "</a>";
+			}
+                        
+		}
+html += "</div>";
+$('#sitemap').append(html);
+});
+
+
+</script></div></div></div></div></div></body>
+</html>

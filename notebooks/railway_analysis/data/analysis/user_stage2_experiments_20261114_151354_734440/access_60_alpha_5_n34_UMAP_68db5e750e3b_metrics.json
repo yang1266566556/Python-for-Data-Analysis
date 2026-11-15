@@ -1,0 +1,53 @@
+{
+  "record": {
+    "run_id": "access_60_alpha_5_n34_UMAP_68db5e750e3b",
+    "dataset_id": "access_60_alpha_5_n34",
+    "algorithm": "UMAP",
+    "model": "UMAP",
+    "node_count": 34,
+    "seed": 42,
+    "metric_mds": "",
+    "n_init": "",
+    "max_iter": "",
+    "perplexity": "",
+    "n_neighbors": 5,
+    "min_dist": 0.1,
+    "n_epochs": 500,
+    "tags": "UMAP_neighbors",
+    "fit_origin": "new_user_fit",
+    "new_fit_seconds": 0.018205899999884423,
+    "reused_original_fit_seconds": "",
+    "convergence_trace_available": false,
+    "native_loss": "",
+    "native_loss_definition": "not_exposed",
+    "native_n_iter_attribute": "",
+    "external_scale_fitted_stress1": 0.9402698694084507,
+    "distance_spearman": 0.3450463660990083,
+    "neighbor_overlap_k5": 0.7117647058823531,
+    "trustworthiness_k5": 0.853393665158371,
+    "network_only_external_scale_fitted_stress1": 0.7345802948089818,
+    "network_only_distance_spearman": 0.369430136885176,
+    "network_only_neighbor_overlap_k5": 0.7212121212121212,
+    "network_only_trustworthiness_k5": 0.8683636363636363
+  },
+  "parameters": {
+    "n_components": 2,
+    "n_neighbors": 5,
+    "min_dist": 0.1,
+    "n_epochs": 500,
+    "metric": "precomputed",
+    "init": "random",
+    "random_state": 42,
+    "transform_seed": 42,
+    "n_jobs": 1
+  },
+  "warnings": [
+    "compatibility_layout was not set, so UMAP is using the legacy (0.5.x) nearest-neighbor, initialization and layout pipeline. In a future release the default will change to compatibility_layout=False, which uses recursive initialization and the Adam optimizer and produces different embeddings. Set compatibility_layout=True to keep the current behavior and silence this warning, or compatibility_layout=False (or optimizer='adam') to adopt the new behavior now.",
+    "using precomputed metric; inverse_transform will be unavailable"
+  ],
+  "coordinates_sha256": "9e56b71a2729ccfdb14349dc97bd1d769da43b65138c409ff989f71c03c29900",
+  "reference_matrix_sha256": "db26b67a36238c0b78b41ff379ec5606ad28157023107f53b232ae2485f235dc",
+  "baseline_source": "",
+  "reference_unmodified": true,
+  "convergence_note": "n_iter_ is raw implementation-specific output. No iteration trace recorded; native losses differ between algorithms and metric/nonmetric MDS."
+}

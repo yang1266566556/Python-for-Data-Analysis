@@ -1,0 +1,4178 @@
+{
+  "protocol": {
+    "q2_experiment_protocol_sha256": "622f41cfe80f6f26f46f364b3423a15b8fd276793131df8cab18a239053b2f25",
+    "q2_experiment_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440",
+    "geographic_protocol_sha256": "4cc0ec36bf3f95895811b0689859c7d6d30fa6a19136ad0dbfe41d8e4b66ae38",
+    "geographic_reference_manifest_sha256": "22b51ca7d4bf267a7dda1d9321155c1f4aff14e683dc0a1f77367996ff6ffcc2",
+    "input_manifest_sha256": "c125fac7ed12353038c607f0697f60c4df75f3c6e1a0d20857f906059e924928",
+    "code_hashes": {
+      "stage3_algorithms.py": "9889d72a56933065464a4b9d30777adc4de7ff382dae329197ad56a7cf7d7b1e",
+      "stage3_clustering.py": "ec93fe973bf1b47dce8f9248e9af4e4e31a2e53959439665d19c03c792632a01"
+    },
+    "comparison_policy": "Raw main34 and no-Taipei33; three clustering mechanisms, raw/embedding controls, fixed representatives, projection parameter/seed and special-region sensitivity",
+    "distance_policy": "Each representation divided by own positive pairwise median. Matrix rows never used as features. CH/DB only on actual Euclidean embedding features.",
+    "dbscan_policy": "epsilon from 3rd-other-neighbor distances (min_samples=4 includes self); quantiles 0.1/0.25/0.5/0.75/0.9. At median epsilon also compare min_samples3/4/5. Degenerate partitions retained with unavailable metrics.",
+    "noise_policy": "silhouette/CH/DB exclude noise; report coverage. ARI/NMI all-node comparison treats noise as a label and also reports non-noise intersection with trivial-partition flags.",
+    "representative_policy": "k=4, PAM seed42, DBSCAN median epsilon/min_samples4 fixed before scores; no automatic winner selection"
+  },
+  "representations": [
+    {
+      "representation_id": "rail__access_30_alpha_2_n34",
+      "dataset_id": "access_30_alpha_2_n34",
+      "family": "rail_time",
+      "node_count": 34,
+      "matrix_file": "rail__access_30_alpha_2_n34_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 552.5,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_30_alpha_2_n34.csv",
+      "source_sha256": "3dfa98758582e6f38da646d49efb20a0ac539966c7e5ab81252b81716f3d4c17",
+      "main_parameter_input": false,
+      "source_embedding_spec": null,
+      "matrix_sha256": "15c8315ee4395bc5e6eac620767d48469ca1f5b102ae064892af1007c3e2dc1f",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15782805429864252,
+        "0.25": 0.20180995475113123,
+        "0.5": 0.281447963800905,
+        "0.75": 0.4088235294117647,
+        "0.9": 1.2215384615384608
+      }
+    },
+    {
+      "representation_id": "rail__access_30_alpha_5_n34",
+      "dataset_id": "access_30_alpha_5_n34",
+      "family": "rail_time",
+      "node_count": 34,
+      "matrix_file": "rail__access_30_alpha_5_n34_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 552.5,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_30_alpha_5_n34.csv",
+      "source_sha256": "eed32f10f0b9b7bc7290a116ce70f1fa4e8ca8fdfdb5fcde8f5840f6a8c6c59e",
+      "main_parameter_input": false,
+      "source_embedding_spec": null,
+      "matrix_sha256": "5d8385d51ad8149eaf86237dddf5cd78c12226d13b862a7858eda3457af7cbb2",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15782805429864252,
+        "0.25": 0.20180995475113123,
+        "0.5": 0.281447963800905,
+        "0.75": 0.4088235294117647,
+        "0.9": 1.2215384615384608
+      }
+    },
+    {
+      "representation_id": "rail__access_30_alpha_10_n34",
+      "dataset_id": "access_30_alpha_10_n34",
+      "family": "rail_time",
+      "node_count": 34,
+      "matrix_file": "rail__access_30_alpha_10_n34_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 552.5,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_30_alpha_10_n34.csv",
+      "source_sha256": "4e18bf6b31ca260f40a6670b40967a1caf7061d516573e38b431bc920b050071",
+      "main_parameter_input": false,
+      "source_embedding_spec": null,
+      "matrix_sha256": "9f864041c1e3282caf4d6d35460e965263f4b6c6355fab0e71b035e6c5a528e4",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15782805429864252,
+        "0.25": 0.20180995475113123,
+        "0.5": 0.281447963800905,
+        "0.75": 0.4088235294117647,
+        "0.9": 1.2215384615384608
+      }
+    },
+    {
+      "representation_id": "rail__access_60_alpha_2_n34",
+      "dataset_id": "access_60_alpha_2_n34",
+      "family": "rail_time",
+      "node_count": 34,
+      "matrix_file": "rail__access_60_alpha_2_n34_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 557.5,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_60_alpha_2_n34.csv",
+      "source_sha256": "373d4f4365d0a17e77930d92198e52f0fc4bc1143e9fb30b241b0255ac5c0fd3",
+      "main_parameter_input": false,
+      "source_embedding_spec": null,
+      "matrix_sha256": "7ec558afa600c63a1d6c8ca57f83ea08861a46652ba7e6c8c2df22be779767a8",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15641255605381166,
+        "0.25": 0.2,
+        "0.5": 0.2789237668161435,
+        "0.75": 0.4165919282511211,
+        "0.9": 1.210582959641255
+      }
+    },
+    {
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "rail_time",
+      "node_count": 34,
+      "matrix_file": "rail__access_60_alpha_5_n34_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 557.5,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_60_alpha_5_n34.csv",
+      "source_sha256": "db26b67a36238c0b78b41ff379ec5606ad28157023107f53b232ae2485f235dc",
+      "main_parameter_input": true,
+      "source_embedding_spec": null,
+      "matrix_sha256": "f330f4de276750cf0e9624c9a0757a247c18e5f23103a6ac1cf6325c4afd39c1",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15641255605381166,
+        "0.25": 0.2,
+        "0.5": 0.2789237668161435,
+        "0.75": 0.4165919282511211,
+        "0.9": 1.210582959641255
+      }
+    },
+    {
+      "representation_id": "rail__access_60_alpha_10_n34",
+      "dataset_id": "access_60_alpha_10_n34",
+      "family": "rail_time",
+      "node_count": 34,
+      "matrix_file": "rail__access_60_alpha_10_n34_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 557.5,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_60_alpha_10_n34.csv",
+      "source_sha256": "ff2ade8f08b6b5a323f96564a6cb18da0ca20c3e1fd68c511828eee1d7f0fc88",
+      "main_parameter_input": false,
+      "source_embedding_spec": null,
+      "matrix_sha256": "5090ab318fab86072b0259d7e0891b253c2f88d90fb327d925e79713883716cb",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15641255605381166,
+        "0.25": 0.2,
+        "0.5": 0.2789237668161435,
+        "0.75": 0.4165919282511211,
+        "0.9": 1.210582959641255
+      }
+    },
+    {
+      "representation_id": "rail__access_90_alpha_2_n34",
+      "dataset_id": "access_90_alpha_2_n34",
+      "family": "rail_time",
+      "node_count": 34,
+      "matrix_file": "rail__access_90_alpha_2_n34_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 558.5,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_90_alpha_2_n34.csv",
+      "source_sha256": "fc3e584804e47ef40f60401e6bdd421f98fd8d819703feb7dd7c6e35a1762228",
+      "main_parameter_input": false,
+      "source_embedding_spec": null,
+      "matrix_sha256": "a556438551128b3d60b3b813c6e1fca0dccc387f8b8de444b26777d48ae6b5b7",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15613249776186214,
+        "0.25": 0.19964189794091317,
+        "0.5": 0.27842435094001794,
+        "0.75": 0.41629364368845123,
+        "0.9": 1.2089525514771702
+      }
+    },
+    {
+      "representation_id": "rail__access_90_alpha_5_n34",
+      "dataset_id": "access_90_alpha_5_n34",
+      "family": "rail_time",
+      "node_count": 34,
+      "matrix_file": "rail__access_90_alpha_5_n34_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 558.5,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_90_alpha_5_n34.csv",
+      "source_sha256": "71e45e2407c580a596cb003efa7e15fef0ddf886d9d9ef13e5c53816e9842405",
+      "main_parameter_input": false,
+      "source_embedding_spec": null,
+      "matrix_sha256": "f703c30250d8fe0989f5313db2314684180d0cea91b55b4e71051d9cf22f0b35",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15613249776186214,
+        "0.25": 0.19964189794091317,
+        "0.5": 0.27842435094001794,
+        "0.75": 0.41629364368845123,
+        "0.9": 1.2089525514771702
+      }
+    },
+    {
+      "representation_id": "rail__access_90_alpha_10_n34",
+      "dataset_id": "access_90_alpha_10_n34",
+      "family": "rail_time",
+      "node_count": 34,
+      "matrix_file": "rail__access_90_alpha_10_n34_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 558.5,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_90_alpha_10_n34.csv",
+      "source_sha256": "b96e991b0130e347c2a6300a20586b3ae4c8f48f42ea01c3ca91298fd694aef7",
+      "main_parameter_input": false,
+      "source_embedding_spec": null,
+      "matrix_sha256": "9f285ea2127c9395ed12d8a6590f83827ebfc4fe31a6dd5827ae50ac691df78c",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15613249776186214,
+        "0.25": 0.19964189794091317,
+        "0.5": 0.27842435094001794,
+        "0.75": 0.41629364368845123,
+        "0.9": 1.2089525514771702
+      }
+    },
+    {
+      "representation_id": "rail__access_30_n33",
+      "dataset_id": "access_30_n33",
+      "family": "rail_time",
+      "node_count": 33,
+      "matrix_file": "rail__access_30_n33_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 533.0,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_30_n33.csv",
+      "source_sha256": "51debb78be822ddd80abe999e30810164704da85dd76376513be0d5948a45002",
+      "main_parameter_input": false,
+      "source_embedding_spec": null,
+      "matrix_sha256": "ee073ddd7c8ca189b502bf75f90666e2976a909b744859c40b186ee8852f347e",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.16097560975609757,
+        "0.25": 0.20825515947467166,
+        "0.5": 0.2804878048780488,
+        "0.75": 0.4230769230769231,
+        "0.9": 0.5303939962476548
+      }
+    },
+    {
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "family": "rail_time",
+      "node_count": 33,
+      "matrix_file": "rail__access_60_n33_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 537.5,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_60_n33.csv",
+      "source_sha256": "13825c028c73b9dd9171be9e586482681323a4d2f4de371652e16206ba837d18",
+      "main_parameter_input": true,
+      "source_embedding_spec": null,
+      "matrix_sha256": "76014495ad731d0d520df971c47ad59a7b055126918d6b7d810b779a1894cf37",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15962790697674417,
+        "0.25": 0.20651162790697675,
+        "0.5": 0.27813953488372095,
+        "0.75": 0.42790697674418604,
+        "0.9": 0.525953488372093
+      }
+    },
+    {
+      "representation_id": "rail__access_90_n33",
+      "dataset_id": "access_90_n33",
+      "family": "rail_time",
+      "node_count": 33,
+      "matrix_file": "rail__access_90_n33_distance.csv",
+      "features_file": "",
+      "normalizing_positive_median": 539.0,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472\\access_90_n33.csv",
+      "source_sha256": "f0b6b84a602c4127e7068d445f05dd7076b8dac557585a481984dd390202130d",
+      "main_parameter_input": false,
+      "source_embedding_spec": null,
+      "matrix_sha256": "16207e53eb76a9bc1b7e5a7f664b5ad3145b1ff24a73b8ee5054bb5fa53c6798",
+      "features_sha256": "",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "symmetric rail-time dissimilarity",
+      "epsilon_quantiles": {
+        "0.1": 0.15918367346938775,
+        "0.25": 0.20593692022263452,
+        "0.5": 0.27736549165120594,
+        "0.75": 0.42857142857142855,
+        "0.9": 0.5302411873840446
+      }
+    },
+    {
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "MDS",
+      "node_count": 34,
+      "matrix_file": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc_distance.csv",
+      "features_file": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc_features.csv",
+      "normalizing_positive_median": 1.0868887466242054,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_MDS_b29431b34efc_coordinates.csv",
+      "source_sha256": "722e1badcfaca4d7b839216ec1ddf7f9fac18f1c62971afe3a97530dd568015a",
+      "main_parameter_input": true,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_MDS_b29431b34efc",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "MDS",
+        "seed": 42,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "n_init": 4,
+          "max_iter": 1000,
+          "eps": 1e-06,
+          "random_state": 42,
+          "n_jobs": 1,
+          "normalized_stress": true,
+          "metric_mds": true,
+          "metric": "precomputed",
+          "init": "random"
+        },
+        "tags": [
+          "MDS_metric",
+          "MDS_n_init",
+          "representative_seeds",
+          "special_region_sensitivity"
+        ]
+      },
+      "matrix_sha256": "ac388a075a578b8b4fc9fa256bb921fa7a871bb81179720c6ca2333e86784e98",
+      "features_sha256": "099fc66183efb8536be97044c5e5e4b28161366b16947ec703cdc2a70268f170",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.16360995048457924,
+        "0.25": 0.25782809945490515,
+        "0.5": 0.31591645899427695,
+        "0.75": 0.6393891849922172,
+        "0.9": 1.8790337311061998
+      }
+    },
+    {
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_8ae5b74783a1",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "tSNE",
+      "node_count": 34,
+      "matrix_file": "tSNE__access_60_alpha_5_n34_tSNE_8ae5b74783a1_distance.csv",
+      "features_file": "tSNE__access_60_alpha_5_n34_tSNE_8ae5b74783a1_features.csv",
+      "normalizing_positive_median": 40.47727741314791,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_tSNE_8ae5b74783a1_coordinates.csv",
+      "source_sha256": "33cb4f4290227e172156073876ae1dbd0c55b499ad7bdf459d02fc7b35aecb79",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_tSNE_8ae5b74783a1",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "tSNE",
+        "seed": 42,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "perplexity": 5.0,
+          "max_iter": 1000,
+          "init": "random",
+          "metric": "precomputed",
+          "random_state": 42,
+          "learning_rate": "auto",
+          "early_exaggeration": 12.0,
+          "method": "exact",
+          "n_jobs": 1
+        },
+        "tags": [
+          "tSNE_perplexity"
+        ]
+      },
+      "matrix_sha256": "bf524a9d4cd7f153c6777187075f11d04b34be37bd111e0aeb8418b0127c3f51",
+      "features_sha256": "8906937423268551441997ea7b35f3374c3a122f2fea838ce89d9e7527d1bb4c",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.1662815961341385,
+        "0.25": 0.19341026227117866,
+        "0.5": 0.21965258417000982,
+        "0.75": 0.26859637947405873,
+        "0.9": 0.30011790611766376
+      }
+    },
+    {
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "tSNE",
+      "node_count": 34,
+      "matrix_file": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d_distance.csv",
+      "features_file": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d_features.csv",
+      "normalizing_positive_median": 57.767964373328255,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_tSNE_7edcd86c813d_coordinates.csv",
+      "source_sha256": "d57a020dbf2fff2cae233ce5201c8ee4a2760eded3aab07e54164a7616c92d34",
+      "main_parameter_input": true,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_tSNE_7edcd86c813d",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "tSNE",
+        "seed": 42,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "perplexity": 10.0,
+          "max_iter": 1000,
+          "init": "random",
+          "metric": "precomputed",
+          "random_state": 42,
+          "learning_rate": "auto",
+          "early_exaggeration": 12.0,
+          "method": "exact",
+          "n_jobs": 1
+        },
+        "tags": [
+          "representative_seeds",
+          "special_region_sensitivity",
+          "tSNE_iterations",
+          "tSNE_perplexity"
+        ]
+      },
+      "matrix_sha256": "44e0bd0d1c01a52ecf9f5cc6780574ad0b55ccf85e16a55d24748b2e58b62180",
+      "features_sha256": "43554c9edf111933efecaf7afde7ce2f9dc14b7466ccadc1cde2b19bdd26628d",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.2522536966297359,
+        "0.25": 0.2681654962855042,
+        "0.5": 0.2922176141006321,
+        "0.75": 0.3531177566357905,
+        "0.9": 0.4077979920908103
+      }
+    },
+    {
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_2f18e135ce1e",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "tSNE",
+      "node_count": 34,
+      "matrix_file": "tSNE__access_60_alpha_5_n34_tSNE_2f18e135ce1e_distance.csv",
+      "features_file": "tSNE__access_60_alpha_5_n34_tSNE_2f18e135ce1e_features.csv",
+      "normalizing_positive_median": 2.1501394639995013,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_tSNE_2f18e135ce1e_coordinates.csv",
+      "source_sha256": "0cad5860f1d001bb7d5d42369776268eab2588393c217c62c581ab0ce2de03f6",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_tSNE_2f18e135ce1e",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "tSNE",
+        "seed": 42,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "perplexity": 20.0,
+          "max_iter": 1000,
+          "init": "random",
+          "metric": "precomputed",
+          "random_state": 42,
+          "learning_rate": "auto",
+          "early_exaggeration": 12.0,
+          "method": "exact",
+          "n_jobs": 1
+        },
+        "tags": [
+          "tSNE_perplexity"
+        ]
+      },
+      "matrix_sha256": "a78bef5faa94a89223a897056d62e1831ae23457fdeacd63897d4dda65b47596",
+      "features_sha256": "7c384b5b54602d5591d09489f499da6457703f6224d71b74eabcd3c7ba62e563",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.26447702128220285,
+        "0.25": 0.3158554284917875,
+        "0.5": 0.3558478984403201,
+        "0.75": 0.4588999647872534,
+        "0.9": 0.5221867179148003
+      }
+    },
+    {
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_68db5e750e3b",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "UMAP",
+      "node_count": 34,
+      "matrix_file": "UMAP__access_60_alpha_5_n34_UMAP_68db5e750e3b_distance.csv",
+      "features_file": "UMAP__access_60_alpha_5_n34_UMAP_68db5e750e3b_features.csv",
+      "normalizing_positive_median": 4.568437311102607,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_UMAP_68db5e750e3b_coordinates.csv",
+      "source_sha256": "9e56b71a2729ccfdb14349dc97bd1d769da43b65138c409ff989f71c03c29900",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_UMAP_68db5e750e3b",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "UMAP",
+        "seed": 42,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "n_neighbors": 5,
+          "min_dist": 0.1,
+          "n_epochs": 500,
+          "metric": "precomputed",
+          "init": "random",
+          "random_state": 42,
+          "transform_seed": 42,
+          "n_jobs": 1
+        },
+        "tags": [
+          "UMAP_neighbors"
+        ]
+      },
+      "matrix_sha256": "c3e815d02e323fbe078c76d6f055f715be0bdb0b178a6d0f462da257fac651ac",
+      "features_sha256": "aee163efca9e7854588b127c0437e09a87b30f00a98bb25a00f49768e34c6d24",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.09684948760857445,
+        "0.25": 0.10889375590409969,
+        "0.5": 0.14533826287626192,
+        "0.75": 0.16293471106474594,
+        "0.9": 0.18452601472484462
+      }
+    },
+    {
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "UMAP",
+      "node_count": 34,
+      "matrix_file": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115_distance.csv",
+      "features_file": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115_features.csv",
+      "normalizing_positive_median": 2.0640898210784906,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_UMAP_92b8f8f31115_coordinates.csv",
+      "source_sha256": "fc8e6b904d609cfd2f602df316a99d0016339cf534776ada8e6b9e19a9a4a072",
+      "main_parameter_input": true,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_UMAP_92b8f8f31115",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "UMAP",
+        "seed": 42,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "n_neighbors": 10,
+          "min_dist": 0.1,
+          "n_epochs": 500,
+          "metric": "precomputed",
+          "init": "random",
+          "random_state": 42,
+          "transform_seed": 42,
+          "n_jobs": 1
+        },
+        "tags": [
+          "UMAP_min_dist",
+          "UMAP_neighbors",
+          "representative_seeds",
+          "special_region_sensitivity"
+        ]
+      },
+      "matrix_sha256": "610bcb89c78b5478a4fe746a88df368df91d4c6a397bd1e8b9ddcc2b8894d42c",
+      "features_sha256": "f7c38cd1a8b24f93c3828dc02ede532985f7d693f88bfb68c791fdb5db71e206",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.23506949811260272,
+        "0.25": 0.2569929602254929,
+        "0.5": 0.2986793044427413,
+        "0.75": 0.3376867416946274,
+        "0.9": 0.37339707738534106
+      }
+    },
+    {
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_9a3b28fd0582",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "UMAP",
+      "node_count": 34,
+      "matrix_file": "UMAP__access_60_alpha_5_n34_UMAP_9a3b28fd0582_distance.csv",
+      "features_file": "UMAP__access_60_alpha_5_n34_UMAP_9a3b28fd0582_features.csv",
+      "normalizing_positive_median": 1.8798691912968044,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_UMAP_9a3b28fd0582_coordinates.csv",
+      "source_sha256": "bf51c6417c34ede2e1afe06342a357cf03cfc90d9c392fb54f95e833ed6c0e19",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_UMAP_9a3b28fd0582",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "UMAP",
+        "seed": 42,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "n_neighbors": 20,
+          "min_dist": 0.1,
+          "n_epochs": 500,
+          "metric": "precomputed",
+          "init": "random",
+          "random_state": 42,
+          "transform_seed": 42,
+          "n_jobs": 1
+        },
+        "tags": [
+          "UMAP_neighbors"
+        ]
+      },
+      "matrix_sha256": "956b838068256b8ba77ccedac6587715d8c9b7c14edd66eb9a9d29aad1fa6328",
+      "features_sha256": "f04f6ac249b6d22ced8b8d0b68986a137d1d8422c4556a05bc0d2dd3af8c182a",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.2697555693044253,
+        "0.25": 0.2799043003501594,
+        "0.5": 0.31538604442494594,
+        "0.75": 0.36791235214757545,
+        "0.9": 0.4105690503021207
+      }
+    },
+    {
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_479e8270a92d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "tSNE",
+      "node_count": 34,
+      "matrix_file": "tSNE__access_60_alpha_5_n34_tSNE_479e8270a92d_distance.csv",
+      "features_file": "tSNE__access_60_alpha_5_n34_tSNE_479e8270a92d_features.csv",
+      "normalizing_positive_median": 11.151457635289134,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_tSNE_479e8270a92d_coordinates.csv",
+      "source_sha256": "606c34dc8bf87c724f61c451c60884a91ccf7156ff035466f4fe841372dd1cd2",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_tSNE_479e8270a92d",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "tSNE",
+        "seed": 0,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "perplexity": 10.0,
+          "max_iter": 1000,
+          "init": "random",
+          "metric": "precomputed",
+          "random_state": 0,
+          "learning_rate": "auto",
+          "early_exaggeration": 12.0,
+          "method": "exact",
+          "n_jobs": 1
+        },
+        "tags": [
+          "representative_seeds"
+        ]
+      },
+      "matrix_sha256": "5957e5680aeb5249f33475e783ee35901f7e2e40bf4f956596556f5447b95aa8",
+      "features_sha256": "17e3614ffa5f72fe055f9d518521ac9f89e37059ef4d50d3818df1fe55f7c3e2",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.25882767194323825,
+        "0.25": 0.29077388349957334,
+        "0.5": 0.3150398078997936,
+        "0.75": 0.4052893919245335,
+        "0.9": 0.5058613287122786
+      }
+    },
+    {
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "UMAP",
+      "node_count": 34,
+      "matrix_file": "UMAP__access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f_distance.csv",
+      "features_file": "UMAP__access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f_features.csv",
+      "normalizing_positive_median": 2.1670827847589753,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f_coordinates.csv",
+      "source_sha256": "2d3f66ee7694ff93f8b07725d69cf0d475e94af452b396697846d06106656727",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "UMAP",
+        "seed": 0,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "n_neighbors": 10,
+          "min_dist": 0.1,
+          "n_epochs": 500,
+          "metric": "precomputed",
+          "init": "random",
+          "random_state": 0,
+          "transform_seed": 0,
+          "n_jobs": 1
+        },
+        "tags": [
+          "representative_seeds"
+        ]
+      },
+      "matrix_sha256": "d4828a14430e1e26bf0ad5d28bef04a35417088f3910a5df7d6e12d4f28ea7f7",
+      "features_sha256": "e505d0def75d66776e4e4d7b6005c71c6359cc5462a43f7495d77bd7e232264f",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.23022199066339905,
+        "0.25": 0.24916727211837766,
+        "0.5": 0.29506458353550546,
+        "0.75": 0.3435232813076482,
+        "0.9": 0.38079293708562595
+      }
+    },
+    {
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_dabef103507c",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "tSNE",
+      "node_count": 34,
+      "matrix_file": "tSNE__access_60_alpha_5_n34_tSNE_dabef103507c_distance.csv",
+      "features_file": "tSNE__access_60_alpha_5_n34_tSNE_dabef103507c_features.csv",
+      "normalizing_positive_median": 19.06800284247238,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_tSNE_dabef103507c_coordinates.csv",
+      "source_sha256": "fcc8ff2b430e3f163f7fa49d9e145fffc393e796de7e695dd09152f81d2f2acc",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_tSNE_dabef103507c",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "tSNE",
+        "seed": 2026,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "perplexity": 10.0,
+          "max_iter": 1000,
+          "init": "random",
+          "metric": "precomputed",
+          "random_state": 2026,
+          "learning_rate": "auto",
+          "early_exaggeration": 12.0,
+          "method": "exact",
+          "n_jobs": 1
+        },
+        "tags": [
+          "representative_seeds"
+        ]
+      },
+      "matrix_sha256": "254e49d6a38b0c607abf651f0ad3b8950276b2b8ae903c53a5ab3f03ff8cd1a0",
+      "features_sha256": "0bca5a040cbabb1aa4beefa372383e239d3f1f508464cfda298f22d4d37a82cd",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.24119260202848655,
+        "0.25": 0.27793698877609396,
+        "0.5": 0.30335818109388624,
+        "0.75": 0.34667408909791864,
+        "0.9": 0.4657450764343705
+      }
+    },
+    {
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_c24b37353fbb",
+      "dataset_id": "access_60_alpha_5_n34",
+      "family": "UMAP",
+      "node_count": 34,
+      "matrix_file": "UMAP__access_60_alpha_5_n34_UMAP_c24b37353fbb_distance.csv",
+      "features_file": "UMAP__access_60_alpha_5_n34_UMAP_c24b37353fbb_features.csv",
+      "normalizing_positive_median": 2.104702363205137,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_alpha_5_n34_UMAP_c24b37353fbb_coordinates.csv",
+      "source_sha256": "9141c7fc622de52a9563704b757ff8accb0ac7e43cd456d7639b4ac37a74bb6e",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_alpha_5_n34_UMAP_c24b37353fbb",
+        "dataset_id": "access_60_alpha_5_n34",
+        "algorithm": "UMAP",
+        "seed": 2026,
+        "node_count": 34,
+        "parameters": {
+          "n_components": 2,
+          "n_neighbors": 10,
+          "min_dist": 0.1,
+          "n_epochs": 500,
+          "metric": "precomputed",
+          "init": "random",
+          "random_state": 2026,
+          "transform_seed": 2026,
+          "n_jobs": 1
+        },
+        "tags": [
+          "representative_seeds"
+        ]
+      },
+      "matrix_sha256": "19a605eae454ab52e42f1eef2d601c9c86691cc5fbdf53f68b7eebf0e1b2b428",
+      "features_sha256": "3a08035a79a09d14588383cc32a9f65340ea9f7905205cf8d4aeb993780e513e",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.2329719097959568,
+        "0.25": 0.2644852589406982,
+        "0.5": 0.2851397185403539,
+        "0.75": 0.3292541201526097,
+        "0.9": 0.4116045740607363
+      }
+    },
+    {
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "family": "MDS",
+      "node_count": 33,
+      "matrix_file": "MDS__access_60_n33_MDS_b29431b34efc_distance.csv",
+      "features_file": "MDS__access_60_n33_MDS_b29431b34efc_features.csv",
+      "normalizing_positive_median": 1.0708451733622566,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_MDS_b29431b34efc_coordinates.csv",
+      "source_sha256": "a4607b1d40a2d991ace065560efa9acd726f7ce6267e70fecd176e0c49cfbcef",
+      "main_parameter_input": true,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_MDS_b29431b34efc",
+        "dataset_id": "access_60_n33",
+        "algorithm": "MDS",
+        "seed": 42,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "n_init": 4,
+          "max_iter": 1000,
+          "eps": 1e-06,
+          "random_state": 42,
+          "n_jobs": 1,
+          "normalized_stress": true,
+          "metric_mds": true,
+          "metric": "precomputed",
+          "init": "random"
+        },
+        "tags": [
+          "MDS_metric",
+          "MDS_n_init",
+          "representative_seeds",
+          "special_region_sensitivity"
+        ]
+      },
+      "matrix_sha256": "cfbfe4ffd577e934dd499cb2d7abb53281401e21d9556599299f9e47c279c091",
+      "features_sha256": "62ffcab6df539214b94e137863c723b2f88aa48a58493d87511eab1550b1674a",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.16916066169614238,
+        "0.25": 0.2662760812045668,
+        "0.5": 0.3567921715627012,
+        "0.75": 0.6010915779200647,
+        "0.9": 1.0298209308556037
+      }
+    },
+    {
+      "representation_id": "tSNE__access_60_n33_tSNE_8ae5b74783a1",
+      "dataset_id": "access_60_n33",
+      "family": "tSNE",
+      "node_count": 33,
+      "matrix_file": "tSNE__access_60_n33_tSNE_8ae5b74783a1_distance.csv",
+      "features_file": "tSNE__access_60_n33_tSNE_8ae5b74783a1_features.csv",
+      "normalizing_positive_median": 46.66848585584117,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_tSNE_8ae5b74783a1_coordinates.csv",
+      "source_sha256": "09632ca4841128c9434b3c80a612dcf94d32d678203de090e500f9b4140faa3e",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_tSNE_8ae5b74783a1",
+        "dataset_id": "access_60_n33",
+        "algorithm": "tSNE",
+        "seed": 42,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "perplexity": 5.0,
+          "max_iter": 1000,
+          "init": "random",
+          "metric": "precomputed",
+          "random_state": 42,
+          "learning_rate": "auto",
+          "early_exaggeration": 12.0,
+          "method": "exact",
+          "n_jobs": 1
+        },
+        "tags": [
+          "tSNE_perplexity"
+        ]
+      },
+      "matrix_sha256": "f166df05a925923ad50415aa56528c2f20d49247a81c6c27d50c1783a48b8201",
+      "features_sha256": "450bc98f9de38a04dc9c3d4e3be3156a9440fea4a241e62db6e4141174eeb89b",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.17292359640408467,
+        "0.25": 0.19296603274493598,
+        "0.5": 0.23612121598826097,
+        "0.75": 0.2772195533522853,
+        "0.9": 0.3154422359581107
+      }
+    },
+    {
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "family": "tSNE",
+      "node_count": 33,
+      "matrix_file": "tSNE__access_60_n33_tSNE_7edcd86c813d_distance.csv",
+      "features_file": "tSNE__access_60_n33_tSNE_7edcd86c813d_features.csv",
+      "normalizing_positive_median": 27.16199518562427,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_tSNE_7edcd86c813d_coordinates.csv",
+      "source_sha256": "a2c97070605ce41e84cd31562427faf58209b5693e8b80c459f167775180c406",
+      "main_parameter_input": true,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_tSNE_7edcd86c813d",
+        "dataset_id": "access_60_n33",
+        "algorithm": "tSNE",
+        "seed": 42,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "perplexity": 10.0,
+          "max_iter": 1000,
+          "init": "random",
+          "metric": "precomputed",
+          "random_state": 42,
+          "learning_rate": "auto",
+          "early_exaggeration": 12.0,
+          "method": "exact",
+          "n_jobs": 1
+        },
+        "tags": [
+          "representative_seeds",
+          "special_region_sensitivity",
+          "tSNE_iterations",
+          "tSNE_perplexity"
+        ]
+      },
+      "matrix_sha256": "ab41066e13292ad356e919819182ca5d7ad72eea1edcb188a8f0b2f4d62712f1",
+      "features_sha256": "a0673632a4584d596fb2331587981d3d7ab943825e60c36d66fbf2a9295f953d",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.28466416408763123,
+        "0.25": 0.29470823028154475,
+        "0.5": 0.31458234330997625,
+        "0.75": 0.4008472453026292,
+        "0.9": 0.4703860453192442
+      }
+    },
+    {
+      "representation_id": "tSNE__access_60_n33_tSNE_2f18e135ce1e",
+      "dataset_id": "access_60_n33",
+      "family": "tSNE",
+      "node_count": 33,
+      "matrix_file": "tSNE__access_60_n33_tSNE_2f18e135ce1e_distance.csv",
+      "features_file": "tSNE__access_60_n33_tSNE_2f18e135ce1e_features.csv",
+      "normalizing_positive_median": 34.13307467679253,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_tSNE_2f18e135ce1e_coordinates.csv",
+      "source_sha256": "0b20a988227ea447891f27ad28ace8005c8b875f329331ed26edf9abba1a9051",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_tSNE_2f18e135ce1e",
+        "dataset_id": "access_60_n33",
+        "algorithm": "tSNE",
+        "seed": 42,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "perplexity": 20.0,
+          "max_iter": 1000,
+          "init": "random",
+          "metric": "precomputed",
+          "random_state": 42,
+          "learning_rate": "auto",
+          "early_exaggeration": 12.0,
+          "method": "exact",
+          "n_jobs": 1
+        },
+        "tags": [
+          "tSNE_perplexity"
+        ]
+      },
+      "matrix_sha256": "d8e93aa0725d3355a49d9248f286f32e07d55a2fd675e5873f9331d40a0981f9",
+      "features_sha256": "3e56568b67111102565602e918627c3e866279f594c3cc629c49a82e1783e320",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.3169331106123448,
+        "0.25": 0.33353715368452896,
+        "0.5": 0.3622841182886953,
+        "0.75": 0.41746728672828143,
+        "0.9": 0.5170161903054012
+      }
+    },
+    {
+      "representation_id": "UMAP__access_60_n33_UMAP_68db5e750e3b",
+      "dataset_id": "access_60_n33",
+      "family": "UMAP",
+      "node_count": 33,
+      "matrix_file": "UMAP__access_60_n33_UMAP_68db5e750e3b_distance.csv",
+      "features_file": "UMAP__access_60_n33_UMAP_68db5e750e3b_features.csv",
+      "normalizing_positive_median": 4.292483524184945,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_UMAP_68db5e750e3b_coordinates.csv",
+      "source_sha256": "7f2c9efdb085440e427918c0a6bfb140927896c16384129e652c6a82dc84bbe7",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_UMAP_68db5e750e3b",
+        "dataset_id": "access_60_n33",
+        "algorithm": "UMAP",
+        "seed": 42,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "n_neighbors": 5,
+          "min_dist": 0.1,
+          "n_epochs": 500,
+          "metric": "precomputed",
+          "init": "random",
+          "random_state": 42,
+          "transform_seed": 42,
+          "n_jobs": 1
+        },
+        "tags": [
+          "UMAP_neighbors"
+        ]
+      },
+      "matrix_sha256": "84cc8a587fed1ab68c92ed27e1af11ba123994aac913701001cd453bd5802a56",
+      "features_sha256": "dbb8e9e00bb1d5e890f2a5a6e00f618c99c1066b684eb98c36f8182c6f80939b",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.11726668904460394,
+        "0.25": 0.12769139000526158,
+        "0.5": 0.1451235435070912,
+        "0.75": 0.1574836350186188,
+        "0.9": 0.1989362959491244
+      }
+    },
+    {
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "family": "UMAP",
+      "node_count": 33,
+      "matrix_file": "UMAP__access_60_n33_UMAP_92b8f8f31115_distance.csv",
+      "features_file": "UMAP__access_60_n33_UMAP_92b8f8f31115_features.csv",
+      "normalizing_positive_median": 2.0998389065168905,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_UMAP_92b8f8f31115_coordinates.csv",
+      "source_sha256": "a43ad3ce996e7851d8811f733e8c54bddc1b6d43268aa8ac5d6df22dd9050d92",
+      "main_parameter_input": true,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_UMAP_92b8f8f31115",
+        "dataset_id": "access_60_n33",
+        "algorithm": "UMAP",
+        "seed": 42,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "n_neighbors": 10,
+          "min_dist": 0.1,
+          "n_epochs": 500,
+          "metric": "precomputed",
+          "init": "random",
+          "random_state": 42,
+          "transform_seed": 42,
+          "n_jobs": 1
+        },
+        "tags": [
+          "UMAP_min_dist",
+          "UMAP_neighbors",
+          "representative_seeds",
+          "special_region_sensitivity"
+        ]
+      },
+      "matrix_sha256": "c2d030e4c2354eed3f3c8cd50afda8db4a10e2b27531bd8cb55464fb5d21d230",
+      "features_sha256": "e9de575d067d615e75045317ee011d065d2e52523a44fc7ee734a71b404a391b",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.25039725381907163,
+        "0.25": 0.25607347573895733,
+        "0.5": 0.3106953617117471,
+        "0.75": 0.355129710512955,
+        "0.9": 0.3812247303713065
+      }
+    },
+    {
+      "representation_id": "UMAP__access_60_n33_UMAP_9a3b28fd0582",
+      "dataset_id": "access_60_n33",
+      "family": "UMAP",
+      "node_count": 33,
+      "matrix_file": "UMAP__access_60_n33_UMAP_9a3b28fd0582_distance.csv",
+      "features_file": "UMAP__access_60_n33_UMAP_9a3b28fd0582_features.csv",
+      "normalizing_positive_median": 1.863124191548455,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_UMAP_9a3b28fd0582_coordinates.csv",
+      "source_sha256": "21948d354b17ada77957052548aa17ed76227f6655ca71b8af42be3a048284ee",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_UMAP_9a3b28fd0582",
+        "dataset_id": "access_60_n33",
+        "algorithm": "UMAP",
+        "seed": 42,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "n_neighbors": 20,
+          "min_dist": 0.1,
+          "n_epochs": 500,
+          "metric": "precomputed",
+          "init": "random",
+          "random_state": 42,
+          "transform_seed": 42,
+          "n_jobs": 1
+        },
+        "tags": [
+          "UMAP_neighbors"
+        ]
+      },
+      "matrix_sha256": "908ec89857c32a63d2c69d70e4d45c7306981a550a7e47ea0c05aede2e2a8470",
+      "features_sha256": "95edac3b8cba417293d868200488927f6b32861a374a390e88a16e6dd1a6a603",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.27668509297822963,
+        "0.25": 0.3048391754706628,
+        "0.5": 0.3219314979728759,
+        "0.75": 0.3573796284589354,
+        "0.9": 0.40413734834282944
+      }
+    },
+    {
+      "representation_id": "tSNE__access_60_n33_tSNE_479e8270a92d",
+      "dataset_id": "access_60_n33",
+      "family": "tSNE",
+      "node_count": 33,
+      "matrix_file": "tSNE__access_60_n33_tSNE_479e8270a92d_distance.csv",
+      "features_file": "tSNE__access_60_n33_tSNE_479e8270a92d_features.csv",
+      "normalizing_positive_median": 52.28125446207156,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_tSNE_479e8270a92d_coordinates.csv",
+      "source_sha256": "ca66409c1f36e37cf5110005644337ce5ee25d25bd6b499cc93de1d0d520459c",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_tSNE_479e8270a92d",
+        "dataset_id": "access_60_n33",
+        "algorithm": "tSNE",
+        "seed": 0,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "perplexity": 10.0,
+          "max_iter": 1000,
+          "init": "random",
+          "metric": "precomputed",
+          "random_state": 0,
+          "learning_rate": "auto",
+          "early_exaggeration": 12.0,
+          "method": "exact",
+          "n_jobs": 1
+        },
+        "tags": [
+          "representative_seeds"
+        ]
+      },
+      "matrix_sha256": "fdde4e7e8efe7df1ef3994275390c0a263f9afeef6e2f5c364e886f348984e7e",
+      "features_sha256": "c06875a8f3675c4363bdb2a2395011c85c5cabb85059437b0d665ecb6a7590d4",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.2860584708518835,
+        "0.25": 0.30061919823493843,
+        "0.5": 0.32887133954451175,
+        "0.75": 0.36308085082095837,
+        "0.9": 0.44758996925660033
+      }
+    },
+    {
+      "representation_id": "UMAP__access_60_n33_UMAP_bcd7ddbd4f4f",
+      "dataset_id": "access_60_n33",
+      "family": "UMAP",
+      "node_count": 33,
+      "matrix_file": "UMAP__access_60_n33_UMAP_bcd7ddbd4f4f_distance.csv",
+      "features_file": "UMAP__access_60_n33_UMAP_bcd7ddbd4f4f_features.csv",
+      "normalizing_positive_median": 2.2224602320150524,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_UMAP_bcd7ddbd4f4f_coordinates.csv",
+      "source_sha256": "8239fd61c4827d10e0a97c6b39cd2d6e8ac4f454e30a83be319a3c6e59fbb843",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_UMAP_bcd7ddbd4f4f",
+        "dataset_id": "access_60_n33",
+        "algorithm": "UMAP",
+        "seed": 0,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "n_neighbors": 10,
+          "min_dist": 0.1,
+          "n_epochs": 500,
+          "metric": "precomputed",
+          "init": "random",
+          "random_state": 0,
+          "transform_seed": 0,
+          "n_jobs": 1
+        },
+        "tags": [
+          "representative_seeds"
+        ]
+      },
+      "matrix_sha256": "662ab3299d6ba7628241af77ab9e3711ab6dfcf05d2551fe8e8ff8389b3019c2",
+      "features_sha256": "6e6caaf3e3516e236cb1153d8ba599a9f8d6047f7057a28b56d2c4f519d3be09",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.22536532380748137,
+        "0.25": 0.2533212327153503,
+        "0.5": 0.28170871127316177,
+        "0.75": 0.30665285758866895,
+        "0.9": 0.34434374792953787
+      }
+    },
+    {
+      "representation_id": "tSNE__access_60_n33_tSNE_dabef103507c",
+      "dataset_id": "access_60_n33",
+      "family": "tSNE",
+      "node_count": 33,
+      "matrix_file": "tSNE__access_60_n33_tSNE_dabef103507c_distance.csv",
+      "features_file": "tSNE__access_60_n33_tSNE_dabef103507c_features.csv",
+      "normalizing_positive_median": 24.740735274288554,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_tSNE_dabef103507c_coordinates.csv",
+      "source_sha256": "24b73cb41eb63749c65ba8acc8f4b126c49d7e72513309d937feb8af640bfcae",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_tSNE_dabef103507c",
+        "dataset_id": "access_60_n33",
+        "algorithm": "tSNE",
+        "seed": 2026,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "perplexity": 10.0,
+          "max_iter": 1000,
+          "init": "random",
+          "metric": "precomputed",
+          "random_state": 2026,
+          "learning_rate": "auto",
+          "early_exaggeration": 12.0,
+          "method": "exact",
+          "n_jobs": 1
+        },
+        "tags": [
+          "representative_seeds"
+        ]
+      },
+      "matrix_sha256": "9c01f5cd82f64334c513dab6f5e6d8b08b037ed436dde13b8e4eb81c57250744",
+      "features_sha256": "0dfb6fba18575e54c2dee044f684f0cab34f46055a03a2cc657d8eb4c6aee657",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.2808506661069951,
+        "0.25": 0.2926591128221582,
+        "0.5": 0.3184011163944832,
+        "0.75": 0.40325133803854096,
+        "0.9": 0.4505166420068814
+      }
+    },
+    {
+      "representation_id": "UMAP__access_60_n33_UMAP_c24b37353fbb",
+      "dataset_id": "access_60_n33",
+      "family": "UMAP",
+      "node_count": 33,
+      "matrix_file": "UMAP__access_60_n33_UMAP_c24b37353fbb_distance.csv",
+      "features_file": "UMAP__access_60_n33_UMAP_c24b37353fbb_features.csv",
+      "normalizing_positive_median": 2.266927231857495,
+      "source_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440\\access_60_n33_UMAP_c24b37353fbb_coordinates.csv",
+      "source_sha256": "f80d394a1cfd5e3f0a2202db0d72b1f015d5a8526e4e76d594ccec851393a604",
+      "main_parameter_input": false,
+      "source_embedding_spec": {
+        "run_id": "access_60_n33_UMAP_c24b37353fbb",
+        "dataset_id": "access_60_n33",
+        "algorithm": "UMAP",
+        "seed": 2026,
+        "node_count": 33,
+        "parameters": {
+          "n_components": 2,
+          "n_neighbors": 10,
+          "min_dist": 0.1,
+          "n_epochs": 500,
+          "metric": "precomputed",
+          "init": "random",
+          "random_state": 2026,
+          "transform_seed": 2026,
+          "n_jobs": 1
+        },
+        "tags": [
+          "representative_seeds"
+        ]
+      },
+      "matrix_sha256": "5616b4135fb186a97f904713635054ddbebb1bab3b124a858d55adc3f581f820",
+      "features_sha256": "e754b36a6da7d2caccef93aa72d172d794790d914772cd0e046db9c7b7a6244f",
+      "normalized_unit": "distance / own positive upper-triangle median; dimensionless",
+      "metric_definition": "Euclidean distance on saved 2D embedding",
+      "epsilon_quantiles": {
+        "0.1": 0.23419428974790085,
+        "0.25": 0.2559995561812336,
+        "0.5": 0.28530397363107013,
+        "0.75": 0.3474607773668103,
+        "0.9": 0.3956147007223229
+      }
+    }
+  ],
+  "specs": [
+    {
+      "run_id": "rail__access_30_alpha_2_n34__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_30_alpha_2_n34",
+      "dataset_id": "access_30_alpha_2_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_alpha_2_n34__PAM_807c3264140c",
+      "representation_id": "rail__access_30_alpha_2_n34",
+      "dataset_id": "access_30_alpha_2_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_alpha_2_n34__DBSCAN_94953d7f0dff",
+      "representation_id": "rail__access_30_alpha_2_n34",
+      "dataset_id": "access_30_alpha_2_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.281447963800905,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_alpha_5_n34__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_30_alpha_5_n34",
+      "dataset_id": "access_30_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_alpha_5_n34__PAM_807c3264140c",
+      "representation_id": "rail__access_30_alpha_5_n34",
+      "dataset_id": "access_30_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_alpha_5_n34__DBSCAN_94953d7f0dff",
+      "representation_id": "rail__access_30_alpha_5_n34",
+      "dataset_id": "access_30_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.281447963800905,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_alpha_10_n34__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_30_alpha_10_n34",
+      "dataset_id": "access_30_alpha_10_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_alpha_10_n34__PAM_807c3264140c",
+      "representation_id": "rail__access_30_alpha_10_n34",
+      "dataset_id": "access_30_alpha_10_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_alpha_10_n34__DBSCAN_94953d7f0dff",
+      "representation_id": "rail__access_30_alpha_10_n34",
+      "dataset_id": "access_30_alpha_10_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.281447963800905,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_alpha_2_n34__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_60_alpha_2_n34",
+      "dataset_id": "access_60_alpha_2_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_alpha_2_n34__PAM_807c3264140c",
+      "representation_id": "rail__access_60_alpha_2_n34",
+      "dataset_id": "access_60_alpha_2_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_alpha_2_n34__DBSCAN_998aed1aa686",
+      "representation_id": "rail__access_60_alpha_2_n34",
+      "dataset_id": "access_60_alpha_2_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2789237668161435,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__HAC_average_615b1dfe8431",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 3
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__PAM_5e366bf86f80",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 3,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__PAM_807c3264140c",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed",
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__HAC_average_519b31b34b25",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 5
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__PAM_b7f53aa59b0a",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 5,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__PAM_32a1eeef2f4a",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 0,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__PAM_4a5ce2661a25",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 2026,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__DBSCAN_8a6df1c846b3",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.15641255605381166,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__DBSCAN_7ebe0427a710",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__DBSCAN_998aed1aa686",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2789237668161435,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon",
+        "DBSCAN_min_samples"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__DBSCAN_f87269abc23b",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.4165919282511211,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__DBSCAN_89d886449f12",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 1.210582959641255,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__DBSCAN_03dbcea23530",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2789237668161435,
+        "min_samples": 3
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_5_n34__DBSCAN_55b4c8265608",
+      "representation_id": "rail__access_60_alpha_5_n34",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2789237668161435,
+        "min_samples": 5
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_alpha_10_n34__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_60_alpha_10_n34",
+      "dataset_id": "access_60_alpha_10_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_alpha_10_n34__PAM_807c3264140c",
+      "representation_id": "rail__access_60_alpha_10_n34",
+      "dataset_id": "access_60_alpha_10_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_alpha_10_n34__DBSCAN_998aed1aa686",
+      "representation_id": "rail__access_60_alpha_10_n34",
+      "dataset_id": "access_60_alpha_10_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2789237668161435,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_alpha_2_n34__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_90_alpha_2_n34",
+      "dataset_id": "access_90_alpha_2_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_alpha_2_n34__PAM_807c3264140c",
+      "representation_id": "rail__access_90_alpha_2_n34",
+      "dataset_id": "access_90_alpha_2_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_alpha_2_n34__DBSCAN_ea46578439c6",
+      "representation_id": "rail__access_90_alpha_2_n34",
+      "dataset_id": "access_90_alpha_2_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.27842435094001794,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_alpha_5_n34__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_90_alpha_5_n34",
+      "dataset_id": "access_90_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_alpha_5_n34__PAM_807c3264140c",
+      "representation_id": "rail__access_90_alpha_5_n34",
+      "dataset_id": "access_90_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_alpha_5_n34__DBSCAN_ea46578439c6",
+      "representation_id": "rail__access_90_alpha_5_n34",
+      "dataset_id": "access_90_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.27842435094001794,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_alpha_10_n34__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_90_alpha_10_n34",
+      "dataset_id": "access_90_alpha_10_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_alpha_10_n34__PAM_807c3264140c",
+      "representation_id": "rail__access_90_alpha_10_n34",
+      "dataset_id": "access_90_alpha_10_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_alpha_10_n34__DBSCAN_ea46578439c6",
+      "representation_id": "rail__access_90_alpha_10_n34",
+      "dataset_id": "access_90_alpha_10_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.27842435094001794,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_n33__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_30_n33",
+      "dataset_id": "access_30_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_n33__PAM_807c3264140c",
+      "representation_id": "rail__access_30_n33",
+      "dataset_id": "access_30_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_30_n33__DBSCAN_b63a2e95f16a",
+      "representation_id": "rail__access_30_n33",
+      "dataset_id": "access_30_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2804878048780488,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_n33__HAC_average_615b1dfe8431",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 3
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__PAM_5e366bf86f80",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 3,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_n33__PAM_807c3264140c",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed",
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_n33__HAC_average_519b31b34b25",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 5
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__PAM_b7f53aa59b0a",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 5,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__PAM_32a1eeef2f4a",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 0,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__PAM_4a5ce2661a25",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 2026,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__DBSCAN_8c85475957b9",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.15962790697674417,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__DBSCAN_348674a56dfd",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.20651162790697675,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__DBSCAN_3eb9497d936b",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.27813953488372095,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon",
+        "DBSCAN_min_samples"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_60_n33__DBSCAN_17a7b607e180",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.42790697674418604,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__DBSCAN_79b00b6c5502",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.525953488372093,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__DBSCAN_53beacb21f11",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.27813953488372095,
+        "min_samples": 3
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_60_n33__DBSCAN_3b83bb9d6c4c",
+      "representation_id": "rail__access_60_n33",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.27813953488372095,
+        "min_samples": 5
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "rail__access_90_n33__HAC_average_d5f590df13d2",
+      "representation_id": "rail__access_90_n33",
+      "dataset_id": "access_90_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_n33__PAM_807c3264140c",
+      "representation_id": "rail__access_90_n33",
+      "dataset_id": "access_90_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "rail__access_90_n33__DBSCAN_4d8e35d71ce2",
+      "representation_id": "rail__access_90_n33",
+      "dataset_id": "access_90_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.27736549165120594,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__HAC_average_615b1dfe8431",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 3
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__PAM_5e366bf86f80",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 3,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__HAC_average_d5f590df13d2",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__PAM_807c3264140c",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed",
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__HAC_average_519b31b34b25",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 5
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__PAM_b7f53aa59b0a",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 5,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__PAM_32a1eeef2f4a",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 0,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__PAM_4a5ce2661a25",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 2026,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__DBSCAN_0fdafc82af0f",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.16360995048457924,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__DBSCAN_97411ba930cc",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.25782809945490515,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__DBSCAN_446dbab1cecb",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.31591645899427695,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon",
+        "DBSCAN_min_samples"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__DBSCAN_530f67f972bc",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.6393891849922172,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__DBSCAN_a39d6c168b37",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 1.8790337311061998,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__DBSCAN_a52be541dcbf",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.31591645899427695,
+        "min_samples": 3
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc__DBSCAN_8838a1f53693",
+      "representation_id": "MDS__access_60_alpha_5_n34_MDS_b29431b34efc",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.31591645899427695,
+        "min_samples": 5
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_8ae5b74783a1__HAC_average_d5f590df13d2",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_8ae5b74783a1",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_8ae5b74783a1__PAM_807c3264140c",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_8ae5b74783a1",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_8ae5b74783a1__DBSCAN_011b94aa2609",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_8ae5b74783a1",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.21965258417000982,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__HAC_average_615b1dfe8431",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 3
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__PAM_5e366bf86f80",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 3,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__HAC_average_d5f590df13d2",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__PAM_807c3264140c",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed",
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__HAC_average_519b31b34b25",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 5
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__PAM_b7f53aa59b0a",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 5,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__PAM_32a1eeef2f4a",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 0,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__PAM_4a5ce2661a25",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 2026,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__DBSCAN_c14318ed3ed0",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2522536966297359,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__DBSCAN_3b73bb58cd2f",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2681654962855042,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__DBSCAN_eeb4f5626800",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2922176141006321,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon",
+        "DBSCAN_min_samples"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__DBSCAN_331e7027afaa",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3531177566357905,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__DBSCAN_7f07788444f0",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.4077979920908103,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__DBSCAN_cf8bb5b9cef5",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2922176141006321,
+        "min_samples": 3
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d__DBSCAN_d6f03b5059c9",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2922176141006321,
+        "min_samples": 5
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_2f18e135ce1e__HAC_average_d5f590df13d2",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_2f18e135ce1e",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_2f18e135ce1e__PAM_807c3264140c",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_2f18e135ce1e",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_2f18e135ce1e__DBSCAN_a910daa1907c",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_2f18e135ce1e",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3558478984403201,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_68db5e750e3b__HAC_average_d5f590df13d2",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_68db5e750e3b",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_68db5e750e3b__PAM_807c3264140c",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_68db5e750e3b",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_68db5e750e3b__DBSCAN_187a9362f506",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_68db5e750e3b",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.14533826287626192,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__HAC_average_615b1dfe8431",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 3
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__PAM_5e366bf86f80",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 3,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__HAC_average_d5f590df13d2",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__PAM_807c3264140c",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed",
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__HAC_average_519b31b34b25",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 5
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__PAM_b7f53aa59b0a",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 5,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__PAM_32a1eeef2f4a",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 0,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__PAM_4a5ce2661a25",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 2026,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__DBSCAN_b4d6d3f0ae1f",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.23506949811260272,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__DBSCAN_2b15b937a3f7",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2569929602254929,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__DBSCAN_a8b1b13dc520",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2986793044427413,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon",
+        "DBSCAN_min_samples"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__DBSCAN_3f31d9ddf25e",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3376867416946274,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__DBSCAN_62322353de14",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.37339707738534106,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__DBSCAN_67568dade82c",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2986793044427413,
+        "min_samples": 3
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__DBSCAN_5353bdb570b4",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2986793044427413,
+        "min_samples": 5
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_9a3b28fd0582__HAC_average_d5f590df13d2",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_9a3b28fd0582",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_9a3b28fd0582__PAM_807c3264140c",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_9a3b28fd0582",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_9a3b28fd0582__DBSCAN_876e9d929a84",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_9a3b28fd0582",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.31538604442494594,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_479e8270a92d__HAC_average_d5f590df13d2",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_479e8270a92d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_479e8270a92d__PAM_807c3264140c",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_479e8270a92d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_479e8270a92d__DBSCAN_cd26f86098de",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_479e8270a92d",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3150398078997936,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f__HAC_average_d5f590df13d2",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f__PAM_807c3264140c",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f__DBSCAN_e72517143ee2",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_bcd7ddbd4f4f",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.29506458353550546,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_dabef103507c__HAC_average_d5f590df13d2",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_dabef103507c",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_dabef103507c__PAM_807c3264140c",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_dabef103507c",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_alpha_5_n34_tSNE_dabef103507c__DBSCAN_9e8133e89854",
+      "representation_id": "tSNE__access_60_alpha_5_n34_tSNE_dabef103507c",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.30335818109388624,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_c24b37353fbb__HAC_average_d5f590df13d2",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_c24b37353fbb",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_c24b37353fbb__PAM_807c3264140c",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_c24b37353fbb",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_alpha_5_n34_UMAP_c24b37353fbb__DBSCAN_9a464804fe89",
+      "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_c24b37353fbb",
+      "dataset_id": "access_60_alpha_5_n34",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2851397185403539,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__HAC_average_615b1dfe8431",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 3
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__PAM_5e366bf86f80",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 3,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__HAC_average_d5f590df13d2",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__PAM_807c3264140c",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed",
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__HAC_average_519b31b34b25",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 5
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__PAM_b7f53aa59b0a",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 5,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__PAM_32a1eeef2f4a",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 0,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__PAM_4a5ce2661a25",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 2026,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__DBSCAN_308bd94183b8",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.16916066169614238,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__DBSCAN_b1a672f5d7c5",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.2662760812045668,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__DBSCAN_e3ae275fecdc",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3567921715627012,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon",
+        "DBSCAN_min_samples"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__DBSCAN_b355fc5824d9",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.6010915779200647,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__DBSCAN_22c4e2ab6b70",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 1.0298209308556037,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__DBSCAN_15bce6615904",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3567921715627012,
+        "min_samples": 3
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "MDS__access_60_n33_MDS_b29431b34efc__DBSCAN_0aab483dfbff",
+      "representation_id": "MDS__access_60_n33_MDS_b29431b34efc",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3567921715627012,
+        "min_samples": 5
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_8ae5b74783a1__HAC_average_d5f590df13d2",
+      "representation_id": "tSNE__access_60_n33_tSNE_8ae5b74783a1",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_8ae5b74783a1__PAM_807c3264140c",
+      "representation_id": "tSNE__access_60_n33_tSNE_8ae5b74783a1",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_8ae5b74783a1__DBSCAN_4c064c6aa7e0",
+      "representation_id": "tSNE__access_60_n33_tSNE_8ae5b74783a1",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.23612121598826097,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__HAC_average_615b1dfe8431",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 3
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__PAM_5e366bf86f80",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 3,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__HAC_average_d5f590df13d2",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__PAM_807c3264140c",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed",
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__HAC_average_519b31b34b25",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 5
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__PAM_b7f53aa59b0a",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 5,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__PAM_32a1eeef2f4a",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 0,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__PAM_4a5ce2661a25",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 2026,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__DBSCAN_dd8f5968866f",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.28466416408763123,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__DBSCAN_449e8113f2e1",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.29470823028154475,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__DBSCAN_950901de78ad",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.31458234330997625,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon",
+        "DBSCAN_min_samples"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__DBSCAN_1da038b7abe2",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.4008472453026292,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__DBSCAN_de26cac09ede",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.4703860453192442,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__DBSCAN_3d02661d196d",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.31458234330997625,
+        "min_samples": 3
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__DBSCAN_751b306c8d19",
+      "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.31458234330997625,
+        "min_samples": 5
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_2f18e135ce1e__HAC_average_d5f590df13d2",
+      "representation_id": "tSNE__access_60_n33_tSNE_2f18e135ce1e",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_2f18e135ce1e__PAM_807c3264140c",
+      "representation_id": "tSNE__access_60_n33_tSNE_2f18e135ce1e",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_2f18e135ce1e__DBSCAN_af5b554273e3",
+      "representation_id": "tSNE__access_60_n33_tSNE_2f18e135ce1e",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3622841182886953,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_68db5e750e3b__HAC_average_d5f590df13d2",
+      "representation_id": "UMAP__access_60_n33_UMAP_68db5e750e3b",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_68db5e750e3b__PAM_807c3264140c",
+      "representation_id": "UMAP__access_60_n33_UMAP_68db5e750e3b",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_68db5e750e3b__DBSCAN_104b63ff0e25",
+      "representation_id": "UMAP__access_60_n33_UMAP_68db5e750e3b",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.1451235435070912,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__HAC_average_615b1dfe8431",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 3
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__PAM_5e366bf86f80",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 3,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__HAC_average_d5f590df13d2",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__PAM_807c3264140c",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed",
+        "cluster_count"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__HAC_average_519b31b34b25",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 5
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__PAM_b7f53aa59b0a",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 5,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "cluster_count"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__PAM_32a1eeef2f4a",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 0,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__PAM_4a5ce2661a25",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 2026,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "PAM_seed"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__DBSCAN_3ed35d12388b",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.25039725381907163,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__DBSCAN_3e7091f7b3ad",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.25607347573895733,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__DBSCAN_0432e789d1fd",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3106953617117471,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon",
+        "DBSCAN_min_samples"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__DBSCAN_968afc021782",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.355129710512955,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__DBSCAN_6feb27fa9e3a",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3812247303713065,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__DBSCAN_2e9c8783569f",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3106953617117471,
+        "min_samples": 3
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__DBSCAN_70cbc79fb164",
+      "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3106953617117471,
+        "min_samples": 5
+      },
+      "tags": [
+        "DBSCAN_min_samples"
+      ],
+      "representative": false
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_9a3b28fd0582__HAC_average_d5f590df13d2",
+      "representation_id": "UMAP__access_60_n33_UMAP_9a3b28fd0582",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_9a3b28fd0582__PAM_807c3264140c",
+      "representation_id": "UMAP__access_60_n33_UMAP_9a3b28fd0582",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_9a3b28fd0582__DBSCAN_6441566dd17d",
+      "representation_id": "UMAP__access_60_n33_UMAP_9a3b28fd0582",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3219314979728759,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_479e8270a92d__HAC_average_d5f590df13d2",
+      "representation_id": "tSNE__access_60_n33_tSNE_479e8270a92d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_479e8270a92d__PAM_807c3264140c",
+      "representation_id": "tSNE__access_60_n33_tSNE_479e8270a92d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_479e8270a92d__DBSCAN_5136d12a9bd1",
+      "representation_id": "tSNE__access_60_n33_tSNE_479e8270a92d",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.32887133954451175,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_bcd7ddbd4f4f__HAC_average_d5f590df13d2",
+      "representation_id": "UMAP__access_60_n33_UMAP_bcd7ddbd4f4f",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_bcd7ddbd4f4f__PAM_807c3264140c",
+      "representation_id": "UMAP__access_60_n33_UMAP_bcd7ddbd4f4f",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_bcd7ddbd4f4f__DBSCAN_690176be0b81",
+      "representation_id": "UMAP__access_60_n33_UMAP_bcd7ddbd4f4f",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.28170871127316177,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_dabef103507c__HAC_average_d5f590df13d2",
+      "representation_id": "tSNE__access_60_n33_tSNE_dabef103507c",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_dabef103507c__PAM_807c3264140c",
+      "representation_id": "tSNE__access_60_n33_tSNE_dabef103507c",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "tSNE__access_60_n33_tSNE_dabef103507c__DBSCAN_a95d1a05dbf0",
+      "representation_id": "tSNE__access_60_n33_tSNE_dabef103507c",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.3184011163944832,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_c24b37353fbb__HAC_average_d5f590df13d2",
+      "representation_id": "UMAP__access_60_n33_UMAP_c24b37353fbb",
+      "dataset_id": "access_60_n33",
+      "algorithm": "HAC_average",
+      "parameters": {
+        "k": 4
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_c24b37353fbb__PAM_807c3264140c",
+      "representation_id": "UMAP__access_60_n33_UMAP_c24b37353fbb",
+      "dataset_id": "access_60_n33",
+      "algorithm": "PAM",
+      "parameters": {
+        "k": 4,
+        "seed": 42,
+        "max_iter": 100,
+        "tol": 1e-10
+      },
+      "tags": [
+        "representative"
+      ],
+      "representative": true
+    },
+    {
+      "run_id": "UMAP__access_60_n33_UMAP_c24b37353fbb__DBSCAN_defc2ceacf5c",
+      "representation_id": "UMAP__access_60_n33_UMAP_c24b37353fbb",
+      "dataset_id": "access_60_n33",
+      "algorithm": "DBSCAN",
+      "parameters": {
+        "eps": 0.28530397363107013,
+        "min_samples": 4
+      },
+      "tags": [
+        "DBSCAN_epsilon"
+      ],
+      "representative": true
+    }
+  ]
+}

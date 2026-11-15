@@ -1,0 +1,25 @@
+{
+  "actor": "user",
+  "primary_run": "user_stage1c_v2_20261113_132207_325427",
+  "completed_queries": 385,
+  "total_queries": 504,
+  "remaining_queries": 119,
+  "train_records": 7041,
+  "later_date_records": 4818,
+  "refreshed_valid_records": 2223,
+  "unavailable_timetable_records": 114,
+  "unresolved_station_records": 13,
+  "completed_refresh_queries": 68,
+  "completed_later_date_queries": 317,
+  "blocking_error": {
+    "at": "2026-11-13T14:54:19.790430+08:00",
+    "query_id": "F0318",
+    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "automatic_retry": false
+  },
+  "source_deadline": "2026-11-13T21:28:30.987887+08:00",
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1e_20261113_143455_080165",
+  "job_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_stage1e_20261113_143455_080165",
+  "matrix_ready": false,
+  "merge_policy": "No automatic replacement or union into primary: query refreshes and later-date rows are separate until source/time consistency audit"
+}

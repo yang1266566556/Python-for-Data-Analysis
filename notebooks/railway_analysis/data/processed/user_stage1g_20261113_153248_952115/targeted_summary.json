@@ -1,0 +1,14 @@
+{
+  "actor": "user",
+  "total_queries": 16,
+  "completed_queries": 16,
+  "remaining_queries": 0,
+  "train_records": 12,
+  "unavailable_timetable_rows": 24,
+  "unresolved_station_rows": 0,
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1g_20261113_153248_952115",
+  "job_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_stage1g_20261113_153248_952115",
+  "blocking_error": null,
+  "matrix_ready": false,
+  "original_119_queries_still_pending": true
+}

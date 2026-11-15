@@ -1,0 +1,1 @@
+﻿query_id,query_date,train_no,train_code,origin_service_date,requested_from,requested_to,from_code,to_code,from_name,to_name,same_as_requested_stations,from_dictionary_city,to_dictionary_city,departure_clock,arrival_clock,duration_text,duration_min,departure_at,arrival_at,arrival_day_offset,can_web_buy,raw_row_index,raw_file,raw_sha256,measurement_kind

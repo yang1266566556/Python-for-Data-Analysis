@@ -1,0 +1,211 @@
+{
+  "record": {
+    "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__HAC_average_d5f590df13d2",
+    "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+    "dataset_id": "access_60_n33",
+    "family": "tSNE",
+    "algorithm": "HAC_average",
+    "node_count": 33,
+    "representative": true,
+    "tags": "cluster_count",
+    "k": 4,
+    "seed": "",
+    "eps": "",
+    "min_samples": "",
+    "seconds": 0.0005755000020144507,
+    "objective": null,
+    "accepted_swaps": null,
+    "converged": true,
+    "stop_reason": "hierarchy constructed; cut at requested cluster count",
+    "n_clusters": 4,
+    "n_noise": 0,
+    "assigned_count": 33,
+    "assigned_fraction": 1.0,
+    "smallest_cluster": 6,
+    "largest_cluster": 10,
+    "silhouette_input": 0.4171624764608284,
+    "silhouette_original_rail": 0.23339192040232826,
+    "calinski_harabasz": 38.325460150837635,
+    "davies_bouldin": 0.7412086968647102,
+    "silhouette_status": "computed on non-noise points only",
+    "euclidean_indices_status": "computed on saved Euclidean embedding, non-noise points only"
+  },
+  "parameters": {
+    "k": 4
+  },
+  "details": {
+    "children": [
+      [
+        27,
+        28
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        18,
+        32
+      ],
+      [
+        23,
+        24
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        41
+      ],
+      [
+        31,
+        35
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        29,
+        33
+      ],
+      [
+        19,
+        36
+      ],
+      [
+        37,
+        39
+      ],
+      [
+        16,
+        44
+      ],
+      [
+        14,
+        40
+      ],
+      [
+        15,
+        38
+      ],
+      [
+        26,
+        45
+      ],
+      [
+        49,
+        50
+      ],
+      [
+        34,
+        46
+      ],
+      [
+        30,
+        51
+      ],
+      [
+        20,
+        43
+      ],
+      [
+        12,
+        47
+      ],
+      [
+        25,
+        54
+      ],
+      [
+        48,
+        56
+      ],
+      [
+        4,
+        52
+      ],
+      [
+        42,
+        59
+      ],
+      [
+        53,
+        55
+      ],
+      [
+        58,
+        61
+      ],
+      [
+        57,
+        60
+      ],
+      [
+        62,
+        63
+      ]
+    ],
+    "merge_distances": [
+      0.2013492252973116,
+      0.2065250936047709,
+      0.2088141991018583,
+      0.220109036369102,
+      0.2217499052795939,
+      0.2269282311942049,
+      0.2307126462818576,
+      0.2312746542764239,
+      0.2342779815494118,
+      0.24029455036971503,
+      0.24152364160950315,
+      0.2437905834624789,
+      0.2638890668775618,
+      0.2698089811647453,
+      0.2961111814358811,
+      0.3010430495472084,
+      0.3099609783555324,
+      0.31216621943283124,
+      0.36255703523150623,
+      0.38985893132277455,
+      0.40985255018794464,
+      0.4168662135967085,
+      0.4216775999339852,
+      0.4590012725492473,
+      0.49405694654148036,
+      0.5029713296104037,
+      0.5251588213891021,
+      0.6773893049860161,
+      0.6823701314547848,
+      0.9109320329308276,
+      0.9660411597593606,
+      1.2756960838501994
+    ],
+    "linkage": "average",
+    "metric": "precomputed",
+    "converged": true,
+    "stop_reason": "hierarchy constructed; cut at requested cluster count",
+    "iteration_count": null
+  },
+  "warnings": [],
+  "labels_sha256": "08cf6f1b4dc99c75ff254782252ecf349c40e16f6bdaee7bc33246c70125bd54",
+  "representation_matrix_sha256": "ab41066e13292ad356e919819182ca5d7ad72eea1edcb188a8f0b2f4d62712f1",
+  "metric_notes": "Scores exclude noise and report coverage. Original-rail silhouette uses same retained nodes. CH/DB only saved Euclidean embedding features; never distance-matrix rows."
+}

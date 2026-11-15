@@ -1,0 +1,13 @@
+{
+  "actor": "assistant",
+  "total_queries": 6,
+  "affected_missing_directions": 5,
+  "new_network_requests": 0,
+  "base_j_raw_replay_passed": true,
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1k_plan_20261113_163824_904501",
+  "protocol": {
+    "base_job": "user_stage1j_restored_20261113_162646_869372",
+    "base_csv_sha256": "9e5fb8e7aa435fd600ff2b0845c3641186af6ff5738cd18a65859757d9c19482",
+    "snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00"
+  }
+}

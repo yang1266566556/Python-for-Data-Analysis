@@ -1,0 +1,9 @@
+﻿query_id,date,from_station,to_station,purpose,status,raw_count,valid_count,rejected_count,duplicate_count,raw_file,error
+P01,2026-11-10,北京南,上海虹桥,direct_and_related_stations,validated_records,53,53,0,0,data\raw\user_pilot_20261105_220920_089173\P01.bin,
+P02,2026-11-10,上海虹桥,北京南,reverse_direction,validated_records,54,54,0,0,data\raw\user_pilot_20261105_220920_089173\P02.bin,
+P03,2026-11-10,广州南,香港西九龙,cross_border,validated_records,63,63,0,0,data\raw\user_pilot_20261105_220920_089173\P03.bin,
+P04,2026-11-10,香港西九龙,广州南,cross_border_reverse,validated_records,61,61,0,0,data\raw\user_pilot_20261105_220920_089173\P04.bin,
+P05,2026-11-10,北京西,西宁,candidate_transfer_leg_1,validated_records,7,7,0,0,data\raw\user_pilot_20261105_220920_089173\P05.bin,
+P06,2026-11-10,西宁,拉萨,candidate_transfer_leg_2_not_yet_connected,validated_records,6,6,0,0,data\raw\user_pilot_20261105_220920_089173\P06.bin,
+P07,2026-11-10,广州,海口,train_ferry_scope_check,validated_records,5,5,0,0,data\raw\user_pilot_20261105_220920_089173\P07.bin,
+P08,2026-11-10,广州南,横琴,mainland_access_candidate_not_Macau,no_direct_train_returned_not_unreachable,0,0,0,0,data\raw\user_pilot_20261105_220920_089173\P08.bin,

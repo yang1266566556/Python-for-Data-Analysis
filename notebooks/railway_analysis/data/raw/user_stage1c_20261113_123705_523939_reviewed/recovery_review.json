@@ -1,0 +1,18 @@
+{
+  "prepared_by": "assistant",
+  "parent_job": "user_stage1c_20261111_212830_965817",
+  "prepared_at": "2026-11-13T12:37:05.702529+08:00",
+  "original_blocked_state": {
+    "at": "2026-11-11T21:38:23.753327+08:00",
+    "query_id": "N07_N06",
+    "error": "Unexpected or invalid records; see quarantined checkpoint",
+    "auto_retry": false
+  },
+  "original_job_unchanged": true,
+  "original_completed_queries": 194,
+  "additional_saved_query_reprocessed": "N07_N06",
+  "unknown_rows": 2,
+  "reason": "missing station dictionary code TAI; response name ambiguous, no identity inferred",
+  "adapter_sha256": "b143c8ab8c36f389684d14fb78a10ceb9cc6563d5bde8e6f90b7c2eabeae8467",
+  "original_collection_start_retained": "2026-11-11T21:28:30.987887+08:00"
+}

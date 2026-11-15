@@ -1,0 +1,26 @@
+{
+  "actor": "user",
+  "started_at": "2026-11-11T21:28:30.987887+08:00",
+  "code_hashes": {
+    "stage1c_collect_v2.py": "b89958231d827940887414fcf5fc80d6b883bc134dc2cf892b313ff0c65cc2d2",
+    "stage1c_parser_v2.py": "dc265e8698b4232547229841918c7665d09d693b5abbbf4d8633a676fc3bbd46",
+    "stage1_collect.py": "863bc7570084920dbe36f483a48436a1d474bfc9bafcfffca3234228a2cf37fb",
+    "stage1b_transfer.py": "94e164f6d01f8e4a160da6ab9633c4254c2e95f19813936ef8fbbed9b38db0c7"
+  },
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "source_note": "website interface; no claim of open-data API permission or exhaustive city station results",
+  "parser_version": "stage1c-station-metadata-v2",
+  "migration_actor": "assistant",
+  "migrated_at": "2026-11-13T13:22:07.337208+08:00",
+  "source_job": "user_stage1c_20261113_123705_523939_reviewed",
+  "original_started_at_preserved": true
+}

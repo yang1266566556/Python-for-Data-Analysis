@@ -1,0 +1,14 @@
+{
+  "source": "Natural Earth 1:10m Populated Places simple",
+  "source_page": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
+  "license_page": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "license": "Public domain",
+  "git_commit": "789c9904087846cc3361302857aa2e76b0ae71ff",
+  "source_commit_date": "2022-05-13T23:22:03Z",
+  "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/789c9904087846cc3361302857aa2e76b0ae71ff/geojson/ne_10m_populated_places_simple.geojson",
+  "accessed_at": "2026-11-14T15:18:31.750322+08:00",
+  "response_sha256": "fd3fa867a320cbd5c5b6bb5bc550afeec2939fb2cef688e508007282a55ac42f",
+  "bytes": 4932147,
+  "feature_count": 7342,
+  "coordinate_use": "City reference points; not railway station or border access point measurements"
+}

@@ -1,0 +1,2 @@
+﻿scenario,from_node,from_city,to_node,to_city,model_time_min,running_min,wait_min,transfers,first_departure,final_arrival,status
+observed_group_60,N11,杭州,N02,天津,303.0,241.0,62.0,1.0,2026-11-18T13:56:00+08:00,2026-11-18T18:59:00+08:00,minimum_in_saved_event_graph_only

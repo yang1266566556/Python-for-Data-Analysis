@@ -1,0 +1,24 @@
+{
+  "original_output_relative": "data\\analysis\\user_stage2_baseline_20261114_144817_468695",
+  "protocol": {
+    "input_manifest_sha256": "c125fac7ed12353038c607f0697f60c4df75f3c6e1a0d20857f906059e924928",
+    "seed": 42,
+    "software": {
+      "python": "3.12.13",
+      "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+      "requests": "2.34.2",
+      "numpy": "2.5.0",
+      "pandas": "3.0.3",
+      "scipy": "1.18.0",
+      "scikit-learn": "1.9.0",
+      "umap-learn": "0.6.0"
+    },
+    "code_hashes": {
+      "stage2_baseline.py": "56dfb31b6a2e81d018f877daaa52fba17b3c358ff3520177e24c730f16ca7915",
+      "stage2_inputs.py": "b83942df67565d17f736c693658468f680ddf754beeac3255e8aa4e2a06c314a"
+    }
+  },
+  "diagnosis": "sklearn1.9 TSNE exact precomputed aliases X then squares distances in place. Original tSNE metrics and subsequent UMAP received D squared; confirmed synthetic mutation and exact saved-stress reproduction against D squared.",
+  "old_results_preserved": true,
+  "action": "Independent writable fit input per algorithm; user reruns core2 then core3 into new code-version directory."
+}

@@ -1,0 +1,3 @@
+﻿scenario,access_assumption_min,from_node,from_city,to_node,to_city,time_min,rail_running_min,rail_wait_min,access_min,port_closed_wait_min,rail_transfers,first_departure_at,final_arrival_at,status,source_leg_count,raw_leg_records_verified
+access_60_rail_transfer_60,60,N21,海口,N33,澳门,2793,2588,145,60,0,2,2026-11-18T20:15:00+08:00,2026-11-20T18:48:00+08:00,rail_plus_assumed_walking_clearance,3,True
+access_60_rail_transfer_60,60,N33,澳门,N21,海口,1301,1086,155,60,0,2,2026-11-18T09:14:00+08:00,2026-11-19T06:55:00+08:00,rail_plus_assumed_walking_clearance,4,True

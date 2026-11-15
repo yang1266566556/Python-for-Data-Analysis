@@ -1,0 +1,15 @@
+[
+  {
+    "source_id": "query_page",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/init",
+    "params": null,
+    "accessed_at": "2026-11-13T17:02:54.749040+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry; explicit timeout=(30,45)",
+    "timeout_connect_seconds": 30,
+    "timeout_read_seconds": 45,
+    "use_limit": "Official public website endpoint; not a documented open-data API; bulk permission not established",
+    "error": "ReadTimeout: HTTPSConnectionPool(host='kyfw.12306.cn', port=443): Read timed out. (read timeout=30)"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-14T17:57:02.150163+08:00",
+  "status": "DOCX generated and verified",
+  "docx_created": true,
+  "submission_date_confirmed": "2026-11-14",
+  "numerical_jobs": {
+    "final_data": "data/processed/user_stage1n_special_20261114_140146_715895",
+    "baseline": "data/analysis/user_stage2_baseline_20261114_145338_648190",
+    "parameters": "data/analysis/user_stage2_experiments_20261114_151354_734440",
+    "geography": "data/analysis/user_stage2_geographic_analysis_20261114_165132_458783",
+    "clustering": "data/analysis/user_stage3_clustering_20261114_171710_794272"
+  },
+  "figure_manifests": [
+    "figures/final_problem1_20261114/figure_manifest.json",
+    "figures/stage2_baseline_20261114/figure_manifest.json",
+    "figures/stage2_geography_20261114/figure_manifest.json",
+    "figures/stage2_parameters_20261114/figure_manifest.json",
+    "figures/stage3_clustering_20261114/figure_manifest.json"
+  ],
+  "actual_screenshots": "evidence/user_stage3_verified_20261114/verification.json",
+  "progress_screenshot_waivers": [
+    "Q2 core5",
+    "Q3 core2"
+  ],
+  "analysis_review": "结果与分析核对_无需再运行实验.txt",
+  "external_sources": "evidence/context_source_web_extracts_20261114.json",
+  "route_evidence": "data/analysis/assistant_interpretation_evidence_20261114/verification.json",
+  "report_selection": "Select figures that support claims; do not include all candidates or network/retry diagnostics.",
+  "remaining": [
+    "User final review and PDF export"
+  ],
+  "AI_statement": "Record actual assistance and user execution; do not invent personal understanding, edits, or unprovided model details.",
+  "user_review_accepted": true,
+  "final_docx": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\reports\\第二次作业_铁路网络降维与聚类分析_刘阳_20261114.docx",
+  "verification": "reports/report_final_verification.json"
+}

@@ -1,0 +1,10 @@
+{
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage3_clustering_20261114_171710_794272",
+  "completed_runs": 198,
+  "expected_runs": 198,
+  "numeric_clustering_runs_complete": true,
+  "verification_and_stability_summary_complete": false,
+  "plots_created_by_python": false,
+  "external_interpretation_complete": false,
+  "unavailable_silhouette_runs": 26
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "query_id": "F01",
+    "role": "final_macao_link",
+    "primary_query_id": "",
+    "date": "2026-11-20",
+    "from_city": "北京",
+    "to_city": "广州",
+    "from_station": "北京西",
+    "to_station": "广州南",
+    "purpose": "Shared dated link after verified arrival; no station substitution"
+  },
+  {
+    "query_id": "F02",
+    "role": "final_macao_link",
+    "primary_query_id": "",
+    "date": "2026-11-20",
+    "from_city": "郑州",
+    "to_city": "广州",
+    "from_station": "郑州",
+    "to_station": "广州南",
+    "purpose": "Shared dated link after verified arrival; no station substitution"
+  }
+]

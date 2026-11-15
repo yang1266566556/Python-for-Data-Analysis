@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-11-14T15:35:28.104595+08:00",
+  "user_experiment_verification": {
+    "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440",
+    "verified_runs": 82,
+    "coordinate_hashes_passed": true,
+    "node_order_passed": true,
+    "external_metrics_reproduced": true,
+    "three_seeds": [
+      0,
+      42,
+      2026
+    ],
+    "seed_stability_pairs": 24,
+    "scenario_comparisons": 36,
+    "parameter_comparison_rows": 42,
+    "parameter_runs_complete": true,
+    "representative_three_seed_stability_complete": true,
+    "geographic_comparison_complete": false,
+    "clustering_complete": false,
+    "note": "Seed stability uses translation/rotation/reflection/scale-adjusted Procrustes disparity plus distance rank and neighbor overlap; not geographical alignment. No causal or final ranking inference from a single score."
+  },
+  "geographic_source_and_34_matches_verified": true,
+  "assistant_reference_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\assistant_stage2_geographic_reference_20261114_153527_514783",
+  "geographic_synthetic_contract_tests_passed": 5,
+  "synthetic_roundtrip_alignments": 12,
+  "synthetic_coordinate_rows": 404,
+  "synthetic_city_pairs": 528,
+  "geographic_course_alignment_run_by_assistant": false,
+  "geographic_txt": "问题2_地理参考与相似变换对照_核心7至9.txt",
+  "txt_sha256": "7bd8a9cef873364153a7629b4a4f3e57cc1e968c1e9c417307ffe90b8a7869ef",
+  "txt_cells_compile": 3,
+  "geography_helper_sha256": "9886b639718bc88ea349e339281ad36c3bbd00370fb9c50be08dbd4b6c721a30",
+  "r_parameter_figures_visually_verified": 12
+}

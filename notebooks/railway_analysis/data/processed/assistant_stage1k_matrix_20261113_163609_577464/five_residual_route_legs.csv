@@ -1,0 +1,1 @@
+﻿scenario,from_node,to_node,leg_index,edge_id,train_code,train_no,origin_service_date,from_name,to_name,departure_at,arrival_at,duration_min,wait_before_min,same_service_as_previous,raw_file,raw_row_index

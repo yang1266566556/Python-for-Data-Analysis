@@ -1,0 +1,49 @@
+{
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440",
+  "verified_runs": 82,
+  "coordinate_hashes_passed": true,
+  "node_order_passed": true,
+  "external_metrics_reproduced": true,
+  "three_seeds": [
+    0,
+    42,
+    2026
+  ],
+  "seed_stability_pairs": 24,
+  "scenario_comparisons": 36,
+  "parameter_comparison_rows": 42,
+  "parameter_runs_complete": true,
+  "representative_three_seed_stability_complete": true,
+  "geographic_comparison_complete": false,
+  "clustering_complete": false,
+  "note": "Seed stability uses translation/rotation/reflection/scale-adjusted Procrustes disparity plus distance rank and neighbor overlap; not geographical alignment. No causal or final ranking inference from a single score.",
+  "checked_at": "2026-11-14T15:20:45.742427+08:00",
+  "screenshots": [
+    {
+      "file": "screenshot_1.png",
+      "sha256": "8abe958f8136f4a851d730e16ca5fc50f004c379bd522056ac1bf207f67ce0c7"
+    },
+    {
+      "file": "screenshot_2.png",
+      "sha256": "fabeca5ae09235d7a4cb19dec963c59b70f786380bceed20fe1b6a6da9770df7"
+    },
+    {
+      "file": "screenshot_3.png",
+      "sha256": "c65d44a595caffb1c8fdaf6bfccaaf91bedb9657c3b626fb2a188fb19c5291e3"
+    },
+    {
+      "file": "screenshot_4.png",
+      "sha256": "3b46957be8d0b045d95b2f31da1efd147b342e544d9128ef6c74bd0b4d96abbc"
+    },
+    {
+      "file": "screenshot_5.png",
+      "sha256": "2f81f1daef562c3b62db1c514d4dd4b8afdc21814c5ac6f76d14b99605f87681"
+    },
+    {
+      "file": "screenshot_6.png",
+      "sha256": "866144d76833f7a15afbf71a17d8ecf0afffe9eb4bfae8199fef9c4215561cb2"
+    }
+  ],
+  "user_omitted_core5_verbose_output_by_choice": true,
+  "actual_evidence": "User core5 code screenshot, core6 real summary screenshot and 82 on-disk coordinates/parameter/metric records; no synthetic console screenshot created."
+}

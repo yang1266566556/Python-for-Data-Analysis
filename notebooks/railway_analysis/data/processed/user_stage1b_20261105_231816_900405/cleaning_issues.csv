@@ -1,0 +1,3 @@
+﻿query_id,raw_row_index,severity,issue,details
+X14,1,error,record_quarantined,invalid clock: 24:00
+X14,5,error,record_quarantined,invalid clock: 24:00

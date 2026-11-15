@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-14T15:12:30.755968+08:00",
+  "baseline_verification": {
+    "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_baseline_20261114_145338_648190",
+    "verified_runs": 6,
+    "coordinate_hashes_passed": true,
+    "node_order_passed": true,
+    "external_metrics_reproduced": true,
+    "parameter_experiments_complete": false,
+    "three_seed_stability_complete": false
+  },
+  "experiment_contract_tests_passed": 4,
+  "synthetic_full_pipeline_runs": 82,
+  "synthetic_baseline_reuse": 6,
+  "synthetic_new_fits": 76,
+  "synthetic_seed_pairs": 24,
+  "synthetic_scenario_comparisons": 36,
+  "synthetic_checkpoint_and_tamper_checks_passed": true,
+  "course_parameter_experiments_run_by_assistant": false,
+  "txt": "问题2_参数比较与三种子稳定性_核心4至6.txt",
+  "txt_sha256": "ad0640551aaafd26f17b25a01627b20ae356f42ec9f16a4b9644cb9dfc833fe7",
+  "txt_cells_compile": 3,
+  "helper_sha256": "c34d7db1ce940387eb0ed820c156b9c59fe0b643866deba468153db1a0f10cbf",
+  "r_figures_visually_verified": 7
+}

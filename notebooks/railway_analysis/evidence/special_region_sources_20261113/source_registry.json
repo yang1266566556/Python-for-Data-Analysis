@@ -1,0 +1,62 @@
+[
+  {
+    "source_id": "macao_border_gate_hours",
+    "name": "澳门特别行政区政府旅游局：关闸",
+    "url": "https://www.macaotourism.gov.mo/zh-hans/sightseeing/other-attractions/border-gate-portas-do-cerco",
+    "publication_date": null,
+    "access_date": "2026-11-13",
+    "method": "web search and official page content",
+    "supported_claim": "澳门关闸和珠海拱北边检大楼开放时间每天06:00至次日01:00",
+    "limit": "不是步行、排队、查验、安检全程耗时统计"
+  },
+  {
+    "source_id": "macao_border_gate_hours_independent",
+    "name": "澳门海关：客运口岸",
+    "url": "https://www.customs.gov.mo/gb/notice_passengers_item4.html",
+    "publication_date": null,
+    "access_date": "2026-11-13",
+    "method": "web search and official page content",
+    "supported_claim": "关闸口岸06H00至01H00；与旅游局时段交叉核对",
+    "limit": "其他口岸时间不可混用"
+  },
+  {
+    "source_id": "gongbei_rail_walk_connection",
+    "name": "澳门经济及科技发展局：前往方法",
+    "url": "https://www.dsedt.gov.mo/public/docs/EAD_CIYE_ECIYEC/tc/youth_entrepreneur_hub_tc.pdf",
+    "publication_date": null,
+    "access_date": "2026-11-13",
+    "method": "official PDF search extraction",
+    "supported_claim": "过珠海拱北海关后可步行到附近城轨站，支持铁路与步行口岸接驳的空间关系",
+    "limit": "旧资料所述步行约5分钟不是完整通关耗时，未将其当作本研究2026实测时间"
+  },
+  {
+    "source_id": "taipei_2026_planning",
+    "name": "武汉市交通运输局：湖北人未来可乘高铁直达台北",
+    "url": "https://jtj.wuhan.gov.cn/jtzx/zwdt/202603/t20260327_2746148.shtml",
+    "publication_date": "2026-03-27",
+    "access_date": "2026-11-13",
+    "method": "web open official page",
+    "supported_claim": "京港台通道跨越台湾海峡延伸至台北仍作为规划表述，不能当作已运营线路",
+    "limit": "是规划佐证；结构不可达主规则来自课程任务，不能以一次12306空查询证明不可达"
+  },
+  {
+    "source_id": "taipei_assignment_rule",
+    "name": "用户原始课程任务",
+    "url": null,
+    "publication_date": null,
+    "access_date": "2026-11-13",
+    "method": "read supplied task evidence/user_request_original.txt",
+    "supported_claim": "台北保留完整节点，目前无直通大陆铁路物理连接，算法副本采用有限惩罚并至少三种量级",
+    "limit": "只针对铁路及已明示步行口岸接驳口径，不把航班或客船当铁路"
+  },
+  {
+    "source_id": "macao_access_assumption",
+    "name": "本研究接驳敏感性参数",
+    "url": null,
+    "publication_date": null,
+    "access_date": "2026-11-13",
+    "method": "explicit modeling assumption, not observation",
+    "supported_claim": "步行、通关与进出站合计30/60/90分钟情景，主情景60分钟",
+    "limit": "非官方最低要求、非实测统计、非保证；不作为真实运行时刻添加进原始铁路记录"
+  }
+]

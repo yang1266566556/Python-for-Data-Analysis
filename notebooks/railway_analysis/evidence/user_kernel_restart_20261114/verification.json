@@ -1,0 +1,18 @@
+{
+  "observed_error": "NameError: stage1m_final_links is not defined",
+  "observed_cell": "In[1]",
+  "likely_reason": "fresh kernel without core33 initialization; inferred from screenshot",
+  "module_files_exist": true,
+  "offline_module_import_verified": true,
+  "old_M_marker_exists": false,
+  "old_M_raw_jobs": [],
+  "user_facing_date": "2026-11-14",
+  "original_snapshot_deadline": "2026-11-13T21:28:30.987887+08:00",
+  "collection_not_restarted": true,
+  "assistant_new_network_requests": 0,
+  "old_deadline_not_changed": true,
+  "pending_user_choice": "Separate Nov14 supplemental version for two Nov20 queries, or retain original snapshot with three missing directions",
+  "helper_txt_syntax_passed": true,
+  "screenshot_sha256": "1914e010a5061c90067c85d936683d1ca30c79a448ab78f65136a2cb82460dbc",
+  "docx_created": false
+}

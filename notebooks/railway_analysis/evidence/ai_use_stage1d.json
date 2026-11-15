@@ -1,0 +1,22 @@
+{
+  "stage": "问题1第一阶段D：995组完成后核验与时刻表路径",
+  "tool": "Codex desktop",
+  "model_id": "gpt-6.1-sol",
+  "original_requirements": "evidence/user_request_original.txt",
+  "current_user_input": "用户回传核心代码8、9完成运行的4张截图，无附加文字",
+  "skill_used": "r-academic-plots，可用主题/配色辅助脚本；私人参考源路径仍不可访问",
+  "ai_generated": [
+    "995个检查点重放、998份原始文件哈希、CSV一致性与站点清单审计代码",
+    "按实际站码和完整日期构建事件图、同车续乘与换乘等待、最小历时搜索",
+    "83站草案与观察同城分组对照，以及30/60/90分钟假设",
+    "436组后续日期定向查询建议，不声称穷尽必要查询",
+    "R数据质量图、直达诊断热力图及直达历时分布图",
+    "标注核心代码10—13和输入输出、截图要求的TXT"
+  ],
+  "assistant_execution": "离线重放真实用户数据与路径预检查；R绘图预检查，另列assistant目录；未发起新网络查询",
+  "verification": "7项合成逻辑测试、3639项真实数据性质检查、R出图及目视检查，详见stage1d_verification.json",
+  "user_execution": "用户995组采集截图已收到并核验；第一阶段D核心代码10—13等待用户实际运行",
+  "user_edits": "待用户实际修改后填写",
+  "user_understanding": "待用户核对改写，不将AI解释直接记作用户本人理解",
+  "scope_limit": "图内最小历时不是完整铁路网络最短行程；缺失未视作不可达；未开始降维或DOCX生成"
+}

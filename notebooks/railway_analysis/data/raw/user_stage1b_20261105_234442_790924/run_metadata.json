@@ -1,0 +1,61 @@
+{
+  "actor": "user",
+  "run_id": "user_stage1b_20261105_234442_790924",
+  "started_at": "2026-11-05T23:44:42.795100+08:00",
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "parent_run_id": "user_pilot_20261105_220920_089173",
+  "parent_files_sha256": {
+    "data\\processed\\user_pilot_20261105_220920_089173\\pilot_train_records.csv": "e48136fc62d8f2d50b9609d466cf712ccf76bf48fd2b1abcafa6d138debcb598",
+    "data\\processed\\user_pilot_20261105_220920_089173\\station_candidates.csv": "54c7946022b5320aacea74b47ec0516680c7a7096fc2108d60f12ae5374ff8be",
+    "data\\raw\\user_pilot_20261105_220920_089173\\source_manifest.json": "0e402ec75a101c76097cdec205aebda7bdba764768bcbe784254a8887295c253"
+  },
+  "protocol_sha256": "607d7db64c8d298928a4ec9fbf9fc2dec64e84f4884d9cd47a327fed1dda66b0",
+  "official_transfer_feasibility_verified": false,
+  "resume_run_id": "user_stage1b_20261105_231816_900405",
+  "parser_policy": "known timetable-adjustment placeholders retained as missing, not errors",
+  "verified_field_mapping": {
+    "train_no": 2,
+    "station_train_code": 3,
+    "from_station_telecode": 6,
+    "to_station_telecode": 7,
+    "start_time": 8,
+    "arrive_time": 9,
+    "lishi": 10,
+    "canWebBuy": 11,
+    "start_train_date": 13
+  },
+  "finished_at": "2026-11-05T23:44:52.927342+08:00",
+  "summary": {
+    "run_id": "user_stage1b_20261105_234442_790924",
+    "parent_run_id": "user_pilot_20261105_220920_089173",
+    "actor": "user",
+    "attempted_queries": 7,
+    "new_train_records": 357,
+    "issue_count": 2,
+    "fatal_error": null,
+    "unavailable_timetable_count": 2,
+    "resume_run_id": "user_stage1b_20261105_231816_900405",
+    "reused_train_queries": 4,
+    "network_train_queries": 3,
+    "all_required_transfer_dates_queried_successfully": false,
+    "all_required_transfer_requests_returned": true,
+    "all_required_transfer_timetables_available": false,
+    "first_leg_records": 7,
+    "second_leg_records": 28,
+    "same_station_pair_count": 196,
+    "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1b_20261105_234442_790924",
+    "raw_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_stage1b_20261105_234442_790924",
+    "matrix_ready": false,
+    "official_transfer_feasibility_verified": false,
+    "scope": "conditional two-service candidates via Xining only; not a complete railway matrix"
+  }
+}

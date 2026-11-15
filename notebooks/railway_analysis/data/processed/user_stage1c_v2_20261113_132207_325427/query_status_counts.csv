@@ -1,0 +1,5 @@
+﻿query_status,count
+validated_records,793
+no_direct_train_returned_not_unreachable,134
+partial_timetable_unavailable,63
+partial_station_metadata_unresolved,5

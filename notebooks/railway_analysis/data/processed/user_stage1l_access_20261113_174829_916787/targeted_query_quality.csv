@@ -1,0 +1,6 @@
+﻿query_id,date,from_city,to_city,from_station,to_station,status,raw_count,valid_count,unavailable_count,unresolved_station_count
+M01,2026-11-18,珠海,广州,珠海,广州南,validated_records,137,137,0,0
+M02,2026-11-19,广州,珠海,广州南,珠海,validated_records,141,141,0,0
+M03,2026-11-20,广州,珠海,广州南,珠海,validated_records,143,143,0,0
+M04,2026-11-21,广州,珠海,广州南,珠海,validated_records,143,143,0,0
+M05,2026-11-22,广州,珠海,广州南,珠海,validated_records,143,143,0,0

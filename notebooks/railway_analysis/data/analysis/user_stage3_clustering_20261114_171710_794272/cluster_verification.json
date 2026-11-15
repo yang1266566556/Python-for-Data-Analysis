@@ -1,0 +1,18 @@
+{
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage3_clustering_20261114_171710_794272",
+  "verified_runs": 198,
+  "representative_partitions": 102,
+  "label_hashes_passed": true,
+  "node_order_passed": true,
+  "quality_metrics_reproduced": true,
+  "PAM_swap_local_optima_verified": true,
+  "parameter_seed_stability_pairs": 176,
+  "representation_comparisons": 183,
+  "unavailable_silhouette_runs": 26,
+  "noise_excluded_from_scores": true,
+  "nonconverged_PAM_runs": 0,
+  "geographic_cluster_R_figures_complete": false,
+  "external_interpretation_complete": false,
+  "report_started": false,
+  "note": "No automatic winner. DBSCAN degenerate partitions retained; compare coverage and flags. ARI/NMI noise-as-label and common-assigned variants both reported."
+}

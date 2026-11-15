@@ -1,0 +1,844 @@
+<html lang="zh-Hant">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WCCFW98');</script>
+        <!-- End Google Tag Manager -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>高速鐵路 > 時間表</title>
+        <link rel="icon" href="/assets/img/logo/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="/assets/img/logo/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/css/reset.css">
+        <link rel="stylesheet" href="/assets/vendor/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/vendor/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/assets/vendor/css/slick.css">
+        <link rel="stylesheet" href="/assets/vendor/css/slick-theme.css">	
+        <link rel="stylesheet" href="/assets/vendor/css/swiper.min.css" />
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <script src='/assets/vendor/js/jquery-3.3.1.min.js'></script>
+        <script src='/assets/vendor/js/bootstrap.min.js'></script>
+        <script src='/assets/vendor/js/slick.min.js'></script>
+        <script src='/assets/vendor/js/isotope.pkgd.min.js' type="text/javascript"></script>
+        <script src='/assets/vendor/js/swiper.min.js'></script>
+        <script src='/assets/js/config.js'></script>
+        <script src='/assets/js/main.js'></script>
+        <script src='/assets/js/navigation.js'></script>
+	</head>
+    <body>
+        <a href="#main" class="skip-link">跳至主內容</a>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCCFW98"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+		<!--ssi:header-->
+    <div class="mobile-menu-container">
+        <div class="menu-layer"></div>
+        <div class="menu-list-container">
+            <ul class="menu-list">
+				<li class="menu-item">
+					<a href="/tc/main/index.html" class="main-level-item" title="主頁">主頁</a>
+				</li>
+				<li class="menu-item">
+					<ul class="sub-menu">
+						<li class="menu-item-title"><a href="javascript:void(0)" class="main-level-item" title="有關高速鐵路">有關高速鐵路</a></li>
+							<li class="menu-item"><a href="/tc/about/hsr-intro.html" title="高速鐵路簡介">高速鐵路簡介</a></li>
+							<li class="menu-item"><a href="/tc/about/wek.html" title="香港西九龍站簡介">香港西九龍站簡介</a></li>
+							<li class="menu-item"><a href="/tc/latest-news/user-guide.html" title="高速鐵路旅客指南">高速鐵路旅客指南</a></li>
+							<!--<li class="menu-item"><a href="/tc/latest-news/e-ticket.html" title="電子車票">電子車票</a></li>-->
+					</ul>
+				</li>
+				<li class="menu-item">
+					<ul class="sub-menu">
+						<li class="menu-item-title"><a href="javascript:void(0)" class="main-level-item" title="Latest News">最新資訊</a></li>
+							<li class="menu-item"><a href="/tc/latest-news/listing.html" title="Overview">總覽</a></li>
+							<li class="menu-item"><a href="/tc/latest-news/240-hr-visa-freetransit-policy.html" title="外國人往中國內地240小時過境免簽政策">外國人往中國內地240小時過境免簽政策</a></li>
+							<li class="menu-item"><a href="/tc/latest-news/trip-planner.html" title="善用「高鐵行程指南」，輕鬆計劃出行">善用「高鐵行程指南」，輕鬆計劃出行</a></li>
+							<li class="menu-item"><a href="/tc/travel/attractions.html" title="高鐵遊攻略">高鐵遊攻略</a></li>
+							<li class="menu-item"><a href="/tc/latest-news/ticketing-via-12306.html" title="用12306 購票容易 輕鬆出行">用12306 購票容易 輕鬆出行</a></li>
+							<li class="menu-item"><a href="/tc/latest-news/ticket-agents.html" title="香港指定代理名單">香港指定代理名單</a></li>
+							<!--<li class="menu-item"><a href="/tc/latest-news/new-era-cross-boundary-hsr.html" title="跨境鐵路新紀元 - 高鐵篇">跨境鐵路新紀元 - 高鐵篇</a></li>-->
+							<li class="menu-item"><a href="/tc/latest-news/Incident-Handling.html" title="列車服務受阻 應變小幫手">列車服務受阻 應變小幫手</a></li>
+							<li class="menu-item"><a href="/tc/latest-news/park-and-ride.html" title="泊車收費及轉乘優惠">泊車收費及轉乘優惠</a></li>
+							<li class="menu-item"><a href="/tc/latest-news/user-guide.html" title="高速鐵路旅客指南">高速鐵路旅客指南</a></li>
+					</ul>
+				</li>
+				<li class="menu-item">
+					<ul class="sub-menu">
+						<li class="menu-item-title"><a href="javascript:void(0)" class="main-level-item" title="票務資料">票務資料</a></li>
+							<li class="menu-item">
+								<ul class="sub-menu">
+									<li class="menu-item-title"><a href="javascript:void(0)" title="跨境票">跨境票</a></li>
+										<li class="menu-item" style="display: none;"><a href="/tc/ticket/ticketing-tutorial-12306.html" title="使用電郵建立12306賬戶">使用電郵建立12306賬戶</a></li>
+										<li class="menu-item" style="display: none;"><a href="/tc/ticket/hsr-vs-12306.html" title="港鐵及12306網上購票服務">港鐵及12306網上購票服務</a></li>
+										<li class="menu-item" style="display: none;"><a href="/tc/ticket/buy-ticket-12306.html" title="如何於中國鐵路12306網站購票?">如何於中國鐵路12306網站購票?</a></li>
+										<li class="menu-item"><a href="/tc/ticket/destination.html" title="目的地">目的地</a></li>
+										<li class="menu-item"><a href="/tc/ticket/ticket-type.html" title="車票類別">車票類別</a></li>
+										<li class="menu-item"><a href="/tc/ticket/fare.html" title="票價">票價</a></li>
+										<li class="menu-item"><a href="/tc/ticket/timetable.html" title="時間表">時間表</a></li>
+										<li class="menu-item"><a href="/tc/ticket/real-name-checking.html" title="車票實名制">車票實名制</a></li>
+										<!--<li class="menu-item"><a href="/tc/ticket/ticket-purchase.html" title="購票">購票</a></li>-->
+										<li class="menu-item"><a href="/tc/ticket/ticket-purchase.html" title="購票">購票</a></li>
+										<!--<li class="menu-item"><a href="/tc/ticket/cross-purchase-way-mainland.html" title="内地購票途徑">内地購票途徑</a></li>-->
+										<li class="menu-item"><a href="/tc/ticket/after-sales-service.html" title="售後服務">售後服務</a></li>
+										<li class="menu-item"><a href="/tc/ticket/special-ticket.html" title="20次計次票 ▪ 30日定期票">20次計次票 ▪ 30日定期票</a></li>
+										<li class="menu-item"><a href="/tc/ticket/terms.html" title="票務及乘車條款">票務及乘車條款</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<ul class="sub-menu">
+									<li class="menu-item-title"><a href="javascript:void(0)" title="内地票">内地票</a></li>
+									<!--<li class="menu-item"><a href="/tc/ticket/non-cross-purchase-way-mainland.html" title="購票及售後服務">購票及售後服務</a></li>-->
+									<li class="menu-item"><a href="/tc/ticket/non-cross-purchase-way-mainland.html" title="購票及售後服務">購票及售後服務</a></li>
+									<!--<li class="menu-item"><a href="/tc/ticket/non-cross-purchase-way-mainland.html" title="内地購票途徑">内地購票途徑</a></li>-->
+								</ul>
+							</li>
+					</ul>
+				</li>
+				<li class="menu-item">
+					<ul class="sub-menu">
+						<li class="menu-item-title"><a href="javascript:void(0)" class="main-level-item" title="乘車須知">乘車須知</a></li>
+							<li class="menu-item">
+								<ul class="sub-menu">
+									<li class="menu-item-title"><a href="javascript:void(0)" title="乘車須知">乘車須知</a></li>
+										<li class="menu-item"><a href="/tc/guide/train-note.html" title="旅客須知">旅客須知</a></li>
+										<li class="menu-item"><a href="/tc/guide/process-departure.html" title="乘車流程">乘車流程</a></li>
+										<li class="menu-item"><a href="/tc/guide/carriage-of-luggage.html" title="行李規章">行李規章</a></li>
+										<li class="menu-item"><a href="/tc/guide/accessibility.html" title="無障礙乘車">無障礙乘車</a></li>
+								</ul>
+							</li>
+								<li class="menu-item"><a href="/tc/guide/local-guides.html" title="出入口資訊">出入口資訊</a></li>
+							<li class="menu-item">
+								<ul class="sub-menu">
+									<li class="menu-item-title"><a href="javascript:void(0)" title="交通接駁">交通接駁</a></li>
+										<li class="menu-item"><a href="/tc/guide/wek.html" title="香港西九龍站">香港西九龍站</a></li>
+										<li class="menu-item"><a href="/tc/guide/destination.html" title="目的地">目的地</a></li>
+								</ul>
+							</li>
+					</ul>
+				</li>
+				<li class="menu-item">
+					<ul class="sub-menu">
+						<li class="menu-item-title"><a href="javascript:void(0)" class="main-level-item" title="服務及設施">服務及設施</a></li>
+							<li class="menu-item"><a href="/tc/services-facilities/station-facilities.html" title="車站設施">車站設施</a></li>
+						<li class="menu-item">
+								<ul class="sub-menu">
+							<li class="menu-item-title"><a href="javascript:void(0)" title="列車設施">列車設施</a></li>
+							<li class="menu-item"><a href="/tc/services-facilities/train-facilities.html" title="港鐵動感號">港鐵動感號</a></li>
+							<li class="menu-item"><a href="/tc/services-facilities/train-fuxing.html" title="臥鋪列車">臥鋪列車</a></li>
+							</ul>
+						</li>
+							<li class="menu-item"><a href="/tc/services-facilities/train-facilities.html" title="列車設施">列車設施</a></li>
+							<li class="menu-item"><a href="/tc/services-facilities/apps.html" title="手機應用程式">手機應用程式</a></li>
+							<li class="menu-item"><a href="/tc/services-facilities/station-art.html" title="車站藝術">車站藝術</a></li>
+							<li class="menu-item"><a href="/tc/shop/all.html" title="車站商店及服務列表">車站商店及服務列表</a></li>
+							<li class="menu-item"><a href="/tc/services-facilities/tree-art.html" title="探索香港西九龍站的樹木">探索香港西九龍站的樹木</a></li>
+					</ul>
+				</li>
+				<li class="menu-item">
+					<ul class="sub-menu">
+						<li class="menu-item-title"><a href="/tc/travel/attractions.html" class="main-level-item" title="高鐵遊攻略">高鐵遊攻略</a></li>
+						<!--<li class="menu-item"><a href="/tc/latest-news/travel-along-high-speed-rail.html" title="高鐵旅遊行程推介">高鐵旅遊行程推介</a></li>
+						<li class="menu-item"><a href="/tc/travel/attractions.html" title="景點">景點</a></li>-->
+					</ul>
+				</li>
+				<li class="menu-item">
+					<ul class="sub-menu">
+						<li class="menu-item-title"><a href="javascript:void(0)" class="main-level-item" title="高鐵購物">高鐵購物</a></li>
+							<li class="menu-item">
+								<ul class="sub-menu">
+									<li class="menu-item-title"><a href="javascript:void(0)" title="車站商店及服務">車站商店及服務</a></li>
+										<li class="menu-item"><a href="/tc/shop/introduction.html" title="簡介">簡介</a></li>
+										<li class="menu-item"><a href="/tc/shop/all.html" title="車站商店及服務列表">車站商店及服務列表</a></li>
+										<li class="menu-item"><a href="/tc/shop/rent-related.html" title="租務查詢">租務查詢</a></li>
+								</ul>
+							</li>
+								<li class="menu-item"><a href="/tc/shop/gift-shop.html" title="高鐵精品">高鐵精品</a></li>
+					</ul>
+				</li>
+            </ul>
+            <div class="action-item icon-container lang-switch">
+                <a class="icon-l ico-lang-en" langKey="en" href="" title="lang icon"></a>
+                <a class="icon-l ico-lang-sc" langKey="sc" href="" title="lang icon"></a>
+            </div>
+            <div class="size-switch icon-container">
+                <button title="字體大小 - 小" class="icon ico-font-s icon-button" font-size="s"></button>
+                <button title="字體大小 - 中" class="icon ico-font-n icon-button" font-size="n"></button>
+                <button title="字體大小 - 大" class="icon ico-font-l icon-button" font-size="l"></button>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <header class="navigation-container">
+            <div class="desktop-responsive">
+                <div class="header-item-container">
+                    <div class="container">
+                        <div class="header-item-inner-container row">
+                            <div class="header-item">
+                                <a title="高速鐵路" class="logo-container" href="/tc/main/index.html"><img src="/assets/img/logo/XRLTCOrange.png" alt="高速鐵路"></a>
+                                <a title="MTR" class="logo-container" href="https://www.mtr.com.hk/"><img src="/assets/img/logo/MTR.png" alt="MTR"></a>
+                            </div>
+                            <div class="header-item action-item">
+                                <div class="lang-switch icon-container">
+                                    <a class="icon-l ico-lang-en" langKey="en" href="" title="英文"></a>
+                                    <a class="icon-l ico-lang-sc" langKey="sc" href="" title="簡體"></a>
+                                </div>
+                                <div class="size-switch icon-container">
+                                    <button title="字體大小 - 小" class="icon ico-font-s icon-button" font-size="s"></button>
+                                    <button title="字體大小 - 中" class="icon ico-font-n icon-button" font-size="n"></button>
+                                    <button title="字體大小 - 大" class="icon ico-font-l icon-button" font-size="l"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-container">
+                    <ul class="menu-list">
+						<li class="menu-item">
+							<a href="/tc/main/index.html" class="main-level-item" title="主頁">主頁</a>
+						</li>
+						<li class="menu-item">
+							<ul class="sub-menu">
+								<li class="menu-item-title"><a href="javascript:void(0)" class="main-level-item" title="有關高速鐵路">有關高速鐵路</a></li>
+									<li class="level-2-menu-item">
+										<span class="level-2-menu-container">
+											<span class="image-container">
+												<span class="icon-l ico-nav-about-xrl"></span>
+											</span>
+											<span class="level-2-item-block">
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/about/hsr-intro.html" title="高速鐵路簡介">高速鐵路簡介</a></li></ul>
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/about/wek.html" title="香港西九龍站簡介">香港西九龍站簡介</a></li></ul>
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/user-guide.html" title="高速鐵路旅客指南">高速鐵路旅客指南</a></li></ul>
+												<!--
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/e-ticket.html" title="電子車票">電子車票</a></li></ul>
+												-->
+											</span>
+										</span>
+									</li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<ul class="sub-menu">
+								<li class="menu-item-title">
+									<a href="javascript:void(0)" class="main-level-item" title="最新資訊">最新資訊</a>
+								</li>
+								<li class="level-2-menu-item">
+									<span class="level-2-menu-container">
+										<span class="image-container">
+											<span class="icon-l ico-nav-news"></span>
+										</span>
+										<span class="level-2-item-block">
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/listing.html" title="總覽">總覽</a></li></ul>
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/240-hr-visa-freetransit-policy.html" title="外國人往中國內地240小時過境免簽政策">外國人往中國內地240小時過境免簽政策</a></li></ul>
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/trip-planner.html" title="善用「高鐵行程指南」，輕鬆計劃出行">善用「高鐵行程指南」，輕鬆計劃出行</a></li></ul>
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/travel/attractions.html" title="高鐵遊攻略">高鐵遊攻略</a></li></ul>
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/ticketing-via-12306.html" title="用12306 購票容易 輕鬆出行">用12306 購票容易 輕鬆出行</a></li></ul>
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/ticket-agents.html" title="香港指定代理名單">香港指定代理名單</a></li></ul>
+												<!--<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/new-era-cross-boundary-hsr.html" title="跨境鐵路新紀元 - 高鐵篇">跨境鐵路新紀元 - 高鐵篇</a></li></ul>-->
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/Incident-Handling.html" title="列車服務受阻 應變小幫手">列車服務受阻 應變小幫手</a></li></ul>
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/park-and-ride.html" title="泊車收費及轉乘優惠">泊車收費及轉乘優惠</a></li></ul>
+												<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/latest-news/user-guide.html" title="高速鐵路旅客指南">高速鐵路旅客指南</a></li></ul>
+										</span>
+									</span>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<ul class="sub-menu">
+								<li class="menu-item-title">
+									<a href="javascript:void(0)" class="main-level-item" title="票務資料">票務資料</a>
+								</li>
+								<li class="level-2-menu-item">
+									<span class="level-2-menu-container">
+										<span class="image-container">
+											<span class="icon-l ico-nav-ticket"></span>
+										</span>
+										<span class="level-2-item-block">
+											<ul class="level-2-sub-menu">
+												<li class="menu-item-title">跨境票</li>
+														<li class="level-3-menu-item"><a href="/tc/ticket/destination.html" title="目的地">目的地</a></li>
+														<li class="level-3-menu-item"><a href="/tc/ticket/ticket-type.html" title="車票類別">車票類別</a></li>
+														<li class="level-3-menu-item"><a href="/tc/ticket/fare.html" title="票價">票價</a></li>
+														<li class="level-3-menu-item"><a href="/tc/ticket/timetable.html" title="時間表">時間表</a></li>
+														<li class="level-3-menu-item"><a href="/tc/ticket/real-name-checking.html" title="車票實名制">車票實名制</a></li>
+														<li class="level-3-menu-item"><a href="/tc/ticket/ticket-purchase.html" title="購票">購票</a></li>
+														<!--<li class="level-3-menu-item" style="display: none;"><a href="/tc/ticket/ticket-purchase-e-ticket.html" title="購票">購票</a></li>-->
+														<li class="level-3-menu-item" style="display: none;"><a href="/tc/ticket/ticket-purchase-paper-ticket.html" title="購票">購票</a></li>
+														<li class="level-3-menu-item"><a href="/tc/ticket/after-sales-service.html" title="售後服務">售後服務</a></li>
+														<li class="level-3-menu-item" style="display: none;"><a href="/tc/ticket/after-sales-service-e-ticket.html" title="售後服務">售後服務</a></li>
+														<li class="level-3-menu-item" style="display: none;"><a href="/tc/ticket/after-sales-service-paper-ticket.html" title="售後服務">售後服務</a></li>
+														<li class="level-3-menu-item"><a href="/tc/ticket/special-ticket.html" title="20次計次票 ▪ 30日定期票">20次計次票 ▪ 30日定期票</a></li>
+														<li class="level-3-menu-item"><a href="/tc/ticket/terms.html" title="票務及乘車條款">票務及乘車條款</a></li>
+														<li class="level-3-menu-item" style="display: none;"><a href="/tc/ticket/ticketing-tutorial-12306.html" title="使用電郵建立12306賬戶">使用電郵建立12306賬戶</a></li>
+														<li class="level-3-menu-item" style="display: none;"><a href="/tc/ticket/hsr-vs-12306.html" title="港鐵及12306網上購票服務">港鐵及12306網上購票服務</a></li>
+														<li class="level-3-menu-item" style="display: none;"><a href="/tc/ticket/buy-ticket-12306.html" title="如何於中國鐵路12306網站購票?">如何於中國鐵路12306網站購票?</a></li>
+													</ul>
+											<ul class="level-2-sub-menu">
+												<li class="menu-item-title">内地票</li>
+													<!--<li class="level-3-menu-item"><a href="/tc/ticket/non-cross-purchase-way-mainland.html" title="購票及售後服務">購票及售後服務</a></li>-->
+													<!--<li class="level-3-menu-item"><a href="/tc/ticket/non-cross-purchase-way-hk.html" title="香港購票途徑">香港購票途徑</a></li>-->
+													<li class="level-3-menu-item"><a href="/tc/ticket/non-cross-purchase-way-mainland.html" title="購票及售後服務">購票及售後服務</a></li>
+											</ul>
+										</span>
+									</span>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<ul class="sub-menu">
+								<li class="menu-item-title">
+									<a href="javascript:void(0)" class="main-level-item" title="乘車須知">乘車須知</a>
+								</li>
+								<li class="level-2-menu-item">
+									<span class="level-2-menu-container">
+										<span class="image-container">
+											<span class="icon-l ico-nav-travel-guides"></span>
+										</span>
+										<span class="level-2-item-block">
+											<ul class="level-2-sub-menu">
+												<li class="menu-item-title">乘車須知</li>
+													<li class="level-3-menu-item"><a href="/tc/guide/train-note.html" title="旅客須知">旅客須知</a></li>
+													<li class="level-3-menu-item"><a href="/tc/guide/process-departure.html" title="乘車流程">乘車流程</a></li>
+													<li class="level-3-menu-item" style="display: none;"><a href="/tc/guide/paper-ticket.html" title="乘車流程">乘車流程</a></li>
+													<li class="level-3-menu-item"><a href="/tc/guide/carriage-of-luggage.html" title="行李規章">行李規章</a></li>
+													<li class="level-3-menu-item"><a href="/tc/guide/accessibility.html" title="無障礙乘車">無障礙乘車</a></li>
+											</ul>
+											<ul class="level-2-sub-menu">
+												<li class="menu-item-title"><a href="/tc/guide/local-guides.html" title="出入口資訊">出入口資訊</a></li>
+											</ul>
+											<ul class="level-2-sub-menu">
+												<li class="menu-item-title">交通接駁</li>
+													<li class="level-3-menu-item"><a href="/tc/guide/wek.html" title="香港西九龍站​">香港西九龍站​</a></li>
+													<li class="level-3-menu-item"><a href="/tc/guide/destination.html" title="目的地">目的地</a></li>
+											</ul>
+										</span>
+									</span>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<ul class="sub-menu">
+								<li class="menu-item-title">
+									<a href="javascript:void(0)" class="main-level-item" title="服務及設施">服務及設施</a>
+								</li>
+								<li class="level-2-menu-item">
+									<span class="level-2-menu-container">
+										<span class="image-container">
+											<span class="icon-l ico-nav-facilities"></span>
+										</span>
+										<span class="level-2-item-block">
+											<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/services-facilities/station-facilities.html" title="車站設施">車站設施</a></li></ul>
+											
+											<ul class="level-2-sub-menu">
+												<li class="menu-item-title">列車設施</li>
+													<li class="level-3-menu-item"><a href="/tc/services-facilities/train-facilities.html" title="港鐵動感號">港鐵動感號</a></li>
+													<li class="level-3-menu-item"><a href="/tc/services-facilities/train-fuxing.html" title="臥鋪列車">臥鋪列車</a></li>
+											</ul>
+											<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/services-facilities/apps.html" title="手機應用程式">手機應用程式</a></li></ul>
+											<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/services-facilities/station-art.html" title="車站藝術">車站藝術</a></li></ul>
+											<ul class="level-2-sub-menu">
+												<li class="menu-item-title"><a href="/tc/shop/all.html" title="車站商店及服務列表">車站商店及服務列表</a></li>
+												<li class="menu-item-title" style="display: none;"><a href="/tc/shop/duty-free-store.html" title="免稅店">免稅店</a></li>
+												<li class="menu-item-title" style="display: none;"><a href="/tc/shop/information.html" title="購物指南">購物指南</a></li>
+												<li class="menu-item-title" style="display: none;"><a href="/tc/shop/food.html" title="美食薈萃">美食薈萃</a></li>
+												<li class="menu-item-title" style="display: none;"><a href="/tc/shop/customer-service.html" title="旅客服務">旅客服務</a></li>
+											</ul>
+											<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/services-facilities/tree-art.html" title="探索香港西九龍站的樹木">探索香港西九龍站的樹木</a></li></ul>
+										</span>
+									</span>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<ul class="sub-menu">
+								<li class="menu-item-title">
+									<a href="/tc/travel/attractions.html" class="main-level-item" title="高鐵遊攻略">高鐵遊攻略</a>
+								</li>
+								<!--<li class="level-2-menu-item">
+									<span class="level-2-menu-container">
+										<span class="image-container">
+											<span class="icon-l ico-nav-travel-information"></span>
+										</span>
+										<span class="level-2-item-block">
+											<ul class="level-2-sub-menu">
+												<li class="menu-item-title"><a href="/tc/latest-news/travel-along-high-speed-rail.html" title="高鐵旅遊行程推介">高鐵旅遊行程推介</a></li>
+											</ul>
+											<ul class="level-2-sub-menu"><li class="menu-item-title"><a href="/tc/travel/attractions.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/shenzhen.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/guangzhou.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/humen.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/chaozhou.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/shantou.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/foshan.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/zhaoqing.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/shanghai.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/beijing.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/tianjin.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/kunming.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/wuhan.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/zhengzhou.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/changsha.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/yueyang.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/nanchang.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/shijiazhuang.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/xiamen.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/fuzhou.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/guilin.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/nanning.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/hangzhou.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/guiyang.html" title="景點">景點</a></li></ul>
+											<ul class="level-2-sub-menu" style="display: none;"><li class="menu-item-title"><a href="/tc/travel/chongqing.html" title="景點">景點</a></li></ul>
+										</span>
+									</span>
+								</li>-->
+							</ul>
+						</li>
+						<li class="menu-item">
+							<ul class="sub-menu">
+								<li class="menu-item-title">
+									<a href="javascript:void(0)" class="main-level-item" title="高鐵購物">高鐵購物</a>
+								</li>
+								<li class="level-2-menu-item">
+									<span class="level-2-menu-container">
+										<span class="image-container">
+											<span class="icon-l ico-nav-shops"></span>
+										</span>
+										<span class="level-2-item-block">
+											<ul class="level-2-sub-menu">
+												<li class="menu-item-title">車站商店及服務</li>
+													<li class="level-3-menu-item"><a href="/tc/shop/introduction.html" title="簡介">簡介</a></li>
+													<li class="level-3-menu-item"><a href="/tc/shop/all.html" title="車站商店及服務列表">車站商店及<br/>服務列表</a></li>
+													<li class="level-3-menu-item" style="display: none;"><a href="/tc/shop/duty-free-store.html" title="免稅店">免稅店</a></li>
+													<li class="level-3-menu-item" style="display: none;"><a href="/tc/shop/information.html" title="購物指南">購物指南</a></li>
+													<li class="level-3-menu-item" style="display: none;"><a href="/tc/shop/food.html" title="美食薈萃">美食薈萃</a></li>
+													<li class="level-3-menu-item" style="display: none;"><a href="/tc/shop/customer-service.html" title="旅客服務">旅客服務</a></li>
+													<li class="level-3-menu-item"><a href="/tc/shop/rent-related.html" title="租務查詢">租務查詢</a></li>
+											</ul>
+											<ul class="level-2-sub-menu">
+												<li class="menu-item-title"><a href="/tc/shop/gift-shop.html" title="高鐵精品">高鐵精品</a></li>
+											</ul>
+										</span>
+									</span>
+								</li>
+							</ul>
+						</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-responsive">
+                <div class="header-item-container">
+                    <div class="menu-container">
+                        <button class="icon-s icon-button ico-burger-menu menu-button" title="menu button"></button>
+                    </div>
+                    <div class="logo-container">
+                        <img src="/assets/img/logo/XRLTC.png" alt="高速鐵路">
+                        <img src="/assets/img/logo/MTR.png" alt="港鐵">
+                    </div>
+                    <!-- <div class="action-container">
+                        <button class="icon-s icon-button ico-trip-planner-button trip-planner-button" title="trip planner button"></button>
+                    </div> -->
+                </div>
+                <!--ssi:trip_planner_search_bar-->
+                <div class="sticky-bar-container">
+                    <div class="sticky-content">
+                        <div class="purchase-info">
+                                <div class="buy-now">
+                                    <!--<a href="/tc/main/buy-ticket.html" class="button button-default" title="購買車票">
+                                        <span class="content-wrapper">購買車票</span>
+                                    </a>-->
+									<a href="/tc/main/buy-ticket.html" class="button button-default" title="購買車票">
+                                        <span class="content-wrapper">購買車票</span>
+                                    </a>
+                                    <!--<div class="payment-information">
+                                        <div class="description">售票系統暫只支援桌上或筆記簿型電腦。訂票後請前往香港西九龍站取票。</div>
+                                        <div class="remark">付款方式</div>
+                                        <div class="icon-container">
+                                            <span class="icon-xl ico-visa"></span>
+                                            <span class="icon-xl ico-master"></span>
+                                            <span class="icon-xl ico-union-pay"></span>
+                                        </div>
+                                    </div>-->
+                                </div>
+                            <!--<div class="enquiry-container">
+                                <a href="https://www.ticketing.highspeed.mtr.com.hk/its/OrderSearch/order?lang=zh_HK" class="action-link" target="_blank" title="查詢">查詢</a>
+                                <span>/</span>
+                                <a href="https://www.ticketing.highspeed.mtr.com.hk/its/TicketChange/queryOrder?lang=zh_HK" class="action-link" target="_blank" title="改票">改票</a>
+                            </div>-->
+                        </div>
+                        <div class="trip-planner-search-bar">
+                            <div class="action-item">
+                                <div class="buy-now">
+                                    <!--<a href="/tc/main/buy-ticket-mobile.html" class="button button-default" title="購買車票"><span class="content-wrapper">購買車票</span></a>-->
+									<a href="/tc/main/buy-ticket.html" class="button button-default" title="購買車票"><span class="content-wrapper">購買車票</span></a>
+                                </div>
+                                <!--<div class="payment-information">
+                                    <div class="description">旅客於本網站、購票熱綫或指定代理購買車票, 必須於香港西九龍站取票</div>
+                                    <div class="remark">付款方式</div>
+                                    <div class="icon-container">
+                                        <span class="icon-xl ico-visa"></span>
+                                        <span class="icon-xl ico-master"></span>
+                                        <span class="icon-xl ico-union-pay"></span>
+                                    </div>
+                                </div>
+                                <a href="https://www.ticketing.highspeed.mtr.com.hk/its/OrderSearch/order?lang=zh_HK" class="action-link" target="_blank" title="查詢">查詢</a>
+                                <span>/</span>
+                                <a href="https://www.ticketing.highspeed.mtr.com.hk/its/TicketChange/queryOrder?lang=zh_HK" class="action-link" target="_blank" title="改票">改票</a>-->
+                            </div>
+                            <div class="search-bar-container">
+                                <div class="trip-planner-select-container">
+                                    <div class="select-container destination">
+                                        <span class="container-button"><span class="content-wrapper">起點</span></span>
+                                        <div class="select-box">
+                                            <select class="dropdown" title="請選擇起點車站">
+                                                <option value="" selected disabled hidden>請選擇起點車站</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="icon-container">
+                                        <button class="icon-l icon-button ico-switch trip-planner-switch" title="轉換起點終點"></button>
+                                    </div>
+                                    <div class="select-container destination">
+                                        <span class="container-button"><span class="content-wrapper">終點</span></span>
+                                        <div class="select-box">
+                                            <select class="dropdown" title="請選擇終點車站">
+                                                <option value="" selected disabled hidden>請選擇終點車站</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="search-button button button-secondary" disabled title="搜尋車費及時間表">搜尋車費及時間表</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end of ssi:trip_planner_search_bar-->
+			</div>
+        </header>
+        <div class="traffic-news">
+            <a class="message" href="javascript:void(0)" title="最新服務資訊">
+                <span class="message-icon icon-l icon-inline"></span>
+                <span class="content-wrapper"></span>
+            </a>
+        </div><!--end of ssi:header-->
+		<div class="content-container" id="main">
+			<!--ssi:trip_planner_search_bar-->
+                <div class="sticky-bar-container">
+                    <div class="sticky-content">
+                        <div class="purchase-info">
+                                <div class="buy-now">
+                                    <!--<a href="/tc/main/buy-ticket.html" class="button button-default" title="購買車票">
+                                        <span class="content-wrapper">購買車票</span>
+                                    </a>-->
+									<a href="/tc/main/buy-ticket.html" class="button button-default" title="購買車票">
+                                        <span class="content-wrapper">購買車票</span>
+                                    </a>
+                                    <!--<div class="payment-information">
+                                        <div class="description">售票系統暫只支援桌上或筆記簿型電腦。訂票後請前往香港西九龍站取票。</div>
+                                        <div class="remark">付款方式</div>
+                                        <div class="icon-container">
+                                            <span class="icon-xl ico-visa"></span>
+                                            <span class="icon-xl ico-master"></span>
+                                            <span class="icon-xl ico-union-pay"></span>
+                                        </div>
+                                    </div>-->
+                                </div>
+                            <!--<div class="enquiry-container">
+                                <a href="https://www.ticketing.highspeed.mtr.com.hk/its/OrderSearch/order?lang=zh_HK" class="action-link" target="_blank" title="查詢">查詢</a>
+                                <span>/</span>
+                                <a href="https://www.ticketing.highspeed.mtr.com.hk/its/TicketChange/queryOrder?lang=zh_HK" class="action-link" target="_blank" title="改票">改票</a>
+                            </div>-->
+                        </div>
+                        <div class="trip-planner-search-bar">
+                            <div class="action-item">
+                                <div class="buy-now">
+                                    <!--<a href="/tc/main/buy-ticket-mobile.html" class="button button-default" title="購買車票"><span class="content-wrapper">購買車票</span></a>-->
+									<a href="/tc/main/buy-ticket.html" class="button button-default" title="購買車票"><span class="content-wrapper">購買車票</span></a>
+                                </div>
+                                <!--<div class="payment-information">
+                                    <div class="description">旅客於本網站、購票熱綫或指定代理購買車票, 必須於香港西九龍站取票</div>
+                                    <div class="remark">付款方式</div>
+                                    <div class="icon-container">
+                                        <span class="icon-xl ico-visa"></span>
+                                        <span class="icon-xl ico-master"></span>
+                                        <span class="icon-xl ico-union-pay"></span>
+                                    </div>
+                                </div>
+                                <a href="https://www.ticketing.highspeed.mtr.com.hk/its/OrderSearch/order?lang=zh_HK" class="action-link" target="_blank" title="查詢">查詢</a>
+                                <span>/</span>
+                                <a href="https://www.ticketing.highspeed.mtr.com.hk/its/TicketChange/queryOrder?lang=zh_HK" class="action-link" target="_blank" title="改票">改票</a>-->
+                            </div>
+                            <div class="search-bar-container">
+                                <div class="trip-planner-select-container">
+                                    <div class="select-container destination">
+                                        <span class="container-button"><span class="content-wrapper">起點</span></span>
+                                        <div class="select-box">
+                                            <select class="dropdown" title="請選擇起點車站">
+                                                <option value="" selected disabled hidden>請選擇起點車站</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="icon-container">
+                                        <button class="icon-l icon-button ico-switch trip-planner-switch" title="轉換起點終點"></button>
+                                    </div>
+                                    <div class="select-container destination">
+                                        <span class="container-button"><span class="content-wrapper">終點</span></span>
+                                        <div class="select-box">
+                                            <select class="dropdown" title="請選擇終點車站">
+                                                <option value="" selected disabled hidden>請選擇終點車站</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="search-button button button-secondary" disabled title="搜尋車費及時間表">搜尋車費及時間表</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end of ssi:trip_planner_search_bar-->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="container">
+						<div class="inner-content-container row">
+							<div class="clearfix">
+								<ul id="breadcrumb" class="breadcrumb">
+								</ul>
+								<div class="title-box"><h1 class="h2">時間表</h1></div>
+							</div>
+							<div class="scrollable-tab">
+                                <div class="tab-container scrollable-content">
+                                    <button class="slide-button prev icon icon-button ico-arrow-left-grey"></button>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><a class="tab-item" href="/tc/ticket/destination.html"><span class="content-wrapper" section="destination">目的地</span></a></div>
+                                        <div class="swiper-slide"><a class="tab-item" href="/tc/ticket/ticket-type.html"><span class="content-wrapper" section="introduction">車票類別</span></a></div>
+                                        <div class="swiper-slide"><a class="tab-item" href="/tc/ticket/fare.html"><span class="content-wrapper" section="fare">票價</span></a></div>
+                                        <div class="swiper-slide active"><a class="tab-item" href="/tc/ticket/timetable.html"><span class="content-wrapper" section="timetable">時間表</span></a></div>
+                                        <div class="swiper-slide"><a class="tab-item" href="/tc/ticket/real-name-checking.html"><span class="content-wrapper" section="real-name-registration">車票實名制</span></a></div>
+                                        <div class="swiper-slide"><a class="tab-item" href="/tc/ticket/ticket-purchase.html"><span class="content-wrapper" section="ticket-purchase">購票</span></a></div>
+                                        <div class="swiper-slide"><a class="tab-item" href="/tc/ticket/after-sales-service.html"><span class="content-wrapper" section="after-purchase">售後服務</span></a></div>
+                                        <div class="swiper-slide"><a class="tab-item" href="/tc/ticket/special-ticket.html"><span class="content-wrapper" section="special-offer">20次計次票 ‧ 30日定期票 </span></a></div>
+                                        <div class="swiper-slide"><a class="tab-item" href="/tc/ticket/terms.html"><span class="content-wrapper" section="service-tnc">票務及乘車條款</span></a></div>
+                                    </div>
+                                    <button class="slide-button next icon icon-button ico-arrow-right-grey"></button>
+                                </div>
+                                <div class="select-container locations">
+                                    <div class="select-box">
+                                        <select class="dropdown">
+                                            <option value="" selected disabled hidden>請選擇</option>
+                                            <option section="destination" value="destination">目的地</option>
+                                            <option section="introduction" value="introduction">車票類別</option>
+                                            <option section="fare" value="fare">票價</option>
+                                            <option section="timetable" value="timetable">時間表</option>
+                                            <option section="real-name-registration" value="real-name-registration">車票實名制</option>
+                                            <option section="ticket-purchase" value="ticket-purchase">購票</option>
+                                            <option section="after-purchase" value="after-purchase">售後服務</option>
+                                            <option section="special-offer" value="special-offer">20次計次票 ‧ 30日定期票 </option>
+                                            <option section="service-tnc" value="service-tnc">票務及乘車條款</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+							<div class="tab-wrapper">
+								<div class="tab-content-container styled-text-wrapper">
+									<div class="tab-content">
+										<div class="image-container">
+											<!-- <img src="/res/media/web/shop/default.jpg" alt=""> -->
+										</div>
+										<!--ssi:timetable-->
+	<div class="table-container">
+		
+		<p>下載高鐵時間表：</p>
+		
+		
+		<a href="/res/pdf/short-haul-train-timetable.pdf" class="button button-default" title="短途列車時間表" target="_blank"><span class="content-wrapper">短途列車時間表</span></a>
+		<a href="/res/pdf/long-haul-train-timetable.pdf" class="button button-default" title="長途列車時間表" target="_blank"><span class="content-wrapper">長途列車時間表</span></a>
+		<p></p>
+		
+		<!--
+		<table class="general-table" style="min-width: unset">
+			<thead>
+				<tr>
+					<th style="width:25%">長途列車時間表<br>(有效期至2026年4月14日)</th>
+					<th style="width:25%; background-color: #ff8c44">長途列車時間表<br>(生效日期: 2026年4月15日)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="center-column"><a class="button button-default" href="/res/pdf/long-haul-train-timetable.pdf" target="_blank"><span class="content-wrapper">下載</span></a></td>
+					<td class="center-column"><a class="button button-default" href="/res/pdf/long-haul-train-timetable-apr.pdf" target="_blank"><span class="content-wrapper">下載</span></a></td>
+				</tr>
+			</tbody>
+		</table>-->
+		<p></p>
+		
+		
+
+		<!--
+		<p></p>
+		<p>下載特別高鐵時間表：</p>
+		<a class="button button-default" href="/res/pdf/long-haul-train-timetable.pdf" target="_blank"><span class="content-wrapper">特別列車時間表</span></a>
+		-->
+		
+		
+		<!-- 動臥列車時間表 -->
+		<p></p>
+		<p>查看臥鋪列車時間表：</p>
+		
+		<a href="/res/pdf/sleeper-train-rmb-published-fare-chart.pdf" class="button button-default" title="臥鋪列車時間表" target="_blank"><span class="content-wrapper">臥鋪列車時間表</span></a>
+		<!--		
+		<a href="/res/pdf/sleeper-train-rmb-published-fare-chart-jan.pdf" class="button button-default" title="臥鋪列車時間表" target="_blank"><span class="content-wrapper">生效日期: 2025年1月5日</span></a>
+		-->
+		<!-- <p><div class="table-container">
+									<table class="general-table" style="min-width: 0px;">
+										<thead>
+											<tr>
+											  <th width="30%" style="width:30%">
+													<strong>有效至2024年9月30日</strong>
+												</th>
+											  <th width="30%" style="width:30%">
+													<strong>生效日期: 2024年10月1日</strong>
+												</th>
+											  <th width="40%" style="width:40%">
+													<strong>2024年9月30日至10月2日的特別班次</strong>
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td width="25%" align="center">
+												  <a href="/res/pdf/sleeper-train-rmb-published-fare-chart.pdf" class="button button-default" title="有效至2024年9月30日" target="_blank"><span class="content-wrapper">下載</span></a>												
+												</td>
+												<td width="25%" align="center">
+												  <a href="/res/pdf/sleeper-train-rmb-published-fare-chart-oct.pdf" class="button button-default" title="生效日期: 2024年10月1日" target="_blank"><span class="content-wrapper">下載</span></a></td>
+												<td width="25%" align="center">
+												  <a href="/res/pdf/sleeper-train-rmb-published-fare-chart-special.pdf" class="button button-default" title="2024年9月30日至10月2日的特別班次" target="_blank"><span class="content-wrapper">下載</span></a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+									</p>-->
+	</div>
+<!--end of ssi:timetable-->
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		                <!--ssi:footer-->
+                <button class="icon-button back-to-top-container" title="置頂">
+                    <span class="inner-container-box"><span class="icon-s ico-arrow-up-grey"></span><!--<span class="button-text">置頂</span>--></span>
+                </button>
+                <footer class="footer-section">
+                    <ul class="footer-item-container">
+                        <li class="footer-item"><a href="/tc/main/important-notice.html">重要告示</a></li>
+                        <li class="footer-item"><a href="/tc/main/terms-and-conditions.html">使用條款</a></li>
+                        <li class="footer-item"><a href="/tc/main/privacy-policy.html">私隱政策</a></li>
+                        <li class="footer-item"><a href="/tc/main/mtr-by-laws.html">香港鐵路附例</a></li>
+                    </ul>
+                    <ul class="footer-item-container">
+                        <li class="footer-item"><a href="/tc/main/contact-us.html">聯絡我們</a></li>
+                        <li class="footer-item"><a href="/tc/main/cross-boundary-ticket-purchase.html">常見問題</a></li>
+                        <li class="footer-item"><a href="/tc/main/useful-links.html">重要連結</a></li>
+                        <li class="footer-item"><a href="/tc/main/sitemap.html">網站指南</a></li>
+                    </ul>
+                    <p>© <span id="currentYear"></span> 香港鐵路有限公司</p>
+                </footer>
+                <script type="text/javascript">
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var currentYear = new Date().getFullYear();
+                        document.getElementById('currentYear').textContent = currentYear;
+                    });
+                </script>
+                <!--end of ssi:footer-->
+        <script>
+            $(document).ready(function(){
+                //sticky tab
+                $(window).on('scroll scrollstart', function(){
+                    initStickyBar()
+                })
+    
+                initLangSwitch();
+                initBackToTop();
+    
+                function initStickyBar(){
+                    $.map($('.content-container .sticky-bar-container'), function(item, index){
+                        var offsetTop = $(item).offset().top
+                        if($(document).scrollTop() >= offsetTop && $(document).width() > 960){
+                            if(!$(item).hasClass('sticky')){
+                                $('.sticky').removeClass('sticky')
+                                $(item).height($(item).find('.sticky-content').outerHeight())
+                                $(item).addClass('sticky')
+                            } 
+                        } else {
+                            if($(item).hasClass('sticky')){
+                                $('.sticky').removeClass('sticky')
+                                $(item).removeClass('sticky').height('auto')
+                            }
+                        }
+                    })
+                }
+    
+                function initLangSwitch(){
+                    $.map($('.lang-switch'), function(item, id){
+                        $.map($(item).children(), function(item, id){
+                            var newLink = window.location.pathname.replace(/(\/tc|\/sc|\/en)/g, '') + (window.location.pathname == '/' ? 'main/index.html' : '') + window.location.search
+                            $(item).attr('href', '/' + $(item).attr('langKey') + newLink)
+                        })
+                    })
+                }
+    
+            })
+        </script>
+            <script>
+                $(document).ready(function(){
+                    var activeSlides = window.location.hash ? window.location.hash.split('#')[1] : 0
+                    activeSlides = parseInt(activeSlides) ? parseInt(activeSlides) : 0
+                    $.map($('.scrollable-tab .dropdown').children(), function(item, id){
+                        var selected = $(item).parents('.select-container').siblings('.tab-container').find('.active .content-wrapper').attr('section')
+                        $(item).attr('section') == selected ? $(item).parents('.dropdown').val(selected) : null
+                    })
+    
+                    $('.scrollable-tab .dropdown').change(function(event){
+                        var selected = event.target.value
+                        $(this).parents('.select-container').siblings('.tab-container').find("[section=" + selected + "]").trigger('click');
+                    })
+    
+                    $('.scrollable-tab .tab-item').on('click', function(e){
+                        e.preventDefault()
+                        window.location.href = $(this).attr('href') + (activeSlides == 0 ? '' : ('#' + activeSlides))
+                    })
+    
+                    initScrollableTab(activeSlides)
+                    
+                    function initScrollableTab(){
+                        var swiper = new Swiper('.scrollable-tab .scrollable-content', {
+                            centeredSlides: false,
+                            slidesPerView: 'auto',
+                            spaceBetween : 0,
+                            initialSlide: activeSlides,
+                            autoHeight: false,
+                            autoResize: true,
+                            navigation: {
+                                nextEl: '.next',
+                                prevEl: '.prev'
+                            },
+                            onSlideChangeEnd:function(){
+                                swiper.update(true);
+                            }
+                        })
+                        swiper.on('slideChange', function (e) {
+                            activeSlides = swiper.activeIndex
+                            window.location.hash = activeSlides
+                        });
+                    }
+                })
+            </script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "actor": "user",
+  "query_count": 5,
+  "taipei_structural_cells": 66,
+  "remaining_macao_directed_cells": 64,
+  "reference_max_core32_min": 4555.0,
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1l_plan_20261113_174756_385808",
+  "protocol": {
+    "core_job": "user_stage1k_matrix_20261113_171823_241363",
+    "core32_csv_sha256": "fccec4e1f30616c15cd84867fb1be3005ede4f294554747d56275c0c85738fc7",
+    "source_registry_sha256": "553ded2c1f765dfd60623bb5c033b3b609ea4f755e47ca962845c4f71372a194",
+    "query_count": 5,
+    "rail_transfer_min": 60,
+    "access_minutes_scenarios": [
+      30,
+      60,
+      90
+    ],
+    "access_minutes_are_assumptions": true,
+    "macao_representative": "澳门（关闸澳门侧）",
+    "mainland_access_station": "珠海",
+    "connection_mode": "rail_plus_walking_and_border_clearance",
+    "port_open_local": "06:00",
+    "port_close_next_day_local": "01:00",
+    "taipei_rule": "structural rail disconnection per assignment, supported by official planning sources; not query failure",
+    "penalty_factors": [
+      2,
+      5,
+      10
+    ],
+    "penalty_reference": "maximum finite directed core32 timetable-model time",
+    "snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00"
+  },
+  "note": "Penalty parameters are prepared; no incomplete full34 algorithm matrix is manufactured at this stage."
+}

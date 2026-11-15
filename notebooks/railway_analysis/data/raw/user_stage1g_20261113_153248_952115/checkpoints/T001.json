@@ -1,0 +1,103 @@
+{
+  "query": {
+    "query_id": "T001",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-18",
+    "from_city": "广州",
+    "to_city": "拉萨",
+    "from_station": "广州白云",
+    "to_station": "拉萨",
+    "reason": "exact known arrival station to unresolved destination; arrival day or next day",
+    "affected_pairs": "海口→拉萨",
+    "from_code": "GBA",
+    "to_code": "LSO"
+  },
+  "source": {
+    "source_id": "T001",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-18",
+      "leftTicketDTO.from_station": "GBA",
+      "leftTicketDTO.to_station": "LSO",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-13T15:32:57.985497+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-18&leftTicketDTO.from_station=GBA&leftTicketDTO.to_station=LSO&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 07:33:01 GMT",
+    "raw_file": "data\\raw\\user_stage1g_20261113_153248_952115\\sessions\\20261113_153248_976613\\T001.bin",
+    "bytes": 896,
+    "sha256": "97867e6b576ff348a40f70a50985ef659b0216cf330eadedf75d022ba41c8b70"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-13T15:32:51.983738+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 07:32:55 GMT",
+    "raw_file": "data\\raw\\user_stage1g_20261113_153248_952115\\sessions\\20261113_153248_976613\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "records": [
+    {
+      "query_id": "T001",
+      "query_date": "2026-11-18",
+      "train_no": "650000Z26403",
+      "train_code": "Z264",
+      "origin_service_date": "2026-11-18",
+      "requested_from": "广州白云",
+      "requested_to": "拉萨",
+      "from_code": "GBA",
+      "to_code": "LSO",
+      "from_name": "广州白云",
+      "to_name": "拉萨",
+      "same_as_requested_stations": true,
+      "from_dictionary_city": "广州",
+      "to_dictionary_city": "拉萨",
+      "departure_clock": "09:26",
+      "arrival_clock": "14:53",
+      "duration_text": "53:27",
+      "duration_min": 3207,
+      "departure_at": "2026-11-18T09:26:00+08:00",
+      "arrival_at": "2026-11-20T14:53:00+08:00",
+      "arrival_day_offset": 2,
+      "can_web_buy": "Y",
+      "raw_row_index": 0,
+      "raw_file": "data\\raw\\user_stage1g_20261113_153248_952115\\sessions\\20261113_153248_976613\\T001.bin",
+      "raw_sha256": "97867e6b576ff348a40f70a50985ef659b0216cf330eadedf75d022ba41c8b70",
+      "measurement_kind": "queried_train_schedule_not_measured_actual_travel"
+    }
+  ],
+  "issues": [
+    {
+      "query_id": "T001",
+      "raw_row_index": 0,
+      "severity": "review",
+      "issue": "duration_over_48h_retained",
+      "details": "3207"
+    }
+  ],
+  "quality": {
+    "status": "validated_records",
+    "raw_count": 1,
+    "valid_count": 1,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 0
+  },
+  "parser_version": "stage1c-station-metadata-v2"
+}

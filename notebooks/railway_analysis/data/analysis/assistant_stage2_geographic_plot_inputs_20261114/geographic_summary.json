@@ -1,0 +1,31 @@
+{
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_geographic_analysis_20261114_165132_458783",
+  "alignment_count": 12,
+  "representative_models": 8,
+  "source_city_count": 34,
+  "connected33_unique_pairs": 528,
+  "time_geography_spearman_33": 0.8742376453739596,
+  "time_geography_spearman_32": 0.88107652120738,
+  "example_min_geographic_km": 200,
+  "candidate_examples": 20,
+  "geographic_alignment_computed": true,
+  "geographic_alignment_verified": false,
+  "external_economic_causal_explanation_complete": false,
+  "clustering_complete": false,
+  "plots_created_by_python": false,
+  "limitations": [
+    "Geographic agreement is a descriptive comparison, not a criterion for selecting the best rail-time embedding",
+    "Alignment residuals are projected shape discrepancies, not errors in travel time, track length or real city locations",
+    "Time/geographic-distance ratio is not running speed; it includes waiting and assumed Macau access",
+    "Taipei penalties excluded from actual time-geography city-pair analysis",
+    "Candidate pairs are descriptive leads requiring route evidence and external sources, not causal or construction recommendations"
+  ],
+  "output_files_sha256": {
+    "aligned_coordinates.csv": "7cba3013bb30bc4d277a987f65c32107c5eb5e27935a5798315ad26ddaa64ada",
+    "alignment_transforms.json": "809b019dad7260ed742307a29d14a6a1368718b73a55a7e7d83667552cf1033b",
+    "candidate_city_pair_examples.csv": "5f872bcadc0cd48d6010827081bb187e4deb827027c94c021caf354eadce24b7",
+    "geographic_alignment_quality.csv": "b5f31e5bf7e6a8ba32a64bafa2c64a6b0fafd3df706b8f2990271a9ca832e12f",
+    "protocol.json": "4cc0ec36bf3f95895811b0689859c7d6d30fa6a19136ad0dbfe41d8e4b66ae38",
+    "time_geographic_city_pairs.csv": "98b7c49b2b02855e30acbda388259a788a544e7af61fd9f2b9941f7a33aa0868"
+  }
+}

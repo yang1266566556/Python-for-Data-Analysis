@@ -1,0 +1,23 @@
+{
+  "actor": "user",
+  "created_at": "2026-11-13T17:48:29.931437+08:00",
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "parser_version": "stage1c-station-metadata-v2",
+  "code_hashes": {
+    "stage1l_access.py": "128e6d77fd0360d9d0790fa8e5681d32e038fe3112fc24a907195b30327851f7",
+    "stage1l_matrix.py": "1c5276b826936ae905fc5a8052bc49edf7a34155e4c611926bdde63bb258bbc5",
+    "stage1k_manual_retry.py": "2db8f5a55f6228a3c06fe84cc6506bf7549a25d45f98b37c19e006c64be1c766",
+    "stage1d_routes.py": "dca29e5c746b71ceee053c04808801b62ca6e3e02cd6ae90da1fb0801f01361f",
+    "stage1c_parser_v2.py": "dc265e8698b4232547229841918c7665d09d693b5abbbf4d8633a676fc3bbd46",
+    "stage1_collect.py": "863bc7570084920dbe36f483a48436a1d474bfc9bafcfffca3234228a2cf37fb"
+  }
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "source_id": "traininfo_page",
+    "actor": "assistant",
+    "url": "https://kyfw.12306.cn/otn/queryTrainInfo/init",
+    "params": null,
+    "accessed_at": "2026-11-13T16:05:40.720573+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/queryTrainInfo/init",
+    "content_type": "text/html;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:05:45 GMT",
+    "raw_file": "evidence\\official_traininfo_frontend_20261113_160540\\traininfo_page.bin",
+    "bytes": 35225,
+    "sha256": "50a0310501c5cf83e95a616dd4e6ebf29522ae14f20afb3b5784a971d3440fce"
+  },
+  {
+    "source_id": "traininfo_js_0",
+    "actor": "assistant",
+    "url": "https://kyfw.12306.cn/otn/resources/merged/queryTrainInfo_js.js?scriptVersion=1.95059",
+    "params": null,
+    "accessed_at": "2026-11-13T16:05:43.720626+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/merged/queryTrainInfo_js.js?scriptVersion=1.95059",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:05:46 GMT",
+    "raw_file": "evidence\\official_traininfo_frontend_20261113_160540\\traininfo_js_0.bin",
+    "bytes": 395350,
+    "sha256": "5811d9e875b9c74906e4a06bf65757291e8e9b9bcaa3f47e32d3c86f50bf707e"
+  }
+]

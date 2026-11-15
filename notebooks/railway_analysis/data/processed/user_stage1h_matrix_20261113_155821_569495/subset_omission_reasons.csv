@@ -1,0 +1,4 @@
+﻿node_id,city,reason,kept_in_full34
+N26,拉萨,missing_initial_departure_timetable_not_unreachable,True
+N33,澳门,Macau_access_not_verified,True
+N34,台北,Taipei_cross_sea_rail_disconnection_in_assignment_source_pending,True

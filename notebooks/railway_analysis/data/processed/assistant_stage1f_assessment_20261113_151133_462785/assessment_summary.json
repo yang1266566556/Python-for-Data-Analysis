@@ -1,0 +1,82 @@
+{
+  "actor": "assistant",
+  "primary_run": "user_stage1c_v2_20261113_132207_325427",
+  "supplement_run": "user_stage1e_20261113_143455_080165",
+  "baseline_user_routing_run": "user_stage1d_routes_20261113_141703_918913",
+  "merge": {
+    "primary_records": 22137,
+    "old_records_replaced": 2226,
+    "refreshed_records": 2223,
+    "later_date_records": 4818,
+    "merged_records": 26952,
+    "completed_supplement_queries": 385,
+    "uncollected_supplement_queries": 119,
+    "train_csv_sha256": "ddcf593bc408150dc0494c3b3145aa8a1afafc26a3f562a0b28194a39c453fe1",
+    "supplement_csv_sha256": "6ca80e8a23e3cd97f335abb4c30ce99b7513ed6b72608b0165ae02d498147422",
+    "unknown_source_issues": 137,
+    "source_deadline": "2026-11-13T21:28:30.987887+08:00"
+  },
+  "source_conflicts": 0,
+  "comparisons": [
+    {
+      "scenario": "draft83_60",
+      "before_finite": 933,
+      "after_finite": 959,
+      "currently_missing": 33,
+      "newly_found": 26,
+      "shorter": 36,
+      "unchanged": 897,
+      "longer": 0,
+      "lost": 0,
+      "origins_without_known_first_departure": "拉萨"
+    },
+    {
+      "scenario": "observed_group_30",
+      "before_finite": 936,
+      "after_finite": 960,
+      "currently_missing": 32,
+      "newly_found": 24,
+      "shorter": 29,
+      "unchanged": 907,
+      "longer": 0,
+      "lost": 0,
+      "origins_without_known_first_departure": "拉萨"
+    },
+    {
+      "scenario": "observed_group_60",
+      "before_finite": 934,
+      "after_finite": 960,
+      "currently_missing": 32,
+      "newly_found": 26,
+      "shorter": 36,
+      "unchanged": 898,
+      "longer": 0,
+      "lost": 0,
+      "origins_without_known_first_departure": "拉萨"
+    },
+    {
+      "scenario": "observed_group_90",
+      "before_finite": 932,
+      "after_finite": 959,
+      "currently_missing": 33,
+      "newly_found": 27,
+      "shorter": 42,
+      "unchanged": 890,
+      "longer": 0,
+      "lost": 0,
+      "origins_without_known_first_departure": "拉萨"
+    }
+  ],
+  "targeted_query_count": 16,
+  "target_plan_sha256": "b079f93155ddbea6eab83c65a07c3dee3d2c59b6061393777fdf73d99b49023b",
+  "merged_csv_sha256": "53f42aa14103f8eb53e86fe595a6e996f4b5ca831591425932d66068d9820457",
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1f_assessment_20261113_151133_462785",
+  "matrix_ready": false,
+  "collection_scope": "Initial 385 supplement responses only; remaining 119 remain unqueried, not assumed unnecessary for all faster-path searches",
+  "next_action": "Target exact arrived stations; do not repeatedly refresh unavailable Lhasa departures",
+  "limits": [
+    "Known first-departure-day records remain mandatory",
+    "No geometric or static-time substitutes",
+    "Node/station scope, unknown timetables and regional connectivity still need final review"
+  ]
+}

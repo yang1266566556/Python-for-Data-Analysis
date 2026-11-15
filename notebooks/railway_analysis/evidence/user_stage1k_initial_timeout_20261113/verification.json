@@ -1,0 +1,32 @@
+{
+  "user_core_codes_received": [
+    27,
+    28,
+    29
+  ],
+  "initial_page_get_timed_out": true,
+  "http_status_received": false,
+  "completed_train_queries": 0,
+  "remaining_train_queries": 6,
+  "core29_skipped_merge": true,
+  "previous_valid_data_unchanged": true,
+  "failed_branch": "user_stage1k_20261113_164250_874496",
+  "failed_blocked_json_sha256": "4ae9eca5c43c093b1a90eed88ee67d47fa0aa266c141ee5b4f6c6d5ffcac4d6c",
+  "reviewed_manual_retry": {
+    "failed_job": "user_stage1k_20261113_164250_874496",
+    "initialization_timeout_verified": true,
+    "old_completed_train_queries": 0,
+    "failed_branch_unchanged": true,
+    "timeout_connect_seconds": 30,
+    "timeout_read_seconds": 45,
+    "automatic_retry": false,
+    "snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00"
+  },
+  "old_scripts_unchanged": true,
+  "assistant_network_requests_this_turn": 0,
+  "manual_retry_not_executed_by_assistant": true,
+  "offline_mocked_tests_passed": 5,
+  "next_txt_syntax_passed": true,
+  "network_success_not_yet_verified": true,
+  "docx_created": false
+}

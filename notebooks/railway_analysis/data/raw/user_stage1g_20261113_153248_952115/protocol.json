@@ -1,0 +1,12 @@
+{
+  "primary_run": "user_stage1c_v2_20261113_132207_325427",
+  "first_departure_date": "2026-11-18",
+  "snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00",
+  "total_queries": 16,
+  "parser_version": "stage1c-station-metadata-v2",
+  "automatic_retries": 0,
+  "request_interval_seconds": 3,
+  "limit": "Exact-station diagnostic queries, not all-route completeness; original 119 requests preserved as pending",
+  "merged_csv_sha256": "53f42aa14103f8eb53e86fe595a6e996f4b5ca831591425932d66068d9820457",
+  "target_plan_sha256": "b079f93155ddbea6eab83c65a07c3dee3d2c59b6061393777fdf73d99b49023b"
+}

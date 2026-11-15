@@ -1,0 +1,16 @@
+# Python 3.12；前六项版本来自原实验protocol，整理时亦已核对。
+numpy==2.5.0
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
+umap-learn==0.6.0
+requests==2.34.2
+
+# 以下为2026-11-15只读核对的配套版本，不是原实验完整依赖锁文件。
+matplotlib==3.11.0
+ipython==9.14.0
+ipykernel==7.2.0
+notebook==7.5.6
+numba==0.68.1
+pynndescent==0.7.0
+threadpoolctl==3.5.0

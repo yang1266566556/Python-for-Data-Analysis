@@ -1,0 +1,47 @@
+{
+  "run_id": "user_pilot_20261105_220920_089173",
+  "actor": "user",
+  "started_at": "2026-11-05T22:09:20.093147+08:00",
+  "query_date": "2026-11-10",
+  "protocol_sha256": "6b8de176b8f73c6883add95c9bb70c7b7ebcc9a9443b144de3658b0800396e34",
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "seed": 20261110,
+  "note": "No stochastic algorithm executed. Pilot is not a full matrix or a shortest-route experiment.",
+  "verified_field_mapping": {
+    "train_no": 2,
+    "station_train_code": 3,
+    "from_station_telecode": 6,
+    "to_station_telecode": 7,
+    "start_time": 8,
+    "arrive_time": 9,
+    "lishi": 10,
+    "canWebBuy": 11,
+    "start_train_date": 13
+  },
+  "finished_at": "2026-11-05T22:09:40.229754+08:00",
+  "summary": {
+    "run_id": "user_pilot_20261105_220920_089173",
+    "actor": "user",
+    "query_date": "2026-11-10",
+    "node_count": 34,
+    "candidate_station_count": 82,
+    "missing_candidate_stations": 0,
+    "attempted_queries": 8,
+    "validated_queries": 7,
+    "train_record_count": 249,
+    "issue_count": 0,
+    "fatal_error": null,
+    "raw_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_pilot_20261105_220920_089173",
+    "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_pilot_20261105_220920_089173",
+    "matrix_ready": false
+  }
+}

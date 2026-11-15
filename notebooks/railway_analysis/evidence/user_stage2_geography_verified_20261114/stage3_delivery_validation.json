@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-14T17:15:36.813011+08:00",
+  "geographic_verification": {
+    "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_geographic_analysis_20261114_165132_458783",
+    "verified_alignments": 12,
+    "verified_coordinate_rows": 404,
+    "hashes_passed": true,
+    "similarity_transforms_reproduced": true,
+    "geographic_metrics_reproduced": true,
+    "connected33_unique_pairs": 528,
+    "geographic_comparison_computed_and_verified": true,
+    "external_economic_explanation_complete": false,
+    "clustering_complete": false
+  },
+  "cluster_plan": {
+    "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\assistant_stage3_cluster_plan_20261114_171536_488304",
+    "representations": 34,
+    "main_parameter_representations": 8,
+    "unique_cluster_runs": 198,
+    "algorithm_counts": {
+      "HAC_average": 50,
+      "PAM": 66,
+      "DBSCAN": 82
+    },
+    "representative_partitions": 102,
+    "data_only_preparation": true,
+    "course_clustering_executed": false,
+    "actor": "assistant",
+    "plan_sha256": "321bdbceb9cd1f8bd6da8367037f6e57d957b1dc588a1a6c70f1d685c4e0892e"
+  },
+  "actual_representations_reload_verified": 34,
+  "synthetic_contract_tests_passed": 5,
+  "synthetic_complete_pipeline_cluster_runs": 198,
+  "synthetic_stability_pairs": 176,
+  "synthetic_representation_comparisons": 183,
+  "synthetic_representative_partitions": 102,
+  "real_course_clusters_fit_by_assistant": false,
+  "txt": "问题3_三种聚类与表示稳定性_核心1至3.txt",
+  "txt_sha256": "230091e6b59b96eb78a01ce4636febd71b55fa723171473fba73b89f61a9bc7e",
+  "txt_cells_compile": 3,
+  "helper_sha256": {
+    "stage3_algorithms.py": "9889d72a56933065464a4b9d30777adc4de7ff382dae329197ad56a7cf7d7b1e",
+    "stage3_clustering.py": "ec93fe973bf1b47dce8f9248e9af4e4e31a2e53959439665d19c03c792632a01"
+  },
+  "geographic_R_figures_visually_verified": 6
+}

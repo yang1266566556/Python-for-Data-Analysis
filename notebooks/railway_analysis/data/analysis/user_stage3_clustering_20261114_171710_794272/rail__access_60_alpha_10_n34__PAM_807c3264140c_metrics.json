@@ -1,0 +1,77 @@
+{
+  "record": {
+    "run_id": "rail__access_60_alpha_10_n34__PAM_807c3264140c",
+    "representation_id": "rail__access_60_alpha_10_n34",
+    "dataset_id": "access_60_alpha_10_n34",
+    "family": "rail_time",
+    "algorithm": "PAM",
+    "node_count": 34,
+    "representative": true,
+    "tags": "representative",
+    "k": 4,
+    "seed": 42,
+    "eps": "",
+    "min_samples": "",
+    "seconds": 0.003923600001144223,
+    "objective": 13.66367713004484,
+    "accepted_swaps": 4,
+    "converged": true,
+    "stop_reason": "no improving single-medoid swap",
+    "n_clusters": 4,
+    "n_noise": 0,
+    "assigned_count": 34,
+    "assigned_fraction": 1.0,
+    "smallest_cluster": 1,
+    "largest_cluster": 14,
+    "silhouette_input": 0.33784652961002215,
+    "silhouette_original_rail": 0.33784652961002204,
+    "calinski_harabasz": null,
+    "davies_bouldin": null,
+    "silhouette_status": "computed on non-noise points only",
+    "euclidean_indices_status": "not applicable to original dissimilarity matrix"
+  },
+  "parameters": {
+    "k": 4,
+    "seed": 42,
+    "max_iter": 100,
+    "tol": 1e-10
+  },
+  "details": {
+    "initial_medoid_indices": [
+      2,
+      14,
+      21,
+      24
+    ],
+    "medoid_indices": [
+      0,
+      18,
+      28,
+      33
+    ],
+    "objective": 13.66367713004484,
+    "objective_trace": [
+      101.91031390134529,
+      20.791031390134528,
+      17.46995515695067,
+      14.647533632286994,
+      13.66367713004484
+    ],
+    "accepted_swaps": 4,
+    "max_iter": 100,
+    "converged": true,
+    "stop_reason": "no improving single-medoid swap",
+    "initialization": "seeded random distinct medoids; no deterministic BUILD",
+    "objective_definition": "sum of distance to nearest medoid in normalized input units",
+    "medoid_node_ids": [
+      "N01",
+      "N19",
+      "N29",
+      "N34"
+    ]
+  },
+  "warnings": [],
+  "labels_sha256": "fb65a7110bfefd9246d0c86939d337aae7b05ca12fc35c5d6298a412099ae458",
+  "representation_matrix_sha256": "5090ab318fab86072b0259d7e0891b253c2f88d90fb327d925e79713883716cb",
+  "metric_notes": "Scores exclude noise and report coverage. Original-rail silhouette uses same retained nodes. CH/DB only saved Euclidean embedding features; never distance-matrix rows."
+}

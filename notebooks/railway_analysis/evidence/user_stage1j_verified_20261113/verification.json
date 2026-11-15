@@ -1,0 +1,32 @@
+{
+  "user_core_codes_received": [
+    25,
+    26
+  ],
+  "user_result_job": "user_stage1j_restored_20261113_162646_869372",
+  "original_records": 26964,
+  "derived_segments": 64,
+  "combined_records": 27028,
+  "source_replay_passed": true,
+  "deterministic_output_file_matches": {
+    "raw_directed_time_34.csv": true,
+    "raw_status_34.csv": true,
+    "route_pairs.csv": true,
+    "restored_schedule_segments.csv": true,
+    "dated_station_events.csv": true,
+    "remaining_core_missing.csv": true
+  },
+  "baseline_finite": 987,
+  "baseline_missing": 5,
+  "full34_missing": 135,
+  "full34_algorithm_ready": false,
+  "next_plan_queries": 6,
+  "affected_residual_directions": 5,
+  "planned_six_queries_already_completed": false,
+  "assistant_new_network_requests": 0,
+  "offline_tests_passed": 5,
+  "baseline_regression_result": "987/992; no falsely completed matrix; no route worsened; threshold monotonicity passed",
+  "next_txt_syntax_valid": true,
+  "plan_preview_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1k_plan_20261113_163824_904501",
+  "docx_created": false
+}

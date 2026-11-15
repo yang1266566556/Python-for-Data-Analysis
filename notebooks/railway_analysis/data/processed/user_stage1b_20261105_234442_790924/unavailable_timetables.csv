@@ -1,0 +1,3 @@
+﻿train_no,train_code,query_date,from_code,to_code,source_message,raw_departure,raw_arrival,raw_duration,sale_status,raw_file,raw_sha256,query_id,raw_row_index
+88000Z898107,Z8981,2026-11-14,XNO,LSO,"列车运行图调整,暂停发售",24:00,24:00,99:59,IS_TIME_NOT_BUY,data\raw\user_stage1b_20261105_231816_900405\X14.bin,07c0c50ea7094d96d2c60b783721c2300ce944b26b2b3669228e9a326a5cebe2,X14,1
+880000Y83905,Y839,2026-11-14,XNO,LSO,"列车运行图调整,暂停发售",24:00,24:00,99:59,IS_TIME_NOT_BUY,data\raw\user_stage1b_20261105_231816_900405\X14.bin,07c0c50ea7094d96d2c60b783721c2300ce944b26b2b3669228e9a326a5cebe2,X14,5

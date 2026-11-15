@@ -1,0 +1,28 @@
+{
+  "version": "stage1b-transfer-pilot-v1",
+  "parent_run_id": "user_pilot_20261105_220920_089173",
+  "first_departure_date": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "latest_arrival_exclusive": "2026-11-15T00:00:00+08:00",
+  "max_elapsed_minutes": 5760,
+  "same_station_transfer_threshold_minutes": [30, 60, 90],
+  "transfer_threshold_status": "research assumptions, not verified official minimum connection times",
+  "transfer_route_scope": "Beijing candidate stations -> Xining -> Lhasa; exactly two separately identified train services",
+  "new_station_candidate": "清河",
+  "new_station_status": "added to versioned draft based on actual returned Beijing grouping; not silently added to the original run",
+  "max_new_train_queries": 7,
+  "request_interval_seconds": 2,
+  "query_roles": {
+    "X11": "西宁 -> 拉萨, 2026-11-11",
+    "X12": "西宁 -> 拉萨, 2026-11-12",
+    "X13": "西宁 -> 拉萨, 2026-11-13",
+    "X14": "西宁 -> 拉萨, 2026-11-14",
+    "A01": "广州南 -> 珠海, 2026-11-10",
+    "A02": "珠海 -> 横琴, 2026-11-10",
+    "A03": "横琴 -> 珠海, 2026-11-10"
+  },
+  "access_probe_scope": "Endpoint feasibility probes only; no Macau access-time computation or full-window access route optimization",
+  "empty_result_policy": "no direct records returned; not physical unreachability",
+  "same_service_policy": "train_no + origin_service_date identifies a candidate same service; exclude from transfer pairs and save separately for direct-service verification",
+  "further_limits": "No cross-station transfers; no tickets or physical transfer verification; not all-network shortest routes. Parent records and future-date records were collected at different times, with provenance retained."
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "source_id": "traininfo_page",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/queryTrainInfo/init",
+    "params": null,
+    "accessed_at": "2026-11-13T16:18:18.260263+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/queryTrainInfo/init",
+    "content_type": "text/html;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:18:23 GMT",
+    "raw_file": "data\\raw\\user_stage1i_dated_20261113_161818_255920\\traininfo_page.bin",
+    "bytes": 35225,
+    "sha256": "7d13f92df5b1e3207c2fbdf9ac89b70721f1982fae4ad5a0c47ef2aef0f0073a"
+  },
+  {
+    "source_id": "traininfo_frontend",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/merged/queryTrainInfo_js.js?scriptVersion=1.95059",
+    "params": null,
+    "accessed_at": "2026-11-13T16:18:21.261282+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/merged/queryTrainInfo_js.js?scriptVersion=1.95059",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:18:24 GMT",
+    "raw_file": "data\\raw\\user_stage1i_dated_20261113_161818_255920\\traininfo_frontend.bin",
+    "bytes": 395350,
+    "sha256": "5811d9e875b9c74906e4a06bf65757291e8e9b9bcaa3f47e32d3c86f50bf707e"
+  },
+  {
+    "source_id": "S1",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/queryTrainInfo/query",
+    "params": {
+      "leftTicketDTO.train_no": "8800000Z220A",
+      "leftTicketDTO.train_date": "2026-11-18",
+      "rand_code": ""
+    },
+    "accessed_at": "2026-11-13T16:18:24.259003+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/queryTrainInfo/query?leftTicketDTO.train_no=8800000Z220A&leftTicketDTO.train_date=2026-11-18&rand_code=",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:18:27 GMT",
+    "raw_file": "data\\raw\\user_stage1i_dated_20261113_161818_255920\\S1.bin",
+    "bytes": 2615,
+    "sha256": "beb9b6cd66a9087498be25fd5c0cb617f2a9a0a7c15b7a4511ed58e71ad7f3b8"
+  },
+  {
+    "source_id": "S2",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/queryTrainInfo/query",
+    "params": {
+      "leftTicketDTO.train_no": "880000Z1660D",
+      "leftTicketDTO.train_date": "2026-11-18",
+      "rand_code": ""
+    },
+    "accessed_at": "2026-11-13T16:18:27.264132+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/queryTrainInfo/query?leftTicketDTO.train_no=880000Z1660D&leftTicketDTO.train_date=2026-11-18&rand_code=",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:18:30 GMT",
+    "raw_file": "data\\raw\\user_stage1i_dated_20261113_161818_255920\\S2.bin",
+    "bytes": 3262,
+    "sha256": "5cefc42f52c4527b5d9e934ffa853836753c4ef6821b755770bdbe5bf0811946"
+  },
+  {
+    "source_id": "S3",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/queryTrainInfo/query",
+    "params": {
+      "leftTicketDTO.train_no": "880000Z2660P",
+      "leftTicketDTO.train_date": "2026-11-18",
+      "rand_code": ""
+    },
+    "accessed_at": "2026-11-13T16:18:30.270975+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/queryTrainInfo/query?leftTicketDTO.train_no=880000Z2660P&leftTicketDTO.train_date=2026-11-18&rand_code=",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 08:18:33 GMT",
+    "raw_file": "data\\raw\\user_stage1i_dated_20261113_161818_255920\\S3.bin",
+    "bytes": 3494,
+    "sha256": "9db35af65f0624f0dda1b227988a647a37a9723167de75c2a0bcd7563f17c012"
+  }
+]

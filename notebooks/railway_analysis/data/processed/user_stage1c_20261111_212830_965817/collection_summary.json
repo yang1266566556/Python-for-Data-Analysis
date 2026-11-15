@@ -1,0 +1,27 @@
+{
+  "dataset_id": "railway_20261118_direct_screen_v1",
+  "query_date": "2026-11-18",
+  "job_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_stage1c_20261111_212830_965817",
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1c_20261111_212830_965817",
+  "actor": "user",
+  "total_planned_queries": 995,
+  "completed_queries": 194,
+  "remaining_queries": 801,
+  "train_records": 5158,
+  "unavailable_timetable_records": 15,
+  "outside_candidate_record_count": 724,
+  "query_status_counts": {
+    "validated_records": 168,
+    "partial_timetable_unavailable": 13,
+    "no_direct_train_returned_not_unreachable": 13,
+    "not_collected": 801
+  },
+  "matrix_ready": false,
+  "blocking_error": {
+    "at": "2026-11-11T21:38:23.753327+08:00",
+    "query_id": "N07_N06",
+    "error": "Unexpected or invalid records; see quarantined checkpoint",
+    "auto_retry": false
+  },
+  "scope": "direct-service screening only; intermediate paths and complete station coverage still to be audited"
+}

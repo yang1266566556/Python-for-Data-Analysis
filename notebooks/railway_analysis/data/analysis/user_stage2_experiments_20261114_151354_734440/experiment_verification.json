@@ -1,0 +1,20 @@
+{
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440",
+  "verified_runs": 82,
+  "coordinate_hashes_passed": true,
+  "node_order_passed": true,
+  "external_metrics_reproduced": true,
+  "three_seeds": [
+    0,
+    42,
+    2026
+  ],
+  "seed_stability_pairs": 24,
+  "scenario_comparisons": 36,
+  "parameter_comparison_rows": 42,
+  "parameter_runs_complete": true,
+  "representative_three_seed_stability_complete": true,
+  "geographic_comparison_complete": false,
+  "clustering_complete": false,
+  "note": "Seed stability uses translation/rotation/reflection/scale-adjusted Procrustes disparity plus distance rank and neighbor overlap; not geographical alignment. No causal or final ranking inference from a single score."
+}

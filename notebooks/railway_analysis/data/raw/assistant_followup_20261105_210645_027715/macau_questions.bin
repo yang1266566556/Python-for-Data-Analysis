@@ -1,0 +1,2561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>澳門輕軌系統小知識</title>
+<link rel="stylesheet" type="text/css" href="/theme/standard.css"></link>
+<link rel="stylesheet" type="text/css" href="/system/css/mlm.css"></link>
+<link rel="stylesheet" type="text/css" href="/system/css/swiper.min.css"></link>
+<style type="text/css">
+body {
+font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif;
+}
+
+.nav-item_bottom {
+	display: inline-table;
+}
+@media (max-width:768px) {
+#sitemap,.footer_line {
+	display: none !important;
+}
+}
+.footer_line {
+	background-color: #FED73C;
+	height: 5px;
+}
+.copyright {
+	background: linear-gradient(360deg,rgba(0,141,208,1) 0%,rgba(3,155,218,1) 100%);
+	color: #FFFFFF;
+	padding: 20px 10px;
+}
+.footer_link {
+	align-items: center;
+	display: flex;
+	padding-bottom: 10px;
+	justify-content: center;
+}
+.footer_link div {
+	padding: 0px 10px;
+}
+.footer_link_border {
+	border-right: 1px solid #ffffff;
+	line-height: 14px;
+	/*border-left: 1px solid #ffffff;
+	*/;
+}
+.nav_bottom {
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	padding: 30px 15px;
+	justify-content: space-around;
+}
+.nav-item_bottom ul li a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+	padding-left: 15px;
+}
+.nav-item_bottom ul {
+	padding: 0;
+	margin: 0;
+}
+.nav_bottom_link a {
+	color: #039BDA;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+.nav_bottom_link,.nav-item_bottom ul li {
+	padding-bottom: 10px;
+}
+.nav-item_bottom ul li {
+	list-style: none;
+	position: relative;
+}
+.nav-item_bottom ul li:before {
+	content: "\2022";
+	color: #73D41B;
+	position: absolute;
+}
+.footer_div {
+	background-color: #F4F9FF;
+}
+.footer_link a {
+	text-decoration: none;
+	color: #fff;
+}
+.second_a:before {
+	content: "\2022";
+	color: #73D41B;
+	padding-right: 8px;
+}
+.third_a {
+	padding-left: 16px;
+}
+#sitemap {
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	padding: 30px 15px;
+	justify-content: space-around;
+}
+#sitemap a {
+	break-inside: avoid;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.first_a {
+	color: #039BDA;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+.second_a,.third_a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+}
+
+#marqueeBox {
+	display: flex;
+	align-items: center;
+	height: 55px;
+}
+.blackBox {
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 999;
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+}
+.alert_box>div {
+	display: flex;
+	align-items: flex-start;
+	font-size: 20px;
+	padding: 10px 0px;
+	color: #FFFFFF;
+}
+.alert_box a {
+	text-decoration: none;
+	color: #A7E6FF;
+}
+.alert_box {
+	padding: 30px;
+}
+.alert_box img {
+	width: 30px;
+	padding-right: 5px;
+}
+.alert_windows {
+	position: fixed;
+	display: none;
+	z-index: 1000;
+	max-width: 320px;
+	width: 100%;
+	background-color: #C7182E;
+	max-height: 400px;
+	overflow: scroll;
+}
+.close_span {
+	float: right;
+	cursor: pointer;
+	padding: 10px;
+}
+.str_wrap,.str_active {
+	background-color: #C7182E !important;
+}
+.warning_div li {
+	height: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	font-size: 26px;
+	margin: 0px 30px;
+}
+.warning_div ul {
+	list-style: none;
+	padding: 0;
+	height: 100%;
+	margin: 0px;
+	text-align: center;
+	display: flex;
+}
+.warning_div {
+	background-color: #C7182E;
+	overflow: hidden;
+	display: none;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+}
+.warning_text img {
+	padding-right: 10px;
+	max-width: 30px !important;
+	vertical-align: text-top;
+}
+.warning_text {
+	color: #ffffff;
+	font-size: 26px;
+	text-decoration: none;
+}
+.warning_text a {
+	color: #A7E6FF;
+	font-size: 26px;
+	text-decoration: none;
+}
+
+.navPage_a:last-child {
+	color: #039BDA !important;
+}
+.breadcrumb_div {
+	max-width: 1200px;
+	margin: 20px auto;
+}
+.breadcrumb {
+	/*display: flex;
+	*/ flex-wrap: wrap;
+	align-items: center;
+}
+.navPage_a {
+	display: inline-table;
+	vertical-align: middle;
+	line-height: 20px;
+	padding: 5px 0px;
+}
+@media (max-width:1024px) {
+.breadcrumb_div {
+	padding: 0 10px;
+}
+}
+
+.ad_swiper {
+	background-color: #FFF8F5;
+	display: none;
+}
+.touch {
+	touch-action: none;
+}
+@media (max-width:500px) {
+.swiperPicture .swiper-button-next,.swiperPicture .swiper-button-prev {
+	display: inline-table !important;
+}
+#swiper_num img {
+	//min-width: 350px !important;
+}
+}
+.swiperPicture .swiper-button-next,.swiperPicture .swiper-button-prev {
+	width: 30px;
+	height: 30px;
+	position: static;
+	display: none;
+	background-size: 30px 30px;
+	outline: none;
+	margin: 0px 10px;
+}
+.swiperPicture {
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1200px;
+	padding: 30px 0px;
+	display: flex;
+	margin: 0 auto;
+}
+#swiper2 {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+}
+.swiperPicture .swiper-wrapper {
+	align-items: center;
+}
+#swiper2 .swiper-slide {
+	width: 100%;
+	max-height: 120px;
+	text-align: center;
+	font-size: 18px;
+	transition: opacity .3s ease 0s;
+	-webkit-transition: opacity .3s ease 0s;
+	//pointer-events: none;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+}
+
+.appclick_active a {
+	color: #039BDA !important;
+}
+.appclick_img {
+	padding: 5px 22px;
+}
+.app_hasChild_a {
+	width: 100%;
+	display: block;
+}
+.app_hasChild {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 0px !important;
+}
+.app_hasChild11:after {
+	background: url('/images/Unfold.png') no-repeat;
+	right: 20px;
+	content: "";
+	position: absolute;
+	height: 6px;
+	top: calc(50% - 3px);
+	width: 12px;
+	transition: all 0.3s ease-out;
+}
+.app_nav-third-li {
+	padding-left: 35px !important;
+}
+.app_thirdChild_ul {
+	list-style: none;
+	background-color: #FFFFFF;
+	display: none;
+	padding: 0;
+}
+.nav-third-li a:hover {
+	color: #FFA90B !important;
+}
+.nav-third-li a {
+	padding-left: 30px !important;
+}
+.thirdChild_ul {
+	display: none;
+}
+.hasChild_a {
+	position: relative;
+}
+.hasChild_a:after {
+	background: url('/images/Unfold.png') no-repeat;
+	right: 0;
+	content: "";
+	position: absolute;
+	height: 6px;
+	top: calc(50% - 3px);
+	width: 12px;
+}
+.thirdChild_ul li a:before {
+	left: 15px !important;
+}
+.thirdChild_ul {
+	padding: 0;
+	margin: 0;
+}
+.nav-third-li {
+	list-style: none;
+	padding-top: 15px;
+	margin-bottom: 0px !important;
+	position: relative;
+	width: 100%;
+}
+.header_setting > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+.change_size>div,.header_search>div,.M_header_search>div,.app_lan_font>div {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+.menu_div {
+	height: 40px;
+	margin: 0px auto;
+	max-width: 1200px;
+	clear: both;
+}
+.lan_list {
+	padding: 0px 5px;
+	display: table;
+}
+.lan_list a {
+	color: #333333;
+	text-decoration: none;
+	padding: 0px 5px;
+	display: inline-block;
+}
+.click_img {
+	padding: 15px 20px;
+}
+.ptClass .nav-item {
+	padding: 0px 10px !important;
+}
+.ptClass .nav-item span,.ptClass .menu_a,.appmenu_a,.ptClass .nav_link a,.ptClass .nav_more,.ptClass .third_nav a,.ptClass .secondMenu li a,.ptClass .app_secondMenu {
+	font-size: 11px;
+}
+.ptClass .nav-item .menu_a:after {
+	right: -10px !important;
+}
+#navLi6 .secondMenu {
+	right: 0;
+	left: auto;
+}
+.nav-item:last-child a:after {
+	display: none;
+}
+.more_btn {
+	display: none;
+}
+.app_secondMenu li:before {
+	content: "\2022";
+	color: #68CE1A;
+	padding-right: 10px;
+}
+.app_secondMenu li {
+	display: flex;
+	padding: 5px 20px;
+}
+.header_search input, .M_header_search input {
+	font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif;
+}
+@media (max-width:1024px) {
+.nav-third-li {
+	padding-left: 20px;
+}
+.menu_div {
+	height: auto !important;
+}
+.lan_list {
+	padding: 5px 20px 10px !important;
+	display: flex;
+	justify-content: space-around;
+}
+.menu_a,.appmenu_a {
+	padding: 15px 20px !important;
+	line-height: initial !important;
+}
+.selectBox:after,.selectBox:before {
+	display: none !important;
+}
+.selectBox li {
+	padding: 10px 0px !important;
+	background-color: #E8F3FF !important;
+}
+.selectBox {
+	box-shadow: none !important;
+	position: static !important;
+	padding: 10px 0px !important;
+	text-align: left !important;
+	background-color: #E8F3FF !important;
+	margin: 0px !important;
+}
+.change_app,.change_size,.change_view {
+	padding: 0px !important;
+	font-size: 16px !important;
+}
+.change_lan {
+	padding: 5px 20px 10px !important;
+	font-size: 16px !important;
+}
+.header_search,.M_header_search {
+	margin: 10px !important;
+	background-color: #F9F9F9 !important;
+}
+.header_search input,.M_header_search input {
+	width: 90% !important;
+	padding: 8px !important;
+	background-color: #F9F9F9 !important;
+}
+.search_btn {
+	padding: 10px !important;
+}
+}
+@media (min-width:1025px) {
+.app_header {
+	display: none !important;
+}
+}
+.app_lan_font {
+	justify-content: space-between;
+	padding: 5px 20px 10px;
+}
+.menu_icon {
+	display: none;
+	padding: 10px;
+}
+.change_icon,.appchange_icon {
+	transition: all 0.3s ease-out;
+	transform: rotate(180deg);
+}
+.appclick_flex {
+	background-color: #039BDA;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.app_header {
+	width: 250px;
+	position: absolute;
+	right: 0;
+	z-index: 99;
+	display: none;
+	background-color: #E8F3FF;
+}
+ul.app_secondMenu a {
+	color: #333333;
+	text-decoration: none;
+}
+.app_nav-item {
+	background-color: #039BDA;
+	border-bottom: 1px solid #F9F9F9;
+}
+.app_secondMenu {
+	display: none;
+	list-style: none;
+	color: #333333;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	width: 100%;
+	background-color: #EBF4FF;
+}
+@media (max-width:1024px) {
+.logo {
+	float: none !important;
+	position: static !important;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+.menu_icon {
+	display: block !important;
+}
+.header_setting ,.nav_div {
+	display: none !important;
+}
+}
+.add_padding {
+	padding-bottom: 10px;
+}
+.third_nav div {
+	padding-top: 10px;
+}
+.third_nav {
+	display: none;
+	margin: 0;
+	list-style: none;
+	padding: 0px 15px 10px 0px;
+	background-color: #EBF4FF;
+}
+.third_nav a {
+	color: #333333;
+	font-size: 16px;
+	padding-left: 15px;
+	text-decoration: none;
+	position: relative;
+}
+.third_nav div a:before {
+	content: "\2022";
+	color: #73D41B;
+	position: absolute;
+	left: 0px;
+}
+.nav_more {
+	width: 100%;
+	z-index: 5;
+	right: 0px;
+	background-color: #039BDA;
+	text-align: right;
+	min-width: 150px;
+	padding: 15px 0px 0px;
+	margin: 0;
+	border-top: 5px solid #FFA90B;
+	font-size: 16px;
+	top: 40px;
+	position: absolute;
+}
+.second_nav {
+	padding-bottom: 10px;
+}
+.nav_link {
+	width: 100%;
+}
+.nav_link a {
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-right: 15px;
+	display: block;
+	text-decoration: none;
+}
+@media (max-width:1145px) {
+.header_setting {
+	/*padding: 0px 0px 20px !important;
+	*/;
+}
+.logo {
+	padding: 5px !important;
+}
+}
+.secondMenu li a:hover,.third_nav>div>a:hover,app_secondMenu li a:hover {
+	color: #039BDA;
+}
+#navLi0 {
+	border-radius: 30px 0px 0px;
+}
+.nav-item:hover .secondMenu li a:before {
+	content: "\2022";
+	color: #73D41B;
+	left: 0;
+	position: absolute;
+}
+.secondMenu li {
+	position: relative;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.secondMenu li a {
+	color: #333333;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	padding-left: 15px;
+}
+.secondMenu {
+	display: none;
+	list-style: none;
+	color: #333333;
+	min-width: 180px;
+	padding: 15px 15px 0px 15px;
+	margin: 0;
+	left: 0;
+	border-top: 5px solid #FFA90B;
+	font-size: 16px;
+	width: 100%;
+	top: 40px;
+	position: absolute;
+	z-index: 5;
+	background-color: #EBF4FF;
+}
+.nav-item .menu_a:after {
+	border-right: 1px solid #ffffff;
+	content: "";
+	display: block;
+	height: 16px;
+	top: calc(50% - 8px);
+	position: absolute;
+	width: 100%;
+	right: -10px;
+	bottom: 0px;
+}
+.nav-item:hover .menu_a:before,.active .menu_a:before {
+	background-color: #68CE1A;
+	content: "";
+	display: block;
+	height: 5px;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+}
+.nav-item span {
+	width: 100%;
+	position: relative;
+}
+.nav_div .nav-item:first-child a {
+	z-index: 5;
+	padding-left: 0px;
+}
+.nav_div .nav-item:first-child:after {
+	background-image: url('/images/car.png');
+	content: "";
+	display: block;
+	height: 40px;
+	position: absolute;
+	left: -60px;
+	width: 107px;
+	top: 0;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: 107px 40px;
+}
+input:-internal-autofill-selected {
+	background-color: #EBEBEB !important;
+}
+.selectBox a {
+	color: #333333;
+	text-decoration: none;
+}
+.selectBox:before {
+	content: "";
+	display: block;
+	border-width: 6px;
+	position: absolute;
+	left: calc(50% - 3px);
+	top: -12px;
+	border-style: solid dashed dashed;
+	border-color: #BFBFBF transparent transparent;
+	font-size: 0;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+.selectBox:after {
+	content: "";
+	display: block;
+	border-width: 6px;
+	position: absolute;
+	left: calc(50% - 3px);
+	top: -11px;
+	border-style: solid dashed dashed;
+	border-color: #ffffff transparent transparent;
+	font-size: 0;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+.cut,.add {
+	cursor: pointer;
+	width: 16px;
+	text-align: center;
+}
+.selected,.select-item:hover {
+	color: #29AADF;
+}
+.lan_Selected {
+	color: #039BDA !important;
+	cursor: pointer;
+}
+.select-icon {
+	padding-left: 5px;
+}
+.select_btn {
+	display: flex;
+	align-items: center;
+	min-width: 90px;
+	justify-content: space-between;
+}
+.change_lan {
+	position: relative;
+}
+.selectBox {
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.5);
+	cursor: pointer;
+	display: none;
+	list-style: none;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+	z-index: 10;
+	background-color: #ffffff;
+	margin: 15px 0px;
+	border-radius: 3px;
+}
+.selectBox li {
+	padding: 10px;
+}
+.search_btn {
+	background-color: #FFA90B;
+	display: block;
+	padding: 4px 10px;
+}
+.header_search,.M_header_search {
+	background-color: #EBEBEB;
+	align-items: center;
+	margin: 5px 0px;
+	justify-content: space-between;
+}
+.header_search input,.M_header_search input {
+	padding: 4px 10px;
+	background-color: #EBEBEB;
+	outline: none;
+	border: 0;
+	width: 80px;
+	font-size: 12px;
+}
+.change_lan select {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	color: rgb(0, 144, 212);
+}
+.change_lan select option {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	color: rgb(0, 144, 212);
+}
+.change_size_text {
+	color: #039BDA;
+	padding: 0px 5px;
+}
+.change_app,.change_size,.change_lan,.change_view {
+	padding: 0px 10px;
+	font-size: 12px;
+}
+.change_size {
+	border-left: 1px solid #D8D8D8;
+	line-height: 16px;
+	align-items: center;
+}
+.change_app,.change_view {
+	color: #333333;
+	border-right: 1px solid #D8D8D8;
+	line-height: 16px;
+}
+.changeSize {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	float: left;
+	padding: 5px 0px;
+	position: absolute;
+	z-index: 99;
+}
+.header_setting {
+	padding: 5px 0px;
+	align-items: center;
+	line-height: 12px;
+	font-size: 12px;
+	float: right;
+}
+.nav_div {
+	float: right;
+	display: inline-table;
+	display: flex;
+	/*justify-content: flex-end;
+	*/ height: 40px;
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.nav-item {
+	background-color: #039BDA;
+	padding: 0px 10px;
+	position: relative;
+	/*display: table-cell;
+	*/ vertical-align: middle;
+}
+.menu_a,.appmenu_a {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 16px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.nav_div1::after {
+	content: '';
+	position: absolute;
+	width: 50%;
+	right: -50%;
+	height: 100%;
+	background-color: #039BDA;
+}
+.nav-item:last-child {
+	border: 0px;
+}
+.nav-item:last-child span:before {
+	height: 0;
+}
+
+@media(max-width:500px) {
+.notice_date span {
+	width: 100%;
+}
+}
+.notice_date {
+	font-weight: 600;
+	display: flex;
+	flex-wrap: wrap;
+}
+.noticeBtn_show,.detail_banner {
+	display: none;
+}
+#swiperNotice .swiper-button-next {
+	background-image: url('/images/right_2.png');
+	background-size: 100%;
+	width: 30px;
+	height: 30px;
+	top: auto;
+	bottom: 25px;
+	right: 30px;
+	outline: none;
+}
+#swiperNotice .swiper-button-prev {
+	background-image: url('/images/left_2.png');
+	background-size: 100%;
+	width: 30px;
+	height: 30px;
+	top: auto;
+	bottom: 25px;
+	left: auto;
+	right: 70px;
+	outline: none;
+}
+.notice_icon2 {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+.notice_icon2 img {
+	max-height: 40px;
+}
+.notice_icon2 span {
+	padding: 5px;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+.swiper-slideDiv img {
+	width: 100%;
+}
+#swiper1 {
+	max-width: 1200px;
+}
+#swiperNotice,#swiperBanner {
+	max-width: 1200px;
+	display: none;
+	background-color: #D8305D;
+}
+.notice_content {
+	border-radius: 10px;
+	margin: 0px 10px 10px;
+	padding: 15px;
+	background-color: #FFFFFF;
+	height: 100%;
+}
+
+body {
+font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif;
+}
+
+.imgBtn {
+	padding: 10px 5px;
+	display: block;
+	border-radius: 50%;
+	background-color: #fff;
+	transform: rotate(0deg);
+	transition: .2s all ease;
+	width: 20px;
+	height: 10px;
+}
+.text_Title {
+	color: #039BDA;
+	font-size: 28px;
+	font-weight: bold;
+}
+.qabox {
+	font-size: 20px;
+}
+.qabox ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.qabox>ul>li {
+	margin: 15px 0;
+}
+.qabox_title {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	background: linear-gradient(180deg,rgba(25,177,241,1) 0%,rgba(13,169,234,1) 100%);
+	color: #fff;
+	padding: 1.5% 2%;
+}
+.qabox_title::before,.qabox_content::before {
+	content: "";
+	width: 1.5em;
+	height: 1.5em;
+	margin-right: 10px;
+	display: block;
+	background: url(/images/Q.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+.qabox_title1::after {
+	content: "";
+	width: 1.5em;
+	height: 1.5em;
+	float: left;
+	display: block;
+	border-radius: 50%;
+	background-color: #fff;
+	background-image: url(/images/arrow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	transform: rotate(0deg);
+	transition: .2s all ease;
+}
+.select1 a::after,.select .imgBtn {
+	transform: rotate(180deg);
+}
+.qabox_title span {
+	float: left;
+	display: inline-block;
+	width: calc(100% - 3em - 20px);
+	margin-right: 10px;
+	text-align: justify;
+}
+.qabox_content {
+	display: none;
+	overflow: hidden;
+	background: #EFFAFF;
+	padding: 2%;
+}
+.qabox_content .content_text {
+	float: left;
+	display: inline-block;
+	width: calc(100% - 1.5em - 10px);
+	color: #333;
+	line-height: 1.5em;
+	text-align: justify;
+}
+body .qabox_content::before {
+	background-image: url(/images/A.png);
+}
+
+</style>
+<script type="text/javascript" src="/theme/standard.js"></script>
+<script type="text/javascript" src="/system/js/jquery.js"></script>
+<script type="text/javascript" src="/system/js/swiper.min.js"></script>
+<script type="text/javascript">
+var oMeta = document.createElement('meta');
+oMeta.charset = 'utf-8';
+oMeta.name = "viewport";
+oMeta.content = 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no';
+document.getElementsByTagName('head')[0].appendChild(oMeta);
+
+var numMeta = document.createElement('meta');
+numMeta.name = "format-detection";
+numMeta.content = 'telephone=no';
+document.getElementsByTagName('head')[0].appendChild(numMeta);
+
+
+
+
+
+//刷新變大字體
+function changeFontAgain(el) {
+	if (sessionStorage.temp_size == 2) {
+		temp_size = 2;
+		changeFont(el, 2);
+
+	} else if (sessionStorage.temp_size == 4) {
+		temp_size = 4;
+		changeFont(el, 4);
+
+	}
+}
+
+
+
+</script>
+</head>
+<body style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0">
+<div class="cms-layout" style=""><div class="cms-layout-row" style=""><div key="r0c0" class="cms-layout-column" style=""><div section-id="2370" class="cms-section" style="padding: 0px; z-index:100;position:fixed; width: 100%;"><div style="margin: 0 auto; padding: 0;"><div class="blackBox"></div>
+<div class="warning_div ">
+<div id="marqueeBox" style="max-width:1200px; margin:0 auto;">
+</div>
+</div>
+<div class="alert_windows">
+     <span class="close_span"><img src="/images/guanbi.png"></span>
+    <div class="alert_box"></div>
+</div>
+
+<script>
+var articles_arr = [];
+var detailStr = "[詳情]";
+    var alias = "questions";
+$(function(){
+
+fillMarqueeData (articles_arr);
+});
+
+function fillMarqueeData(data) {
+    var html = '';
+    var apphtml = '';
+    var flag = false;
+    html += "<marquee scrollamount='5'  onmouseover='this.stop()' onmouseout='this.start()'><ul>";
+    for(var i=0; i< data.length; i++) {
+    if (data[i].isScroll && data[i].title !== "") {
+        flag = true;
+        html += "<li class='warning_text'><img src='/images/warning.png'>";
+        apphtml += "<div><img src='/images/warning.png'><span>" +  data[i].title;
+        html +=  "<span>" +  data[i].title + "</span>";
+         if (data[i].hasDetail) {
+              html += "<a href='"+ data[i].link +"'>" + detailStr  +"</a>";
+             apphtml += "<a href='"+ data[i].link +"'>" + detailStr  +"</a>";
+         }
+     }
+     html += "</li>";
+     apphtml += "</span></div>";
+    }
+    html += "</ul>";
+    html += "</marquee>";
+    if(flag) {
+      $('.alert_box').append(apphtml);
+       $('#marqueeBox').append(html);
+         AppAlert(this.alias);
+       $('.warning_div ').show();
+       $('.paddingtop_div').css('padding-top', '60px');
+    } else {
+       $('.warning_div ').hide();
+       $('.paddingtop_div').css('padding-top', '0px');
+    }
+   }
+
+function showAlert() {
+        var winWid = $(window).width()/2 - $('.alert_windows').width()/2;
+	var winHig = $(window).height()/2 - $('.alert_windows').height()/2;
+	 $(".alert_windows").css({"left":winWid,"top":-winHig*2});
+	$(".alert_windows").show();
+        $(".alert_windows").animate({"left":winWid,"top":winHig},1000);
+
+}
+
+
+$(".warning_div ").click(function(){
+       var app = navigator.userAgent;
+	var isAndroid = app.indexOf('Android') > -1 || app.indexOf('Adr') > -1;
+	var isiOS = !!app.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+	if (isiOS || isAndroid) {
+             showAlert();
+            $('.blackBox').show();  
+           }
+       
+});
+$(".alert_windows span").click(function(){
+	$(this).parent().fadeOut(500);
+        $('.blackBox').hide();
+}); 
+
+$(window).resize(function () {
+	$('.alert_windows').fadeOut(500);
+        $('.blackBox').hide();
+});
+$(document).click(function(){
+	$('.alert_windows').fadeOut(500);
+        $('.blackBox').hide();
+});
+$(".alert_box,.warning_div ").click(function(event){
+	event.stopPropagation();
+});
+
+function AppAlert(url) {
+	var app = navigator.userAgent;
+	var isAndroid = app.indexOf('Android') > -1 || app.indexOf('Adr') > -1;
+	var isiOS = !!app.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+     if(url == "index"){
+	if (isiOS || isAndroid) {
+             showAlert();
+            $('.blackBox').show();  
+           }
+     }
+}
+
+
+</script></div></div><div section-id="5920" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><script>
+	//頁面訪問cms統計
+$(function() {
+      //判斷是否為發佈後鏈接
+       var publish_cms = false;
+                  //發佈後鏈接統計
+           publish_cms = true; 
+	var language = 'zh_TW';
+	var langStr = {
+			zh_TW : '繁',
+			zh_CN: '简',
+			pt: 'PT',
+			en: 'EN'
+		}
+        var langTitle = encodeURIComponent(' - ' + langStr[language]);
+	var title = document.title && document.title !== 'null' ? encodeURIComponent(document.title) : encodeURIComponent(window.location.href);//獲取頁面title
+	var alias = "mlm";//獲取網站別名
+	var serviceContextUrl = "/cms"; //獲取服務器url
+        //如果publish_cms為true執行訪問統計
+	if (publish_cms) {
+		var url1 = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +   '&duration=hour' + '&category=訪問瀏覽次數' + langTitle;
+		var url2 = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" + title +'（用戶數）' +   '&duration=day' + '&category=用戶數（1天）' + langTitle;
+		//var url3 = serviceContextUrl +"/servlet/api/statistics/counter/increase/"+alias +"?url=" +langTitle +title+ '&category='+ langStr[language];
+		$.ajax({
+			global: false,
+			type: "get",
+			url: url1,
+			success: function(data) {
+				//console.log(data);
+				
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		 });
+		$.ajax({
+			global: false,
+			type: "get",
+			url: url2,
+			success: function(data) {
+				//console.log(data);
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+		//$.ajax({
+		//	global: false,
+		//	type: "get",
+		//	url: url3,
+		//	success: function(data) {
+		//		//console.log(data);
+		//	},
+		//	error: function(jqXHR, exception) {
+		//		console.log("失敗,服務器錯誤");
+		//	},
+		//});
+		$('a').each(function(){
+			if ($(this).attr('type') === 'download') {
+				var downloadLink = encodeURIComponent($(this).attr('href') );
+				var newLink =  serviceContextUrl +"/servlet/api/statistics/counter/redirect/"+ alias +"?url=" + downloadLink +'&category=檔案下載';
+				$(this).attr('href', newLink);
+			}
+		})
+	}
+});
+</script></div></div><div section-id="2352" class="cms-section paddingtop_div" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><script type="text/javascript">var temp_size = 0;
+//統計檔案下載
+function dowload(resource) {
+	var site_url = window.location.href.toLowerCase();
+	var title = encodeURIComponent(document.title);
+	var alias = "mlm";
+	var serviceContextUrl = "/cms"; //獲取服務器url
+	var visitsNum = 0;
+	if (site_url.indexOf("/cms/") == -1) {
+		var url = serviceContextUrl + "/servlet/api/statistics/counter/redirect/" + alias + "?url=" + resource;
+		$.ajax({
+			global: false,
+			type: "get",
+			url: url,
+			success: function(data) {
+				console.log(data, visitsNum);
+			},
+			error: function(jqXHR, exception) {
+				console.log("失敗,服務器錯誤");
+			},
+		});
+	}
+
+}
+//變大字體
+function changeFont(el, num) {
+	var children = el.children();
+	for (var i = children.length - 1; i >= 0; i--) {
+		changeFont($(children[i]), num);
+	}
+	if (typeof(el.css("font-size")) != "undefined") {
+		var fontSize = el.css("font-size").replace(/[a-zA-Z]/g, "");
+		fontSize = parseInt(fontSize);
+		el.css({
+			"font-size": (fontSize + num) + "px"
+		});
+	}
+
+}
+$(function() {
+	$(".add").on('click',
+	function() {
+		var size = temp_size;
+		switch (temp_size) {
+		case 0:
+			size = 2;
+			temp_size = 2;
+			break;
+		case 2:
+			size = 2;
+			temp_size = 4;
+			break
+		case 4:
+			return;
+		}
+		changeFont($(".cms-layout"), size);
+		sessionStorage.temp_size = temp_size;
+
+	});
+
+	$(".cut").on('click',
+	function() {
+		var size = temp_size;
+		switch (temp_size) {
+		case 2:
+			size = -2;
+			temp_size = 0;
+			break
+		case 4:
+			size = -2;
+			temp_size = 2;
+			break
+		case 0:
+			return;
+		}
+		changeFont($(".cms-layout"), size);
+		sessionStorage.temp_size = temp_size;
+
+	});
+	if (sessionStorage.temp_size == 2) {
+		temp_size = 2;
+		changeFont($(".cms-layout"), 2);
+	} else if (sessionStorage.temp_size == 4) {
+		temp_size = 4;
+		changeFont($(".cms-layout"), 4);
+	}
+});</script>
+<div class="black"></div>
+<div style="border-bottom:5px solid #FFA90B;">
+<!--<div class="warning_div">
+<div class="warning_img"><img style=" max-width:30px;" src="/images/warning.png" alt=""></div>
+<div class="warning_text">特區政府呼籲：必須堅持，記得洗手，戴好口罩，避免聚集，保持距離，健康聲明，減少出境。</div>
+</div>-->
+
+<div>
+ <div style="max-width:1200px; margin:0 auto;">
+  <div class="logo">
+       <a style="display: block;" href="/tc/index.html">
+               <img style="max-height: 65px;"  src="/images/Logo.png" alt=""></a>
+   <div class="menu_icon"><img  src="/images/menu_icon.png" alt=""></div>
+</div>
+    <div class="header_setting ">
+        <div class="change_app"  style="display:none"><img style="height: 16px;"  src="/images/app_version.png" alt=""></div>
+<div class="lan_list ">
+                    <a class="lan_tw" href="/tc/questions.html">繁</a>
+                      <a  class="lan_cn " href="/sc/questions.html">简</a>
+                    <a class="lan_pt" href="/pt/questions.html">PT</a>
+                    <a class="lan_en" href="/en/questions.html">EN</a>
+</div>
+         <div class="change_lan" style="display:none;">
+            <div class="select_btn">
+                <span class="lan_Selected"></span>
+                <span class="select-icon"><img  src="/images/Unfold.png" alt=""></span>
+            </div>
+            <ul class="selectBox">
+                    <a class="lan_tw" href="/tc/questions.html"><li class="select-item">繁體中文</li></a>
+                      <a  class="lan_cn " href="/sc/questions.html"><li class="select-item">简体中文</li></a>
+                    <a class="lan_pt" href="/pt/questions.html"><li class="select-item">Português</li></a>
+                    <a class="lan_en" href="/en/questions.html"><li class="select-item">English</li></a>
+         </div> 
+         <div class="change_size">
+            <div class="cut">-</div>
+	     <div class="change_size_text ">A</div>
+	     <div class="add">+</div>
+         </div>
+               <div class="header_search">
+                   <div><input type="text" id="search-input" name="search-input" onkeypress="return search(event)"  
+                  placeholder="搜尋"></div>
+                <div>
+                <a id="search_btn"  class="search_btn"  onclick="searchClick();">
+                <img style="max-width: 18px;" src="/images/search.png" alt=""></a> 
+                </div>
+            </div>
+
+
+    </div>
+ </div>
+<div class="menu_div ">
+<div class="nav_div">
+                        <div class="nav-item" id="navLi0">
+                            <a class="menu_a" href="/tc/index.html"  data-size="0" rel="noopener noreferrer"
+                                target="_self"><span>首頁</span></a>
+                        </div>
+                        <div class="nav-item" id="navLi1">
+                            <a class="menu_a" href="/tc/route.html"  data-size="4" rel="noopener noreferrer"
+                                target="_self"><span>乘客資訊</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/route.html">輕軌線路</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/notice_operatingarea.html">搭乘須知</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/general_ticket.html">車票及車費</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/info_lost_property.html">失物認領</a>
+</li>
+                                    </ul>
+                        </div>
+                        <div class="nav-item" id="navLi2">
+                            <a class="menu_a" href="/tc/news_list.html"  data-size="3" rel="noopener noreferrer"
+                                target="_self"><span>最新動態</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/news_list.html">新聞消息</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/statistics.html">統計資料</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/themetrains.html">主題列車介紹</a>
+</li>
+                                    </ul>
+                        </div>
+                        <div class="nav-item" id="navLi3">
+                            <a class="menu_a" href="/tc/character.html"  data-size="4" rel="noopener noreferrer"
+                                target="_self"><span>輕軌概況</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/character.html">輕軌特性</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/ocean_cruiser.html">列車介紹</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/questions.html">輕軌系統小知識</a>
+</li>
+                                    </ul>
+                        </div>
+                        <div class="nav-item" id="navLi4">
+                            <a class="menu_a" href="/tc/Parking.html"  data-size="3" rel="noopener noreferrer"
+                                target="_self"><span>停車場管理</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/JCPTI_Park.html">氹仔柯維納馬路停車場</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/BPTIparking_HP.html">媽閣交通樞紐重型客車停車場</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/BPTIparking_LVM.html">媽閣交通樞紐停車場（輕型汽車及電單車）</a>
+</li>
+                                    </ul>
+                        </div>
+                        <div class="nav-item" id="navLi5">
+                            <a class="menu_a" href="/tc/intro.html"  data-size="5" rel="noopener noreferrer"
+                                target="_self"><span>關於我們</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/intro.html">公司簡介</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/organization.html">組織架構</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/annual_report.html">公司年報</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/tender.html">採購項目</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/quality.html">質量認證</a>
+</li>
+                                    </ul>
+                        </div>
+                        <div class="nav-item" id="navLi6">
+                            <a class="menu_a" href="/tc/career.html"  data-size="0" rel="noopener noreferrer"
+                                target="_self"><span>人才招聘</span></a>
+                        </div>
+                        <div class="nav-item" id="navLi7">
+                            <a class="menu_a" href="/tc/contact_info.html"  data-size="3" rel="noopener noreferrer"
+                                target="_self"><span>聯絡我們</span></a>
+                                    <ul class="secondMenu">
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/contact_info.html">聯絡我們</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/lost_property.html">失物認領</a>
+</li>
+ <li>
+       <a  target="_self"   rel="noopener noreferrer" href="/tc/comments.html">意見反映</a>
+</li>
+                                    </ul>
+                        </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="app_header">
+<!---搜索-->
+               <div class="M_header_search">
+                   <div><input type="text" id="M_search-input" name="search-input" onkeypress="return M_search(event)"
+                  placeholder="搜尋"></div>
+                <div>
+                <a id="M_search_btn"  class="search_btn"   onclick="M_searchClick();">
+                <img style="max-width: 18px;" src="/images/search.png" alt=""></a> 
+                </div>
+            </div>
+<!---setting-->
+   <div class="app_lan_font">
+         <div class="change_size" style="border: 0;">
+             <div class="cut">-</div>
+	     <div class="change_size_text ">A</div>
+	     <div class="add">+</div>
+         </div>
+         <div class="change_view" style="border: 0;"><img style="height: 30px;"  src="/images/pc_version.png" alt=""></div></div>
+<div class="lan_list">
+                    <a class="lan_tw" href="/tc/questions.html">繁</a>
+                      <a  class="lan_cn " href="/sc/questions.html">简</a>
+                    <a class="lan_pt" href="/pt/questions.html">PT</a>
+                    <a class="lan_en" href="/en/questions.html">EN</a>
+</div>
+
+         <div class="change_lan" style="display:none;">
+            <div class="select_btn">
+                <span class="lan_Selected "></span>
+                <span class="select-icon"><img  src="/images/Unfold.png" alt=""></span>
+            </div>
+            <ul class="selectBox">
+                    <a class="lan_tw" href="/tc/questions.html"><li class="select-item">繁體中文</li></a>
+                      <a  class="lan_cn " href="/sc/questions.html"><li class="select-item">简体中文</li></a>
+                    <a class="lan_pt" href="/pt/questions.html"><li class="select-item">Português</li></a>
+                    <a class="lan_en" href="/en/questions.html"><li class="select-item">English</li></a>
+         </div> 
+
+    <div class="app_nav">
+                        <div class="app_nav-item" id="navApp0">
+                        
+             <div class="appclick_flex">
+<a class="appmenu_a"  target="_self"  rel="noopener noreferrer" href="/tc/index.html">首頁</a>                              
+
+</div>    
+                        </div>
+                        <div class="app_nav-item" id="navApp1">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/route.html">乘客資訊</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/route.html">輕軌線路</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/route.html">輕軌線路</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/notice_operatingarea.html">搭乘須知</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/notice_operatingarea.html">搭乘須知</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/general_ticket.html">車票及車費</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/general_ticket.html">車票及車費</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/info_lost_property.html">失物認領</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/info_lost_property.html">失物認領</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+                        <div class="app_nav-item" id="navApp2">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/news_list.html">最新動態</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/news_list.html">新聞消息</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/news_list.html">新聞消息</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/statistics.html">統計資料</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/statistics.html">統計資料</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/themetrains.html">主題列車介紹</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/themetrains.html">主題列車介紹</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+                        <div class="app_nav-item" id="navApp3">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/character.html">輕軌概況</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/character.html">輕軌特性</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/character.html">輕軌特性</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/ocean_cruiser.html">列車介紹</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/ocean_cruiser.html">列車介紹</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/questions.html">輕軌系統小知識</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/questions.html">輕軌系統小知識</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+                        <div class="app_nav-item" id="navApp4">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/Parking.html">停車場管理</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/JCPTI_Park.html">氹仔柯維納馬路停車場</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/JCPTI_Park.html">氹仔柯維納馬路停車場</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/BPTIparking_HP.html">媽閣交通樞紐重型客車停車場</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/BPTIparking_HP.html">媽閣交通樞紐重型客車停車場</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/BPTIparking_LVM.html">媽閣交通樞紐停車場（輕型汽車及電單車）</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/BPTIparking_LVM.html">媽閣交通樞紐停車場（輕型汽車及電單車）</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+                        <div class="app_nav-item" id="navApp5">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/intro.html">關於我們</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/intro.html">公司簡介</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/intro.html">公司簡介</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/organization.html">組織架構</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/organization.html">組織架構</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/annual_report.html">公司年報</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/annual_report.html">公司年報</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/tender.html">採購項目</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/tender.html">採購項目</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/quality.html">質量認證</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/quality.html">質量認證</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+                        <div class="app_nav-item" id="navApp6">
+                        
+             <div class="appclick_flex">
+<a class="appmenu_a"  target="_self"  rel="noopener noreferrer" href="/tc/career.html">人才招聘</a>                              
+
+</div>    
+                        </div>
+                        <div class="app_nav-item" id="navApp7">
+                        
+             <div class="appclick_flex">
+ <a class="appmenu_a"    target="_self"  rel="noopener noreferrer" href="/tc/contact_info.html">聯絡我們</a>
+ <img class="click_img"  src="/images/xiala.png" alt="">
+
+</div>    
+                                    <ul class="app_secondMenu">
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/contact_info.html">聯絡我們</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/contact_info.html">聯絡我們</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/lost_property.html">失物認領</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/lost_property.html">失物認領</a>
+</li>-->
+
+ <li>
+       <a target="_self"   rel="noopener noreferrer" href="/tc/comments.html">意見反映</a>
+</li>
+<!--<li>
+       <a  target="_self"  rel="noopener noreferrer" href="/tc/comments.html">意見反映</a>
+</li>-->
+
+                                    </ul>
+                        </div>
+   </div>
+</div>
+
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177227536-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177227536-1');
+</script>
+<script>
+$(function(){
+if($("#cmsMenubarPanel").length> 0) {
+$("meta[name='viewport']").attr('content',"width=1350px user-scalable=no,target-densitydpi=device-dpi");
+}
+var version = sessionStorage.getItem("pc");
+var site_url = window.location.href.toLowerCase();
+if (version || version == 'true') {
+$('.change_app').show();
+ $('.menu_div').css("width","1200px");
+$("meta[name='viewport']").attr('content',"width=1200px user-scalable=no,target-densitydpi=device-dpi");
+}
+var Mozilla = navigator.userAgent;
+var isWin = Mozilla.indexOf('Windows') > -1 || Mozilla.indexOf('Win') > -1;
+
+$(".menu_icon").click(function() {
+     $(".app_header").toggle();
+});
+$(document).click(function(){
+	$(".app_header").hide();
+});
+$(".menu_icon,.app_header").click(function(event){
+	event.stopPropagation();
+});
+if (isWin){
+	if (site_url.indexOf("/pt/") > -1 || site_url.indexOf("locale=pt") > -1 || site_url.indexOf("/en/") > -1 || site_url.indexOf("locale=en") > -1) {
+
+            $('.nav_div').addClass('ptClass');
+           $('.secondMenu').css("min-width","200px"); 
+          $('.nav_more').css("min-width","200px");
+    $('.nav-item span').css("font-size","11px");   
+	   $('.menu_a').css("font-size","11px");   
+            $('.nav_link a').css("font-size","11px");  
+              $('.nav_more').css("font-size","11px"); 
+               $('.third_nav a').css("font-size","11px"); 
+             $('.secondMenu li a').css("font-size","11px");  
+$('.nav-item_bottom ul li a').css("font-size","16px");
+ $('.nav_bottom_link a').css("font-size","18px"); 
+         changeFontAgain($('.nav_div'));
+          
+	} else {
+ $('.secondMenu').css("min-width","180px"); 
+          $('.nav_more').css("min-width","150px");
+          $('.nav_div').removeClass('ptClass');
+         $('.nav-item span').css("font-size","16px");   
+	   $('.menu_a').css("font-size","16px");   
+            $('.nav_link a').css("font-size","16px");  
+              $('.nav_more').css("font-size","16px"); 
+               $('.third_nav a').css("font-size","16px"); 
+             $('.secondMenu li a').css("font-size","16px");  
+$('.nav-item_bottom ul li a').css("font-size","18px");
+$('.nav_bottom_link a').css("font-size","20px"); 
+          changeFontAgain($('.nav_div'));
+	}
+}
+ checkApp(site_url);
+});
+
+$('.hasChild').hover(function(){ 
+        $(this).children(".thirdChild_ul").show();
+},function(){
+$(this).children(".thirdChild_ul ").hide();
+    });
+
+
+$('.more_btn').hover(function(){ 
+        $(this).children(".nav_more").stop(true,true).slideDown();
+},function(){
+$(this).children(".nav_more").hide();
+    });
+$('.second_nav').hover(function(){
+          if($(this).children().hasClass('third_nav')) {
+              $(this).children(".nav_link").addClass('add_padding');
+          }
+        $(this).children(".third_nav").stop(true,true).slideDown();
+},function(){
+       $(this).children(".nav_link").removeClass('add_padding');
+        $(this).children(".third_nav").slideUp("slow");
+    });
+
+$('.nav-item').hover(function(){ 
+        $(this).children(".secondMenu").show();
+},function(){
+      $(this).children(".secondMenu").hide();
+ });
+
+
+
+
+$(".appclick_img").click(function(){
+    if($(this).parent().hasClass("appclick_active")){
+        $(this).removeClass('appchange_icon');
+        $(this).parent().removeClass('appclick_active');
+        $(this).parent().next(".app_thirdChild_ul").slideUp();
+   } else { 
+        $(this).addClass('appchange_icon'); 
+        $(this).parent().addClass('appclick_active');
+        $(this).parent().next(".app_thirdChild_ul").slideDown();
+  }
+});
+
+$(".click_img").click(function(){
+	if($(this).parent().parent().hasClass("click_active")){
+		$(this).removeClass('change_icon');
+                 $(this).parent().parent().removeClass('click_active');
+		$(this).parent().parent().children(".app_secondMenu").slideUp();
+	}
+	else {
+  $(".click_img").each(function(){
+           $(this).parent().parent().children(".app_secondMenu").slideUp();
+           $(this).parent().parent().removeClass('click_active');  
+   });
+                $(this).parent().parent().addClass('click_active');
+		$(this).addClass('change_icon ');
+		$(this).parent().parent().children(".app_secondMenu").slideDown();
+		}
+	});
+
+
+
+
+    var myurl = 'zh_TW';
+    if (myurl == 'pt') {
+   $(".lan_pt").addClass("selected");
+    $(".lan_list  .lan_pt").addClass("lan_Selected ");
+    //$('.lan_Selected ').text('Português');
+    } else if (myurl == 'en') {
+    $(".lan_list  .lan_en ").addClass("lan_Selected ");
+    $(".lan_en .select-item").addClass("selected");
+    //$('.lan_Selected').text('English');
+    } else if (myurl == 'zh_TW') {
+    $(".lan_list  .lan_tw ").addClass("lan_Selected ");
+    $(".lan_tw .select-item").addClass("selected");
+    //$('.lan_Selected').text('繁體中文');
+    } else if (myurl == 'zh_CN') {
+    $(".lan_list  .lan_cn ").addClass("lan_Selected ");
+    $(".lan_cn .select-item").addClass("selected");
+    //$('.lan_Selected').text('简体中文');
+    }
+
+            $('.select_btn').click(function(){
+                $('.selectBox').toggle();
+            });
+            $('.select-item').click(function(){
+                $('.lan_Selected').text($(this).text());
+                $('.selectBox').toggle();
+            });
+            $(".select_btn").click(function(){
+                return false;
+            });
+            $(document).click(function(){
+                $('.selectBox').hide();
+            });
+$(".header_search a").click(function(){
+		var key = $.trim($(".header_search input").val());
+		if (key != "") {
+			var url = "/tc/search.html ";
+			sessionStorage.setItem("searchKey", "q=content:*"+ key + "*"); 
+                sessionStorage.setItem("keyword", key); 
+			url =url;
+			window.location.href = url;
+		}
+	});
+$(".M_header_search a").click(function(){
+		var key = $.trim($(".M_header_search input").val());
+		if (key != "") {
+			var url = "/tc/search.html ";
+			sessionStorage.setItem("searchKey", "q=content:*"+ key + "*"); 
+                sessionStorage.setItem("keyword", key); 
+			url =url;
+			window.location.href = url;
+		}
+	});
+    function search(event) {
+		//console.log("search");
+		if (window.event) {
+			if(event.keyCode==13) {
+				document.getElementById("search_btn").click();
+				return false;
+			} else {
+				return true;
+			}
+		} else if (event.which) {
+			if(event.which==13) {
+				document.getElementById("search_btn").click();
+				return false;
+			} else {
+				return true;
+			}
+		}
+		
+	}
+    function M_search(event) {
+		if (window.event) {
+			if(event.keyCode==13) {
+				document.getElementById("M_search_btn").click();
+				return false;
+			} else {
+				return true;
+			}
+		} else if (event.which) {
+			if(event.which==13) {
+				document.getElementById("M_search_btn").click();
+				return false;
+			} else {
+				return true;
+			}
+		}
+		
+	}
+	function searchClick() {
+		var key = $.trim($("#search-input").val());
+		if (key != "") {
+			var url = "/tc/search.html ";
+			sessionStorage.setItem("searchKey", "q=content:*"+ key + "*"); 
+                sessionStorage.setItem("keyword", key); 
+			url =url;
+			window.location.href = url;
+		} else {
+			alert('請輸入關鍵字');
+		}
+	}
+         function M_searchClick() {
+		var key = $.trim($("#M_search-input").val());
+		if (key != "") {
+			var url = "/tc/search.html ";
+			sessionStorage.setItem("searchKey", "q=content:*"+ key + "*"); 
+                sessionStorage.setItem("keyword", key); 
+			url =url;
+			window.location.href = url;
+		} else {
+			alert('請輸入關鍵字');
+		}
+	}
+
+if( $(".lan_tw ").attr("href") == "#" ){
+$(".lan_tw ").attr("href","javascript:alert('本頁面沒有中文內容。')");
+}
+if( $(".lan_cn ").attr("href") == "#" ){
+$(".lan_cn ").attr("href","javascript:alert('本頁面沒有中文內容。')");
+}
+if( $(".lan_pt ").attr("href") == "#" ){
+$(".lan_pt ").attr("href","javascript:alert('Esta página no disponível em Português.')");
+}
+if( $(".lan_en ").attr("href") == "#" ){
+$(".lan_en ").attr("href","javascript:alert('This page is not available in English.')");
+}
+
+
+function checkApp(lan) {
+	var app = navigator.userAgent;
+	var isAndroid = app.indexOf('Android') > -1 || app.indexOf('Adr') > -1;
+	var isiOS = !!app.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+	if ($('.menu_div').width() <= '500' && isiOS || isAndroid) {
+                    $('.warningapp_div').show();
+             if (lan.indexOf("/pt/") > -1 || lan.indexOf("locale=pt") > -1) {
+		changeFont($(".bodyNav_BG "), -12);
+               changeFont($(".ticket_type_body"), -6);
+               changeFont($(".free_title"), -14);
+               $(".ticket_type a").css('line-height','18px');
+              } else  if (lan.indexOf("/en/") > -1 || lan.indexOf("locale=en") > -1) {
+                    changeFont($(".bodyNav_BG "), -12);
+              } else {
+                    changeFont($(".bodyNav_BG "), -8);
+               }
+	} else {
+
+           }
+}
+$('.change_view').click(function(){
+ window.location.reload();
+sessionStorage.setItem("pc",true);
+$('.change_app').show();
+ $('.menu_div').css("width","1200px"); 
+$("meta[name='viewport']").attr('content',"width=1200px user-scalable=no,target-densitydpi=device-dpi");
+     });
+
+$('.change_app').click(function(){
+ window.location.reload();
+sessionStorage.removeItem('pc');
+ $('.menu_div').css("width",""); 
+$('.change_app').hide();
+$("meta[name='viewport']").attr('content',"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no");
+     });
+
+</script></div></div><div section-id="2364" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div>
+	<div class="swiper-container" id="swiperNotice">
+		<div class="notice_icon2">
+			<img src="/images/notice_icon2.png"/><span>重要告示</span>
+		</div>
+		<div class="swiper-wrapper swiperNotice">
+			
+		</div>
+		<div class="swiper-button-prev noticeBtn_show"></div>
+		<div class="swiper-button-next noticeBtn_show"></div>
+	</div>
+	<div class="swiper-container" id="swiperBanner">
+		<div class="swiper-wrapper swiperBanner">
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="https://www.mlm.com.mo/download/recruitment/C044-MLM-2026-X_new.pdf" target="_blank">
+								<img src="/images/Banner/banner_oldPT_CHI_PT.jpeg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="#" target="_blank">
+								<img src="/images/Banner/webbanner_mpay_chi.jpg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="https://www.mlm.com.mo/tc/themetrains.html" target="_blank">
+								<img src="/images/theme_train/themetrainbanner.jpg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="https://youtu.be/vOhWoL9eJws" target="_blank">
+								<img src="/images/Advertisement/makmak_banner_TC.png"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="/pdf/trainad.pdf" target="_blank">
+								<img src="/images/Advertisement/trainadbanner_202607.jpg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="/tc/paintContest.html" target="_blank">
+								<img src="/images/paintContest/Color_2026_banner_CN.png"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="https://youtu.be/SmJqqx6AfCI" target="_blank">
+								<img src="/images/Banner/web_banner_35_2026.jpg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="/tc/Carriagedesign.html" target="_blank">
+								<img src="/images/Carriagedesign/web_banner_0921.jpg"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="#" target="_blank">
+								<img src="/images/banner-2.png"/></a>
+						</div>
+					</div>
+					<!--判斷文章組別名稱--->
+					<div class="swiper-slide">
+						<div class="swiper-slideDiv">
+							<a href="#" target="_blank">
+								<img src="/images/banner-1.png"/></a>
+						</div>
+					</div>
+		</div>
+	</div>
+</div>
+
+<div class="detail_banner" style="margin:0 auto;max-width:1200px">
+	<img style="width:100%;" src="/images/banner-2.png" alt=""></div>
+
+	<script>
+		var alias = "";
+  alias = "questions";
+$(function(){
+  displayNotice(function(data){
+    //獲取告示數據
+    bulidHTML(data);
+    if ($('.swiperNotice').children('div').length > 0) {
+      $('.detail_banner').empty();
+      $('#swiperBanner').empty();
+      $('#swiperNotice').show();
+      var  play = $('.swiperNotice').children('div').length > 1 ? true : false;
+      var swiperNotice = new Swiper('#swiperNotice', {
+          autoHeight: true,
+          observer:true,
+          observeParents:true,
+          autoplay: {
+                  disableOnInteraction: false,
+                  delay: 10000,
+          },
+          loop: true, 
+          effect : 'fade',
+          fadeEffect: {
+          crossFade: true
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            hideOnClick: play
+          }
+          });
+          swiperNotice.allowTouchMove= play;
+          if (play) {
+            $('.noticeBtn_show').show();
+          } else {
+              $('.notice_date').removeClass('notice_width');
+              swiperNotice.autoplay.stop();
+          }
+      } else if ($('.swiperNotice').children('div').length == 0 && alias == 'index'){
+      //用戶環境alias為index
+          $('.detail_banner').empty();
+          $('#swiperNotice').empty();
+          $('#swiperBanner').show();
+          var swiperBanner = new Swiper('#swiperBanner', {
+              autoplay: {
+                  disableOnInteraction: false,
+                  delay: 5000,
+              },
+              loop: true
+          }); 
+      } else {
+            $('#swiperNotice').empty();
+            $('#swiperBanner').empty();
+            $('.detail_banner').show();
+      }
+  });
+});
+
+function num(s) {
+	return s < 10 ? '0' + s: s;
+}
+function FormatDate (strTime) {
+  //strTime = strTime.substring(0, 25).replace(',', '');
+  var pubDate = new Date(strTime);
+  if(strTime.indexOf("CST")) {
+  pubDate.setHours(pubDate.getHours()-14);
+  }
+  return pubDate;
+}
+
+function displayNotice(callback) {
+	$.ajax({
+    url: "/rss/tc/notice.rss",
+		type: 'GET',
+		dataType: 'xml',
+		timeout: 20000,
+    async: false,
+		cache: false,
+    global: false,
+		success: function(res) {
+      var data = $(res).find("channel");
+      callback(data);
+		},
+		error: function(err) {
+      // callback(null);
+		}
+	})
+}
+
+
+function bulidHTML(data) {
+      var html = "";
+      if (!data) return
+      $(data).find("item").each(function() {
+        var show = $(this).find("show").text();
+        var repalceBody = "";
+				if (window.navigator && window.navigator.msSaveOrOpenBlob) {
+					replaceBody = $(this).context.lastChild.textContent;
+				} else {
+					replaceBody = $(this).context.lastChild.innerHTML.replace("<![CDATA[", "").replace("]]>", "");
+				}
+        if (show === "true" && $(this).context.lastChild.textContent) {
+          var time = $(this).find("pubDate").text();
+          time = time.replace(/ GMT.+$/, '');
+          time = FormatDate(time);
+				  var date = new Date(time);
+				  dateStr = num(date.getDate()) + '/' + num((date.getMonth() + 1)) + '/' + num(date.getFullYear()) + ' ' + num(date.getHours())+ ':' + num(date.getMinutes());
+          html += "<div class='swiper-slide'>";
+          html += "<div class='swiper-slideDiv'>";
+          html += "<div class='notice_content'>";
+          html += "<div>" + replaceBody + "</div><br />";
+          html += "<div class='notice_date'><span>發佈日期：</span><span>" + dateStr + "</span></div>";
+          html += "</div></div></div>";
+        }
+      })
+      $(".swiperNotice").append(html);
+}
+
+
+	</script></div></div><div section-id="2322" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div class="breadcrumb_div" >
+<div class="breadcrumb">
+		<a class="navPage_a" style="color:#333333;text-decoration: none;" href="/tc/index.html">澳門輕軌</a>
+					<span class="navPage_a" style="margin:0px 10px">
+                                        <img src="/images/breadcrumb-icon.png" alt="">
+                                       </span>
+
+<a class="navPage_a" style="color:#333333;text-decoration: none;" href="/tc/overview.html">輕軌概況</a>
+					<span class="navPage_a" style="margin:0px 10px">
+                                        <img src="/images/breadcrumb-icon.png" alt="">
+                                       </span>
+
+<a class="navPage_a" style="color:#333333;text-decoration: none;" href="/tc/questions.html">澳門輕軌系統小知識</a>
+
+             </div>
+    </div>
+
+<script>
+$(function() {
+$(".nav-item").each(function() {
+       //var urlName = $('.breadcrumb a').eq(1).attr("href");
+       //var alias = 'overview';
+	//if ($(this).children('a').attr("href").indexOf('overview') > -1) {
+         if ($(this).children('a').text() == $('.breadcrumb a').eq(1).text()) {
+           $(this).addClass("active");
+       }
+});
+  if ($('.breadcrumb a').eq(1).attr("href")  && $('.breadcrumb a').eq(1).attr("href").indexOf('notice_detail') > -1) {
+       $('title').text('重要告示');  
+      $('.breadcrumb a').eq(1).text('重要告示');
+    }
+});
+</script></div></div></div></div><div class="cms-layout-row" style="min-height:600px;"><div key="r1c0" body="true" class="cms-layout-column bodyDetail_BG" style=""><div class="cms-layout" style=""><div class="cms-layout-row" style="max-width:1200px;margin:0 auto;min-height:200px;
+padding-bottom:50px;"><div key="r0c0" class="cms-layout-column appContainer" style=""><div section-id="2366" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><script type="text/javascript">$(function() {
+	$(".qabox_title").on('click',
+	function() {
+		if ($(this).parent().hasClass("select")) {
+			$(this).parent().removeClass("select");
+			$(this).parent().find(".qabox_content").slideUp();
+		} else {
+			$(this).parent().addClass("select");
+			$(this).parent().find(".qabox_content").slideDown();
+			$(this).parent().siblings().removeClass('select').find('.qabox_content').slideUp();
+		};
+		//$(this).parent().siblings().removeClass('select').find('.qabox_content').slideUp();
+	});
+	$(".imgBtn").click(function(event) {
+		event.stopPropagation();
+		if ($(this).parent().parent().hasClass("select")) {
+			$(this).parent().parent().removeClass("select");
+			$(this).parent().parent().find(".qabox_content").slideUp();
+		} else {
+			$(this).parent().parent().addClass("select");
+			$(this).parent().parent().find(".qabox_content").slideDown();
+		};
+	});
+});</script>
+<div class="qabox"  cms-search="true" >
+    <div class="text_Title">輕軌系統小知識</div>
+    <div style=" padding-top: 5px;">
+           <img src="/images/title-icon.png" alt=""></div>
+	<ul style="margin-top:20px;">
+		   <li>
+			<a class="qabox_title" href="javascript:void(0)"><span>輕軌的橡膠車輪在設計上有什麼安全考慮呢？</span><img class="imgBtn" src="/images/arrow.png" alt=""></a>
+                        
+			<div class="qabox_content">
+				<div class="content_text"><span>澳門輕軌為膠輪系統，列車選用的橡膠輪胎較一般重軌鐵路系統使用的鋼輪能更有效減低聲音，而且膠輪內部還有一金屬輪，這樣的輪胎設計可確保列車即使發生輪胎漏氣或爆胎等情況，該金屬輪仍能協助列車運行，安全穩定地繼續行駛一定的路程至下一車站，確保乘客安全。</span></div>
+			</div>
+		  </li>
+		   <li>
+			<a class="qabox_title" href="javascript:void(0)"><span>輕軌行駛中途發生故障，有什麼緊急應變措施？</span><img class="imgBtn" src="/images/arrow.png" alt=""></a>
+                        
+			<div class="qabox_content">
+				<div class="content_text"><span >如乘客遇有緊急情況需要協助，可透過列車上的對講機與運營控制中心的人員進行聯絡，列車也配有閉路電視可讓運營人員了解車廂內的情況。一般而言，列車還設有緊急把手，啟動後控制中心將收到警示信號，而列車則會於就近之車站停靠，並由站台工作人員協助乘客撤離。</span></div>
+			</div>
+		  </li>
+		   <li>
+			<a class="qabox_title" href="javascript:void(0)"><span>什麼是全自動列車控制系統？有什麼優點？</span><img class="imgBtn" src="/images/arrow.png" alt=""></a>
+                        
+			<div class="qabox_content">
+				<div class="content_text"><span jhenghei="" microsoft="" style="color: rgb(0, 0, 0); font-family: 微軟正黑體, ">澳門輕軌採用全自動列車控制系統，主要是透過運營控制中心，利用先進的監察及通訊、信號系統，監控和調度整個輕軌系統的運作，毋須司機及車務人員進行操作，在世界各地包括鄰近地區如新加坡及台灣，已經累積了多年的成功運營經驗。</span><br jhenghei="" microsoft="" style="color: rgb(0, 0, 0); font-family: 微軟正黑體, " />
+<span jhenghei="" microsoft="" style="color: rgb(0, 0, 0); font-family: 微軟正黑體, ">全自動列車控制系統透過先進的自動控制技術，靈活地調整列車的運行班次，確保列車準時、準點，提供更有效率的服務；此外，系統能有效地保持列車間固定之安全運行距離，可避免因人為操作失當而發生事故的情況，大大提高了系統的安全性，為乘客提供安全和高度可靠的軌道交通服務。</span></div>
+			</div>
+		  </li>
+		   <li>
+			<a class="qabox_title" href="javascript:void(0)"><span>澳門輕軌在能源利用方面作出了什麼考慮？</span><img class="imgBtn" src="/images/arrow.png" alt=""></a>
+                        
+			<div class="qabox_content">
+				<div class="content_text"><span jhenghei="" microsoft="" style="color: rgb(0, 0, 0); font-family: 微軟正黑體, ">地球的天然資源日漸缺乏，因此澳門輕軌在能源利用方面作出了具體的措施，推動輕軌項目的可持續發展。</span><br jhenghei="" microsoft="" style="color: rgb(0, 0, 0); font-family: 微軟正黑體, " />
+<span jhenghei="" microsoft="" style="color: rgb(0, 0, 0); font-family: 微軟正黑體, ">其中，澳門輕軌的制動系統（又即剎車系統）使用了再生制動技術，當輕軌列車減速或剎車時，列車上的馬達轉變為制動發電機，將列車的動能轉化為電能。再生制動系統不僅能達至制動的效果，亦可產生再生能源。這些再生電能可被附近的列車吸收，亦可利用蓄電池把再生電能貯存起來備用。這是一種非常有效的能源循環再用技術，體現了輕軌系統注重環保的設計理念。</span><br jhenghei="" microsoft="" style="color: rgb(0, 0, 0); font-family: 微軟正黑體, " />
+<span jhenghei="" microsoft="" style="color: rgb(0, 0, 0); font-family: 微軟正黑體, ">此外，輕軌車廂在設計上落實環保節能的理念，採用LED照明系統。有別於傳統的光管（螢光燈）照明系統，使用LED燈不但能源消耗少，而且擁有穩定可靠、發光效率高和使用壽命長的特點。與光管相比，LED燈不含汞（水銀），不會對環境造成汞污染，比較環保。此外LED燈具有即開即亮、常開常關無損壽命及較難打破的優點，均比光管優勝。</span>
+
+<div style="text-align: center;"><span jhenghei="" microsoft="" style="color: rgb(0, 0, 0); font-family: 微軟正黑體, "><img alt="" src="/images/questions/question_img1.jpg" style="width: 70%;" /></span></div></div>
+			</div>
+		  </li>
+		   <li>
+			<a class="qabox_title" href="javascript:void(0)"><span>澳門的輕軌有什麼特點？</span><img class="imgBtn" src="/images/arrow.png" alt=""></a>
+                        
+			<div class="qabox_content">
+				<div class="content_text"><span>澳門輕軌的三個主要特點：便捷、環保、無障礙，其中：</span><br />
+<span><u>便捷</u></span><br />
+<span>汽車是十分佔用公共道路資源的交通工具，而輕軌系統具有專屬路權，避開了擁擠的地面道路，保證輕軌列車在行駛期間絕對不受路面交通情況的影響。同時，使用全自動列車控制系統可確保列車服務準時準點，並可按實際需要增加服務班次，便利居民出行。</span><br />
+<span>輕軌的引入，可望減少市民駕駛汽車或電單車出行的數量，透過輕軌為主、巴士/的士為輔的公共出行整合模式，有助增加居民使用公共交通出行的意慾，長遠可緩解道路交通擠塞的壓力。</span><br />
+<br />
+<span><u>環保</u></span><br />
+<span>車輛排放的污染物和廢氣是本澳主要的空氣污染源之一。而廢氣更是導致區域及全球暖化的主要源頭之一。以電力推動的輕軌系統除了是零排放外，也能藉着減少交通堵塞而改善空氣質素，是一種綠色交通工具。此外，透過適當的設計考慮，車站及列車可採用更節能的方式運行，能夠有效節約能源。</span><br />
+<br />
+<span><u>無障礙</u></span><br />
+<span>在設計輕軌系統的各種設施時，已引入方便傷健人士和長者使用的無障礙理念。例如設置合適高度比例的扶手梯、設語音廣播系統的升降機、導盲地磚、盲文、方便輪椅上落的斜坡及特殊的資訊系統等，方便有需要人士更便利地使用。在月台方面，除發聲報站系統外，設計上亦盡量減少月台與車廂之間的間隙，便於輪椅使用者進出車廂。在靠近車廂出入口的座位可摺疊收起成為輪椅空間，座位下方設有定點以固定輪椅位置，照顧不同乘客需要，並確保輪椅使用者的乘車安全。</span></div>
+			</div>
+		  </li>
+		   <li>
+			<a class="qabox_title" href="javascript:void(0)"><span>為什麼澳門要選用輕軌?</span><img class="imgBtn" src="/images/arrow.png" alt=""></a>
+                        
+			<div class="qabox_content">
+				<div class="content_text"><span>澳門輕軌是全自動列車控制的中運量集體運輸系統，以兩節車廂為一編組，以一組或兩組的方式行駛。由於採用了全自動列車控制系統，列車運作全由運營控制中心負責監察和控制，所以車廂內毋須設置司機席，可以騰出更多內部空間載運乘客。此外省卻人手調配的問題，也令列車班次調動有更大的彈性。故輕軌列車每節車廂大小雖如一般的大巴士，但卻可載運更多的乘客。</span><br jhenghei="" microsoft="" style="color: rgb(0, 0, 0); font-family: 微軟正黑體, " />
+<br />
+<span>澳門選用輕軌的主要原因包括：</span>
+
+<ol>
+	<li>輕軌的行走路線可容許較小的轉彎半徑及較陡的坡度，較適合澳門這類人口稠密及客觀環境限制較多的城巿；</li>
+	<li>由於採用橡膠輪胎及行走於平滑混凝土路面，運作時的聲音較低，對周邊環境造成的影響較小，適合於密集的市區環境內運行；</li>
+	<li>載客量雖較一般重軌系統低，但所需要的建造時間較少，而建造和營運成本也相對較低。</li>
+</ol></div>
+			</div>
+		  </li>
+		   <li>
+			<a class="qabox_title" href="javascript:void(0)"><span>澳門輕軌各線路長度？行車時間如何？</span><img class="imgBtn" src="/images/arrow.png" alt=""></a>
+                        
+			<div class="qabox_content">
+				<div class="content_text">澳門輕軌現行線路設有氹仔線、石排灣線及橫琴線，各線路的行車時間如下：<br />
+ 
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:200px;height:5px; padding: 10px;">線路</td>
+			<td style="width: 200px; padding: 10px; height: 5px; text-align: center;">長度（公里）</td>
+			<td style="width: 200px; padding: 10px; height: 5px; text-align: center;">車站（個）</td>
+			<td style="width: 200px; height: 5px; text-align: center;">行車時間（分鐘）</td>
+		</tr>
+		<tr>
+			<td style="width:200px; padding: 10px;">氹仔線</td>
+			<td style="width: 200px; padding: 10px; text-align: center;">12.5</td>
+			<td style="width: 200px; padding: 10px; text-align: center;">12</td>
+			<td style="width: 200px; padding: 10px; text-align: center;">28</td>
+		</tr>
+		<tr>
+			<td style="width:200px; padding: 10px;">石排灣線</td>
+			<td style="width: 200px; padding: 10px; text-align: center;">1.6</td>
+			<td style="width: 200px; padding: 10px; text-align: center;">2</td>
+			<td style="width: 200px; padding: 10px; text-align: center;">2</td>
+		</tr>
+		<tr>
+			<td style="width:200px; padding: 10px;">橫琴線</td>
+			<td style="width: 200px; padding: 10px; text-align: center;">2.2</td>
+			<td style="width: 200px; padding: 10px; text-align: center;">2</td>
+			<td style="width: 200px; padding: 10px; text-align: center;">2</td>
+		</tr>
+	</tbody>
+</table></div>
+			</div>
+		  </li>
+		   <li>
+			<a class="qabox_title" href="javascript:void(0)"><span>澳門輕軌列車服務幾多分鐘一班？</span><img class="imgBtn" src="/images/arrow.png" alt=""></a>
+                        
+			<div class="qabox_content">
+				<div class="content_text">輕軌氹仔線每班次約5至10.5分鐘；石排灣線每班次約6分鐘；橫琴線每班次約6分鐘；服務可因應實際需要加密和調整班次以疏導人流。</div>
+			</div>
+		  </li>
+		   <li>
+			<a class="qabox_title" href="javascript:void(0)"><span>澳門輕軌的運營時間如何？</span><img class="imgBtn" src="/images/arrow.png" alt=""></a>
+                        
+			<div class="qabox_content">
+				<div class="content_text">澳門輕軌運營時間為週一至週四早上6時30分至23時15分，而週五至週日及公眾假期為早上6時30分至23時59分，每晚完成運營工作後會進行系統的保養和維護工作。</div>
+			</div>
+		  </li>
+		   <li>
+			<a class="qabox_title" href="javascript:void(0)"><span>澳門輕軌車速是多少？</span><img class="imgBtn" src="/images/arrow.png" alt=""></a>
+                        
+			<div class="qabox_content">
+				<div class="content_text"><span>將停站時間計算在內，輕軌平均速度約每小時25公里。事實上，列車設計的最高運行時速可達80公里。而由於澳門各個輕軌站之間的距離較短，而且彎位較多，為確保乘客的乘車舒適度，一般會以較平穩的速度行駛。</span></div>
+			</div>
+		  </li>
+	</ul>
+</div></div></div></div></div></div></div></div><div class="cms-layout-row" style=""><div key="r2c0" class="cms-layout-column" style=""><div section-id="2363" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div class="ad_swiper" >
+
+<div class="swiperPicture swiper-no-swiping" cms-search="true">
+<div class="swiper-button-prev swiperBtn_show"><img style="  width: 30px;
+    height: 30px;" src="/images/left.png"></div>
+  <div class="swiper-container" id="swiper2">
+<div class="swiper-wrapper">
+    </div>
+  </div>
+<div class="swiper-button-next swiperBtn_show"><img style="  width: 30px;
+    height: 30px;" src="/images/right.png"></div></div>
+</div>
+</div>
+<script>
+if ($('.swiper-wrapper #swiper_num').length > 0) {
+var canMove = false;
+var swiping = true;
+var autoplay = false;
+var showNum = $('.swiper-wrapper #swiper_num').length > 4 ? 4 : $('.swiper-wrapper #swiper_num').length;
+var hideBtn = true;
+var pc = sessionStorage.getItem("pc");
+if ($('.menu_div').width() > 500 && $('.swiper-wrapper #swiper_num').length < 5) {
+    showNum = $('.swiper-wrapper #swiper_num').length;
+     autoplay = false;
+     hideBtn = true;
+} else if ($('.menu_div').width() > 500 && $('.swiper-wrapper #swiper_num').length > 4){
+    showNum = 4;
+    autoplay = true;
+    hideBtn = false;
+    $('.swiperBtn_show').show();
+} else if ($('.menu_div').width() < 500 && pc !== "true") {
+    showNum = 1
+    autoplay = true;
+    hideBtn = false;
+    canMove = true;
+   swiping = false;
+    $('.swiperBtn_show').show();
+} 
+}
+$(function(){
+if ($('.swiper-wrapper #swiper_num').length > 0) {
+  $('.ad_swiper').show();
+}
+var swiper2 = new Swiper('#swiper2', {
+       paginationClickable :true,
+       noSwiping : swiping,
+       autoplay: autoplay,
+      slidesPerView: showNum,
+      loop : true,
+      spaceBetween: 10,
+      navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+      hideOnClick: hideBtn
+    },
+     breakpoints: {
+        500: {  //当屏幕宽度小于等于500
+          slidesPerView: 1,
+          spaceBetween: 20
+        }
+     }
+    });
+  swiper2.allowTouchMove= canMove;
+})
+  </script></div></div><div section-id="4490" class="cms-section" style="padding: 0px; "><div style="margin: 0 auto; padding: 0;"><div class="footer_line" style="margin-bottom:5px;"></div>
+<div class="footer_line"></div>
+<div class="footer_div"  cms-search="true">
+<div id="sitemap"></div>
+<div class="copyright">
+        <div class="footer_link">          
+           <div class="footer_link_border "><a href="/tc/terms.html">使用條款</a></div>
+           <div><a href="/tc/privacy.html">私隱聲明</a></div>
+        </div>
+        <div style="text-align: center;">©<span id="footer-year"></span>澳門輕軌股份有限公司</div>
+</div>
+</div>
+
+<script>
+	$(function(){
+        $('#footer-year').text(new Date().getFullYear()+' ');
+        var html = "<div>";
+		var obj = $('.nav-item:gt(0)').find('a');
+		var a = obj.length > 25 ? 6 : 5;
+		var b = 5;
+                 var num = 1;   
+                 var add = 0;
+		for (var i = 0; i < obj.length; i++) {
+			var kkk = obj[i];
+                        var e = i;
+                        if (obj[i].classList.contains('menu_a') && num == a) {
+                             add++
+                        }
+                        //if (obj[i].classList.contains('menu_a') && ( num + parseInt(kkk.dataset.size)) < a) {
+                             //add++
+                            //  num = 1;                      
+                            //   html += "</div><div>";
+                       // }
+                        if(i != 0 && (i+add)%a == 0) {
+                               num = 1;                      
+                               html += "</div><div>";
+                        }
+			if (obj[i].classList.contains('menu_a')) {
+                                num++;
+				html += "<a data-size='" + kkk.dataset.size + "' class='first_a' href='" + kkk.href + "'>" + kkk.text +  "</a>";
+			} else if (obj[i].classList.contains('hasThird')) {
+                                num++;
+                                html += "<a data-size='" + kkk.dataset.size + "'  class='third_a ' href='" + kkk.href + "'>" + kkk.text +  "</a>";
+                        } else {
+                                num++;
+				html+= "<a data-size='" + kkk.dataset.size + "'  class='second_a' href='" + kkk.href + "'>" + kkk.text +  "</a>";
+			}
+                        
+		}
+html += "</div>";
+$('#sitemap').append(html);
+});
+
+
+</script></div></div></div></div></div></body>
+</html>

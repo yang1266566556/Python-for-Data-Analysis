@@ -1,0 +1,16 @@
+{
+  "run_id": "user_pilot_20261105_220920_089173",
+  "actor": "user",
+  "query_date": "2026-11-10",
+  "node_count": 34,
+  "candidate_station_count": 82,
+  "missing_candidate_stations": 0,
+  "attempted_queries": 8,
+  "validated_queries": 7,
+  "train_record_count": 249,
+  "issue_count": 0,
+  "fatal_error": null,
+  "raw_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_pilot_20261105_220920_089173",
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_pilot_20261105_220920_089173",
+  "matrix_ready": false
+}

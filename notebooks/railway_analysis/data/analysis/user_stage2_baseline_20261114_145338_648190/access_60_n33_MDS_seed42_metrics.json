@@ -1,0 +1,39 @@
+{
+  "metrics": {
+    "run_id": "access_60_n33_MDS_seed42",
+    "dataset_id": "access_60_n33",
+    "algorithm": "MDS",
+    "node_count": 33,
+    "seed": 42,
+    "seconds": 0.07581430000027467,
+    "native_loss": 0.1821337898167357,
+    "native_loss_definition": "normalized_stress1",
+    "native_n_iter_attribute": 60,
+    "convergence_trace_available": false,
+    "external_scale_fitted_stress1": 0.17918595150880393,
+    "distance_spearman": 0.9669915559024082,
+    "neighbor_overlap_k5": 0.7454545454545455,
+    "trustworthiness_k5": 0.9563636363636364,
+    "network_only_external_scale_fitted_stress1": 0.17918595150880393,
+    "network_only_distance_spearman": 0.9669915559024082,
+    "network_only_neighbor_overlap_k5": 0.7454545454545455,
+    "network_only_trustworthiness_k5": 0.9563636363636364
+  },
+  "parameters": {
+    "n_components": 2,
+    "n_init": 4,
+    "max_iter": 1000,
+    "eps": 1e-06,
+    "random_state": 42,
+    "n_jobs": 1,
+    "normalized_stress": true,
+    "metric_mds": true,
+    "metric": "precomputed",
+    "init": "random"
+  },
+  "warnings": [],
+  "coordinates_sha256": "a4607b1d40a2d991ace065560efa9acd726f7ce6267e70fecd176e0c49cfbcef",
+  "fit_input_policy": "independent writable copy per estimator; metrics use immutable reference",
+  "reference_unmodified": true,
+  "note": "External stress fits one isotropic distance scale. Native losses are not comparable across algorithms. Stable node-order tie rule for neighbor overlap; Taipei equal-penalty ties limit interpretation. No convergence curve is fabricated."
+}

@@ -1,0 +1,9 @@
+{
+  "reference_manifest_sha256": "22b51ca7d4bf267a7dda1d9321155c1f4aff14e683dc0a1f77367996ff6ffcc2",
+  "experiment_protocol_sha256": "622f41cfe80f6f26f46f364b3423a15b8fd276793131df8cab18a239053b2f25",
+  "geographic_code_sha256": "9886b639718bc88ea349e339281ad36c3bbd00370fb9c50be08dbd4b6c721a30",
+  "seed": 42,
+  "selection": "Fixed representative baseline parameters; not selected by geographical fit or maximum score",
+  "source_reference_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_geographic_reference_20261114_165102_851358",
+  "experiment_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_experiments_20261114_151354_734440"
+}

@@ -1,0 +1,6 @@
+{
+  "Haikou_Macao_directions_verified": 2,
+  "raw_legs_verified": 7,
+  "Beijing_Guangzhou_437min_source_records": 1,
+  "warning": "Sampled same-station constrained candidates, not nationwide unconstrained shortest travel; no free Guangzhou Baiyun to Guangzhou South transfer. No new train queries or clustering fits."
+}

@@ -1,0 +1,35 @@
+{
+  "actor": "assistant",
+  "verified_at": "2026-11-05T21:15:05.369795+08:00",
+  "method": "offline parsing of two saved authentic official query responses; not user experiment",
+  "station_count": 3407,
+  "nodes": 34,
+  "cases": [
+    {
+      "query_id": "beijing_shanghai",
+      "quality": {
+        "status": "validated_records",
+        "raw_count": 53,
+        "valid_count": 53,
+        "rejected_count": 0,
+        "duplicate_count": 0
+      },
+      "related_station_rows": 14,
+      "earlier_origin_rows": 0,
+      "issues": []
+    },
+    {
+      "query_id": "guangzhou_hongkong",
+      "quality": {
+        "status": "validated_records",
+        "raw_count": 63,
+        "valid_count": 63,
+        "rejected_count": 0,
+        "duplicate_count": 0
+      },
+      "related_station_rows": 25,
+      "earlier_origin_rows": 1,
+      "issues": []
+    }
+  ]
+}

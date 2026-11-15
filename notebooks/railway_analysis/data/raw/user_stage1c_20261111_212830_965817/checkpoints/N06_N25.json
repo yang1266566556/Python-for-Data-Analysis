@@ -1,0 +1,93 @@
+{
+  "query": {
+    "query_id": "N06_N25",
+    "date": "2026-11-18",
+    "from_node": "N06",
+    "to_node": "N25",
+    "from_city": "沈阳",
+    "to_city": "昆明",
+    "from_station": "沈阳北",
+    "to_station": "昆明南",
+    "role": "core_direct_screen",
+    "from_code": "SBT",
+    "to_code": "KOM"
+  },
+  "source": {
+    "source_id": "N06_N25",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-18",
+      "leftTicketDTO.from_station": "SBT",
+      "leftTicketDTO.to_station": "KOM",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-11T21:37:44.600541+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-18&leftTicketDTO.from_station=SBT&leftTicketDTO.to_station=KOM&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Wed, 11 Nov 2026 13:37:46 GMT",
+    "raw_file": "data\\raw\\user_stage1c_20261111_212830_965817\\sessions\\20261111_212831_022789\\N06_N25.bin",
+    "bytes": 923,
+    "sha256": "c7b5d46af170224ba472db9b279c199bc5d5b940fa81213d3b9971b3d33b3bd1"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-11T21:28:35.419455+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Wed, 11 Nov 2026 13:28:37 GMT",
+    "raw_file": "data\\raw\\user_stage1c_20261111_212830_965817\\sessions\\20261111_212831_022789\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "quality": {
+    "status": "validated_records",
+    "raw_count": 1,
+    "valid_count": 1,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 0
+  },
+  "records": [
+    {
+      "query_id": "N06_N25",
+      "query_date": "2026-11-18",
+      "train_no": "110000Z32809",
+      "train_code": "Z328",
+      "origin_service_date": "2026-11-18",
+      "requested_from": "沈阳北",
+      "requested_to": "昆明南",
+      "from_code": "SBT",
+      "to_code": "KMM",
+      "from_name": "沈阳北",
+      "to_name": "昆明",
+      "same_as_requested_stations": false,
+      "from_dictionary_city": "沈阳",
+      "to_dictionary_city": "昆明",
+      "departure_clock": "12:50",
+      "arrival_clock": "10:50",
+      "duration_text": "46:00",
+      "duration_min": 2760,
+      "departure_at": "2026-11-18T12:50:00+08:00",
+      "arrival_at": "2026-11-20T10:50:00+08:00",
+      "arrival_day_offset": 2,
+      "can_web_buy": "Y",
+      "raw_row_index": 0,
+      "raw_file": "data\\raw\\user_stage1c_20261111_212830_965817\\sessions\\20261111_212831_022789\\N06_N25.bin",
+      "raw_sha256": "c7b5d46af170224ba472db9b279c199bc5d5b940fa81213d3b9971b3d33b3bd1",
+      "measurement_kind": "queried_train_schedule_not_measured_actual_travel"
+    }
+  ],
+  "issues": []
+}

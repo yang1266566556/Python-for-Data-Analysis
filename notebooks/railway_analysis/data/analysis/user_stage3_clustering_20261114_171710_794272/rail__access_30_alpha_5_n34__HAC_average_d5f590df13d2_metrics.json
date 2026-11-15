@@ -1,0 +1,216 @@
+{
+  "record": {
+    "run_id": "rail__access_30_alpha_5_n34__HAC_average_d5f590df13d2",
+    "representation_id": "rail__access_30_alpha_5_n34",
+    "dataset_id": "access_30_alpha_5_n34",
+    "family": "rail_time",
+    "algorithm": "HAC_average",
+    "node_count": 34,
+    "representative": true,
+    "tags": "representative",
+    "k": 4,
+    "seed": "",
+    "eps": "",
+    "min_samples": "",
+    "seconds": 0.00051059999896097,
+    "objective": null,
+    "accepted_swaps": null,
+    "converged": true,
+    "stop_reason": "hierarchy constructed; cut at requested cluster count",
+    "n_clusters": 4,
+    "n_noise": 0,
+    "assigned_count": 34,
+    "assigned_fraction": 1.0,
+    "smallest_cluster": 1,
+    "largest_cluster": 31,
+    "silhouette_input": 0.6060466471785113,
+    "silhouette_original_rail": 0.6060466471785113,
+    "calinski_harabasz": null,
+    "davies_bouldin": null,
+    "silhouette_status": "computed on non-noise points only",
+    "euclidean_indices_status": "not applicable to original dissimilarity matrix"
+  },
+  "parameters": {
+    "k": 4
+  },
+  "details": {
+    "children": [
+      [
+        0,
+        1
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        18,
+        31
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        14,
+        34
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        35,
+        37
+      ],
+      [
+        16,
+        42
+      ],
+      [
+        5,
+        39
+      ],
+      [
+        15,
+        26
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        41,
+        43
+      ],
+      [
+        32,
+        36
+      ],
+      [
+        44,
+        45
+      ],
+      [
+        47,
+        49
+      ],
+      [
+        24,
+        48
+      ],
+      [
+        29,
+        38
+      ],
+      [
+        12,
+        51
+      ],
+      [
+        40,
+        53
+      ],
+      [
+        52,
+        55
+      ],
+      [
+        4,
+        54
+      ],
+      [
+        50,
+        56
+      ],
+      [
+        57,
+        59
+      ],
+      [
+        58,
+        60
+      ],
+      [
+        46,
+        61
+      ],
+      [
+        30,
+        62
+      ],
+      [
+        20,
+        63
+      ],
+      [
+        25,
+        64
+      ],
+      [
+        33,
+        65
+      ]
+    ],
+    "merge_distances": [
+      0.0289592760180995,
+      0.0597285067873303,
+      0.085972850678733,
+      0.0886877828054298,
+      0.0995475113122171,
+      0.0995475113122171,
+      0.1122171945701357,
+      0.1262443438914027,
+      0.1276018099547511,
+      0.1357466063348416,
+      0.15565610859728504,
+      0.16651583710407236,
+      0.16696832579185517,
+      0.188235294117647,
+      0.2190045248868778,
+      0.22156862745098038,
+      0.2542986425339366,
+      0.3278280542986425,
+      0.3301357466063348,
+      0.3343891402714932,
+      0.3425339366515837,
+      0.4221073044602456,
+      0.46696832579185515,
+      0.5423076923076923,
+      0.6536953242835596,
+      0.6900754147812971,
+      0.8298642533936652,
+      1.1370647255557742,
+      1.5046868890006142,
+      3.2092006033182505,
+      3.3612903225806456,
+      4.683653846153845,
+      41.22171945701357
+    ],
+    "linkage": "average",
+    "metric": "precomputed",
+    "converged": true,
+    "stop_reason": "hierarchy constructed; cut at requested cluster count",
+    "iteration_count": null
+  },
+  "warnings": [],
+  "labels_sha256": "67dd737628b7bf314692685637264feafcc970bb9508d392b3d567907f24b8ff",
+  "representation_matrix_sha256": "5d8385d51ad8149eaf86237dddf5cd78c12226d13b862a7858eda3457af7cbb2",
+  "metric_notes": "Scores exclude noise and report coverage. Original-rail silhouette uses same retained nodes. CH/DB only saved Euclidean embedding features; never distance-matrix rows."
+}

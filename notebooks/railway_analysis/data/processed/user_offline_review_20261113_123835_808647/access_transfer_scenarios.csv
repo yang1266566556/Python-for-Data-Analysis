@@ -1,0 +1,4 @@
+﻿threshold_min,known_candidate_count,known_subset_min_min,first_train,second_train,wait_min,scope
+30,1221,101,G6333,S3851,31,same-day Guangzhou South-Zhuhai-Hengqin records; not Macau
+60,1132,131,G6107,S3877,61,same-day Guangzhou South-Zhuhai-Hengqin records; not Macau
+90,1049,164,D7139,S3843,93,same-day Guangzhou South-Zhuhai-Hengqin records; not Macau

@@ -1,0 +1,19 @@
+{
+  "actor": "user",
+  "total_queries": 6,
+  "completed_queries": 0,
+  "remaining_queries": 6,
+  "train_records": 0,
+  "unavailable_timetable_rows": 0,
+  "unresolved_station_rows": 0,
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1k_20261113_164250_874496",
+  "job_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_stage1k_20261113_164250_874496",
+  "blocking_error": {
+    "query_id": "initialization",
+    "error": "ReadTimeout: HTTPSConnectionPool(host='kyfw.12306.cn', port=443): Read timed out. (read timeout=10)",
+    "at": "2026-11-13T16:43:03.431594+08:00",
+    "automatic_retry": false
+  },
+  "matrix_ready": false,
+  "original_119_queries_still_pending": true
+}

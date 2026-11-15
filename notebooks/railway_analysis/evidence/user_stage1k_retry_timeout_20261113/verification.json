@@ -1,0 +1,30 @@
+{
+  "initialization_failures": [
+    {
+      "job": "user_stage1k_20261113_164250_874496",
+      "completed_train_requests": 0,
+      "initial_page_timeout": true,
+      "http_status_received": false,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='kyfw.12306.cn', port=443): Read timed out. (read timeout=10)",
+      "blocked_sha256": "4ae9eca5c43c093b1a90eed88ee67d47fa0aa266c141ee5b4f6c6d5ffcac4d6c"
+    },
+    {
+      "job": "user_stage1k_manual_retry_20261113_170254_725547",
+      "completed_train_requests": 0,
+      "initial_page_timeout": true,
+      "http_status_received": false,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='kyfw.12306.cn', port=443): Read timed out. (read timeout=30)",
+      "blocked_sha256": "fc3b6b32bfdd1a1ea575b71b59d75e795cb16f5e4193adccbdfe24d748a9536b"
+    }
+  ],
+  "total_train_queries_completed": 0,
+  "researcher_baseline_preserved": "987/992; five ordinary missing directions; full34 not ready",
+  "next_step": "one standalone network diagnostic; no train API requests; no further retries or timeout increases",
+  "assistant_network_requests_this_turn": 0,
+  "diagnostic_txt_syntax_passed": true,
+  "credential_redaction_check_passed": true,
+  "assistant_process_proxy_observation_not_assumed_for_user_notebook": true,
+  "network_diagnosis_not_yet_run": true,
+  "old_scripts_modified": false,
+  "docx_created": false
+}

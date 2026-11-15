@@ -1,0 +1,10 @@
+{
+  "failed_job": "user_stage1k_20261113_164250_874496",
+  "initialization_timeout_verified": true,
+  "old_completed_train_queries": 0,
+  "failed_branch_unchanged": true,
+  "timeout_connect_seconds": 30,
+  "timeout_read_seconds": 45,
+  "automatic_retry": false,
+  "snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00"
+}

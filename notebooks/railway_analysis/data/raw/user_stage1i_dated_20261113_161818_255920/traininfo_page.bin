@@ -1,0 +1,721 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <link rel="icon" href="/otn/resources/images/ots/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/otn/resources/images/ots/favicon.ico" type="image/x-icon" />
+<script>
+/*<![CDATA[*/
+ var ctx='/otn/';
+ var global_lang = 'en_US';
+ var sessionInit = '';
+ var date = new Date();
+ var vYear = date.getFullYear();
+ var vMon = date.getMonth() + 1;
+ var vDay = date.getDate();
+ var today=vYear+"-"+vMon+"-"+vDay;
+ var initTrainDate=index_train_date= '2026-11-13';
+ var initToDate = '2026-11-27';
+ var openRandCodeCheck = 'N';
+ var stu_buy_date = '2026-11-13&2026-11-27';
+ var other_buy_date = '2026-11-13&2026-11-27';
+ /*]]>*/
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国铁路12306网站</title>
+	<!-- 双日历 -->
+<link href="/otn/resources/js/rich/calender_double/datepicker/skin/WdatePicker.css" rel="stylesheet" />	
+<script type="text/javascript" src="/otn/resources/js/rich/calender_double/datepicker/WdatePicker.js" xml:space="preserve"></script>
+
+
+<!-- <link utils:merger="queryTrainInfo_css" th:href="${#httpServletRequest.contextPath}+'/resources/js/rich/calendar/dhtmlxcalendar.css'" href="../../../resources/js/rich/calendar/dhtmlxcalendar.css" rel="stylesheet" ></link>
+<link utils:merger="queryTrainInfo_css" th:href="${#httpServletRequest.contextPath}+'/resources/js/rich/calendar/skins/dhtmlxcalendar_dhx_terrace.css'" href="../../../resources/js/rich/calendar/skins/dhtmlxcalendar_dhx_terrace.css" rel="stylesheet" ></link> -->
+<link href="/otn/resources/merged/queryTrainInfo_css.css?cssVersion=1.9093" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="/otn/resources/merged/queryTrainInfo_js.js?scriptVersion=1.95059" type="text/javascript" xml:space="preserve"></script>
+
+
+
+
+
+
+	
+
+
+
+
+
+
+<!-- <script utils:merger="queryTrainInfo_js" th:src="${#httpServletRequest.contextPath}+'/resources/js/rich/calendar/dhtmlxcalendar.js'"
+	type="text/javascript" src="../../../resources/js/rich/calendar/dhtmlxcalendar.js"></script>-->
+		
+	
+
+
+
+
+
+
+<script type="text/javascript" src="/otn/resources/js/framework/favorite_name.js" xml:space="preserve"></script>
+<script type="text/javascript" src="/otn/resources/js/framework/station_name.js?station_version=1.9377" xml:space="preserve"></script>
+	
+	
+<script src="/otn/resources/js/query/qss.js?station_version=1.9377" type="text/javascript" xml:space="preserve"></script>
+
+
+
+<script src="/otn/resources/js/search_header.js" type="text/javascript" xml:space="preserve"></script>
+</head>
+
+<body>
+<div class="header">
+  <div class="wrapper">
+    <!-- 头部内容 -->
+    <div class="header-con">
+      <h1 class="logo">
+        <a name="g_href" data-type="1" data-href="index.html" data-redirect="Y" href="javascript:;">中国铁路12306</a>
+      </h1>
+      <div class="header-right">
+        <!-- 搜索条 -->
+        <div class="header-search" style="width: 380px">
+          <div class="search-bd" style="width: 350px">
+            <input type="password" value="" style="display:none" />
+            <input type="text" class="search-input" id="search-input" aria-label="搜索车票、餐饮、常旅客、相关规章" value="" auto-complete="new-password" placeholder="搜索车票、餐饮、常旅客、相关规章" aria-haspopup="true" />
+            <!-- 搜索提示 -->
+            <div class="search-down">
+              <a href="javascript:;" class="close">关闭</a>
+              <ul class="search-down-list">
+
+              </ul>
+            </div>
+            <!-- 搜索历史 -->
+            <div class="search-history">
+              <a href="javascript:;" class="history-clear">清除</a>
+              <h3 class="search-history-tit">搜索历史</h3>
+              <ul class="search-history-list">
+
+              </ul>
+            </div>
+          </div>
+          <a aria-label="点击搜索，搜索结果页面可能超出无障碍范围。" class="search-btn" href="javascript:;">
+            <i class="icon icon-search"></i>
+          </a>
+        </div>
+        <!-- 右侧菜单 -->
+        <ul class="header-menu" role="menubar">
+          <li class="menu-item"><a id="toolbarSwitch" href="javascript:;" class="menu-nav-hd">无障碍</a></li>
+          <li class="menu-item menu-line">|</li>
+          <li class="menu-item"><a id="caring_a" href="javascript:;" onclick="$.changebigslh();" class="menu-nav-hd">敬老版</a></li>
+          <li class="menu-item menu-line">|</li>
+          <li class="menu-item menu-nav" role="menuitem">
+            <a href="https://www.12306.cn/en/index.html" class="menu-nav-hd" aria-controls="megamenu-1" aria-expanded="false" aria-haspopup="true">English
+              <i class="caret"></i>
+            </a>
+            <ul class="menu-nav-bd" role="menu" aria-hidden="true" id="megamenu-1" style="width: 90px;">
+              <li>
+                <a href="https://www.12306.cn/index/index.html">简体中文</a>
+              </li>
+              <li>
+                <a href="https://www.12306.cn/en/index.html">English</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item menu-line">|</li>
+          <li class="menu-item menu-nav" role="menuitem">
+            <a name="g_href" data-type="2" data-href="view/index.html" data-redirect="Y" href="javascript:;" class="menu-nav-hd" aria-expanded="false" aria-haspopup="true" aria-controls="megamenu-2">我的12306
+              <i class="caret"></i>
+            </a>
+            <ul class="menu-nav-bd" role="menu" aria-hidden="true" id="megamenu-2">
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/train_order.html" data-redirect="Y" href="javascript:;">火车票订单</a>
+              </li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/lineUp_order.html" data-redirect="Y" href="javascript:;">候补订单</a>
+              </li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/commutation_order.html" data-redirect="Y" href="javascript:;">计次•定期票订单</a>
+              </li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/commutation_ticket_order.html" data-redirect="Y" href="javascript:;">约号订单</a>
+              </li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/snow_order.html" data-redirect="Y" href="javascript:;">雪具快运订单</a>
+              </li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/invoice_index.html" data-redirect="Y" href="javascript:;">电子发票</a>
+              </li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/personal_travel.html" data-redirect="Y" href="javascript:;">本人车票</a>
+              </li>
+              <li class="nav-line"></li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="10" data-href="queryMyOrder.html" data-redirect="Y" href="javascript:;">我的餐饮•特产</a>
+              </li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/my_insurance.html" data-redirect="Y" href="javascript:;">我的保险</a>
+              </li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="3" data-href="welcome.html" data-redirect="Y" href="javascript:;">我的会员</a>
+              </li>
+              <li class="nav-line"></li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/information.html" data-redirect="Y" href="javascript:;">查看个人信息</a>
+              </li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/userSecurity.html" data-redirect="Y" href="javascript:;">账户安全</a>
+              </li>
+              <li class="nav-line"></li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/passengers.html" data-redirect="Y" href="javascript:;">乘车人</a>
+              </li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/address_init.html" data-redirect="Y" href="javascript:;">地址管理</a>
+              </li>
+              <li class="nav-line"></li>
+              <li>
+                <a style="color: #333;" name="g_href" data-type="2" data-href="view/icentre_serviceQuery.html" data-redirect="Y" href="javascript:;">温馨服务查询</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item menu-line">|</li>
+          <li role="menuitem" id="J-header-login" class="menu-item menu-login">
+            您好，请<a id="login_user" name="g_href" data-type="2" data-href="resources/login.html" data-redirect="Y" href="javascript:;">登录</a><a id="regist_out" name="g_href" data-type="2" data-href="regist/init" data-redirect="Y" href="javascript:;" class="ml">注册</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 导航 -->
+  <div class="nav-box" role="navigation">
+    <ul class="nav" role="menubar">
+      <li role="menuitem" class="nav-item nav-item-w1">
+        <a name="g_href" data-type="1" data-href="index.html" data-redirect="Y" href="javascript:;" class="nav-hd">首页</a>
+      </li>
+      <li role="menuitem" class="nav-item nav-item-w1">
+        <a href="javascript:void(0)" class="nav-hd" aria-expanded="false" aria-haspopup="true" aria-controls="megamenu-3">车票
+          <i class="icon icon-down"></i>
+        </a>
+        <div class="nav-bd" id="megamenu-3">
+          <div class="nav-bd-item nav-col2">
+            <h3 class="nav-tit">购买</h3>
+            <ul class="nav-con" role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="leftTicket/init?linktypeid=dc" data-redirect="Y" href="javascript:;">单程</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="leftTicket/init?linktypeid=wf" data-redirect="Y" href="javascript:;">往返</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="lcQuery/init" data-redirect="Y" href="javascript:;">中转换乘</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="view/commutation_index.html" data-redirect="Y" href="javascript:;">计次•定期票</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-bd-item nav-col2">
+            <h3 class="nav-tit">变更</h3>
+            <ul class="nav-con" role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="view/train_order.html?type=2" data-param="typefilt=4" data-redirect="Y" href="javascript:;">退票</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="view/train_order.html?type=2" data-param="typefilt=2" data-redirect="Y" href="javascript:;">改签</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="view/train_order.html?type=2" data-param="typefilt=3" data-redirect="Y" href="javascript:;">变更到站</a>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="nav-bd-item nav-col2">
+            <h3 class="nav-tit border-none">更多</h3>
+            <ul class="nav-con" role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/ticket/zt_card.html" data-redirect="Y" href="javascript:;">中铁银通卡</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/ticket/international_train.html" data-redirect="Y" href="javascript:;">国际列车</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li role="menuitem" class="nav-item ">
+        <a href="javascript:void(0)" class="nav-hd " aria-expanded="false" aria-haspopup="true" aria-controls="megamenu-4">团购服务
+          <i class="icon icon-down "></i>
+        </a>
+        <div class="nav-bd " id="megamenu-4">
+          <div class="nav-bd-item nav-col6 ">
+            <ul class="nav-con " role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/group/group_management.html?type=1" data-redirect="Y" href="javascript:;">务工人员</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/group/group_management.html?type=2" data-redirect="Y" href="javascript:;">学生团体</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li role="menuitem" class="nav-item ">
+        <a href="javascript:void(0) " class="nav-hd " aria-expanded="false" aria-haspopup="true" aria-controls="megamenu-5">会员服务
+          <i class="icon icon-down "></i>
+        </a>
+        <div class="nav-bd " id="megamenu-5">
+          <div class="nav-bd-item nav-col6">
+            <ul class="nav-con " role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="3" data-href="index.html" data-redirect="Y" href="javascript:;">会员管理</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="3" data-href="index.html" data-redirect="Y" href="javascript:;">积分账户</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="3" data-href="index.html" data-redirect="Y" href="javascript:;">积分兑换</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="3" data-href="index.html" data-redirect="Y" href="javascript:;">会员专享</a>
+              </li>
+              <li class="border-none " role="menuitemradio">
+                <a name="g_href" data-type="3" data-href="welcome.html" data-redirect="Y" href="javascript:;">会员中心</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li role="menuitem" class="nav-item ">
+        <a href="javascript:void(0) " class="nav-hd " aria-expanded="false" aria-haspopup="true" aria-controls="megamenu-6">站车服务
+          <i class="icon icon-down "></i>
+        </a>
+        <div class="nav-bd " id="megamenu-6">
+          <div class="nav-bd-item nav-col4 ">
+            <ul class="nav-con " role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="view/icentre_qxyyInfo.html" data-redirect="Y" href="javascript:;">重点旅客预约</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/station/hand.html" data-redirect="Y" href="javascript:;">便民托运</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/station/shared_Car.html" data-redirect="Y" href="javascript:;">约车服务</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="4" data-href="czyd_2143/" data-redirect="Y" href="javascript:;">车站引导</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="view/icentre_lostInfo.html" data-redirect="Y" href="javascript:;">遗失物品查找</a>
+              </li>
+              <li role="menuitemradio"><a name="g_href" data-type="1" data-href="view/station/train_intro.html" data-redirect="Y" href="javascript:;">动车组介绍</a></li>
+<!--              <li role="menuitemradio">-->
+<!--                <a name="g_href" data-type="1" data-href="view/station/custom_PickUp.html" data-redirect="Y"-->
+<!--                   href="javascript:;">定制接送</a>-->
+<!--              </li>-->
+              <li role="menuitemradio">
+                <a name="g_href" data-type="4" data-href="zcfc_2548/" data-redirect="Y" href="javascript:;">站车风采</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li role="menuitem" class="nav-item ">
+        <a href="javascript:void(0) " class="nav-hd " aria-expanded="false" aria-haspopup="true" aria-controls="megamenu-7">商旅服务
+          <i class="icon icon-down "></i>
+        </a>
+        <div class="nav-bd " id="megamenu-7">
+          <div class="nav-bd-item nav-col6 ">
+            <ul class="nav-con " role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="10" data-href="index.html" data-redirect="Y" href="javascript:;">餐饮•特产</a>
+              </li>
+              <!-- <li role="menuitemradio">
+                <a name="g_href" data-type="5" data-href="" data-redirect="Y" href="javascript:;">旅游</a>
+              </li> -->
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="view/my_insurance.html" data-redirect="Y" href="javascript:;">保险</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="view/snow_checkedBaggage.html" data-redirect="Y" href="javascript:;">雪具快运</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li role="menuitem" class="nav-item ">
+        <a href="javascript:void(0) " class="nav-hd " aria-expanded="false" aria-haspopup="true" aria-controls="megamenu-8">出行指南
+          <i class="icon icon-down "></i>
+        </a>
+        <div class="nav-bd " id="megamenu-8">
+          <div class="nav-bd-item nav-col2 ">
+            <h3 class="nav-tit ">常见问题</h3>
+            <ul class="nav-con " role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="gonggao/ticketType.html" data-redirect="Y" href="javascript:;">车票</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="gonggao/ticketWindow.html" data-redirect="Y" href="javascript:;">购票</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="gonggao/windowEndorse.html" data-redirect="Y" href="javascript:;">改签</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="gonggao/windowRefund.html" data-redirect="Y" href="javascript:;">退票</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="gonggao/help.html" data-redirect="Y" href="javascript:;" class="txt-lighter">更多>></a>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="nav-bd-item nav-col2 ">
+            <h3 class="nav-tit ">旅客须知</h3>
+            <ul class="nav-con " role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="gonggao/saleTicketMeans.html?linktypeid=means5" data-redirect="Y" href="javascript:;">身份核验</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="gonggao/help.html" data-redirect="Y" href="javascript:;" class="txt-lighter">更多>></a>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="nav-bd-item nav-col2 ">
+            <h3 class="nav-tit border-none ">相关章程</h3>
+            <ul class="nav-con " role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="gonggao/saleTicketMeans.html?linktypeid=means2" data-redirect="Y" href="javascript:;">铁路旅客运输规程</a>
+              </li>
+              <li class="border-none " role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="gonggao/saleTicketMeans.html?linktypeid=means7" data-redirect="Y" href="javascript:;">广深港高速铁路跨境旅客运输组织规则</a>
+              </li>
+              <li role="menuitemradio" style="text-overflow: ellipsis;white-space: nowrap;">
+                <a name="g_href" data-type="2" data-href="gonggao/saleTicketMeans.html?linktypeid=means6" data-redirect="Y" href="javascript:;">铁路旅客禁止、限制携带和托运物品目录</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="gonggao/help.html" data-redirect="Y" href="javascript:;" class="txt-lighter">更多>></a>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li role="menuitem" class="nav-item last ">
+        <a href="javascript:void(0) " class="nav-hd " aria-expanded="false" aria-haspopup="true" aria-controls="megamenu-9">信息查询
+          <i class="icon icon-down "></i>
+        </a>
+        <div class="nav-bd " id="megamenu-9">
+          <div class="nav-bd-item nav-col5 ">
+            <h3 class="nav-tit border-none ">常用查询</h3>
+            <ul class="nav-con " role="menu" aria-hidden="true">
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="zwdch/init" data-redirect="Y" href="javascript:;">正晚点</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="queryTrainInfo/init" data-redirect="Y" href="javascript:;">时刻表</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="view/queryPublicIndex.html" data-redirect="Y" href="javascript:;">公布票价</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/infos/ticket_check.html" data-redirect="Y" href="javascript:;">检票口</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/infos/sale_time.html" data-redirect="Y" href="javascript:;">起售时间</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-href="https://12306.weather.com.cn/pc.html" data-redirect="N" href="javascript:;">天气</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/infos/jiaotong.html" data-redirect="Y" href="javascript:;">交通查询</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="queryAgencySellTicket/init" data-redirect="Y" href="javascript:;">代售点</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/infos/service_number.html" data-redirect="Y" href="javascript:;">客服电话</a>
+              </li>
+              <li role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="view/infos/train-query-status.html" data-redirect="Y" href="javascript:;">列车状态</a>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="nav-bd-item ">
+            <ul class="nav-con nav-con-pt" role="menu" aria-hidden="true">
+              <li class="border-none" role="menuitemradio">
+                <a name="g_href" data-type="2" data-href="view/announceMarketer.html" data-redirect="Y" href="javascript:;">团体票业务联系方式查询</a>
+              </li>
+              <li class="border-none" role="menuitemradio">
+                <a name="g_href" data-type="1" data-href="index.html#index_ads" data-redirect="Y" href="javascript:;">最新发布</a>
+              </li>
+              <li class="border-none" role="menuitemradio">
+                <a name="g_href" data-type="6" data-href="queryDishonest/init" data-redirect="Y" href="javascript:;">信用信息</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--header end-->
+<div class="content">
+    <!--搜索框 开始-->
+  	<div class="lay-sear lay-sear-station clearfix">
+        <ul style="margin-right:7px;">
+            <li style="width:258px;">
+                <span class="label"><b class="required">*</b>日期</span>
+                <div class="inp-w"><input aria-label="请输入日期，例如2021杠01杠01" type="text" id="train_start_date" name="train_start_date" class="inptxt color333" value="" /><span id="date_icon" class="i-date"></span></div>
+            </li>
+            <li style="width:258px;display: none;">
+                <span class="label"><b class="required">*</b>车次</span>
+                <div class="section-bd" id="train_combo_box_div" style="padding-top:2px">
+						<input type="text" class="inptxt w90 color333" style="float:left; margin-top:-2px; width:172px;" id="train_combo_box" />
+				</div>
+				<!-- 
+                <div class="inp-w">
+					<input type="text" autocomplete="off" id="train_code_text" class="inptxt color333" style="width:120px"></input>
+				</div>
+				 -->
+            </li>
+            <li style="padding-left:100px">
+            	<span>车次</span>
+            	<input type="text" class="inptxt w150" placeholder="请输入车次" id="numberValue" value="" />
+                <ul style="z-index:26666;display:none;left: 132px;width: 150px;height: 160px;overflow-x:none;overflow-y: auto;position: absolute;background-color: #fff;border: 1px solid #eee;border-top: none;" class="active" name="makeupCoSe" id="train_hide">
+                </ul>
+            </li>
+            <li id="trainRandCode" style="width:258px; margin-left:17px;display: none;">
+                <span class="label"><b class="required">*</b>验证码</span>
+                <div class="yzm"><input maxlength="4" autocomplete="off" name="randCode" id="randCode" type="text" class="inptxt color333" value="" /><span class="img">
+                <img src="/otn/passcodeNew/getPassCodeNew;jsessionid=95FBC78844154CCE7AF537666ACA0AF8?module=other&amp;rand=sjrand" onclick="refreshImg('other','sjrand')" title="单击刷新验证码" id="img_rand_code" /></span><span class="i-re" onclick="refreshImg('other','sjrand')" title="单击刷新验证码"></span>
+                <span id="randCode_span" class="tips"></span></div>
+            </li>
+        </ul>
+        <div class="btn-area"><a href="javascript:void(0);" class="btn122s" onclick="$.queryResult()" shape="rect">查询</a></div>
+    </div>
+	<!--搜索框 结束-->
+    
+    <div class="sear-result" id="sear-result" style="margin-top:-5px;">
+    	<!-- <span class="fr"><input type="checkbox" class="check" id="" /><label for="">仅查看可预订车次 </label></span> -->
+        <p></p>
+    </div>
+    
+    <div class="t-list">
+    <table class="" id="queryTable">
+    	<tr class="th">
+        	<th width="40" rowspan="1" colspan="1">站序</th>
+            <th width="80" rowspan="1" colspan="1">车站</th>
+            <th width="80" rowspan="1" colspan="1">车次</th>
+           	<th width="90" rowspan="1" colspan="1">
+                <div class="two-line" id="startendtime">
+                </div>
+            </th>
+            <th width="78" rowspan="1" colspan="1"><span id="_span_lishi">历时</span></th>
+           	<th width="54" rowspan="1" colspan="1">商务座<br clear="none" />特等座</th>
+            <!-- <th width="54">特等座</th> -->
+            <th width="54" rowspan="1" colspan="1">一等座</th>
+            <th width="54" rowspan="1" colspan="1">二等座</th>
+            <th width="60" rowspan="1" colspan="1">高级软卧<br clear="none" />（下）</th>
+            <th width="59" rowspan="1" colspan="1">软卧<br clear="none" />（下）</th>
+            <th width="59" rowspan="1" colspan="1">动卧</th>
+            <th width="59" rowspan="1" colspan="1">硬卧<br clear="none" />（中）</th>
+            <th width="54" rowspan="1" colspan="1">软座</th>
+            <th width="54" rowspan="1" colspan="1">硬座</th>
+            <th width="54" rowspan="1" colspan="1">无座</th>
+            <th class="last" rowspan="1" colspan="1">其他</th>
+        </tr>
+        <tbody id="_query_table_datas"></tbody>
+    </table>  
+    <div class="t-list-bd" id="t-list-bd">
+	    <div class="no-ticket" id="no_filter_ticket" style="display: none;">
+			<span class="i-no"></span>
+			<p>
+				很抱歉，根据您的查询条件，当前未找到满足条件的列车。您可以更改查询条件后再次查询。
+			</p>
+		</div>
+	</div>
+    </div>
+</div>
+
+<!--页面底部  开始-->
+<div class="footer">
+  <div class="footer-con wrapper">
+    <div class="foot-links" style="margin-right:20px;">
+      <h2 class="foot-con-tit">友情链接</h2>
+      <ul class="foot-links-list">
+        <li><a name="g_href" data-href="http://www.china-railway.com.cn/" data-redirect="N" href="javascript:;" data-target="_blank"><img src="/otn/resources/images/12306_index/link05.png" alt="中国国家铁路集团有限公司" /></a></li>
+        <li><a name="g_href" data-href="http://www.china-ric.com/" data-redirect="N" href="javascript:;" data-target="_blank"><img src="/otn/resources/images/12306_index/link02.png" alt="中国铁路财产保险自保有限公司" /></a></li>
+        <li><a name="g_href" data-href="http://www.95306.cn/" data-redirect="N" href="javascript:;" data-target="_blank"><img src="/otn/resources/images/12306_index/link03.png" alt="中国铁路95306网" /></a></li>
+        <li><a name="g_href" data-href="http://www.95572.com/" data-redirect="N" href="javascript:;" data-target="_blank"><img src="/otn/resources/images/12306_index/link04.png" alt="中铁快运股份有限公司" /></a></li>
+      </ul>
+    </div>
+    <ul class="foot-code">
+      <li style="width: 140px;">
+        <h2 class="foot-con-tit">中国铁路官方微信</h2>
+        <div class="code-pic">
+          <img src="/otn/resources/images/zgtlwb.png" class="code-pic" alt="中国铁路官方微信" />
+        </div>
+      </li>
+      <li style="width: 140px;">
+        <h2 class="foot-con-tit">中国铁路官方微博</h2>
+        <div class="code-pic">
+          <img src="/otn/resources/images/zgtlwx.png" class="code-pic" alt="中国铁路官方微博" />
+        </div>
+      </li>
+      <li style="width: 110px;">
+        <h2 class="foot-con-tit">12306 公众号</h2>
+        <div class="code-pic">
+          <img src="/otn/resources/images/public.png" class="code-pic" alt="12306 公众号" />
+        </div>
+      </li>
+      <li style="width: 110px;">
+        <h2 class="foot-con-tit">铁路12306</h2>
+        <div class="code-pic">
+          <img src="/otn/resources/images/download.png" class="code-pic" alt="铁路12306" />
+          <div class="code-tips">官方APP下载，目前铁路未授权其他网站或APP开展类似服务内容，敬请广大用户注意。</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-txt" style="position: relative;">
+    <p>
+      <span class="mr">版权所有©2008-2025</span>
+      <span>中国铁道科学研究院集团有限公司</span>
+      <span>技术支持：铁旅科技有限公司</span>
+    </p>
+    <p>
+      <span class="mr">
+        <img src="/otn/resources/images/gongan.png" alt="公安" style="width: 13px" />
+        <a target="blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802038392" style="color: #c1c1c1">京公网安备 11010802038392号</a>
+      </span>
+      <span class="mr">|</span>
+      <span class="mr">京ICP备05020493号-4</span>
+      <span class="mr">|</span>
+      <span>ICP证：京B2-20202537</span>
+    </p>
+     <div style="position: absolute;top: 17px;left: 50%;margin-left: 465px;">
+       <img src="/otn/resources/images/footer-slh.jpg" style="display: block;width: 130px;height: 46px;" alt="适老化无障碍服务" />
+     </div>
+  </div>
+  <script type="text/javascript" src="https://kyfw.12306.cn/otn/resources/route/kyfw.12306.cn/route.js"></script>
+</div>
+
+</body>
+</html>
+<script id="queryTrainInfoTemplate" type="text/x-jsrender" xml:space="preserve">
+<!--
+<tr class="{{:#index%2 ? '' : 'bgc'}}">
+	<td colspan="5">
+		<div class="ticket-info train-number clearfix" style="z-index:9999">
+			<div class="t-num">{{:#index+1}}</div>
+			<div class="t-station">{{>station_name}}</div>
+			<div class="t-train">
+				<span style="font-size: 14px; color: #333; font-weight: 700;">{{>station_train_code}}</span>
+			</div>
+			<div class="cds">
+				<strong class="start-t">{{>arrive_time}}</strong>
+				<span>{{>start_time}}</span>
+			</div>
+			<div class="ls">
+				<strong>{{>running_time}}</strong>
+				<span>{{>arrive_day_str}}</span>
+			</div>
+		</div>
+	</td>
+
+    {{if  A9 != null}}
+    <td class="p-num">{{>A9}}</td>
+    {{else}}
+    <td>&minus;&minus;</td>
+    {{/if}}
+
+    {{if P != null}}
+    <td class="p-num">{{>P}}</td>
+    {{else}}
+    <td>&minus;&minus;</td>
+    {{/if}}
+
+    {{if M != null}}
+    <td class="p-num">{{>M}}</td>
+    {{else}}
+    <td>&minus;&minus;</td>
+    {{/if}}
+
+    {{if O != null}}
+    <td class="p-num">{{>O}}</td>
+    {{else}}
+    <td>&minus;&minus;</td>
+    {{/if}}
+
+    {{if A6 != null}}
+    <td class="p-num">{{>A6}}</td>
+    {{else}}
+    <td>&minus;&minus;</td>
+    {{/if}}
+
+    {{if A4 != null}}
+    <td class="p-num">{{>A4}}</td>
+    {{else}}
+    <td>&minus;&minus;</td>
+    {{/if}}
+
+    {{if A3 != null}}
+    <td class="p-num">{{>A3}}</td>
+    {{else}}
+    <td>&minus;&minus;</td>
+    {{/if}}
+
+     {{if A2 != null}}
+    <td class="p-num">{{>A2}}</td>
+    {{else}}
+    <td>&minus;&minus;</td>
+    {{/if}}
+
+    {{if A1 != null}}
+    <td class="p-num">{{>A1}}
+    </td>
+    {{else}}
+    <td>&minus;&minus;</td>
+    {{/if}}
+
+	{{if WZ != null}}
+    <td class="p-num">{{>WZ}}
+    </td>
+    {{else}}
+    <td>&minus;&minus;</td>
+    {{/if}}
+	
+	{{if MIN!=null}}
+    <td>
+		<div class="sleeper" id="sleeper-price_{{>train_no}}">
+        <p class="p-num">{{>MIN}}</p>
+        <div class="tp-list" id="tp-list-price_{{>train_no}}" style="display:none;">
+        <b></b>
+        <ul>
+		{{for OT}}
+            <li>{{>#data}}</li>
+		{{/for}}
+        </ul>
+        </div>
+   	 </div>
+	</td>
+	{{else}}
+	<td>&minus;&minus;</td>
+	{{/if}}
+	</tr>
+-->
+</script>
+<!-- 农历日历 -->
+<link href="/otn/resources/css/calendarNew.css" rel="stylesheet" />
+<script type="text/javascript" src="/otn/resources/js/framework/data.jcalendar.js" xml:space="preserve"></script>

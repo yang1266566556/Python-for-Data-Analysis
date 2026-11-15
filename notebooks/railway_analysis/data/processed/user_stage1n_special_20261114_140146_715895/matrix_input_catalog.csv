@@ -1,0 +1,10 @@
+﻿matrix_id,access_assumption_min,penalty_alpha,reference_max_core32_min,penalty_min,node_count,algorithm_ready,ordinary_missing_cells,penalty_cells,directed_csv,symmetric_csv,penalty_share_of_pairwise_sum
+access_30_alpha_2,30,2,4555.0,9110.0,34,True,0,66,algorithm34_directed_access_30_alpha_2.csv,algorithm34_symmetric_access_30_alpha_2.csv,0.42436779954221976
+access_30_alpha_5,30,5,4555.0,22775.0,34,True,0,66,algorithm34_directed_access_30_alpha_5.csv,algorithm34_symmetric_access_30_alpha_5.csv,0.6482651903393543
+access_30_alpha_10,30,10,4555.0,45550.0,34,True,0,66,algorithm34_directed_access_30_alpha_10.csv,algorithm34_symmetric_access_30_alpha_10.csv,0.7866030225462515
+access_60_alpha_2,60,2,4555.0,9110.0,34,True,0,66,algorithm34_directed_access_60_alpha_2.csv,algorithm34_symmetric_access_60_alpha_2.csv,0.4233954021256384
+access_60_alpha_5,60,5,4555.0,22775.0,34,True,0,66,algorithm34_directed_access_60_alpha_5.csv,algorithm34_symmetric_access_60_alpha_5.csv,0.6473567182504939
+access_60_alpha_10,60,10,4555.0,45550.0,34,True,0,66,algorithm34_directed_access_60_alpha_10.csv,algorithm34_symmetric_access_60_alpha_10.csv,0.785933867362974
+access_90_alpha_2,90,2,4555.0,9110.0,34,True,0,66,algorithm34_directed_access_90_alpha_2.csv,algorithm34_symmetric_access_90_alpha_2.csv,0.42282373343103535
+access_90_alpha_5,90,5,4555.0,22775.0,34,True,0,66,algorithm34_directed_access_90_alpha_5.csv,algorithm34_symmetric_access_90_alpha_5.csv,0.6468218740815551
+access_90_alpha_10,90,10,4555.0,45550.0,34,True,0,66,algorithm34_directed_access_90_alpha_10.csv,algorithm34_symmetric_access_90_alpha_10.csv,0.7855395708079145

@@ -1,0 +1,93 @@
+{
+  "actor": "user",
+  "input": {
+    "base_job": "user_stage1j_restored_20261113_162646_869372",
+    "base_records": 27028,
+    "new_records": 507,
+    "six_query_job": "user_stage1k_recovered_20261113_171730_784804",
+    "all_six_requests_returned": true,
+    "manual_retry_of": "user_stage1k_20261113_164250_874496",
+    "original_failure_preserved": true,
+    "unavailable_timetable_rows": 1,
+    "unresolved_station_rows": 0,
+    "manual_retry_script_sha256": "2db8f5a55f6228a3c06fe84cc6506bf7549a25d45f98b37c19e006c64be1c766",
+    "new_network_requests_in_analysis": 0,
+    "network_recovery_evidence": {
+      "failed_job": "user_stage1k_20261113_164250_874496",
+      "initialization_timeout_verified": true,
+      "old_completed_train_queries": 0,
+      "failed_branch_unchanged": true,
+      "timeout_connect_seconds": 30,
+      "timeout_read_seconds": 45,
+      "automatic_retry": false,
+      "snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00",
+      "second_failed_job": "user_stage1k_manual_retry_20261113_170254_725547",
+      "second_completed_train_queries": 0,
+      "diagnostic_file": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\diagnostics\\network_check_20261113_171026_410500\\network_diagnostic.json",
+      "diagnostic_sha256": "59b4c48fa46e4248852c1bffb4ae07d652ac7cf44b279650ec6c53b4937b9000",
+      "diagnostic_finished_at": "2026-11-13T17:10:31.603664+08:00",
+      "official_page_http200": true,
+      "note": "Recent reachability evidence permits one new manual branch; future request success is not guaranteed."
+    }
+  },
+  "source_conflicts": 0,
+  "scenarios": [
+    {
+      "scenario": "draft83_60",
+      "before_finite": 986,
+      "after_finite": 992,
+      "missing": 0,
+      "newly_found": 6,
+      "shorter": 5
+    },
+    {
+      "scenario": "observed_group_30",
+      "before_finite": 987,
+      "after_finite": 992,
+      "missing": 0,
+      "newly_found": 5,
+      "shorter": 6
+    },
+    {
+      "scenario": "observed_group_60",
+      "before_finite": 987,
+      "after_finite": 992,
+      "missing": 0,
+      "newly_found": 5,
+      "shorter": 5
+    },
+    {
+      "scenario": "observed_group_90",
+      "before_finite": 985,
+      "after_finite": 991,
+      "missing": 1,
+      "newly_found": 6,
+      "shorter": 3
+    }
+  ],
+  "core32_complete": true,
+  "core32_algorithm_input_ready": true,
+  "full34_algorithm_ready": false,
+  "raw34_missing": 130,
+  "threshold_monotonicity_passed": true,
+  "penalties_applied": false,
+  "imputation_applied": false,
+  "new_network_requests_in_analysis": 0,
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "scripts_sha256": {
+    "stage1k_matrix.py": "d9d1daeb248fb8eb8e59730aaabf435938c4d06ce2b3035ffc3a61fd74cd34e6",
+    "stage1k_residual.py": "2010321c590c1e33a5a153880ed7a01ad2392dc045fca02fe73d7f98366c906d",
+    "stage1d_routes.py": "dca29e5c746b71ceee053c04808801b62ca6e3e02cd6ae90da1fb0801f01361f"
+  },
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1k_matrix_20261113_171823_241363",
+  "note": "A complete observed core32 matrix does not establish global timetable completeness or replace the full34 Macau/Taipei analysis. All missing and special-region states remain explicit."
+}

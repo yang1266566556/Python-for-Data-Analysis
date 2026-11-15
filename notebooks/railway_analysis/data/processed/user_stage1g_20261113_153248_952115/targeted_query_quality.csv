@@ -1,0 +1,17 @@
+﻿query_id,date,from_city,to_city,from_station,to_station,status,raw_count,valid_count,unavailable_count,unresolved_station_count
+T001,2026-11-18,广州,拉萨,广州白云,拉萨,validated_records,1,1,0,0
+T002,2026-11-19,广州,拉萨,广州白云,拉萨,partial_timetable_unavailable,1,0,1,0
+T003,2026-11-19,武汉,拉萨,武昌,拉萨,partial_timetable_unavailable,1,0,1,0
+T004,2026-11-19,郑州,拉萨,郑州,拉萨,validated_records,2,2,0,0
+T005,2026-11-19,长沙,拉萨,长沙,拉萨,partial_timetable_unavailable,1,0,1,0
+T006,2026-11-20,兰州,拉萨,兰州,拉萨,partial_timetable_unavailable,4,1,3,0
+T007,2026-11-20,南京,拉萨,南京,拉萨,validated_records,1,1,0,0
+T008,2026-11-20,武汉,拉萨,武昌,拉萨,partial_timetable_unavailable,1,0,1,0
+T009,2026-11-20,西宁,拉萨,西宁,拉萨,partial_timetable_unavailable,6,1,5,0
+T010,2026-11-20,西安,拉萨,西安,拉萨,partial_timetable_unavailable,2,1,1,0
+T011,2026-11-20,郑州,拉萨,郑州,拉萨,partial_timetable_unavailable,2,1,1,0
+T012,2026-11-20,长沙,拉萨,长沙,拉萨,partial_timetable_unavailable,1,0,1,0
+T013,2026-11-21,兰州,拉萨,兰州,拉萨,partial_timetable_unavailable,4,1,3,0
+T014,2026-11-21,南京,拉萨,南京,拉萨,validated_records,1,1,0,0
+T015,2026-11-21,西宁,拉萨,西宁,拉萨,partial_timetable_unavailable,6,1,5,0
+T016,2026-11-21,西安,拉萨,西安,拉萨,partial_timetable_unavailable,2,1,1,0

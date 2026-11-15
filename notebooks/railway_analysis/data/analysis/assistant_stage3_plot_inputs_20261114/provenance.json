@@ -1,0 +1,7 @@
+{
+  "user_source_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage3_clustering_20261114_171710_794272",
+  "verified": true,
+  "course_clusters_fit_by_assistant": false,
+  "color_policy": "Display labels only: positive-overlap Hungarian matching to same-algorithm raw33 k4 reference; unmatched groups receive new colors, noise stays grey. Raw labels unchanged. Colors not semantically shared across algorithms.",
+  "code_sha256": "b659b7ed761567a95788d4ac415eefca6584177f5df0c2cb5cae372c417cc2c0"
+}

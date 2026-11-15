@@ -1,0 +1,6 @@
+﻿scenario,from_node,from_city,to_node,to_city,time_min,running_min,wait_min,transfers,first_departure,final_arrival,status
+observed_group_60,N26,拉萨,N06,沈阳,,,,,,,not_found_in_collected_timetable_not_unreachable
+observed_group_60,N26,拉萨,N11,杭州,,,,,,,not_found_in_collected_timetable_not_unreachable
+observed_group_60,N26,拉萨,N14,南昌,,,,,,,not_found_in_collected_timetable_not_unreachable
+observed_group_60,N26,拉萨,N21,海口,,,,,,,not_found_in_collected_timetable_not_unreachable
+observed_group_60,N26,拉萨,N22,重庆,,,,,,,not_found_in_collected_timetable_not_unreachable

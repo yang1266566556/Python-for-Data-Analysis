@@ -1,0 +1,6 @@
+﻿query_id,role,primary_query_id,date,from_station,to_station,from_city,to_city,purpose
+M01,special_region_access,,2026-11-18,珠海,广州南,珠海,广州,Rail access to separate Macao border node; no free city/station link
+M02,special_region_access,,2026-11-19,广州南,珠海,广州,珠海,Rail access to separate Macao border node; no free city/station link
+M03,special_region_access,,2026-11-20,广州南,珠海,广州,珠海,Rail access to separate Macao border node; no free city/station link
+M04,special_region_access,,2026-11-21,广州南,珠海,广州,珠海,Rail access to separate Macao border node; no free city/station link
+M05,special_region_access,,2026-11-22,广州南,珠海,广州,珠海,Rail access to separate Macao border node; no free city/station link

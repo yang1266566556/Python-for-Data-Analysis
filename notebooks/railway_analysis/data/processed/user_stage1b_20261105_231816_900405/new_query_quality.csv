@@ -1,0 +1,8 @@
+﻿query_id,date,from_station,to_station,purpose,status,raw_count,valid_count,rejected_count,duplicate_count,raw_file,error
+X11,2026-11-11,西宁,拉萨,arrival_date_extension,validated_records,6,6,0,0,data\raw\user_stage1b_20261105_231816_900405\X11.bin,
+X12,2026-11-12,西宁,拉萨,arrival_date_extension,validated_records,6,6,0,0,data\raw\user_stage1b_20261105_231816_900405\X12.bin,
+X13,2026-11-13,西宁,拉萨,arrival_date_extension,validated_records,6,6,0,0,data\raw\user_stage1b_20261105_231816_900405\X13.bin,
+X14,2026-11-14,西宁,拉萨,arrival_date_extension,partial_parse_needs_review,6,4,2,0,data\raw\user_stage1b_20261105_231816_900405\X14.bin,
+A01,2026-11-10,广州南,珠海,mainland_access_probe,not_attempted,,,,,,
+A02,2026-11-10,珠海,横琴,mainland_access_probe,not_attempted,,,,,,
+A03,2026-11-10,横琴,珠海,mainland_access_reverse_probe,not_attempted,,,,,,

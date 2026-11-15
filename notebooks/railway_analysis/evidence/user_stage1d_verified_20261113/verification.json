@@ -1,0 +1,21 @@
+{
+  "user_core_codes_received": [
+    10,
+    11,
+    12
+  ],
+  "user_routing_output": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1d_routes_20261113_141703_918913",
+  "scenario_and_query_plan_match_offline_reference": true,
+  "representative_itinerary_minutes": 303,
+  "train_running_minutes": 241,
+  "wait_minutes": 62,
+  "representative_legs_checked_against_original_rows": 2,
+  "stage1e_code_offline_tests_passed": 3,
+  "next_plan_followups": 436,
+  "next_plan_source_refreshes": 68,
+  "next_plan_total": 504,
+  "new_network_queries_executed_by_assistant": 0,
+  "new_R_execution": false,
+  "new_txt_syntax_valid": true,
+  "docx_created": false
+}

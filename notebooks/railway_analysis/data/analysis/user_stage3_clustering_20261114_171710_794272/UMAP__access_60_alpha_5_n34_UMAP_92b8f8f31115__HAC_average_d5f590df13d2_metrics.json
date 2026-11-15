@@ -1,0 +1,216 @@
+{
+  "record": {
+    "run_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115__HAC_average_d5f590df13d2",
+    "representation_id": "UMAP__access_60_alpha_5_n34_UMAP_92b8f8f31115",
+    "dataset_id": "access_60_alpha_5_n34",
+    "family": "UMAP",
+    "algorithm": "HAC_average",
+    "node_count": 34,
+    "representative": true,
+    "tags": "cluster_count",
+    "k": 4,
+    "seed": "",
+    "eps": "",
+    "min_samples": "",
+    "seconds": 0.0005506999987119343,
+    "objective": null,
+    "accepted_swaps": null,
+    "converged": true,
+    "stop_reason": "hierarchy constructed; cut at requested cluster count",
+    "n_clusters": 4,
+    "n_noise": 0,
+    "assigned_count": 34,
+    "assigned_fraction": 1.0,
+    "smallest_cluster": 5,
+    "largest_cluster": 12,
+    "silhouette_input": 0.44517666962091995,
+    "silhouette_original_rail": -0.10138674839891335,
+    "calinski_harabasz": 48.10924080214874,
+    "davies_bouldin": 0.6395232936284838,
+    "silhouette_status": "computed on non-noise points only",
+    "euclidean_indices_status": "computed on saved Euclidean embedding, non-noise points only"
+  },
+  "parameters": {
+    "k": 4
+  },
+  "details": {
+    "children": [
+      [
+        23,
+        24
+      ],
+      [
+        28,
+        30
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        6,
+        36
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        31,
+        32
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        27,
+        29
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        19,
+        34
+      ],
+      [
+        1,
+        33
+      ],
+      [
+        40,
+        41
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        35,
+        39
+      ],
+      [
+        11,
+        45
+      ],
+      [
+        38,
+        47
+      ],
+      [
+        43,
+        49
+      ],
+      [
+        17,
+        48
+      ],
+      [
+        42,
+        51
+      ],
+      [
+        13,
+        16
+      ],
+      [
+        44,
+        50
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        37,
+        46
+      ],
+      [
+        53,
+        58
+      ],
+      [
+        54,
+        56
+      ],
+      [
+        52,
+        60
+      ],
+      [
+        59,
+        61
+      ],
+      [
+        55,
+        62
+      ],
+      [
+        57,
+        64
+      ],
+      [
+        63,
+        65
+      ]
+    ],
+    "merge_distances": [
+      0.0401853822087127,
+      0.074862969003275,
+      0.1453749591238545,
+      0.1723519066259182,
+      0.1802961113316994,
+      0.1811597136461669,
+      0.1818523408517444,
+      0.1910229760070953,
+      0.1987178227957703,
+      0.2170081453562784,
+      0.2186172293740596,
+      0.220447880374282,
+      0.25640605992605886,
+      0.2565197911406576,
+      0.28053452016621505,
+      0.2996396947682408,
+      0.3021802413522523,
+      0.3121479827927055,
+      0.3172236896496974,
+      0.32204769079292295,
+      0.3340400339683321,
+      0.33515667906298413,
+      0.3551060689651176,
+      0.3823084585725365,
+      0.4053232315633627,
+      0.4057868243277706,
+      0.47113487853740216,
+      0.505169707424012,
+      0.6017555169213848,
+      0.6057263115427184,
+      0.8837036205876554,
+      1.006616206114082,
+      1.3146427521894721
+    ],
+    "linkage": "average",
+    "metric": "precomputed",
+    "converged": true,
+    "stop_reason": "hierarchy constructed; cut at requested cluster count",
+    "iteration_count": null
+  },
+  "warnings": [],
+  "labels_sha256": "8d20cc8932f5803f34cdc2fb77d4871a417efeba8ac9d452e7aa5b31f9fb42f7",
+  "representation_matrix_sha256": "610bcb89c78b5478a4fe746a88df368df91d4c6a397bd1e8b9ddcc2b8894d42c",
+  "metric_notes": "Scores exclude noise and report coverage. Original-rail silhouette uses same retained nodes. CH/DB only saved Euclidean embedding features; never distance-matrix rows."
+}

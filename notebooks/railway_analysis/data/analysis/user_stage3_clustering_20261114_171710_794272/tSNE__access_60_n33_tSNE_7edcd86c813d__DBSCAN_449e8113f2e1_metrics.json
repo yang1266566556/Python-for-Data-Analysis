@@ -1,0 +1,59 @@
+{
+  "record": {
+    "run_id": "tSNE__access_60_n33_tSNE_7edcd86c813d__DBSCAN_449e8113f2e1",
+    "representation_id": "tSNE__access_60_n33_tSNE_7edcd86c813d",
+    "dataset_id": "access_60_n33",
+    "family": "tSNE",
+    "algorithm": "DBSCAN",
+    "node_count": 33,
+    "representative": false,
+    "tags": "DBSCAN_epsilon",
+    "k": "",
+    "seed": "",
+    "eps": 0.29470823028154475,
+    "min_samples": 4,
+    "seconds": 0.0008649000010336749,
+    "objective": null,
+    "accepted_swaps": null,
+    "converged": true,
+    "stop_reason": "density expansion completed",
+    "n_clusters": 5,
+    "n_noise": 7,
+    "assigned_count": 26,
+    "assigned_fraction": 0.7878787878787878,
+    "smallest_cluster": 4,
+    "largest_cluster": 6,
+    "silhouette_input": 0.3890538638331156,
+    "silhouette_original_rail": 0.20328048640844598,
+    "calinski_harabasz": 34.01220252326726,
+    "davies_bouldin": 0.725389561271095,
+    "silhouette_status": "computed on non-noise points only",
+    "euclidean_indices_status": "computed on saved Euclidean embedding, non-noise points only"
+  },
+  "parameters": {
+    "eps": 0.29470823028154475,
+    "min_samples": 4
+  },
+  "details": {
+    "core_sample_indices": [
+      2,
+      10,
+      11,
+      17,
+      18,
+      23,
+      27,
+      28,
+      32
+    ],
+    "converged": true,
+    "stop_reason": "density expansion completed",
+    "iteration_count": null,
+    "metric": "precomputed",
+    "min_samples_includes_self": true
+  },
+  "warnings": [],
+  "labels_sha256": "36d34799f2106fb18544cf765bbc7f47e24d80418acd35a7b4764ef7b5569cd9",
+  "representation_matrix_sha256": "ab41066e13292ad356e919819182ca5d7ad72eea1edcb188a8f0b2f4d62712f1",
+  "metric_notes": "Scores exclude noise and report coverage. Original-rail silhouette uses same retained nodes. CH/DB only saved Euclidean embedding features; never distance-matrix rows."
+}

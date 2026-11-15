@@ -1,0 +1,7 @@
+﻿query_id,role,primary_query_id,date,from_city,to_city,from_station,to_station,purpose
+K01,followup_date,,2026-11-19,西宁,重庆,西宁,重庆北,Residual Lhasa OD; actual arrival station/date; no cross-station link
+K02,followup_date,,2026-11-20,上海,杭州,上海,杭州东,Residual Lhasa OD; actual arrival station/date; no cross-station link
+K03,followup_date,,2026-11-20,武汉,南昌,武昌,南昌,Residual Lhasa OD; actual arrival station/date; no cross-station link
+K04,followup_date,,2026-11-20,北京,沈阳,北京西,沈阳北,Residual Lhasa OD; actual arrival station/date; no cross-station link
+K05,followup_date,,2026-11-20,长沙,海口,长沙,海口,Residual Lhasa OD; actual arrival station/date; no cross-station link
+K06,followup_date,,2026-11-21,广州,海口,广州白云,海口,Residual Lhasa OD; actual arrival station/date; no cross-station link

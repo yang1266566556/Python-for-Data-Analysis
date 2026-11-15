@@ -1,0 +1,8 @@
+{
+  "approved_by": "user",
+  "date": "2026-11-14",
+  "answer": "允许补装（推荐）",
+  "scope": "Next TXT may provide user-run installation of umap-learn and required dependencies in pda312; assistant does not install.",
+  "question": "问题2需要UMAP；你当前环境记录显示尚未安装。是否允许下一份TXT提供在 pda312 内安装 umap-learn 的步骤（仍由你运行，我不代安装）？",
+  "assistant_installed": false
+}

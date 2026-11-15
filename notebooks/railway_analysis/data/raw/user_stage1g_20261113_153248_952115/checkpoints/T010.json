@@ -1,0 +1,103 @@
+{
+  "query": {
+    "query_id": "T010",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-20",
+    "from_city": "西安",
+    "to_city": "拉萨",
+    "from_station": "西安",
+    "to_station": "拉萨",
+    "reason": "exact known arrival station to unresolved destination; arrival day or next day",
+    "affected_pairs": "海口→拉萨",
+    "from_code": "XAY",
+    "to_code": "LSO"
+  },
+  "source": {
+    "source_id": "T010",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/leftTicket/queryG",
+    "params": {
+      "leftTicketDTO.train_date": "2026-11-20",
+      "leftTicketDTO.from_station": "XAY",
+      "leftTicketDTO.to_station": "LSO",
+      "purpose_codes": "ADULT"
+    },
+    "accessed_at": "2026-11-13T15:33:24.979942+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/leftTicket/queryG?leftTicketDTO.train_date=2026-11-20&leftTicketDTO.from_station=XAY&leftTicketDTO.to_station=LSO&purpose_codes=ADULT",
+    "content_type": "application/json;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 07:33:28 GMT",
+    "raw_file": "data\\raw\\user_stage1g_20261113_153248_952115\\sessions\\20261113_153248_976613\\T010.bin",
+    "bytes": 1127,
+    "sha256": "8f8d1d76cfc701b51e29bc4092560525f09deb7a7e3ab9aa9cff201333a536c5"
+  },
+  "station_snapshot": {
+    "source_id": "station_dictionary",
+    "actor": "user",
+    "url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "params": null,
+    "accessed_at": "2026-11-13T15:32:51.983738+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "http_status": 200,
+    "final_url": "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9377",
+    "content_type": "application/javascript;charset=UTF-8",
+    "server_date": "Fri, 13 Nov 2026 07:32:55 GMT",
+    "raw_file": "data\\raw\\user_stage1g_20261113_153248_952115\\sessions\\20261113_153248_976613\\station_dictionary.bin",
+    "bytes": 169396,
+    "sha256": "b23aab2792d1c5646b20aa5117a5088dbe5124453b950ddd4eecdb4b24fc17be"
+  },
+  "records": [
+    {
+      "query_id": "T010",
+      "query_date": "2026-11-20",
+      "train_no": "550000Z16407",
+      "train_code": "Z165",
+      "origin_service_date": "2026-11-19",
+      "requested_from": "西安",
+      "requested_to": "拉萨",
+      "from_code": "XAY",
+      "to_code": "LSO",
+      "from_name": "西安",
+      "to_name": "拉萨",
+      "same_as_requested_stations": true,
+      "from_dictionary_city": "西安",
+      "to_dictionary_city": "拉萨",
+      "departure_clock": "09:27",
+      "arrival_clock": "15:36",
+      "duration_text": "30:09",
+      "duration_min": 1809,
+      "departure_at": "2026-11-20T09:27:00+08:00",
+      "arrival_at": "2026-11-21T15:36:00+08:00",
+      "arrival_day_offset": 1,
+      "can_web_buy": "N",
+      "raw_row_index": 1,
+      "raw_file": "data\\raw\\user_stage1g_20261113_153248_952115\\sessions\\20261113_153248_976613\\T010.bin",
+      "raw_sha256": "8f8d1d76cfc701b51e29bc4092560525f09deb7a7e3ab9aa9cff201333a536c5",
+      "measurement_kind": "queried_train_schedule_not_measured_actual_travel"
+    }
+  ],
+  "issues": [
+    {
+      "query_id": "T010",
+      "raw_row_index": 0,
+      "severity": "missing_data",
+      "issue": "timetable_unavailable_adjustment",
+      "details": "{\"train_no\": \"650000Z26403\", \"train_code\": \"Z265\", \"query_date\": \"2026-11-20\", \"from_code\": \"XAY\", \"to_code\": \"LSO\", \"source_message\": \"列车运行图调整,暂停发售\", \"raw_departure\": \"24:00\", \"raw_arrival\": \"24:00\", \"raw_duration\": \"99:59\", \"sale_status\": \"IS_TIME_NOT_BUY\", \"raw_file\": \"data\\\\raw\\\\user_stage1g_20261113_153248_952115\\\\sessions\\\\20261113_153248_976613\\\\T010.bin\", \"raw_sha256\": \"8f8d1d76cfc701b51e29bc4092560525f09deb7a7e3ab9aa9cff201333a536c5\"}"
+    }
+  ],
+  "quality": {
+    "status": "partial_timetable_unavailable",
+    "raw_count": 2,
+    "valid_count": 1,
+    "rejected_count": 0,
+    "duplicate_count": 0,
+    "unavailable_count": 1
+  },
+  "parser_version": "stage1c-station-metadata-v2"
+}

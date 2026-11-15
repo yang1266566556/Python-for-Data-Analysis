@@ -1,0 +1,12 @@
+{
+  "actor": "user",
+  "reviewed_run": "user_stage1b_20261105_234442_790924",
+  "original_hashes_verified": 10,
+  "validated_records": 357,
+  "missing_records": 2,
+  "paired_records_verified": 196,
+  "missing_times_still_unknown": true,
+  "matrix_ready": false,
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_offline_review_20261111_212657_911440",
+  "provenance": "offline computation from original user data; execution actor explicitly recorded"
+}

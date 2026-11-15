@@ -1,0 +1,1671 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 0,
+        "natscale": 600,
+        "labelrank": 1,
+        "featurecla": "Admin-0 capital",
+        "name": "Beijing",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Beijing",
+        "adm0cap": 1,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 1,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Beijing",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 39.930838,
+        "longitude": 116.38634,
+        "pop_max": 11106000,
+        "pop_min": 7480601,
+        "pop_other": 9033231,
+        "rank_max": 14,
+        "rank_min": 13,
+        "meganame": "Beijing",
+        "ls_name": "Beijing",
+        "min_zoom": 1.7,
+        "ne_id": 1159151595
+      },
+      "bbox": [
+        116.394201,
+        39.90172,
+        116.394201,
+        39.90172
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.394201,
+          39.90172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Tianjin",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Tianjin",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Tianjin",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 39.131972,
+        "longitude": 117.198073,
+        "pop_max": 7180000,
+        "pop_min": 3766207,
+        "pop_other": 5428303,
+        "rank_max": 13,
+        "rank_min": 12,
+        "meganame": "Tianjin",
+        "ls_name": "Tianjin",
+        "min_zoom": 4,
+        "ne_id": 1159151381
+      },
+      "bbox": [
+        117.196607,
+        39.082772,
+        117.196607,
+        39.082772
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.196607,
+          39.082772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 4,
+        "natscale": 50,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Shijiazhuang",
+        "namepar": null,
+        "namealt": "Shijianzhuang",
+        "nameascii": "Shijiazhuang",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Hebei",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 38.051961,
+        "longitude": 114.478033,
+        "pop_max": 2417000,
+        "pop_min": 1992474,
+        "pop_other": 5330611,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Shijiazhuang",
+        "ls_name": "Shijianzhuang",
+        "min_zoom": 5.6,
+        "ne_id": 1159149907
+      },
+      "bbox": [
+        114.478032,
+        38.05196,
+        114.478032,
+        38.05196
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.478032,
+          38.05196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Taiyuan",
+        "namepar": null,
+        "namealt": "Taiyuan, Shanxi",
+        "nameascii": "Taiyuan",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Shanxi",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 37.876958,
+        "longitude": 112.543112,
+        "pop_max": 2913000,
+        "pop_min": 2722475,
+        "pop_other": 2606172,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Taiyuan, Shanxi",
+        "ls_name": "Taiyuan",
+        "min_zoom": 4,
+        "ne_id": 1159151365
+      },
+      "bbox": [
+        112.543112,
+        37.876958,
+        112.543112,
+        37.876958
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.543112,
+          37.876958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 4,
+        "natscale": 50,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Hohhot",
+        "namepar": null,
+        "namealt": "Huhot",
+        "nameascii": "Hohhot",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Nei Mongol",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 40.821921,
+        "longitude": 111.65805,
+        "pop_max": 1726000,
+        "pop_min": 774477,
+        "pop_other": 1212450,
+        "rank_max": 12,
+        "rank_min": 11,
+        "meganame": "Hohhot",
+        "ls_name": "Hohhot",
+        "min_zoom": 5.1,
+        "ne_id": 1159149941
+      },
+      "bbox": [
+        111.65805,
+        40.821921,
+        111.65805,
+        40.821921
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.65805,
+          40.821921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Shenyeng",
+        "namepar": null,
+        "namealt": "Shenyang",
+        "nameascii": "Shenyeng",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Liaoning",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 41.806925,
+        "longitude": 123.448028,
+        "pop_max": 4787000,
+        "pop_min": 3512192,
+        "pop_other": 4322104,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Shenyang",
+        "ls_name": "Shenyeng",
+        "min_zoom": 4,
+        "ne_id": 1159151377
+      },
+      "bbox": [
+        123.448028,
+        41.806925,
+        123.448028,
+        41.806925
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.448028,
+          41.806925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Changchun",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Changchun",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Jilin",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 43.866954,
+        "longitude": 125.338042,
+        "pop_max": 3183000,
+        "pop_min": 2537421,
+        "pop_other": 2778774,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Changchun",
+        "ls_name": "Changchun",
+        "min_zoom": 4,
+        "ne_id": 1159151393
+      },
+      "bbox": [
+        125.338042,
+        43.866954,
+        125.338042,
+        43.866954
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.338042,
+          43.866954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Harbin",
+        "namepar": null,
+        "namealt": "Haerbin",
+        "nameascii": "Harbin",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Heilongjiang",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 45.75193,
+        "longitude": 126.648039,
+        "pop_max": 3621000,
+        "pop_min": 3229883,
+        "pop_other": 3416547,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Haerbin",
+        "ls_name": "Harbin",
+        "min_zoom": 3.7,
+        "ne_id": 1159151397
+      },
+      "bbox": [
+        126.648039,
+        45.75193,
+        126.648039,
+        45.75193
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.648039,
+          45.75193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 0,
+        "natscale": 600,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Shanghai",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Shanghai",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 1,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Shanghai",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 31.218398,
+        "longitude": 121.434559,
+        "pop_max": 14987000,
+        "pop_min": 14608512,
+        "pop_other": 16803572,
+        "rank_max": 14,
+        "rank_min": 14,
+        "meganame": "Shanghai",
+        "ls_name": "Shanghai",
+        "min_zoom": 2,
+        "ne_id": 1159151605
+      },
+      "bbox": [
+        121.434559,
+        31.218398,
+        121.434559,
+        31.218398
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.434559,
+          31.218398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Nanjing",
+        "namepar": null,
+        "namealt": "Nanjing, Jiangsu",
+        "nameascii": "Nanjing",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": "Dejure capital",
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Jiangsu",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 32.051965,
+        "longitude": 118.778029,
+        "pop_max": 3679000,
+        "pop_min": 3087010,
+        "pop_other": 4726961,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Nanjing, Jiangsu",
+        "ls_name": "Nanjing",
+        "min_zoom": 4,
+        "ne_id": 1159151385
+      },
+      "bbox": [
+        118.778029,
+        32.051965,
+        118.778029,
+        32.051965
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.778029,
+          32.051965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Hangzhou",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Hangzhou",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Zhejiang",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 30.25192,
+        "longitude": 120.168073,
+        "pop_max": 3007000,
+        "pop_min": 1878129,
+        "pop_other": 4465853,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Hangzhou",
+        "ls_name": "Hangzhou",
+        "min_zoom": 4,
+        "ne_id": 1159151387
+      },
+      "bbox": [
+        120.168073,
+        30.25192,
+        120.168073,
+        30.25192
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.168073,
+          30.25192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 4,
+        "natscale": 50,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Hefei",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Hefei",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Anhui",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 31.851977,
+        "longitude": 117.278068,
+        "pop_max": 2035000,
+        "pop_min": 1388904,
+        "pop_other": 2338961,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Hefei",
+        "ls_name": "Hefei",
+        "min_zoom": 5.6,
+        "ne_id": 1159149793
+      },
+      "bbox": [
+        117.278068,
+        31.851977,
+        117.278068,
+        31.851977
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.278068,
+          31.851977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Fuzhou",
+        "namepar": null,
+        "namealt": "Fuzhou, Fujian",
+        "nameascii": "Fuzhou",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Fujian",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 26.081942,
+        "longitude": 119.2981,
+        "pop_max": 2606000,
+        "pop_min": 1179720,
+        "pop_other": 2096919,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Fuzhou, Fujian",
+        "ls_name": "Fuzhou",
+        "min_zoom": 4.7,
+        "ne_id": 1159151329
+      },
+      "bbox": [
+        119.2981,
+        26.081942,
+        119.2981,
+        26.081942
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2981,
+          26.081942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Nanchang",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Nanchang",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Jiangxi",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 28.681938,
+        "longitude": 115.87805,
+        "pop_max": 2350000,
+        "pop_min": 1871351,
+        "pop_other": 2698545,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Nanchang",
+        "ls_name": "Nanchang",
+        "min_zoom": 4.7,
+        "ne_id": 1159151383
+      },
+      "bbox": [
+        115.87805,
+        28.681938,
+        115.87805,
+        28.681938
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.87805,
+          28.681938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Jinan",
+        "namepar": null,
+        "namealt": "Jinan, Shandong",
+        "nameascii": "Jinan",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Shandong",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 36.676928,
+        "longitude": 116.993073,
+        "pop_max": 2798000,
+        "pop_min": 2069266,
+        "pop_other": 5123197,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Jinan, Shandong",
+        "ls_name": "Jinan",
+        "min_zoom": 4,
+        "ne_id": 1159151379
+      },
+      "bbox": [
+        116.993073,
+        36.676928,
+        116.993073,
+        36.676928
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.993073,
+          36.676928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Zhengzhou",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Zhengzhou",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Henan",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 34.756942,
+        "longitude": 113.663147,
+        "pop_max": 2636000,
+        "pop_min": 2014125,
+        "pop_other": 4605445,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Zhengzhou",
+        "ls_name": "Zhengzhou",
+        "min_zoom": 4,
+        "ne_id": 1159151375
+      },
+      "bbox": [
+        113.663147,
+        34.756942,
+        113.663147,
+        34.756942
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.663147,
+          34.756942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Wuhan",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Wuhan",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Hubei",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 30.581977,
+        "longitude": 114.268071,
+        "pop_max": 7243000,
+        "pop_min": 4184206,
+        "pop_other": 7232338,
+        "rank_max": 13,
+        "rank_min": 12,
+        "meganame": "Wuhan",
+        "ls_name": "Wuhan",
+        "min_zoom": 4,
+        "ne_id": 1159151367
+      },
+      "bbox": [
+        114.268071,
+        30.581977,
+        114.268071,
+        30.581977
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.268071,
+          30.581977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Changsha",
+        "namepar": null,
+        "namealt": "Changsha, Hunan",
+        "nameascii": "Changsha",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Hunan",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 28.201916,
+        "longitude": 112.968047,
+        "pop_max": 2604000,
+        "pop_min": 2073938,
+        "pop_other": 3360782,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Changsha, Hunan",
+        "ls_name": "Changsha",
+        "min_zoom": 4.7,
+        "ne_id": 1159151369
+      },
+      "bbox": [
+        112.968047,
+        28.201916,
+        112.968047,
+        28.201916
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.968047,
+          28.201916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Guangzhou",
+        "namepar": null,
+        "namealt": "Dongguan, Guangdong",
+        "nameascii": "Guangzhou",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Guangdong",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 23.146927,
+        "longitude": 113.323064,
+        "pop_max": 8829000,
+        "pop_min": 3152825,
+        "pop_other": 11946371,
+        "rank_max": 13,
+        "rank_min": 12,
+        "meganame": "Guangzhou, Guangdong",
+        "ls_name": "Guangzhou",
+        "min_zoom": 4,
+        "ne_id": 1159151331
+      },
+      "bbox": [
+        113.261785,
+        23.124723,
+        113.261785,
+        23.124723
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.261785,
+          23.124723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Nanning",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Nanning",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Guangxi",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 22.821934,
+        "longitude": 108.318099,
+        "pop_max": 2167000,
+        "pop_min": 803788,
+        "pop_other": 2327757,
+        "rank_max": 12,
+        "rank_min": 11,
+        "meganame": "Nanning",
+        "ls_name": "Nanning",
+        "min_zoom": 4,
+        "ne_id": 1159151323
+      },
+      "bbox": [
+        108.318099,
+        22.821934,
+        108.318099,
+        22.821934
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.318099,
+          22.821934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 6,
+        "natscale": 30,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Haikou",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Haikou",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 0,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Hainan",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 20.050002,
+        "longitude": 110.320026,
+        "pop_max": 2046189,
+        "pop_min": 1167428,
+        "pop_other": 1167428,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": null,
+        "ls_name": "Haikou",
+        "min_zoom": 6,
+        "ne_id": 1159146977
+      },
+      "bbox": [
+        110.320026,
+        20.050002,
+        110.320026,
+        20.050002
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.320026,
+          20.050002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Chongqing",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Chongqing",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Chongqing",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 29.566923,
+        "longitude": 106.593036,
+        "pop_max": 6461000,
+        "pop_min": 3967028,
+        "pop_other": 8456741,
+        "rank_max": 13,
+        "rank_min": 12,
+        "meganame": "Chongqing",
+        "ls_name": "Chongqing",
+        "min_zoom": 4,
+        "ne_id": 1159151327
+      },
+      "bbox": [
+        106.593036,
+        29.566923,
+        106.593036,
+        29.566923
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.593036,
+          29.566923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 1,
+        "natscale": 300,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Chengdu",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Chengdu",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Sichuan",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 30.671946,
+        "longitude": 104.068074,
+        "pop_max": 4123000,
+        "pop_min": 3950437,
+        "pop_other": 11622929,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Chengdu",
+        "ls_name": "Chengdu",
+        "min_zoom": 3,
+        "ne_id": 1159151533
+      },
+      "bbox": [
+        104.068074,
+        30.671946,
+        104.068074,
+        30.671946
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.068074,
+          30.671946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Guiyang",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Guiyang",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Guizhou",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 26.581989,
+        "longitude": 106.718093,
+        "pop_max": 3662000,
+        "pop_min": 1171633,
+        "pop_other": 1940314,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Guiyang",
+        "ls_name": "Guiyang",
+        "min_zoom": 4.7,
+        "ne_id": 1159151325
+      },
+      "bbox": [
+        106.718093,
+        26.581989,
+        106.718093,
+        26.581989
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.718093,
+          26.581989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Kunming",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Kunming",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Yunnan",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 25.071926,
+        "longitude": 102.678029,
+        "pop_max": 2931000,
+        "pop_min": 1023674,
+        "pop_other": 2989287,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Kunming",
+        "ls_name": "Kunming",
+        "min_zoom": 4,
+        "ne_id": 1159151371
+      },
+      "bbox": [
+        102.69744,
+        25.042859,
+        102.69744,
+        25.042859
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.69744,
+          25.042859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 3,
+        "natscale": 110,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Lhasa",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Lhasa",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 0,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Xizang",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 29.645024,
+        "longitude": 91.10001,
+        "pop_max": 219599,
+        "pop_min": 118721,
+        "pop_other": 219448,
+        "rank_max": 10,
+        "rank_min": 9,
+        "meganame": null,
+        "ls_name": "Lhasa",
+        "min_zoom": 4,
+        "ne_id": 1159150879
+      },
+      "bbox": [
+        91.10001,
+        29.645024,
+        91.10001,
+        29.645024
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.10001,
+          29.645024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Xian",
+        "namepar": null,
+        "namealt": "Xi'an, Shaanxi",
+        "nameascii": "Xian",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Shaanxi",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 34.276971,
+        "longitude": 108.89305,
+        "pop_max": 4009000,
+        "pop_min": 3225812,
+        "pop_other": 9574692,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Xi'an, Shaanxi",
+        "ls_name": "Xian",
+        "min_zoom": 3.7,
+        "ne_id": 1159151363
+      },
+      "bbox": [
+        108.89305,
+        34.276971,
+        108.89305,
+        34.276971
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.89305,
+          34.276971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 2,
+        "natscale": 200,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Lanzhou",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Lanzhou",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Gansu",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 36.057974,
+        "longitude": 103.790054,
+        "pop_max": 2561000,
+        "pop_min": 2004218,
+        "pop_other": 0,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Lanzhou",
+        "ls_name": "Lanzhou",
+        "min_zoom": 4,
+        "ne_id": 1159151321
+      },
+      "bbox": [
+        103.790054,
+        36.057974,
+        103.790054,
+        36.057974
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.790054,
+          36.057974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 3,
+        "natscale": 110,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Xining",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Xining",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Gansu",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 36.621945,
+        "longitude": 101.768059,
+        "pop_max": 1048000,
+        "pop_min": 767531,
+        "pop_other": 992265,
+        "rank_max": 12,
+        "rank_min": 11,
+        "meganame": "Xining",
+        "ls_name": "Xining",
+        "min_zoom": 4.7,
+        "ne_id": 1159150819
+      },
+      "bbox": [
+        101.768059,
+        36.621944,
+        101.768059,
+        36.621944
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.768059,
+          36.621944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 3,
+        "natscale": 110,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Yinchuan",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Yinchuan",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Ningxia Hui",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 38.46992,
+        "longitude": 106.271092,
+        "pop_max": 991000,
+        "pop_min": 324228,
+        "pop_other": 0,
+        "rank_max": 11,
+        "rank_min": 10,
+        "meganame": "Yinchuan",
+        "ls_name": "Yinchuan",
+        "min_zoom": 5,
+        "ne_id": 1159150889
+      },
+      "bbox": [
+        106.271092,
+        38.46992,
+        106.271092,
+        38.46992
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.271092,
+          38.46992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 1,
+        "natscale": 300,
+        "labelrank": 1,
+        "featurecla": "Admin-1 capital",
+        "name": "Ürümqi",
+        "namepar": null,
+        "namealt": "rumqi|Wulumqi",
+        "nameascii": "Urumqi",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "China",
+        "adm0_a3": "CHN",
+        "adm1name": "Xinjiang Uygur",
+        "iso_a2": "CN",
+        "note": null,
+        "latitude": 43.806958,
+        "longitude": 87.57306,
+        "pop_max": 3575000,
+        "pop_min": 1508225,
+        "pop_other": 2044401,
+        "rank_max": 12,
+        "rank_min": 12,
+        "meganame": "Cramqi (Wulumqi)",
+        "ls_name": "Urumqi",
+        "min_zoom": 3.7,
+        "ne_id": 1159151531
+      },
+      "bbox": [
+        87.57306,
+        43.806958,
+        87.57306,
+        43.806958
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.57306,
+          43.806958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 0,
+        "natscale": 600,
+        "labelrank": 0,
+        "featurecla": "Admin-0 region capital",
+        "name": "Hong Kong",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Hong Kong",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 1,
+        "megacity": 1,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "Hong Kong S.A.R.",
+        "adm0_a3": "HKG",
+        "adm1name": null,
+        "iso_a2": "HK",
+        "note": null,
+        "latitude": 22.306927,
+        "longitude": 114.183064,
+        "pop_max": 7206000,
+        "pop_min": 4551579,
+        "pop_other": 4549026,
+        "rank_max": 13,
+        "rank_min": 12,
+        "meganame": "Hong Kong",
+        "ls_name": "Hong Kong",
+        "min_zoom": 3,
+        "ne_id": 1159151629
+      },
+      "bbox": [
+        114.183064,
+        22.306927,
+        114.183064,
+        22.306927
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.183064,
+          22.306927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 6,
+        "natscale": 30,
+        "labelrank": 0,
+        "featurecla": "Admin-0 region capital",
+        "name": "Macau",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Macau",
+        "adm0cap": 0,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 0,
+        "megacity": 0,
+        "sov0name": "China",
+        "sov_a3": "CHN",
+        "adm0name": "Macau S.A.R",
+        "adm0_a3": "MAC",
+        "adm1name": null,
+        "iso_a2": "MO",
+        "note": null,
+        "latitude": 22.202998,
+        "longitude": 113.545048,
+        "pop_max": 568700,
+        "pop_min": 568700,
+        "pop_other": 1753868,
+        "rank_max": 11,
+        "rank_min": 11,
+        "meganame": null,
+        "ls_name": "Macau",
+        "min_zoom": 6,
+        "ne_id": 1159149085
+      },
+      "bbox": [
+        113.544375,
+        22.189135,
+        113.544375,
+        22.189135
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.544375,
+          22.189135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scalerank": 1,
+        "natscale": 300,
+        "labelrank": 8,
+        "featurecla": "Admin-0 capital",
+        "name": "Taipei",
+        "namepar": null,
+        "namealt": null,
+        "nameascii": "Taipei",
+        "adm0cap": 1,
+        "capalt": 0,
+        "capin": null,
+        "worldcity": 1,
+        "megacity": 1,
+        "sov0name": "Taiwan",
+        "sov_a3": "TWN",
+        "adm0name": "Taiwan",
+        "adm0_a3": "TWN",
+        "adm1name": "Taipei City",
+        "iso_a2": "TW",
+        "note": null,
+        "latitude": 25.035833,
+        "longitude": 121.568333,
+        "pop_max": 6900273,
+        "pop_min": 2618772,
+        "pop_other": 5698241,
+        "rank_max": 13,
+        "rank_min": 12,
+        "meganame": "Taipei",
+        "ls_name": "Taipei",
+        "min_zoom": 3.7,
+        "ne_id": 1159151567
+      },
+      "bbox": [
+        121.568333,
+        25.035833,
+        121.568333,
+        25.035833
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.568333,
+          25.035833
+        ]
+      }
+    }
+  ]
+}

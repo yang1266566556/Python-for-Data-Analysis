@@ -1,0 +1,63 @@
+{
+  "actor": "user",
+  "source_run": "user_stage1c_v2_20261113_132207_325427",
+  "first_departure_date": "2026-11-18",
+  "audit_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1d_audit_20261113_141603_610163",
+  "scenarios": [
+    {
+      "scenario": "draft83_60",
+      "station_policy": "draft83",
+      "transfer_threshold_min": 60,
+      "unique_service_edges": 19624,
+      "graph_vertices": 78150,
+      "finite_directed_city_pairs": 933,
+      "missing_directed_city_pairs": 59,
+      "pairs_using_transfer": 361,
+      "seconds": 2.027901400000701
+    },
+    {
+      "scenario": "observed_group_30",
+      "station_policy": "observed_group",
+      "transfer_threshold_min": 30,
+      "unique_service_edges": 21777,
+      "graph_vertices": 85322,
+      "finite_directed_city_pairs": 936,
+      "missing_directed_city_pairs": 56,
+      "pairs_using_transfer": 439,
+      "seconds": 2.2604762999981176
+    },
+    {
+      "scenario": "observed_group_60",
+      "station_policy": "observed_group",
+      "transfer_threshold_min": 60,
+      "unique_service_edges": 21777,
+      "graph_vertices": 85455,
+      "finite_directed_city_pairs": 934,
+      "missing_directed_city_pairs": 58,
+      "pairs_using_transfer": 361,
+      "seconds": 2.2565778999996837
+    },
+    {
+      "scenario": "observed_group_90",
+      "station_policy": "observed_group",
+      "transfer_threshold_min": 90,
+      "unique_service_edges": 21777,
+      "graph_vertices": 85488,
+      "finite_directed_city_pairs": 932,
+      "missing_directed_city_pairs": 60,
+      "pairs_using_transfer": 298,
+      "seconds": 2.054971600002318
+    }
+  ],
+  "next_date_query_count": 436,
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1d_routes_20261113_141703_918913",
+  "matrix_ready": false,
+  "limitations": [
+    "All current boarding records are from Nov 18; later-day departures still need real queries",
+    "30/60/90 minutes are transfer hypotheses, not official station minimums",
+    "observed_group includes saved 12306 city group stations, not verified administrative city boundaries",
+    "Unknown timetable and station records excluded but remain missing; no all-network optimality claim",
+    "No cross-station access, terminal security or border processing time included",
+    "Same train continuation requires both internal train ID and origin service date to match"
+  ]
+}

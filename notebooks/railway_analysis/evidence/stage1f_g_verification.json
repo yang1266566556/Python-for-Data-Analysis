@@ -1,0 +1,19 @@
+{
+  "stage": "offline assessment and 16-target preparation",
+  "primary_records": 22137,
+  "merged_records": 26952,
+  "source_conflicts": 0,
+  "before_finite_60min": 934,
+  "after_finite_60min": 960,
+  "still_missing": 32,
+  "lhasa_unknown_origin_pairs": 31,
+  "haikou_lhasa_pending": 1,
+  "selected_exact_station_queries": 16,
+  "original_pending_queries": 119,
+  "offline_regression_tests_passed": 4,
+  "user_txt_syntax_valid": true,
+  "new_network_queries_executed_by_assistant": 0,
+  "new_R_plot_execution": false,
+  "user_execution_of_this_batch": "pending",
+  "docx_created": false
+}

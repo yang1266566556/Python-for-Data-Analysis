@@ -1,0 +1,13 @@
+[
+  {
+    "source_id": "traininfo_page",
+    "actor": "assistant",
+    "url": "https://kyfw.12306.cn/otn/queryTrainInfo/init",
+    "params": null,
+    "accessed_at": "2026-11-13T16:05:20.394294+08:00",
+    "publication_date": null,
+    "method": "HTTPS GET; default TLS verification; no login; no automatic retry",
+    "use_limit": "Website endpoint, not a documented open-data API; availability and bulk-use permission not established",
+    "error": "ConnectionError: HTTPSConnectionPool(host='kyfw.12306.cn', port=443): Max retries exceeded with url: /otn/queryTrainInfo/init (Caused by NameResolutionError(\"HTTPSConnection(host='kyfw.12306.cn', port=443): Failed to resolve 'kyfw.12306.cn' ([Errno 11001] getaddrinfo failed)\"))"
+  }
+]

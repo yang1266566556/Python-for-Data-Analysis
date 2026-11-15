@@ -1,0 +1,18 @@
+{
+  "run_id": "user_stage1b_20261105_231816_900405",
+  "parent_run_id": "user_pilot_20261105_220920_089173",
+  "actor": "user",
+  "attempted_queries": 4,
+  "new_train_records": 22,
+  "issue_count": 2,
+  "fatal_error": "Quarantined records require review; remaining queries stopped",
+  "all_required_transfer_dates_queried_successfully": false,
+  "first_leg_records": 7,
+  "second_leg_records": 28,
+  "same_station_pair_count": 196,
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\user_stage1b_20261105_231816_900405",
+  "raw_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\user_stage1b_20261105_231816_900405",
+  "matrix_ready": false,
+  "official_transfer_feasibility_verified": false,
+  "scope": "conditional two-service candidates via Xining only; not a complete railway matrix"
+}

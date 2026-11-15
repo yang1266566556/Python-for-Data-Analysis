@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-11-14T14:23:34.318128+08:00",
+  "final_job": "user_stage1n_special_20261114_140146_715895",
+  "raw_replay_passed": true,
+  "source_and_derived_records": 28323,
+  "full34_variants_verified": 9,
+  "connected33_directed_pairs_each": 1056,
+  "ordinary_missing_cells": 0,
+  "taipei_structural_directed_cells": 66,
+  "route_conservation_checks": 3168,
+  "source_conflicts": 0,
+  "screenshots": [
+    {
+      "original_path": "C:\\Users\\yang\\AppData\\Local\\Temp\\codex-clipboard-2305dd42-06a1-4a43-ac83-9babd8c26f42.png",
+      "archived_file": "screenshot_1.png",
+      "sha256": "338305a7e264db43aab7d4234c196ee7f10b81ffc1f681e91cea2d4f94c2930b"
+    },
+    {
+      "original_path": "C:\\Users\\yang\\AppData\\Local\\Temp\\codex-clipboard-11ad7f79-c456-420d-a1a9-bd835d90980c.png",
+      "archived_file": "screenshot_2.png",
+      "sha256": "62f30b00d4091a0dd8fedcb09a8027a56693d65a8f9cf022d15c37b6b9b96d2b"
+    },
+    {
+      "original_path": "C:\\Users\\yang\\AppData\\Local\\Temp\\codex-clipboard-52435ed9-4909-44ce-b5d6-e182fcf0b82f.png",
+      "archived_file": "screenshot_3.png",
+      "sha256": "b6b074e5216183213f5e316e63369eccf714f8263f3ccb3613c47ba5b6aa88b9"
+    },
+    {
+      "original_path": "C:\\Users\\yang\\AppData\\Local\\Temp\\codex-clipboard-1a099772-8676-484f-8b93-e368fe4e7f5b.png",
+      "archived_file": "screenshot_4.png",
+      "sha256": "fca39a3017a7228d6dfbbacf470464932b58c1e2708905aaa1a3f0ac07cf7fae"
+    },
+    {
+      "original_path": "C:\\Users\\yang\\AppData\\Local\\Temp\\codex-clipboard-36926a5d-8d1c-42e4-8e98-aa0f6d211ddc.png",
+      "archived_file": "screenshot_5.png",
+      "sha256": "3d4fb0bb1961cf6bce1f899c042d42b277f55645df7b496d11d63ea937b1e78f"
+    }
+  ],
+  "assistant_ran_course_embeddings": false,
+  "umap_installed_by_assistant": false
+}

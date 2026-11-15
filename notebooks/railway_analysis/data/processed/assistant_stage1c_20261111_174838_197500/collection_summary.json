@@ -1,0 +1,18 @@
+{
+  "dataset_id": "railway_20261118_direct_screen_v1",
+  "query_date": "2026-11-18",
+  "job_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\raw\\assistant_stage1c_20261111_174838_197500",
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\processed\\assistant_stage1c_20261111_174838_197500",
+  "actor": "assistant",
+  "total_planned_queries": 995,
+  "completed_queries": 0,
+  "remaining_queries": 995,
+  "train_records": 0,
+  "unavailable_timetable_records": 0,
+  "outside_candidate_record_count": 0,
+  "query_status_counts": {
+    "not_collected": 995
+  },
+  "matrix_ready": false,
+  "scope": "direct-service screening only; intermediate paths and complete station coverage still to be audited"
+}

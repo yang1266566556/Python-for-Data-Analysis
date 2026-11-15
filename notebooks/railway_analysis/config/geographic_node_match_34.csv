@@ -1,0 +1,35 @@
+﻿node_id,representative_city,source_ne_id,source_nameascii,match_note
+N01,北京,1159151595,Beijing,explicit city-name and unique feature-ID match
+N02,天津,1159151381,Tianjin,explicit city-name and unique feature-ID match
+N03,石家庄,1159149907,Shijiazhuang,explicit city-name and unique feature-ID match
+N04,太原,1159151365,Taiyuan,explicit city-name and unique feature-ID match
+N05,呼和浩特,1159149941,Hohhot,explicit city-name and unique feature-ID match
+N06,沈阳,1159151377,Shenyeng,namealt=Shenyang; source nameascii=Shenyeng
+N07,长春,1159151393,Changchun,explicit city-name and unique feature-ID match
+N08,哈尔滨,1159151397,Harbin,explicit city-name and unique feature-ID match
+N09,上海,1159151605,Shanghai,explicit city-name and unique feature-ID match
+N10,南京,1159151385,Nanjing,explicit city-name and unique feature-ID match
+N11,杭州,1159151387,Hangzhou,explicit city-name and unique feature-ID match
+N12,合肥,1159149793,Hefei,explicit city-name and unique feature-ID match
+N13,福州,1159151329,Fuzhou,explicit city-name and unique feature-ID match
+N14,南昌,1159151383,Nanchang,explicit city-name and unique feature-ID match
+N15,济南,1159151379,Jinan,explicit city-name and unique feature-ID match
+N16,郑州,1159151375,Zhengzhou,explicit city-name and unique feature-ID match
+N17,武汉,1159151367,Wuhan,explicit city-name and unique feature-ID match
+N18,长沙,1159151369,Changsha,explicit city-name and unique feature-ID match
+N19,广州,1159151331,Guangzhou,explicit city-name and unique feature-ID match
+N20,南宁,1159151323,Nanning,explicit city-name and unique feature-ID match
+N21,海口,1159146977,Haikou,explicit city-name and unique feature-ID match
+N22,重庆,1159151327,Chongqing,explicit city-name and unique feature-ID match
+N23,成都,1159151533,Chengdu,explicit city-name and unique feature-ID match
+N24,贵阳,1159151325,Guiyang,explicit city-name and unique feature-ID match
+N25,昆明,1159151371,Kunming,explicit city-name and unique feature-ID match
+N26,拉萨,1159150879,Lhasa,explicit city-name and unique feature-ID match
+N27,西安,1159151363,Xian,explicit city-name and unique feature-ID match
+N28,兰州,1159151321,Lanzhou,explicit city-name and unique feature-ID match
+N29,西宁,1159150819,Xining,explicit city-name and unique feature-ID match
+N30,银川,1159150889,Yinchuan,explicit city-name and unique feature-ID match
+N31,乌鲁木齐,1159151531,Urumqi,explicit city-name and unique feature-ID match
+N32,香港,1159151629,Hong Kong,explicit city-name and unique feature-ID match
+N33,澳门,1159149085,Macau,explicit city-name and unique feature-ID match
+N34,台北,1159151567,Taipei,explicit city-name and unique feature-ID match

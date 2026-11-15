@@ -1,0 +1,6 @@
+{
+  "at": "2026-11-11T17:48:38.282397+08:00",
+  "query_id": "initialization",
+  "error": "ConnectionError: HTTPSConnectionPool(host='kyfw.12306.cn', port=443): Max retries exceeded with url: /otn/leftTicket/init (Caused by NameResolutionError(\"HTTPSConnection(host='kyfw.12306.cn', port=443): Failed to resolve 'kyfw.12306.cn' ([Errno 11001] getaddrinfo failed)\"))",
+  "auto_retry": false
+}

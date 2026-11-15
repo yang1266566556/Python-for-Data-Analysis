@@ -1,0 +1,36 @@
+{
+  "actor": "user",
+  "source_job": "user_stage1n_special_20261114_140146_715895",
+  "source_summary_sha256": "b4e4f157893d6522606a3a74231e8e195832deedb772c652c63fa060229bf3e4",
+  "input_node_counts": [
+    34,
+    33,
+    32
+  ],
+  "matrix_count": 13,
+  "baseline_datasets": [
+    "access_60_alpha_5_n34",
+    "access_60_n33"
+  ],
+  "common_scale_minutes": 537.5,
+  "scale_rule": "all algorithms receive D/median(reference33 positive upper-triangle D); same constant for every variant",
+  "matrix_rows_are_features": false,
+  "metric_closure_applied": false,
+  "baseline_seed": 42,
+  "planned_seeds": [
+    0,
+    42,
+    2026
+  ],
+  "source_record_count": 28323,
+  "ordinary_missing": 0,
+  "structural_penalty_cells": 66,
+  "full34_verified": true,
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_inputs_20261114_143755_625472",
+  "notes": [
+    "Symmetric input is explicit mean of source directions",
+    "Non-Euclidean and triangle violations are retained",
+    "Macao access assumption and Taipei finite penalty remain separate from observed service times",
+    "No embedding or clustering run in preparation"
+  ]
+}

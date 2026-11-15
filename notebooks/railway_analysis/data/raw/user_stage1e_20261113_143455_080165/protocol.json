@@ -1,0 +1,22 @@
+{
+  "primary_run": "user_stage1c_v2_20261113_132207_325427",
+  "user_routing_run": "user_stage1d_routes_20261113_141703_918913",
+  "first_departure_date": "2026-11-18",
+  "snapshot_deadline_exclusive": "2026-11-13T21:28:30.987887+08:00",
+  "snapshot_start": "2026-11-11T21:28:30.987887+08:00",
+  "primary_train_csv_sha256": "ddcf593bc408150dc0494c3b3145aa8a1afafc26a3f562a0b28194a39c453fe1",
+  "user_plan_sha256": "c3323322d9c504051e0e727716d12dd9199466575bcd5b37eada3d33b82e07c9",
+  "parser_version": "stage1c-station-metadata-v2",
+  "refresh_count": 68,
+  "followup_count": 436,
+  "total_queries": 504,
+  "plan_date_counts": {
+    "2026-11-18": 68,
+    "2026-11-19": 240,
+    "2026-11-20": 196
+  },
+  "source_role": "Refresh and later-date evidence preserved separately from primary queries",
+  "request_interval_seconds": 3,
+  "automatic_retries": 0,
+  "limit": "Does not guarantee resolving missing schedules, all stations or all possible faster routes"
+}

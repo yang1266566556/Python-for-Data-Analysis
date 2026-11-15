@@ -1,0 +1,3 @@
+﻿scenario,from_node,to_node,leg_index,edge_id,train_code,train_no,origin_service_date,from_name,to_name,departure_at,arrival_at,duration_min,wait_before_min,same_service_as_previous,raw_file,raw_row_index
+observed_group_60,N21,N26,1,45f37e3e29514b6d9e11,Z502,6b0000Z50208,2026-11-18,海口,郑州,2026-11-18T20:15:00+08:00,2026-11-20T00:39:00+08:00,1704,0,False,data\raw\user_stage1c_20261113_123705_523939_reviewed\sessions\20261113_123849_114378\N21_N16.bin,1
+observed_group_60,N21,N26,2,a4b1e950d5f46c427aec,Z165,550000Z16407,2026-11-19,郑州,拉萨,2026-11-20T03:20:00+08:00,2026-11-21T15:36:00+08:00,2176,161,False,data\raw\user_stage1g_20261113_153248_952115\sessions\20261113_153248_976613\T011.bin,1

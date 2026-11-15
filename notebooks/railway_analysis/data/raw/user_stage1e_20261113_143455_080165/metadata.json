@@ -1,0 +1,20 @@
+{
+  "actor": "user",
+  "created_at": "2026-11-13T14:34:55.092165+08:00",
+  "parser_version": "stage1c-station-metadata-v2",
+  "software": {
+    "python": "3.12.13",
+    "executable": "D:\\anaconda\\envs\\pda312\\python.exe",
+    "requests": "2.34.2",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "umap-learn": "not installed / metadata unavailable"
+  },
+  "code_hashes": {
+    "stage1e_followups.py": "5b8b59f87a986f170bce3f8f5d9690b90152cdd7e22688a2ef5ac342bed72989",
+    "stage1c_parser_v2.py": "dc265e8698b4232547229841918c7665d09d693b5abbbf4d8633a676fc3bbd46",
+    "stage1_collect.py": "863bc7570084920dbe36f483a48436a1d474bfc9bafcfffca3234228a2cf37fb"
+  }
+}

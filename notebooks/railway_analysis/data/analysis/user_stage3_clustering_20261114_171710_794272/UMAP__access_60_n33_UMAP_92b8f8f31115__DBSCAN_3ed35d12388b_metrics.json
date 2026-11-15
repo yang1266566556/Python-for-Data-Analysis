@@ -1,0 +1,55 @@
+{
+  "record": {
+    "run_id": "UMAP__access_60_n33_UMAP_92b8f8f31115__DBSCAN_3ed35d12388b",
+    "representation_id": "UMAP__access_60_n33_UMAP_92b8f8f31115",
+    "dataset_id": "access_60_n33",
+    "family": "UMAP",
+    "algorithm": "DBSCAN",
+    "node_count": 33,
+    "representative": false,
+    "tags": "DBSCAN_epsilon",
+    "k": "",
+    "seed": "",
+    "eps": 0.25039725381907163,
+    "min_samples": 4,
+    "seconds": 0.0007441999987349845,
+    "objective": null,
+    "accepted_swaps": null,
+    "converged": true,
+    "stop_reason": "density expansion completed",
+    "n_clusters": 4,
+    "n_noise": 15,
+    "assigned_count": 18,
+    "assigned_fraction": 0.5454545454545454,
+    "smallest_cluster": 4,
+    "largest_cluster": 6,
+    "silhouette_input": 0.5784779445669783,
+    "silhouette_original_rail": 0.3997448305430345,
+    "calinski_harabasz": 92.04851990736987,
+    "davies_bouldin": 0.5068774105476942,
+    "silhouette_status": "computed on non-noise points only",
+    "euclidean_indices_status": "computed on saved Euclidean embedding, non-noise points only"
+  },
+  "parameters": {
+    "eps": 0.25039725381907163,
+    "min_samples": 4
+  },
+  "details": {
+    "core_sample_indices": [
+      5,
+      17,
+      18,
+      23,
+      28
+    ],
+    "converged": true,
+    "stop_reason": "density expansion completed",
+    "iteration_count": null,
+    "metric": "precomputed",
+    "min_samples_includes_self": true
+  },
+  "warnings": [],
+  "labels_sha256": "cb2932d7af243f598047d4ee6bc2a35fb9f6dacf43ac2450b928e55b73c48a35",
+  "representation_matrix_sha256": "c2d030e4c2354eed3f3c8cd50afda8db4a10e2b27531bd8cb55464fb5d21d230",
+  "metric_notes": "Scores exclude noise and report coverage. Original-rail silhouette uses same retained nodes. CH/DB only saved Euclidean embedding features; never distance-matrix rows."
+}

@@ -1,0 +1,31 @@
+{
+  "stage": "问题1：第一阶段A，数据口径与小规模来源核验",
+  "tool_name": "Codex desktop",
+  "exact_product_and_model_version": "未提供；不由产品名称推断精确版本",
+  "original_prompt_file": "evidence/user_request_original.txt",
+  "additional_user_messages": [
+    "用户回传 pda312 环境诊断 JSON，另存 user_environment_diagnostic.json",
+    "未指定，澳门同意，按你的来"
+  ],
+  "generated_content_summary": [
+    "研究协议、34城市及82站候选草案；未填造城市坐标",
+    "官方来源小规模访问、原始响应留存与字段核验",
+    "8组查询的可复现采集脚本及未执行Notebook",
+    "数据质量检查、错误与缺失状态区分、跨日历时核验",
+    "来源限制和下一阶段数据覆盖待办"
+  ],
+  "assistant_verification": [
+    "从官方前端JavaScript核对解析字段位置",
+    "离线解析两组已保存真实响应，共116条记录通过检查；详见assistant_parser_verification.json",
+    "Notebook格式验证、代码语法检查、原始文件SHA-256复核",
+    "R环境诊断；记录区域设置警告及缺失包，未声称绘图成功"
+  ],
+  "user_edits": "待用户实际修改后填写，不预填",
+  "user_execution_and_validation": "用户已执行第一阶段A Notebook并回传3张核心代码及输出截图；本地run_id=user_pilot_20261105_220920_089173，249条记录。助手已与CSV、11份原始响应及已执行Notebook交叉核验；未完成完整矩阵及后续实验。",
+  "user_understanding": "待用户用自己的话说明；尚未收到，不能由截图或运行成功推定。",
+  "prohibited_claims": [
+    "不得将助手来源测试称为完整34×34铁路矩阵",
+    "不得声称已完成降维、聚类或生成最终报告"
+  ],
+  "material_audit": "evidence/audit_user_pilot_20261105_220920_089173_20261105_224303_298369/audit_summary.json"
+}

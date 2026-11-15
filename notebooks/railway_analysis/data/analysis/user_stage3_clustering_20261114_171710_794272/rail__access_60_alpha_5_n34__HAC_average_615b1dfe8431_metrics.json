@@ -1,0 +1,216 @@
+{
+  "record": {
+    "run_id": "rail__access_60_alpha_5_n34__HAC_average_615b1dfe8431",
+    "representation_id": "rail__access_60_alpha_5_n34",
+    "dataset_id": "access_60_alpha_5_n34",
+    "family": "rail_time",
+    "algorithm": "HAC_average",
+    "node_count": 34,
+    "representative": false,
+    "tags": "cluster_count",
+    "k": 3,
+    "seed": "",
+    "eps": "",
+    "min_samples": "",
+    "seconds": 0.0005352999978640582,
+    "objective": null,
+    "accepted_swaps": null,
+    "converged": true,
+    "stop_reason": "hierarchy constructed; cut at requested cluster count",
+    "n_clusters": 3,
+    "n_noise": 0,
+    "assigned_count": 34,
+    "assigned_fraction": 1.0,
+    "smallest_cluster": 1,
+    "largest_cluster": 32,
+    "silhouette_input": 0.699835878697495,
+    "silhouette_original_rail": 0.699835878697495,
+    "calinski_harabasz": null,
+    "davies_bouldin": null,
+    "silhouette_status": "computed on non-noise points only",
+    "euclidean_indices_status": "not applicable to original dissimilarity matrix"
+  },
+  "parameters": {
+    "k": 3
+  },
+  "details": {
+    "children": [
+      [
+        0,
+        1
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        18,
+        31
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        14,
+        34
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        35,
+        37
+      ],
+      [
+        16,
+        42
+      ],
+      [
+        5,
+        39
+      ],
+      [
+        15,
+        26
+      ],
+      [
+        19,
+        23
+      ],
+      [
+        41,
+        43
+      ],
+      [
+        32,
+        36
+      ],
+      [
+        44,
+        45
+      ],
+      [
+        47,
+        49
+      ],
+      [
+        24,
+        48
+      ],
+      [
+        29,
+        38
+      ],
+      [
+        12,
+        51
+      ],
+      [
+        40,
+        53
+      ],
+      [
+        52,
+        55
+      ],
+      [
+        4,
+        54
+      ],
+      [
+        50,
+        56
+      ],
+      [
+        57,
+        59
+      ],
+      [
+        58,
+        60
+      ],
+      [
+        46,
+        61
+      ],
+      [
+        30,
+        62
+      ],
+      [
+        20,
+        63
+      ],
+      [
+        25,
+        64
+      ],
+      [
+        33,
+        65
+      ]
+    ],
+    "merge_distances": [
+      0.0286995515695067,
+      0.0591928251121076,
+      0.085201793721973,
+      0.0878923766816143,
+      0.0986547085201793,
+      0.0986547085201793,
+      0.1112107623318385,
+      0.12511210762331837,
+      0.126457399103139,
+      0.1345291479820627,
+      0.1542600896860986,
+      0.1650224215246636,
+      0.1654708520179372,
+      0.1865470852017937,
+      0.2170403587443946,
+      0.2195814648729447,
+      0.305829596412556,
+      0.3248878923766816,
+      0.32717488789237664,
+      0.33139013452914795,
+      0.33946188340807176,
+      0.41832158872517616,
+      0.462780269058296,
+      0.5374439461883408,
+      0.6478325859491779,
+      0.7018236173393124,
+      0.8291479820627803,
+      1.1332423474361473,
+      1.495011902784698,
+      3.204783258594918,
+      3.3328800810067993,
+      4.643329596412555,
+      40.85201793721973
+    ],
+    "linkage": "average",
+    "metric": "precomputed",
+    "converged": true,
+    "stop_reason": "hierarchy constructed; cut at requested cluster count",
+    "iteration_count": null
+  },
+  "warnings": [],
+  "labels_sha256": "947437750c262ec228ef0b0fbd02c62651a3f9313bee6f0abb3de95194afeff3",
+  "representation_matrix_sha256": "f330f4de276750cf0e9624c9a0757a247c18e5f23103a6ac1cf6325c4afd39c1",
+  "metric_notes": "Scores exclude noise and report coverage. Original-rail silhouette uses same retained nodes. CH/DB only saved Euclidean embedding features; never distance-matrix rows."
+}

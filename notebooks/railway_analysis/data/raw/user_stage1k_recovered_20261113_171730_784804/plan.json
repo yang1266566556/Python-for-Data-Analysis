@@ -1,0 +1,68 @@
+[
+  {
+    "query_id": "K01",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-19",
+    "from_city": "西宁",
+    "to_city": "重庆",
+    "from_station": "西宁",
+    "to_station": "重庆北",
+    "purpose": "Residual Lhasa OD; actual arrival station/date; no cross-station link"
+  },
+  {
+    "query_id": "K02",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-20",
+    "from_city": "上海",
+    "to_city": "杭州",
+    "from_station": "上海",
+    "to_station": "杭州东",
+    "purpose": "Residual Lhasa OD; actual arrival station/date; no cross-station link"
+  },
+  {
+    "query_id": "K03",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-20",
+    "from_city": "武汉",
+    "to_city": "南昌",
+    "from_station": "武昌",
+    "to_station": "南昌",
+    "purpose": "Residual Lhasa OD; actual arrival station/date; no cross-station link"
+  },
+  {
+    "query_id": "K04",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-20",
+    "from_city": "北京",
+    "to_city": "沈阳",
+    "from_station": "北京西",
+    "to_station": "沈阳北",
+    "purpose": "Residual Lhasa OD; actual arrival station/date; no cross-station link"
+  },
+  {
+    "query_id": "K05",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-20",
+    "from_city": "长沙",
+    "to_city": "海口",
+    "from_station": "长沙",
+    "to_station": "海口",
+    "purpose": "Residual Lhasa OD; actual arrival station/date; no cross-station link"
+  },
+  {
+    "query_id": "K06",
+    "role": "followup_date",
+    "primary_query_id": "",
+    "date": "2026-11-21",
+    "from_city": "广州",
+    "to_city": "海口",
+    "from_station": "广州白云",
+    "to_station": "海口",
+    "purpose": "Residual Lhasa OD; actual arrival station/date; no cross-station link"
+  }
+]

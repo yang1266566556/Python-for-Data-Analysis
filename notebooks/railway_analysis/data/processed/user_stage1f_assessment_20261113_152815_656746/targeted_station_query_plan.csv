@@ -1,0 +1,17 @@
+﻿query_id,role,primary_query_id,date,from_city,to_city,from_station,to_station,reason,affected_pairs
+T001,followup_date,,2026-11-18,广州,拉萨,广州白云,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T002,followup_date,,2026-11-19,广州,拉萨,广州白云,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T003,followup_date,,2026-11-19,武汉,拉萨,武昌,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T004,followup_date,,2026-11-19,郑州,拉萨,郑州,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T005,followup_date,,2026-11-19,长沙,拉萨,长沙,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T006,followup_date,,2026-11-20,兰州,拉萨,兰州,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T007,followup_date,,2026-11-20,南京,拉萨,南京,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T008,followup_date,,2026-11-20,武汉,拉萨,武昌,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T009,followup_date,,2026-11-20,西宁,拉萨,西宁,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T010,followup_date,,2026-11-20,西安,拉萨,西安,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T011,followup_date,,2026-11-20,郑州,拉萨,郑州,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T012,followup_date,,2026-11-20,长沙,拉萨,长沙,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T013,followup_date,,2026-11-21,兰州,拉萨,兰州,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T014,followup_date,,2026-11-21,南京,拉萨,南京,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T015,followup_date,,2026-11-21,西宁,拉萨,西宁,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨
+T016,followup_date,,2026-11-21,西安,拉萨,西安,拉萨,exact known arrival station to unresolved destination; arrival day or next day,海口→拉萨

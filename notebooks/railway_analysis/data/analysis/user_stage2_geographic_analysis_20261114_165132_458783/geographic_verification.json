@@ -1,0 +1,12 @@
+{
+  "output_dir": "D:\\yangz\\大三上\\机器学习\\第二次作业\\railway_analysis\\data\\analysis\\user_stage2_geographic_analysis_20261114_165132_458783",
+  "verified_alignments": 12,
+  "verified_coordinate_rows": 404,
+  "hashes_passed": true,
+  "similarity_transforms_reproduced": true,
+  "geographic_metrics_reproduced": true,
+  "connected33_unique_pairs": 528,
+  "geographic_comparison_computed_and_verified": true,
+  "external_economic_explanation_complete": false,
+  "clustering_complete": false
+}
